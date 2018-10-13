@@ -1,0 +1,17 @@
+CULTURESTRINGS = {
+    brt = "wh_main_brt_bretonnia",
+    bst = "wh_dlc03_bst_beastmen",
+    chs = "wh_main_chs_chaos",
+    def = "wh2_main_def_dark_elves",
+    dwf = "wh_main_dwf_dwarfs",
+    emp = "wh_main_emp_empire",
+    grn = "wh_main_grn_greenskins",
+    hef = "wh2_main_hef_high_elves",
+    lzd = "wh2_main_lzd_lizardmen",
+    nor = "wh_main_chs_chaos",
+    rogue = "wh2_main_rogue",
+    skv = "wh2_main_skv_skaven",
+    tmb = "wh2_dlc09_tmb_tomb_kings",
+    vmp = "wh_main_vmp_vampire_counts",
+    wef = "wh_dlc05_wef_wood_elves",
+}

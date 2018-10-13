@@ -34,13 +34,6 @@ RebelLeadersFilters = {
                 Value = "brayherd",
                 Operator = "OR",
             },
-            {
-                -- Faction Column
-                ColumnNumber = 2,
-                Type = "CONTAINSVALUE",
-                Value = "rogue",
-                Operator = "OR",
-            },
         },
     },
     agent_subtypes_tables_data__= {
@@ -58,4 +51,25 @@ RebelLeadersFilters = {
         Filter = {
         },
     },
+    variants_tables_data__= {
+        FileName = "variants_tables_data__.tsv",
+        Filter = {
+        },
+    },
+    agent_uniforms_tables_data__= {
+        FileName = "agent_uniforms_tables_data__.tsv",
+        Filter = {
+        },
+    },
+    agent_culture_details_tables_data__ = {
+        FileName = "agent_culture_details_tables_data__.tsv",
+        Filter = {
+        },
+    },
+    portrait_settings__template = {
+        FileName = "portrait_settings__template.xml",
+        Filter = {
+            RootElement = "Entry",
+        },
+    }
 }

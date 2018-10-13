@@ -11,3 +11,7 @@ end
 function RemoveFileExtension(fileName)
   return fileName:match("(.+)%..+");
 end
+
+function GetFileExtension(fileName)
+  return fileName:match("[^.]+$");
+end

@@ -4,10 +4,12 @@ LoadedData = {
     CurrentActiveFile = "",
     CurrentTransformStep = "",
     CurrentTransformingFile = "",
+
     TransformedFiles = {},
 
-    LastTransformedRow = {},
-    PreviousStepRow = {},
+    PreviousTransformedRowsInOperation = {},
+    PreviousTransformedXMLOperations = {},
+    PreviousRowsInOperation = {},
 
     -- Data
     TransformData = {};
@@ -30,40 +32,88 @@ end
 function LoadedData:LoadFile(filePath, filter)
     local file = assert(io.open(filePath, "r"));
 
-    local firstLine = true;
     local splitFileName = RemoveFileExtension(filePath);
+    local fileExtension = GetFileExtension(filePath);
     self.Files[splitFileName] = {};
     self.CurrentActiveFile = splitFileName;
-    for line in file:lines() do
-        local fields = Split(line, "\t");
-        local matchesFilter = self:RowMatchesFilters(fields, filter);
-        if firstLine == true or matchesFilter == true then
-            table.insert(self.Files[splitFileName], fields);
-            firstLine = false;
+
+    if fileExtension == "tsv" then
+        local firstLine = true;
+        for line in file:lines() do
+            local fields = Split(line, "\t");
+            local matchesFilter = self:RowMatchesFilters(fields, filter);
+            if firstLine == true or matchesFilter == true then
+                table.insert(self.Files[splitFileName], fields);
+                firstLine = false;
+            end
         end
+    elseif fileExtension == "xml" then
+        local container = {};
+        local foundRoot = false;
+        local elementsWithinRoot = {};
+        for line in file:lines() do
+            if ContainsXMLRoot(line, filter.RootElement) then
+                foundRoot = true;
+                elementsWithinRoot[#elementsWithinRoot + 1] = line.."\n";
+            elseif foundRoot == true then
+                elementsWithinRoot[#elementsWithinRoot + 1] = line.."\n";
+            elseif foundRoot == false then
+                container[#container + 1] =  line;
+            end
+        end
+        table.insert(self.Files[splitFileName], container);
+        table.insert(self.Files[splitFileName], {ConvertTableValuesToString(elementsWithinRoot)});
     end
+
     file:close();
 end
 
 function LoadedData:WriteFiles()
     for key, file in pairs(self.TransformedFiles) do
-        local iostream = assert(io.open("out/"..key.."_new.tsv", "w+"));
-        local headerRow = self.Files[key][1];
-        for headerKey, headerColumn in pairs(headerRow) do
-            if headerKey == #headerRow then
-                iostream:write(headerColumn.."\n");
-            else
-                iostream:write(headerColumn.."\t");
-            end
-        end
-        for rowKey, row in pairs(file) do
-            for columnKey, column in pairs(row) do
-                if columnKey == #row then
-                    iostream:write(column.."\n");
+        local fileType = GetFileExtension(self.FilterData[key].FileName);
+        local iostream = assert(io.open("out/"..key.."_new."..fileType, "w+"));
+        if fileType == "tsv" then
+            local headerRow = self.Files[key][1];
+            for headerKey, headerColumn in pairs(headerRow) do
+                if headerKey == #headerRow then
+                    iostream:write(headerColumn.."\n");
                 else
-                    iostream:write(column.."\t");
+                    iostream:write(headerColumn.."\t");
                 end
             end
+            for rowKey, row in pairs(file) do
+                for columnKey, column in pairs(row) do
+                    if columnKey == #row then
+                        iostream:write(column.."\n");
+                    else
+                        iostream:write(column.."\t");
+                    end
+                end
+            end
+        elseif fileType == "xml" then
+
+            -- Print out the non-duplicated container
+            for index, row in pairs(self.Files[key][1]) do
+                iostream:write(row.."\n");
+            end
+
+            -- Print out the transformed variables
+            for index, row in pairs(file) do
+                iostream:write(row.."\n");
+            end
+
+            -- Add the closing tags
+            local reversedTable = ReversePairs(self.Files[key][1]);
+            for index, row in pairs(reversedTable) do
+                if string.match(row, "<?xml") then
+                    
+                else
+                    local extractedTag = string.match(row, "<(.*)");
+                    extractedTag = string.match(extractedTag, "(.*) ");
+                    iostream:write("</"..extractedTag..">\n");
+                end
+            end
+
         end
         iostream:close();
     end
@@ -137,13 +187,15 @@ function LoadedData:ApplyFilterToField(filter, fieldValue)
                 return false;
             end
         end
-    elseif filter.Type == "MATCHINGORIGINALPREVIOUSSTEP" then
-        if self.PreviousStepRow[tonumber(filter.Value)] == fieldValue then
+    elseif string.match(filter.Type, "MATCHINGSTEP")  then
+        local stepNumber = string.match(filter.Type, "MATCHING(.*)");
+        if Any(self.PreviousRowsInOperation[stepNumber], tonumber(filter.Value), fieldValue) then
             return true;
         end
         return false;
-    elseif filter.Type == "MATCHINGTRANSFORMEDPREVIOUSSTEP" then
-        if self.LastTransformedRow[1][tonumber(filter.Value)] == fieldValue then
+    elseif string.match(filter.Type, "MATCHINGTRANSFORMEDSTEP") then
+        local stepNumber = string.match(filter.Type, "MATCHINGTRANSFORMED(.*)");
+        if Any(self.PreviousTransformedRowsInOperation[stepNumber], tonumber(filter.Value), fieldValue) then
             return true;
         end
         return false;
@@ -155,7 +207,7 @@ function LoadedData:TransformFiles()
     for fileKey, file in pairs(self.Files) do
         if self.TransformData[fileKey] ~= nil then
             self.CurrentActiveFile = fileKey;
-            self.CurrentTransformStep = "Step1";
+            self.CurrentTransformStep = 1;
             local transformedFile = self:TransformFile(file, self.CurrentTransformStep);
             if self.TransformedFiles[fileKey] == nil then
                 self.TransformedFiles[fileKey] = {};
@@ -167,62 +219,88 @@ end
 
 function LoadedData:TransformFile(file, transformStep)
     local transformedFile = {};
+    local stepKey = "STEP"..tostring(transformStep);
     local fileTransformData = self.TransformData[self.CurrentActiveFile];
-    local transformStepData = fileTransformData[transformStep];
+    local transformStepData = fileTransformData[stepKey];
     local firstRow = false;
 
-    
     for rowIndex, row in pairs(file) do
         if firstRow == false then
             firstRow = true;
         else
+            if transformStep == 1 then
+                print("\n");
+            end
+            if transformStep == 1 then
+                ClearTable(self.PreviousTransformedRowsInOperation);
+                ClearTable(self.PreviousRowsInOperation);
+                self.PreviousTransformedRowsInOperation[stepKey] = {};
+                self.PreviousRowsInOperation[stepKey] = {};
+            end
+            --[[if self.PreviousTransformedRowsInOperation[stepKey] == nil then
+                self.PreviousTransformedRowsInOperation[stepKey] = {};
+            end
+            if self.PreviousRowsInOperation[stepKey] == nil then
+                self.PreviousRowsInOperation[stepKey] = {};
+            end--]]
+
             if self:RowMatchesFilters(row, transformStepData.Filters) then
                 -- One row could be transformed into several rows so we need to concat
-                local newRows = self:TransformRow(row, transformStepData);
+                local newRow = self:TransformRow(row, transformStepData);
                 if transformStepData.PostTransformFilters == nil
-                or self:RowMatchesFilters(newRows[1], transformStepData.PostTransformFilters) then
-                    if newRows ~= nil then
-                        ConcatTable(transformedFile, newRows);
+                or self:RowMatchesFilters(newRow, transformStepData.PostTransformFilters) then
+                    if transformStep == 1 then
+                        print("ROW: "..tostring(rowIndex).." STEP"..tostring(transformStep).." "..newRow[3]);
+                    elseif transformStep == 2 then
+                        print("ROW: "..tostring(rowIndex).." STEP"..tostring(transformStep).." "..newRow[1]);
+                    elseif transformStep == 3 then
+                        print("ROW: "..tostring(rowIndex).." STEP"..tostring(transformStep).." "..newRow[2]);
+                    elseif transformStep == 4 then
+                        print("ROW: "..tostring(rowIndex).." STEP"..tostring(transformStep).." "..newRow[1]);
                     end
-                    -- Check if there are further transformations that need to be performed after this row
-                    if transformStepData.NextTransformOperation ~= nil then
-                        local scopePreviousStepRow = self.PreviousStepRow;
-                        self.PreviousStepRow = row;
-                        local lastTransformedRowInScope = self.LastTransformedRow;
-                        self:PrepareForNextTransformStep(fileTransformData[transformStepData.NextTransformOperation], newRows);
-                        self.LastTransformedRow = lastTransformedRowInScope;
-                        self.PreviousStepRow = scopePreviousStepRow;
-                        self.CurrentTransformStep = transformStep;
+                    if newRow ~= nil then
+                        ConcatTable(transformedFile, {newRow});
                     end
 
+                    -- Check if there are further transformations that need to be performed after this row
+                    if transformStepData.NextTransformOperation ~= nil then
+                        self.PreviousRowsInOperation[stepKey] = row;
+                        self.PreviousTransformedRowsInOperation[stepKey] = newRow;
+                        local currentStep = transformStep;
+                        local currentTransformingFile = self.CurrentTransformingFile;
+                        self:PrepareForNextTransformStep(fileTransformData[transformStepData.NextTransformOperation], transformStep);
+                        self.CurrentTransformStep = currentStep;
+                        self.CurrentTransformingFile = currentTransformingFile;
+                        self.PreviousTransformedRowsInOperation[stepKey] = {};
+                        self.PreviousRowsInOperation[stepKey] = {};
+                    end
                 end
             end
         end
     end
-    self.PreviousStepRow = nil;
-    self.LastTransformedRow = nil;
     return transformedFile;
 end
 
-function LoadedData:PrepareForNextTransformStep(nextTransformOperation, rows)
-    self.LastTransformedRow = rows;
-    if self.CurrentTransformStep == "Step1" then
-        self.CurrentTransformStep = "Step2";
-    elseif self.CurrentTransformStep == "Step2" then
-        self.CurrentTransformStep = "Step3";
-    elseif self.CurrentTransformStep == "Step3" then
-        self.CurrentTransformStep = "Step4";
+function LoadedData:PrepareForNextTransformStep(nextTransformOperation, transformStep)
+    local currentTransformStep = "STEP"..tostring(transformStep);
+
+    local fileTransformData = self.TransformData[self.CurrentActiveFile];
+    if fileTransformData[currentTransformStep] ~= nil then
+        self.CurrentTransformStep = transformStep + 1;
     end
+
     self.CurrentTransformingFile = nextTransformOperation.FileName;
     local transformedFile = self:TransformFile(self.Files[nextTransformOperation.FileName], self.CurrentTransformStep);
     if self.TransformedFiles[nextTransformOperation.FileName] == nil then
         self.TransformedFiles[nextTransformOperation.FileName] = {};
     end
+
+    print("Concatting transformed files for STEP"..tostring(self.CurrentTransformStep));
     ConcatTable(self.TransformedFiles[nextTransformOperation.FileName], transformedFile);
 end
 
 function LoadedData:TransformRow(row, transformOperation)
-    local newRows = {};
+    local newRow = {};
     for transformIndex, transform in pairs(transformOperation.Transforms) do
         if transform.Type == "NEWROW" then
             local transformedColumns = {};
@@ -244,41 +322,114 @@ function LoadedData:TransformRow(row, transformOperation)
                 end
                 transformedColumns[#transformedColumns + 1] = columnValue;
             end
-            newRows[#newRows + 1] = transformedColumns;
+            newRow = transformedColumns;
+        elseif transform.Type == "XMLDUPLICATE" then
+            local transformedString = row[1];
+            for i=1, transform.NumberOfOperations do
+                local operationString = "OPERATION"..tostring(i);
+                local xmlOperation = transform.Operations[operationString];
+                self.PreviousTransformedXMLOperations[operationString] = "";
+                local replaceValue = self:ApplyTransformToColumn(xmlOperation.Type, xmlOperation);
+                self.PreviousTransformedXMLOperations[operationString] = replaceValue;
+                transformedString = transformedString:gsub(xmlOperation.Keyword, replaceValue);
+            end
+            newRow = transformedString;
         end
     end
-    return newRows;
+    return newRow;
 end
 
 function LoadedData:ApplyTransformToColumn(column, columnTransform)
     if type(columnTransform) == 'table' then
-        if columnTransform.Type == "REPLACE" then
+       if columnTransform.Type == "SELECTEXISTING" then
+            return column;
+        elseif columnTransform.Type == "REPLACE" then
             return columnTransform.Value;
         elseif columnTransform.Type == "APPEND" then
+            if string.match(columnTransform.Value, "REPLACEWITHOPERATION") then
+                local operationNumber = string.match(columnTransform.Value, "REPLACEWITH(.*)");
+                return column..self.PreviousTransformedXMLOperations[operationNumber];
+            end
             return column..columnTransform.Value;
         elseif columnTransform.Type == "PREPEND" then
             return columnTransform.Value..column;
-        elseif columnTransform.Type == "MATCHINGPREVIOUSSTEP" then
-            return columnTransform.Value..column;
-        elseif columnTransform.Type == "SUBSTITUTEWITHPREVIOUSSTEP" then
-            local subValue = self.LastTransformedRow[1][tonumber(columnTransform.Value)];
-            return column:gsub(self.PreviousStepRow[columnTransform.ColumnNumber], subValue);
-        elseif columnTransform.Type == "APPENDWITHPREVIOUSSTEP" then
-            local appendValue = "_"..self.LastTransformedRow[1][tonumber(columnTransform.Value)];
+        elseif string.match(columnTransform.Type, "MATCHINGSTEP") then
+            local stepNumber = string.match(columnTransform.Type, "MATCHING(.*)");
+            local existingData = self.PreviousRowsInOperation[stepNumber][tonumber(columnTransform.Value)];
+            return existingData;
+        elseif columnTransform.Type == "APPENDWITHSTEP" then
+            local stepNumber = string.match(columnTransform.Type, "APPENDWITH(.*)");
+            local existingData = FindMatchingData(self.PreviousRowsInOperation[stepNumber], tonumber(columnTransform.Value), column);
+            local appendValue = "_"..existingData[tonumber(columnTransform.Value)];
             return column..appendValue;
-        elseif columnTransform.Type == "REPLACEWITHPREVIOUSSTEP" then
-            return self.LastTransformedRow[1][tonumber(columnTransform.Value)];
+        elseif string.match(columnTransform.Type, "REPLACEWITHTRANSFORMEDSTEP")  then
+            local stepNumber = string.match(columnTransform.Type, "REPLACEWITHTRANSFORMED(.*)");
+            local existingData = self.PreviousTransformedRowsInOperation[stepNumber];
+            if existingData ~= nil then
+                return existingData[tonumber(columnTransform.Value)];
+            end
         elseif columnTransform.Type == "NUMERICID" then
             local newID = columnTransform.Value..tostring(self.IDCounter);
             self.IDCounter = self.IDCounter + 1;
             return newID;
+        elseif columnTransform.Type == "JOIN" then
+            local finalJoinValue = self:GetJoinValue(columnTransform);
+            return finalJoinValue;
+        elseif columnTransform.Type == "GETNONBLANKRESULTFROMOPTIONS" then
+            local transformedValue = "";
+            for optionIndex, option in pairs(columnTransform.Options) do
+                transformedValue = self:ApplyTransformToColumn(transformedValue, option);
+                if transformedValue ~= "" then
+                    break;
+                end
+            end
+            return transformedValue;
+        elseif string.match(columnTransform.Type, "REPLACEWITHOPERATION") then
+            local transformedValue = "";
+            return transformedValue;
+        elseif string.match(columnTransform.Type, "DATAMAP") then
+            local mapKey = string.match(columnTransform.Type, "DATAMAP(.*)");
+            local map = _G[mapKey];
+            local checkValue = self:ApplyTransformToColumn("", columnTransform.Value);
+            for key, value in pairs(map) do
+                -- statements
+                if string.match(checkValue, key) then
+                    return value;
+                end
+            end
+            return "";
+        elseif columnTransform.Type == "REPLACEWITHSUBOPERATION" then
+            local transformedValue = "";
+            for xmlSubOperationIndex, xmlSubOperation in pairs(columnTransform.SubOperations) do
+                transformedValue = self:ApplyTransformToColumn(transformedValue, xmlSubOperation);
+            end
+            return transformedValue;
         end
     else
         if columnTransform == "SELECTEXISTING" then
             return column;
+        elseif string.match(columnTransform, "REPLACEWITHOPERATION") then
+            local operationNumber = string.match(columnTransform, "REPLACEWITH(.*)");
+            return self.PreviousTransformedXMLOperations[operationNumber];
         end
     end
     -- We shouldn't get here but just in case return the existing value
     -- by default
     return column;
+end
+
+function LoadedData:GetJoinValue(transformData)
+    local valueToJoinOn = self:ApplyTransformToColumn("", transformData.SourceColumn);
+    local finalValue = self:PerformJoin(transformData.Value, valueToJoinOn);
+    return finalValue;
+end
+
+function LoadedData:PerformJoin(transformData, value)
+    local fileToJoinOn = self.Files[transformData.File];
+    local matchingRow = FindMatchingData(fileToJoinOn, tonumber(transformData.TargetColumn), value);
+    local columnValue = matchingRow[tonumber(transformData.ReturnColumn)];
+    if type(transformData.Value) == "table" then
+        return self:PerformJoin(transformData.Value, columnValue);
+    end
+    return columnValue;
 end
