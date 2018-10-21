@@ -25,26 +25,28 @@ end
 
 function LoadedData:AddFiles()
     for key, filter in pairs(self.FilterData) do
-        self:LoadFile(filter.FileName, filter.Filter);
+        self:LoadFile(key, filter);
     end
 end
 
-function LoadedData:LoadFile(filePath, filter)
-    local file = assert(io.open(filePath, "r"));
-
-    local splitFileName = RemoveFileExtension(filePath);
-    local fileExtension = GetFileExtension(filePath);
-    self.Files[splitFileName] = {};
-    self.CurrentActiveFile = splitFileName;
+function LoadedData:LoadFile(key, filter)
+    local file = assert(io.open(filter.FileName, "r"));
+    local fileExtension = GetFileExtension(filter.FileName);
+    self.Files[key] = {};
+    self.CurrentActiveFile = key;
 
     if fileExtension == "tsv" then
         local firstLine = true;
         for line in file:lines() do
             local fields = Split(line, "\t");
-            local matchesFilter = self:RowMatchesFilters(fields, filter);
+            local matchesFilter = self:RowMatchesFilters(fields, filter.Filter);
             if firstLine == true or matchesFilter == true then
-                table.insert(self.Files[splitFileName], fields);
+                table.insert(self.Files[key], fields);
                 firstLine = false;
+            end
+
+            if filter.OnlyLoadHeader == true then
+                break;
             end
         end
     elseif fileExtension == "xml" then
@@ -52,7 +54,7 @@ function LoadedData:LoadFile(filePath, filter)
         local foundRoot = false;
         local elementsWithinRoot = {};
         for line in file:lines() do
-            if ContainsXMLRoot(line, filter.RootElement) then
+            if ContainsXMLRoot(line, filter.Filter.RootElement) then
                 foundRoot = true;
                 elementsWithinRoot[#elementsWithinRoot + 1] = line.."\n";
             elseif foundRoot == true then
@@ -70,52 +72,58 @@ end
 
 function LoadedData:WriteFiles()
     for key, file in pairs(self.TransformedFiles) do
-        local fileType = GetFileExtension(self.FilterData[key].FileName);
-        local iostream = assert(io.open("out/"..key.."_new."..fileType, "w+"));
-        if fileType == "tsv" then
-            local headerRow = self.Files[key][1];
-            for headerKey, headerColumn in pairs(headerRow) do
-                if headerKey == #headerRow then
-                    iostream:write(headerColumn.."\n");
-                else
-                    iostream:write(headerColumn.."\t");
-                end
-            end
-            for rowKey, row in pairs(file) do
-                for columnKey, column in pairs(row) do
-                    if columnKey == #row then
-                        iostream:write(column.."\n");
+        local filterData = self.FilterData[key];
+        if filterData.OutputFile == true then
+            local fileType = GetFileExtension(filterData.FileName);
+            local outputFileName = filterData.FileName;
+            outputFileName = "out/"..outputFileName.."_new."..fileType;
+
+            local iostream = assert(io.open(outputFileName, "w+"));
+            if fileType == "tsv" then
+                local headerRow = self.Files[key][1];
+                for headerKey, headerColumn in pairs(headerRow) do
+                    if headerKey == #headerRow then
+                        iostream:write(headerColumn.."\n");
                     else
-                        iostream:write(column.."\t");
+                        iostream:write(headerColumn.."\t");
                     end
                 end
-            end
-        elseif fileType == "xml" then
-
-            -- Print out the non-duplicated container
-            for index, row in pairs(self.Files[key][1]) do
-                iostream:write(row.."\n");
-            end
-
-            -- Print out the transformed variables
-            for index, row in pairs(file) do
-                iostream:write(row.."\n");
-            end
-
-            -- Add the closing tags
-            local reversedTable = ReversePairs(self.Files[key][1]);
-            for index, row in pairs(reversedTable) do
-                if string.match(row, "<?xml") then
-                    
-                else
-                    local extractedTag = string.match(row, "<(.*)");
-                    extractedTag = string.match(extractedTag, "(.*) ");
-                    iostream:write("</"..extractedTag..">\n");
+                for rowKey, row in pairs(file) do
+                    for columnKey, column in pairs(row) do
+                        if columnKey == #row then
+                            iostream:write(column.."\n");
+                        else
+                            iostream:write(column.."\t");
+                        end
+                    end
                 end
-            end
+            elseif fileType == "xml" then
 
+                -- Print out the non-duplicated container
+                for index, row in pairs(self.Files[key][1]) do
+                    iostream:write(row.."\n");
+                end
+
+                -- Print out the transformed variables
+                for index, row in pairs(file) do
+                    iostream:write(row.."\n");
+                end
+
+                -- Add the closing tags
+                local reversedTable = ReversePairs(self.Files[key][1]);
+                for index, row in pairs(reversedTable) do
+                    if string.match(row, "<?xml") then
+                        
+                    else
+                        local extractedTag = string.match(row, "<(.*)");
+                        extractedTag = string.match(extractedTag, "(.*) ");
+                        iostream:write("</"..extractedTag..">\n");
+                    end
+                end
+
+            end
+            iostream:close();
         end
-        iostream:close();
     end
 end
 
@@ -168,6 +176,12 @@ end
 function LoadedData:ApplyFilterToField(filter, fieldValue)
     if filter.Type == "MATCHVALUE" then
         return filter.Value == fieldValue;
+    elseif string.match(filter.Type, "CONTAINSVALUESTEP") then
+        local stepNumber = string.match(filter.Type, "CONTAINSVALUE(.*)");
+        if string.match(fieldValue, self.PreviousRowsInOperation[stepNumber][tonumber(filter.Value)]) then
+            return true;
+        end
+        return false;
     elseif filter.Type == "CONTAINSVALUE" then
         local match = string.match(fieldValue, filter.Value);
         return match ~= nil;
@@ -249,7 +263,7 @@ function LoadedData:TransformFile(file, transformStep)
                 local newRow = self:TransformRow(row, transformStepData);
                 if transformStepData.PostTransformFilters == nil
                 or self:RowMatchesFilters(newRow, transformStepData.PostTransformFilters) then
-                    if transformStep == 1 then
+                    --[[if transformStep == 1 then
                         print("ROW: "..tostring(rowIndex).." STEP"..tostring(transformStep).." "..newRow[3]);
                     elseif transformStep == 2 then
                         print("ROW: "..tostring(rowIndex).." STEP"..tostring(transformStep).." "..newRow[1]);
@@ -257,7 +271,7 @@ function LoadedData:TransformFile(file, transformStep)
                         print("ROW: "..tostring(rowIndex).." STEP"..tostring(transformStep).." "..newRow[2]);
                     elseif transformStep == 4 then
                         print("ROW: "..tostring(rowIndex).." STEP"..tostring(transformStep).." "..newRow[1]);
-                    end
+                    end--]]
                     if newRow ~= nil then
                         ConcatTable(transformedFile, {newRow});
                     end
@@ -273,6 +287,10 @@ function LoadedData:TransformFile(file, transformStep)
                         self.CurrentTransformingFile = currentTransformingFile;
                         self.PreviousTransformedRowsInOperation[stepKey] = {};
                         self.PreviousRowsInOperation[stepKey] = {};
+                    end
+
+                    if transformStepData.PerformOnce == true then
+                        break;
                     end
                 end
             end
@@ -311,7 +329,21 @@ function LoadedData:TransformRow(row, transformOperation)
                 local appliedTransform = false;
                 for columnTransformIndex, columnTransform in pairs(transform.Columns) do
                     if columnTransform.ColumnNumber == columnIndex then
-                        columnValue = self:ApplyTransformToColumn(column, columnTransform);
+                        -- Operations allow for incremental building of transform data
+                        if columnTransform.Operations ~= nil then
+                            local operationValue = "";
+                            for i = 1, columnTransform.NumberOfOperations do 
+                                local subOperation = columnTransform.Operations["OPERATION"..i];
+                                if operationValue == "" then
+                                    operationValue = self:ApplyTransformToColumn(column, subOperation);
+                                else
+                                    operationValue = self:ApplyTransformToColumn(operationValue, subOperation);
+                                end
+                            end
+                            columnValue = self:ApplyTransformToColumn(operationValue, columnTransform);
+                        else
+                            columnValue = self:ApplyTransformToColumn(column, columnTransform);
+                        end
                         appliedTransform = true;
                     end
                 end
@@ -345,6 +377,16 @@ function LoadedData:ApplyTransformToColumn(column, columnTransform)
             return column;
         elseif columnTransform.Type == "REPLACE" then
             return columnTransform.Value;
+        elseif string.match(columnTransform.Type, "REPLACEWITHTRANSFORMEDSTEP")  then
+            local stepNumber = string.match(columnTransform.Type, "REPLACEWITHTRANSFORMED(.*)");
+            local existingData = self.PreviousTransformedRowsInOperation[stepNumber];
+            if existingData ~= nil then
+                return existingData[tonumber(columnTransform.Value)];
+            end
+        elseif string.match(columnTransform.Type, "REPLACEWITH") then
+            local replaceValue = string.match(columnTransform.Type, "REPLACEWITH(.*)");
+            column = column:gsub(replaceValue, columnTransform.Value);
+            return column;
         elseif columnTransform.Type == "APPEND" then
             if string.match(columnTransform.Value, "REPLACEWITHOPERATION") then
                 local operationNumber = string.match(columnTransform.Value, "REPLACEWITH(.*)");
@@ -362,12 +404,6 @@ function LoadedData:ApplyTransformToColumn(column, columnTransform)
             local existingData = FindMatchingData(self.PreviousRowsInOperation[stepNumber], tonumber(columnTransform.Value), column);
             local appendValue = "_"..existingData[tonumber(columnTransform.Value)];
             return column..appendValue;
-        elseif string.match(columnTransform.Type, "REPLACEWITHTRANSFORMEDSTEP")  then
-            local stepNumber = string.match(columnTransform.Type, "REPLACEWITHTRANSFORMED(.*)");
-            local existingData = self.PreviousTransformedRowsInOperation[stepNumber];
-            if existingData ~= nil then
-                return existingData[tonumber(columnTransform.Value)];
-            end
         elseif columnTransform.Type == "NUMERICID" then
             local newID = columnTransform.Value..tostring(self.IDCounter);
             self.IDCounter = self.IDCounter + 1;
@@ -390,7 +426,7 @@ function LoadedData:ApplyTransformToColumn(column, columnTransform)
         elseif string.match(columnTransform.Type, "DATAMAP") then
             local mapKey = string.match(columnTransform.Type, "DATAMAP(.*)");
             local map = _G[mapKey];
-            local checkValue = self:ApplyTransformToColumn("", columnTransform.Value);
+            local checkValue = self:ApplyTransformToColumn(column, columnTransform.Value);
             for key, value in pairs(map) do
                 -- statements
                 if string.match(checkValue, key) then
@@ -411,6 +447,8 @@ function LoadedData:ApplyTransformToColumn(column, columnTransform)
         elseif string.match(columnTransform, "REPLACEWITHOPERATION") then
             local operationNumber = string.match(columnTransform, "REPLACEWITH(.*)");
             return self.PreviousTransformedXMLOperations[operationNumber];
+        elseif columnTransform == "SELECTNONE" then
+            return "";
         end
     end
     -- We shouldn't get here but just in case return the existing value

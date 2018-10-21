@@ -237,8 +237,8 @@ RebelLeadersTransforms = {
                             Value = "2",
                             SubOperations = {
                                 {
-                                    -- The below is functional bot not requried anymore
-                                    -- The idea is it tries each option until it gets a results
+                                    -- The below is functional but not required anymore
+                                    -- The idea is it tries each option until it gets a result
                                     --[[Type = "GETNONBLANKRESULTFROMOPTIONS",
                                     Options = {
                                         {

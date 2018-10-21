@@ -50,6 +50,23 @@ function FindMatchingData(sourceTable, columnIndex, value)
   end
   if type(sourceTable) == "table" then
     for key, row in pairs(sourceTable) do
+      if row[columnIndex] ~= nil and row[columnIndex] == value  then
+        return row
+      end
+    end
+    return nil;
+  elseif sourceTable[columnIndex] == value then
+    return sourceTable;
+  end
+  return nil;
+end
+
+function ContainsData(sourceTable, columnIndex, value)
+  if table == nil then
+    return nil;
+  end
+  if type(sourceTable) == "table" then
+    for key, row in pairs(sourceTable) do
       if row[columnIndex] ~= nil and string.match(row[columnIndex], value)  then
         return row
       end
