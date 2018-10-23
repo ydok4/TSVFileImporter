@@ -4,10 +4,11 @@ require '_lib/filteringHelpers'
 
 require '_lib/DataMaps/CULTURESTRINGS'
 require '_lib/DataMaps/SKILLICONSTOTRAITS'
+require '_lib/DataMaps/SUBTYPESTOARTSETS'
 
 -- Grab filters.
-local filterData = GetFilters("TraitFilters");
-local transformData = GetTransforms("TraitTransforms");
+local filterData = GetFilters("ArtSetFilters");
+local transformData = GetTransforms("ArtSetTransforms");
 
 local loadedData = LoadedData:new({
     IDCounter = 0,

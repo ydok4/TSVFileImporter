@@ -63,8 +63,12 @@ function LoadedData:LoadFile(key, filter)
                 container[#container + 1] =  line;
             end
         end
-        table.insert(self.Files[splitFileName], container);
-        table.insert(self.Files[splitFileName], {ConvertTableValuesToString(elementsWithinRoot)});
+        table.insert(self.Files[key], container);
+        table.insert(self.Files[key], {ConvertTableValuesToString(elementsWithinRoot)});
+    elseif fileExtension == "lua" then
+        self.Files[key] = {};
+        table.insert(self.Files[key], "--Adding some placeholder");
+        table.insert(self.Files[key], "--lines");
     end
 
     file:close();
@@ -121,6 +125,74 @@ function LoadedData:WriteFiles()
                     end
                 end
 
+            elseif fileType == "lua" then
+                -- We use this to keep track of the
+                -- keys we've outputted
+                local addedKeys = {};
+                -- Print out the parent variable
+                iostream:write(key.." = {\n");
+                -- print out all the values as lua
+                for rowIndex, row in pairs(file) do
+
+                    if addedKeys[row[filterData.LuaData.KeyColumn]] == nil then
+                        iostream:write("\t"..row[filterData.LuaData.KeyColumn].." = {\n");
+                        -- Find all values which match the key in case there are duplicates
+                        local firstKey = row[filterData.LuaData.KeyColumn];
+                        local foundFirstInstance = false;
+                        local duplicateKeys = {};
+                        for rowIndex2, row2 in pairs(file) do
+                            if row2[filterData.LuaData.KeyColumn] == firstKey then
+                                duplicateKeys[#duplicateKeys + 1] = row2;
+                            end
+                        end
+
+                        local firstColumn = false;
+                        for columnIndex, column in pairs(row) do
+                            if columnIndex ~= filterData.LuaData.KeyColumn then
+                                if filterData.LuaData.RequiredColumns == nil or Contains(filterData.LuaData.RequiredColumns, tostring(columnIndex)) then
+                                    if #duplicateKeys > 0 and filterData.LuaData.ColumnNames ~= nil then
+                                        iostream:write("\t\t"..filterData.LuaData.ColumnNames[columnIndex].." = {\n ");
+                                        for duplicateKeyIndex, duplicateRow in pairs(duplicateKeys) do
+                                            if duplicateKeyIndex == 1 then
+                                                iostream:write("\t\t\t");
+                                            else
+                                                iostream:write(" ");
+                                            end
+                                            iostream:write("\""..duplicateRow[columnIndex].."\",");
+                                        end
+                                        iostream:write("\n\t\t},\n");
+                                    else
+                                        local hasColumnName = filterData.LuaData.ColumnNames ~= nil and filterData.LuaData.ColumnNames[columnIndex] ~= nil;
+                                        if hasColumnName then
+                                            iostream:write("\t\t"..filterData.LuaData.ColumnNames[columnIndex].." = {\n ");
+                                            firstColumn = false;
+                                        end
+                                        if hasColumnName and firstColumn == false then
+                                            iostream:write("\t\t\t");
+                                            firstColumn = true;
+                                        elseif firstColumn == false then
+                                            iostream:write("\t\t");
+                                            firstColumn = true;
+                                        else
+                                            iostream:write(" ");
+                                        end
+                                        iostream:write("\""..column.."\",");
+                                        if hasColumnName then
+                                            iostream:write("\n\t\t},\n");
+                                        end
+                                    end
+                                end
+                                
+                            end
+                        end
+                        iostream:write("\n\t},\n");
+                        addedKeys[row[filterData.LuaData.KeyColumn]] = true;
+                    end
+
+                end
+
+                -- Close the parent variable
+                iostream:write("}");
             end
             iostream:close();
         end
@@ -182,6 +254,13 @@ function LoadedData:ApplyFilterToField(filter, fieldValue)
             return true;
         end
         return false;
+    elseif string.match(filter.Type, "CONTAINSTRANSFORMEDVALUESTEP") then
+        local stepNumber = string.match(filter.Type, "CONTAINSTRANSFORMEDVALUE(.*)");
+        local stepValue = self.PreviousTransformedRowsInOperation[stepNumber][tonumber(filter.Value)];
+        if stepValue ~= '' and string.match(fieldValue, stepValue) then
+            return true;
+        end
+        return false;
     elseif filter.Type == "CONTAINSVALUE" then
         local match = string.match(fieldValue, filter.Value);
         return match ~= nil;
@@ -222,7 +301,7 @@ function LoadedData:TransformFiles()
         if self.TransformData[fileKey] ~= nil then
             self.CurrentActiveFile = fileKey;
             self.CurrentTransformStep = 1;
-            local transformedFile = self:TransformFile(file, self.CurrentTransformStep);
+            local transformedFile = self:TransformFile(file, self.FilterData[fileKey], self.CurrentTransformStep);
             if self.TransformedFiles[fileKey] == nil then
                 self.TransformedFiles[fileKey] = {};
             end
@@ -231,7 +310,7 @@ function LoadedData:TransformFiles()
     end
 end
 
-function LoadedData:TransformFile(file, transformStep)
+function LoadedData:TransformFile(file, filter, transformStep)
     local transformedFile = {};
     local stepKey = "STEP"..tostring(transformStep);
     local fileTransformData = self.TransformData[self.CurrentActiveFile];
@@ -258,7 +337,7 @@ function LoadedData:TransformFile(file, transformStep)
                 self.PreviousRowsInOperation[stepKey] = {};
             end--]]
 
-            if self:RowMatchesFilters(row, transformStepData.Filters) then
+            if transformStepData.IgnoreFilter == true or self:RowMatchesFilters(row, transformStepData.Filters) then
                 -- One row could be transformed into several rows so we need to concat
                 local newRow = self:TransformRow(row, transformStepData);
                 if transformStepData.PostTransformFilters == nil
@@ -308,7 +387,7 @@ function LoadedData:PrepareForNextTransformStep(nextTransformOperation, transfor
     end
 
     self.CurrentTransformingFile = nextTransformOperation.FileName;
-    local transformedFile = self:TransformFile(self.Files[nextTransformOperation.FileName], self.CurrentTransformStep);
+    local transformedFile = self:TransformFile(self.Files[nextTransformOperation.FileName], self.FilterData[nextTransformOperation.FileName], self.CurrentTransformStep);
     if self.TransformedFiles[nextTransformOperation.FileName] == nil then
         self.TransformedFiles[nextTransformOperation.FileName] = {};
     end
@@ -320,7 +399,11 @@ end
 function LoadedData:TransformRow(row, transformOperation)
     local newRow = {};
     for transformIndex, transform in pairs(transformOperation.Transforms) do
-        if transform.Type == "NEWROW" then
+        if string.match(transform.Type, "COPYTABLE") then
+            local stepNumber = string.match(transform.Type, "COPYTABLE(.*)");
+            local transformedStepRow = self.PreviousTransformedRowsInOperation[stepNumber];
+            return transformedStepRow;
+        elseif transform.Type == "NEWROW" then
             local transformedColumns = {};
             -- Iterate over each column in the row
             for columnIndex, column in pairs(row) do
@@ -375,11 +458,19 @@ function LoadedData:ApplyTransformToColumn(column, columnTransform)
     if type(columnTransform) == 'table' then
        if columnTransform.Type == "SELECTEXISTING" then
             return column;
+        elseif columnTransform.Type == "REPLACEIFVALUE" then
+            return columnTransform.Value;
         elseif columnTransform.Type == "REPLACE" then
             return columnTransform.Value;
         elseif string.match(columnTransform.Type, "REPLACEWITHTRANSFORMEDSTEP")  then
             local stepNumber = string.match(columnTransform.Type, "REPLACEWITHTRANSFORMED(.*)");
             local existingData = self.PreviousTransformedRowsInOperation[stepNumber];
+            if existingData ~= nil then
+                return existingData[tonumber(columnTransform.Value)];
+            end
+        elseif string.match(columnTransform.Type, "REPLACEWITHSTEP") then
+            local stepNumber = string.match(columnTransform.Type, "REPLACEWITH(.*)");
+            local existingData = self.PreviousRowsInOperation[stepNumber];
             if existingData ~= nil then
                 return existingData[tonumber(columnTransform.Value)];
             end
@@ -433,7 +524,7 @@ function LoadedData:ApplyTransformToColumn(column, columnTransform)
                     return value;
                 end
             end
-            return "";
+            return column;
         elseif columnTransform.Type == "REPLACEWITHSUBOPERATION" then
             local transformedValue = "";
             for xmlSubOperationIndex, xmlSubOperation in pairs(columnTransform.SubOperations) do

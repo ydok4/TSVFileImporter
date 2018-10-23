@@ -37,6 +37,15 @@ function ClearTable(sourceTable)
   end
 end
 
+function Contains(sourceTable, checkValue)
+  for key, value in pairs(sourceTable) do
+    if value == checkValue then
+      return true;
+    end
+  end
+  return false;
+end
+
 function Any(sourceTable, columnIndex, value)
   if table == nil then
     return false;
