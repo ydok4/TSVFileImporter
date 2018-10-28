@@ -41,7 +41,7 @@ TraitTransforms = {
             -- in other STEPS
             Transforms = {
                 {
-                    Type = "NEWROW", 
+                    Type = "NEWROW",
                     Columns = {
                         {
                             -- Trait info key
@@ -114,7 +114,7 @@ TraitTransforms = {
             -- In an operation if the condition is met,
             -- Then the transforms are applied
             Filters = {
-               
+
             },
             -- This should be done once, assuming the filter criteria is met
             PerformOnce = true,
@@ -249,21 +249,21 @@ TraitTransforms = {
                         {
                             -- Effect key
                             ColumnNumber = 2,
-                            Type = "REPLACEWITHTRANSFORMEDSTEP8",
+                            Type = "REPLACEWITHTRANSFORMEDSTEP5",
                             -- Index of column from indicated step
                             Value = "2",
                         },
                         {
                             -- Effect scope
                             ColumnNumber = 3,
-                            Type = "REPLACEWITHTRANSFORMEDSTEP8",
+                            Type = "REPLACEWITHTRANSFORMEDSTEP5",
                             -- Index of column from indicated step
                             Value = "3",
                         },
                         {
                             -- Value
                             ColumnNumber = 4,
-                            Type = "REPLACEWITHTRANSFORMEDSTEP8",
+                            Type = "REPLACEWITHTRANSFORMEDSTEP5",
                             -- Index of column from indicated step
                             Value = "5",
                         },

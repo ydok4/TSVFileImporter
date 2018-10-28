@@ -7,8 +7,8 @@ require '_lib/DataMaps/SKILLICONSTOTRAITS'
 require '_lib/DataMaps/SUBTYPESTOARTSETS'
 
 -- Grab filters.
-local filterData = GetFilters("ArtSetFilters");
-local transformData = GetTransforms("ArtSetTransforms");
+local filterData = GetFilters("EffectLocFilters");
+local transformData = GetTransforms("EffectLocTransforms");
 
 local loadedData = LoadedData:new({
     IDCounter = 0,

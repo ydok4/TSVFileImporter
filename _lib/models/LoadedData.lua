@@ -30,7 +30,12 @@ function LoadedData:AddFiles()
 end
 
 function LoadedData:LoadFile(key, filter)
-    local file = assert(io.open(filter.FileName, "r"));
+    local file = {};
+    if filter.Directory ~= nil then
+        file = assert(io.open(filter.Directory.."/"..filter.FileName, "r"));
+    else
+        file = assert(io.open(filter.FileName, "r"));
+    end
     local fileExtension = GetFileExtension(filter.FileName);
     self.Files[key] = {};
     self.CurrentActiveFile = key;
@@ -79,8 +84,13 @@ function LoadedData:WriteFiles()
         local filterData = self.FilterData[key];
         if filterData.OutputFile == true then
             local fileType = GetFileExtension(filterData.FileName);
-            local outputFileName = filterData.FileName;
-            outputFileName = "out/"..outputFileName.."_new."..fileType;
+            local outputFileName = RemoveFileExtension(filterData.FileName);
+
+            local directoryPath = "";
+            if filterData.Directory ~= nil then
+                directoryPath = filterData.Directory.."/";
+            end
+            outputFileName = "out/"..directoryPath..outputFileName.."_new."..fileType;
 
             local iostream = assert(io.open(outputFileName, "w+"));
             if fileType == "tsv" then
@@ -130,7 +140,12 @@ function LoadedData:WriteFiles()
                 -- keys we've outputted
                 local addedKeys = {};
                 -- Print out the parent variable
-                iostream:write(key.." = {\n");
+                if filterData.LuaData.RootName ~= nil then
+                    iostream:write(filterData.LuaData.RootName.." = {\n");
+                else
+                    iostream:write(key.." = {\n");
+                end
+
                 -- print out all the values as lua
                 for rowIndex, row in pairs(file) do
 
@@ -150,7 +165,7 @@ function LoadedData:WriteFiles()
                         for columnIndex, column in pairs(row) do
                             if columnIndex ~= filterData.LuaData.KeyColumn then
                                 if filterData.LuaData.RequiredColumns == nil or Contains(filterData.LuaData.RequiredColumns, tostring(columnIndex)) then
-                                    if #duplicateKeys > 0 and filterData.LuaData.ColumnNames ~= nil then
+                                    if filterData.LuaData.SingleValue ~= nil and filterData.LuaData.SingleValue[columnIndex] == nil and #duplicateKeys > 0 and filterData.LuaData.ColumnNames ~= nil then
                                         iostream:write("\t\t"..filterData.LuaData.ColumnNames[columnIndex].." = {\n ");
                                         for duplicateKeyIndex, duplicateRow in pairs(duplicateKeys) do
                                             if duplicateKeyIndex == 1 then
@@ -164,7 +179,10 @@ function LoadedData:WriteFiles()
                                     else
                                         local hasColumnName = filterData.LuaData.ColumnNames ~= nil and filterData.LuaData.ColumnNames[columnIndex] ~= nil;
                                         if hasColumnName then
-                                            iostream:write("\t\t"..filterData.LuaData.ColumnNames[columnIndex].." = {\n ");
+                                            iostream:write("\t\t"..filterData.LuaData.ColumnNames[columnIndex].." = ");
+                                            if filterData.LuaData.SingleValue ~= nil and filterData.LuaData.SingleValue[columnIndex] == nil then
+                                                iostream:write("{\n ");
+                                            end
                                             firstColumn = false;
                                         end
                                         if hasColumnName and firstColumn == false then
@@ -178,11 +196,14 @@ function LoadedData:WriteFiles()
                                         end
                                         iostream:write("\""..column.."\",");
                                         if hasColumnName then
-                                            iostream:write("\n\t\t},\n");
+                                            if filterData.LuaData.SingleValue ~= nil and filterData.LuaData.SingleValue[columnIndex] == nil then
+                                                iostream:write("\n\t\t},");
+                                            end
+                                            iostream:write("\n");
                                         end
                                     end
                                 end
-                                
+
                             end
                         end
                         iostream:write("\n\t},\n");
@@ -402,42 +423,10 @@ function LoadedData:TransformRow(row, transformOperation)
         if string.match(transform.Type, "COPYTABLE") then
             local stepNumber = string.match(transform.Type, "COPYTABLE(.*)");
             local transformedStepRow = self.PreviousTransformedRowsInOperation[stepNumber];
+            transformedStepRow = self:TransformColumns(transformedStepRow, transform, transformOperation);
             return transformedStepRow;
         elseif transform.Type == "NEWROW" then
-            local transformedColumns = {};
-            -- Iterate over each column in the row
-            for columnIndex, column in pairs(row) do
-                local columnValue = "";
-
-                local appliedTransform = false;
-                for columnTransformIndex, columnTransform in pairs(transform.Columns) do
-                    if columnTransform.ColumnNumber == columnIndex then
-                        -- Operations allow for incremental building of transform data
-                        if columnTransform.Operations ~= nil then
-                            local operationValue = "";
-                            for i = 1, columnTransform.NumberOfOperations do 
-                                local subOperation = columnTransform.Operations["OPERATION"..i];
-                                if operationValue == "" then
-                                    operationValue = self:ApplyTransformToColumn(column, subOperation);
-                                else
-                                    operationValue = self:ApplyTransformToColumn(operationValue, subOperation);
-                                end
-                            end
-                            columnValue = self:ApplyTransformToColumn(operationValue, columnTransform);
-                        else
-                            columnValue = self:ApplyTransformToColumn(column, columnTransform);
-                        end
-                        appliedTransform = true;
-                    end
-                end
-                -- If there was no transform applied, then apply the default one
-                -- the default transform where missing
-                if appliedTransform == false then
-                    columnValue = self:ApplyTransformToColumn(column, transformOperation.DefaultColumnTransformBehaviour);
-                end
-                transformedColumns[#transformedColumns + 1] = columnValue;
-            end
-            newRow = transformedColumns;
+            newRow = self:TransformColumns(row, transform, transformOperation);
         elseif transform.Type == "XMLDUPLICATE" then
             local transformedString = row[1];
             for i=1, transform.NumberOfOperations do
@@ -452,6 +441,44 @@ function LoadedData:TransformRow(row, transformOperation)
         end
     end
     return newRow;
+end
+
+function LoadedData:TransformColumns(row, transform, transformOperation)
+    local transformedColumns = {};
+    -- Iterate over each column in the row
+    for columnIndex, column in pairs(row) do
+        local columnValue = "";
+
+        local appliedTransform = false;
+        for columnTransformIndex, columnTransform in pairs(transform.Columns) do
+            if columnTransform.ColumnNumber == columnIndex then
+                -- Operations allow for incremental building of transform data
+                if columnTransform.Operations ~= nil then
+                    local operationValue = "";
+                    for i = 1, columnTransform.NumberOfOperations do
+                        local subOperation = columnTransform.Operations["OPERATION"..i];
+                        if operationValue == "" then
+                            operationValue = self:ApplyTransformToColumn(column, subOperation);
+                        else
+                            operationValue = self:ApplyTransformToColumn(operationValue, subOperation);
+                        end
+                    end
+                    columnValue = self:ApplyTransformToColumn(operationValue, columnTransform);
+                else
+                    columnValue = self:ApplyTransformToColumn(column, columnTransform);
+                end
+                appliedTransform = true;
+            end
+        end
+        -- If there was no transform applied, then apply the default one
+        -- the default transform where missing
+        if appliedTransform == false then
+            columnValue = self:ApplyTransformToColumn(column, transformOperation.DefaultColumnTransformBehaviour);
+        end
+        transformedColumns[#transformedColumns + 1] = columnValue;
+    end
+
+    return transformedColumns;
 end
 
 function LoadedData:ApplyTransformToColumn(column, columnTransform)

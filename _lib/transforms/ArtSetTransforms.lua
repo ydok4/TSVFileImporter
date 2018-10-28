@@ -10,7 +10,7 @@ ArtSetTransforms = {
             -- In an operation if the condition is met,
             -- Then the transforms are applied
             Filters = {
-    
+
             },
             -- Transforms determine how data should be changed
             Transforms = {
@@ -95,7 +95,7 @@ ArtSetTransforms = {
             -- in other STEPS
             Transforms = {
                 {
-                    Type = "NEWROW", 
+                    Type = "NEWROW",
                     Columns = {
                         {
                             ColumnNumber = 8,
@@ -119,12 +119,12 @@ ArtSetTransforms = {
             PerformOnce = true,
             Transforms = {
                 {
-                    Type = "COPYTABLESTEP2", 
+                    Type = "COPYTABLESTEP2",
                     Columns = {
                     },
                 },
                 {
-                    Type = "NEWROW", 
+                    Type = "NEWROW",
                     Columns = {
                     },
                 }

@@ -1,7 +1,8 @@
-EffectLocFilters = {
+MixuEffectLocFilters = {
         -- Original skill files
         character_skills_tables_data__ = {
-            FileName = "character_skills_tables_data__.tsv",
+            FileName = "character_skills_tables_ab_mixus_hero_pack_innates__.tsv",
+            Directory = "MixuTSV",
             OutputFile = false,
             -- Filters work on a per column basis
             -- Each index in the filter object correlates to
@@ -18,7 +19,8 @@ EffectLocFilters = {
             },
         },
         character_skill_level_to_effects_junctions_tables_data__ = {
-        FileName = "character_skill_level_to_effects_junctions_tables_data__.tsv",
+        FileName = "character_skill_level_to_effects_junctions_tables_ab_mixus_agent_actions_innates__.tsv",
+        Directory = "MixuTSV",
         -- Filters work on a per column basis
         -- Each index in the filter object correlates to
         -- a column in a tsv loaded table
@@ -48,10 +50,12 @@ EffectLocFilters = {
     },
     -- Output Lua files
     EffectResources = {
-        FileName = "EffectResources.lua",
+        FileName = "MixuEffectResources.lua",
+        Directory = "MixuTSV",
         OutputFile = true,
         ExportAsLua = true,
         LuaData = {
+            RootName = "MixuEffectResources",
             KeyColumn = 1,
             RequiredColumns = {"2", "4", "6"},
         },
@@ -60,10 +64,12 @@ EffectLocFilters = {
         },
     },
     TraitsToEffects = {
-        FileName = "TraitsToEffects.lua",
+        FileName = "MixuTraitsToEffects.lua",
+        Directory = "MixuTSV",
         OutputFile = true,
         ExportAsLua = true,
         LuaData = {
+            RootName = "MixuTraitsToEffects",
             KeyColumn = 1,
             -- Excludes key column because that is always required
             RequiredColumns = {"4", "2", "5"},
