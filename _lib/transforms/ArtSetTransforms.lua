@@ -21,7 +21,7 @@ ArtSetTransforms = {
                             -- Key
                            ColumnNumber = 1,
                            Type = "SELECTEXISTING",
-                           NumberOfOperations = 11,
+                           NumberOfOperations = 12,
                            Operations = {
                                OPERATION1 = {
                                     Type = "DATAMAPSUBTYPESTOARTSET",
@@ -60,10 +60,14 @@ ArtSetTransforms = {
                                 Value = "",
                                },
                                OPERATION10 = {
-                                Type = "REPLACEWITHwh2_main",
+                                Type = "REPLACEWITHwh2_dlc11",
                                 Value = "",
                                },
                                OPERATION11 = {
+                                Type = "REPLACEWITHwh2_main",
+                                Value = "",
+                               },
+                               OPERATION12 = {
                                 Type = "REPLACEWITHwh_main",
                                 Value = "",
                                },
@@ -85,9 +89,18 @@ ArtSetTransforms = {
                 {
                     ColumnNumber = 2,
                     Type = "CONTAINSTRANSFORMEDVALUESTEP1",
-                    -- Index of column from indicated step
+                    -- Index of column from indicated step and a concatted string
+                    Value = "1+_0",
+                    Operator = "AND",
+                    RowOperator = "OR",
+                },
+                {
+                    ColumnNumber = 8,
+                    Type = "ISVALUESTEP1",
+                    -- Index of column from indicated step and a concatted string
                     Value = "1",
                     Operator = "AND",
+                    RowOperator = "OR",
                 },
             },
             -- Transforms determine how data should be changed

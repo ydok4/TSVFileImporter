@@ -1,0 +1,6 @@
+deployables_abilities_tables	4
+ability_key	deployable	unique_id	num_uses	recharge_time	wind_up_time	drag_ground	click_ground	intercept_distance
+barricades	deployable_barricade	0	3	30	0	false	false	0
+brimstones	deployable_brimstone	4	3	60	0	false	false	0
+sharp_stones	deployable_sharp_stones	10	3	60	0	false	false	0
+spike_traps	deployable_spiketrap	9	3	60	0	false	false	0

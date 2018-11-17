@@ -62,6 +62,13 @@ RebelLeadersFilters = {
         FileName = "agent_subtypes_tables_data__.tsv",
         OutputFile = true,
         Filter = {
+            --[[{
+                -- Auto generate column
+                ColumnNumber = 2,
+                Type = "MATCHVALUE",
+                Value = "true",
+                Operator = "AND",
+            },--]]
         },
     },
     campaign_character_art_sets_tables_data__= {
@@ -96,6 +103,7 @@ RebelLeadersFilters = {
     },
     portrait_settings__template = {
         FileName = "portrait_settings__template.xml",
+        Directory = "PortraitGenerator",
         OutputFile = true,
         Filter = {
             RootElement = "Entry",

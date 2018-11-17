@@ -1,0 +1,4 @@
+battle_vortex_collision_responses_tables	0
+description	vortex_collision_type
+keep moving as if it wasn't there	1.ignore
+we finish as this happenes	2.expire

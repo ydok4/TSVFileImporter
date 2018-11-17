@@ -1,0 +1,23 @@
+Loc PackedFile
+Key	Text	Tooltip
+ancillaries_categories_onscreen_name_mount	{{tr:mount_header}}	true
+ancillaries_categories_default_entry_name_talisman	None	true
+ancillaries_categories_default_entry_tooltip_talisman	Obtain and equip a [[col:yellow]]talisman[[/col]] here to improve your character.	true
+ancillaries_categories_default_entry_name_arcane_item	Casting Item	true
+ancillaries_categories_onscreen_name_general	General	true
+ancillaries_categories_onscreen_name_weapon	Weapon	true
+ancillaries_categories_onscreen_name_armour	Armour	true
+ancillaries_categories_default_entry_tooltip_enchanted_item	Obtain and equip an [[col:yellow]]enchanted item[[/col]] here to improve your character.	true
+ancillaries_categories_default_entry_tooltip_mount	Characters will be on foot unless given a [[col:yellow]]mount[[/col]], or required to be mounted by default.||Mounts can be obtained via spending skill points on the relevant skills.	true
+ancillaries_categories_onscreen_name_talisman	Talisman	true
+ancillaries_categories_default_entry_tooltip_weapon	Obtain and equip a [[col:yellow]]weapon[[/col]] here to improve your character.||All weapons will grant the character with [[img:ui/skins/default/modifier_icon_magical.png]][[/img]]magical attacks.	true
+ancillaries_categories_default_entry_tooltip_general	{{tr:followers_and_banners_cat_tooltip}}	true
+ancillaries_categories_default_entry_tooltip_armour	Obtain and equip [[col:yellow]]armour[[/col]] here to improve your character.	true
+ancillaries_categories_onscreen_name_enchanted_item	Enchanted Item	true
+ancillaries_categories_default_entry_name_armour	Basic Armour	true
+ancillaries_categories_default_entry_tooltip_arcane_item	Obtain and equip an [[col:yellow]]arcane item[[/col]] here to improve your character.||Arcane items are only available to spellcasters.	true
+ancillaries_categories_default_entry_name_weapon	Hand Weapon	true
+ancillaries_categories_default_entry_name_enchanted_item	None	true
+ancillaries_categories_onscreen_name_arcane_item	Arcane Item	true
+ancillaries_categories_default_entry_name_mount	None	true
+ancillaries_categories_default_entry_name_general	None	true

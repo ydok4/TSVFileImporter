@@ -1,0 +1,9 @@
+military_force_types_tables	3
+key	primary_slot_template	secondary_slot_template	primary_slot_type	secondary_slot_type	general_can_be_replaced	spawn_on_sea
+ARMY					true	false
+CHARACTER_BOUND_HORDE	horde_primary	horde_secondary	horde_primary	horde_secondary	false	false
+HORDE	horde_primary	horde_secondary	horde_primary	horde_secondary	true	false
+NAVAL_HORDE	horde_primary	horde_secondary	horde_primary	horde_secondary	true	true
+NAVY					true	true
+SEA_LOCKED_HORDE	horde_primary	horde_secondary	horde_primary	horde_secondary	false	true
+SPECIALIST_HORDE	horde_primary	horde_secondary	horde_primary	horde_secondary	true	false

@@ -1,0 +1,10 @@
+autoresolver_battle_types_tables	0
+is_night_battle	battle_type	is_encampment	autoresolver_stance	key
+	land_ambush			ambush_generic
+	land_bridge			bridge_generic
+		true		fortify_battle
+				generic_battle
+	settlement_unfortified			minor_settlement_generic_land
+	unfortified_port			minor_settlement_generic_naval
+	settlement_standard			settlement_generic_land
+	port_assault			settlement_generic_naval

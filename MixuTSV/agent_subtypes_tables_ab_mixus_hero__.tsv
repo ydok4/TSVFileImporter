@@ -1,0 +1,24 @@
+agent_subtypes_tables	14
+emp_wizard_death	true	true	ui/campaign ui/agents/wh_main_lore_death.png	wh2_mixu_emp_cha_wizard_death	wh_vo_actor_silent	true	-1	false	true
+emp_wizard_metal	true	true	ui/campaign ui/agents/wh_main_lore_metal.png	wh2_mixu_emp_cha_wizard_metal	wh_main_vo_actor_Empire_CelestialWizard	true	-1	false	true
+wef_shadowdancer	true	true	ui/campaign ui/agents/wh2_main_def_spy.png	wh2_mixu_wef_cha_shadowdancer	wh_dlc05_vo_actor_Wood_Elves_Female_Glade_Lord	true	-1	true	true
+emp_wizard_lord_beasts	false	true		wh2_mixu_emp_cha_wizard_lord_beasts	vo_actor_Empire_dlc03_AmberWizard	true	-1	false	true
+emp_wizard_lord_light	false	true		wh2_mixu_emp_cha_wizard_lord_light	wh_main_vo_actor_Empire_LightWizard	true	-1	false	true
+emp_wizard_lord_fire	false	true		wh2_mixu_emp_cha_wizard_lord_fire	wh_main_vo_actor_Empire_BrightWizard	true	-1	false	true
+grn_savage_orc_warboss	true	false		wh2_mixu_grn_cha_savage_orc_warboss	wh_main_vo_actor_Orc_Warboss	true	-1	false	true
+grn_savage_orc_shaman	true	true		wh2_mixu_grn_cha_savage_orc_shaman	wh_main_vo_actor_Orc_Shaman	true	-1	false	true
+grn_orc_great_shaman	true	true		wh2_mixu_grn_cha_orc_great_shaman	wh_main_vo_actor_Orc_Shaman	true	-1	false	true
+dwf_giant_slayer	true	false	ui/campaign ui/agents/wh2_dragonslayer.png	wh2_mixu_dwf_cha_giant_slayer	wh_main_vo_actor_Dwarf_Thane	true	-1	false	true
+bst_doombull	false	false		wh2_mixu_bst_cha_doombull	wh_dlc03_vo_actor_Beastmen_Gorebull	true	0	false	true
+wef_darkweaver	true	true		wh2_mixu_wef_cha_darkweaver	wh_dlc05_vo_actor_Wood_Elves_Spellsinger	true	-1	true	true
+wef_highweaver	true	true		wh2_mixu_wef_cha_highweaver	wh_dlc05_vo_actor_Wood_Elves_Spellsinger	true	-1	true	true
+wef_spellweaver	true	true		wh2_mixu_wef_cha_spellweaver_beasts	wh_dlc05_vo_actor_Wood_Elves_Spellsinger	true	-1	true	true
+vmp_necrarch	false	true		wh2_mixu_vmp_cha_necrarch	wh_main_vo_actor_Vampire_Lord	true	-1	false	true
+vmp_vampire_countess	true	true		wh2_mixu_vmp_cha_vampire_countess	wh_main_vo_actor_Vampire_FemaleVamp	true	-1	true	true
+vmp_vampire_countess_shadow	true	true		wh2_mixu_vmp_cha_vampire_countess_shadow	wh_main_vo_actor_Vampire_FemaleVamp	true	-1	true	true
+vmp_blood_knight_lord	false	true		wh2_mixu_vmp_cha_blood_knight_lord	wh_main_vo_actor_Vampire_Lord	true	-1	false	true
+chs_shaggoth_champion	false	false		wh2_mixu_chs_cha_shaggoth_champion	wh_dlc03_vo_actor_Beastmen_Gorebull	true	-1	false	true
+nor_fimir_warlord	true	false		wh2_mixu_nor_cha_fimir_warlord	wh_dlc08_vo_actor_Norsca_Fimir_Balefiend	true	-1	true	true
+nor_shaman_sorcerer_lord_death	true	true		wh2_mixu_nor_cha_shaman_sorcerer_lord_death	wh_dlc08_vo_actor_Norsca_Shaman_Sorcerer	true	-1	false	true
+nor_shaman_sorcerer_lord_fire	true	true		wh2_mixu_nor_cha_shaman_sorcerer_lord_fire	wh_dlc08_vo_actor_Norsca_Shaman_Sorcerer	true	-1	false	true
+nor_shaman_sorcerer_lord_metal	true	true		wh2_mixu_nor_cha_shaman_sorcerer_lord_metal	wh_dlc08_vo_actor_Norsca_Shaman_Sorcerer	true	-1	false	true

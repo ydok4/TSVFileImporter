@@ -7,7 +7,7 @@ ArtSetFilters = {
                     -- Agent sub typs
                     ColumnNumber = 1,
                     Type = "CONTAINSVALUE",
-                    Value = "emp_lord",
+                    Value = "wh2_main_hef_prince",
                     Operator = "OR",
                 },--]]
             },

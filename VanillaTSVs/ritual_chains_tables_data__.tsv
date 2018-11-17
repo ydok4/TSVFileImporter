@@ -1,0 +1,11 @@
+ritual_chains_tables	3
+key	category	ritual_sites_required	colour_r	colour_g	colour_b
+wh2_dlc11_ritual_bloodlines_blood_dragon	BLOODLINE_RITUAL	0	255	255	255
+wh2_dlc11_ritual_bloodlines_lahmian	BLOODLINE_RITUAL	0	255	255	255
+wh2_dlc11_ritual_bloodlines_necrarch	BLOODLINE_RITUAL	0	255	255	255
+wh2_dlc11_ritual_bloodlines_strigoi	BLOODLINE_RITUAL	0	255	255	255
+wh2_dlc11_ritual_bloodlines_von_carstein	BLOODLINE_RITUAL	0	255	255	255
+wh2_main_ritual_vortex_def	VORTEX_RITUAL	3	210	0	255
+wh2_main_ritual_vortex_hef	VORTEX_RITUAL	3	75	190	255
+wh2_main_ritual_vortex_lzd	VORTEX_RITUAL	3	255	140	0
+wh2_main_ritual_vortex_skv	VORTEX_RITUAL	3	130	212	0

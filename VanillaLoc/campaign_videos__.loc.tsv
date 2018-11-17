@@ -1,0 +1,69 @@
+Loc PackedFile
+Key	Text	Tooltip
+campaign_videos_localised_title_warhammer2/tmb/book_4	A Carrion Book of Shyish	true
+campaign_videos_localised_title_warhammer2/tmb/book_3	A Tome of a Thousand Souls	true
+campaign_videos_localised_title_warhammer2/tmb/book_2	A Liber Necronomica	true
+campaign_videos_localised_title_warhammer2/tmb/book_1	A Codex Mortifica	true
+campaign_videos_localised_title_warhammer2/cst/cst_battle_cylostra	Battle in the Depths (Cylostra)	true
+campaign_videos_localised_title_warhammer2/cst/cst_battle_aranessa	Battle in the Depths (Aranessa)	true
+campaign_videos_localised_title_warhammer2/cst/cst_battle_noctilus	Battle in the Depths (Noctilus)	true
+campaign_videos_localised_title_warhammer2/tmb/win_khalida	Beloved of Asaph	true
+campaign_videos_localised_title_warhammer2/tmb/intro_khalida	Khalida Rises	true
+campaign_videos_localised_title_warhammer2/tmb/battle_khatep	The Grand Alliance	true
+campaign_videos_localised_title_warhammer2/def/def_horned_rat	{{tr:horned_rat_movie_title}}	true
+campaign_videos_localised_title_warhammer2/hef/hef_horned_rat	{{tr:horned_rat_movie_title}}	true
+campaign_videos_localised_title_warhammer2/lzd/lzd_horned_rat	{{tr:horned_rat_movie_title}}	true
+campaign_videos_localised_title_warhammer2/skv/skv_horned_rat	{{tr:horned_rat_movie_title}}	true
+campaign_videos_localised_title_warhammer2/tmb/battle_settra	Battle for the Black Pyramid	true
+campaign_videos_localised_title_warhammer2/tmb/battle_arkhan	Wrath of Arkhan	true
+campaign_videos_localised_title_warhammer2/cst/cst_win_noctilus	Rule the Waves (Noctilus)	true
+campaign_videos_localised_title_warhammer2/tmb/book_1_arkhan	The Liche King's Codex	true
+campaign_videos_localised_title_warhammer2/tmb/book_2_arkhan	The Liche King's Incunabulum	true
+campaign_videos_localised_title_warhammer2/tmb/book_3_arkhan	The Liche King's Tome	true
+campaign_videos_localised_title_warhammer2/tmb/book_4_arkhan	The Liche King's Grimoire	true
+campaign_videos_localised_title_warhammer2/cst/cst_win_aranessa	Rule the Waves (Aranessa)	true
+campaign_videos_localised_title_warhammer2/cst/cst_intro_harkon	The Shopkeeper’s Tale (Harkon)	true
+campaign_videos_localised_title_warhammer2/cst/cst_win_cylostra	Rule the Waves (Cylostra)	true
+campaign_videos_localised_title_warhammer2/cst/cst_win_harkon	Rule the Waves (Harkon)	true
+campaign_videos_localised_title_warhammer2/tmb/battle_khalida	The Asp Strikes	true
+campaign_videos_localised_title_warhammer2/tmb/win_khatep	The Exile Returns	true
+campaign_videos_localised_title_warhammer2/tmb/win_arkhan	Triumph of the Liche King	true
+campaign_videos_localised_title_warhammer2/tmb/win_settra	King of Kings	true
+campaign_videos_localised_title_warhammer2/skv_comet	From the Heavens	true
+campaign_videos_localised_title_warhammer2/tmb/intro_khatep	Khatep Begins	true
+campaign_videos_localised_title_warhammer2/cst/cst_intro_cylostra	The Shopkeeper’s Tale (Cylostra)	true
+campaign_videos_localised_title_warhammer2/cst/cst_intro_noctilus	The Shopkeeper’s Tale (Noctilus)	true
+campaign_videos_localised_title_warhammer2/tmb/intro_settra	Settra Awakes	true
+campaign_videos_localised_title_warhammer2/tmb/intro_arkhan	Arkhan Acts	true
+campaign_videos_localised_title_warhammer2/cst/cst_intro_aranessa	The Shopkeeper’s Tale (Aranessa)	true
+campaign_videos_localised_title_warhammer2/def/def_ritual_5	{{tr:wh2_main_ritual_vortex_5_def}}	true
+campaign_videos_localised_title_warhammer2/hef/hef_ritual_5	{{tr:wh2_main_ritual_vortex_5_hef}}	true
+campaign_videos_localised_title_warhammer2/lzd/lzd_ritual_5	{{tr:wh2_main_ritual_vortex_5_lzd}}	true
+campaign_videos_localised_title_warhammer2/skv/skv_ritual_5	{{tr:wh2_main_ritual_vortex_5_skv}}	true
+campaign_videos_localised_title_warhammer2/def/def_ritual_4	{{tr:wh2_main_ritual_vortex_4_def}}	true
+campaign_videos_localised_title_warhammer2/hef/hef_ritual_4	{{tr:wh2_main_ritual_vortex_4_hef}}	true
+campaign_videos_localised_title_warhammer2/lzd/lzd_ritual_4	{{tr:wh2_main_ritual_vortex_4_lzd}}	true
+campaign_videos_localised_title_warhammer2/skv/skv_ritual_4	{{tr:wh2_main_ritual_vortex_4_skv}}	true
+campaign_videos_localised_title_warhammer2/def/def_ritual_1	{{tr:wh2_main_ritual_vortex_1_def}}	true
+campaign_videos_localised_title_warhammer2/hef/hef_ritual_1	{{tr:wh2_main_ritual_vortex_1_hef}}	true
+campaign_videos_localised_title_warhammer2/lzd/lzd_ritual_1	{{tr:wh2_main_ritual_vortex_1_lzd}}	true
+campaign_videos_localised_title_warhammer2/skv/skv_ritual_1	{{tr:wh2_main_ritual_vortex_1_skv}}	true
+campaign_videos_localised_title_warhammer2/def/def_ritual_3	{{tr:wh2_main_ritual_vortex_3_def}}	true
+campaign_videos_localised_title_warhammer2/hef/hef_ritual_3	{{tr:wh2_main_ritual_vortex_3_hef}}	true
+campaign_videos_localised_title_warhammer2/lzd/lzd_ritual_3	{{tr:wh2_main_ritual_vortex_3_lzd}}	true
+campaign_videos_localised_title_warhammer2/skv/skv_ritual_3	{{tr:wh2_main_ritual_vortex_3_skv}}	true
+campaign_videos_localised_title_warhammer2/def/def_ritual_2	{{tr:wh2_main_ritual_vortex_2_def}}	true
+campaign_videos_localised_title_warhammer2/hef/hef_ritual_2	{{tr:wh2_main_ritual_vortex_2_hef}}	true
+campaign_videos_localised_title_warhammer2/lzd/lzd_ritual_2	{{tr:wh2_main_ritual_vortex_2_lzd}}	true
+campaign_videos_localised_title_warhammer2/skv/skv_ritual_2	{{tr:wh2_main_ritual_vortex_2_skv}}	true
+campaign_videos_localised_title_warhammer2/cst/cst_wreck	The Wreck	true
+campaign_videos_localised_title_warhammer2/cst/cst_items	The Star-Metal Harpoon	true
+campaign_videos_localised_title_warhammer2/def/def_intro	A Fresh Torment	true
+campaign_videos_localised_title_warhammer2/hef/hef_intro	A New Chronicle	true
+campaign_videos_localised_title_warhammer2/lzd/lzd_intro	Awakenings	true
+campaign_videos_localised_title_warhammer2/skv/skv_intro	Our Tale Begins...	true
+campaign_videos_localised_title_warhammer2/cst/cst_battle_harkon	Battle in the Depths (Harkon)	true
+campaign_videos_localised_title_warhammer2/def/def_win	Vengeance at Last	true
+campaign_videos_localised_title_warhammer2/hef/hef_win	The Reign of Kings	true
+campaign_videos_localised_title_warhammer2/lzd/lzd_win	Will of the Old Ones	true
+campaign_videos_localised_title_warhammer2/skv/skv_win	The Time of the Rat	true

@@ -1,0 +1,7 @@
+campaign_map_winds_of_magic_strengths_tables	2
+default	key	value	frequency	composite_scene
+false	wom_strength_0	-50	1	
+false	wom_strength_1	-20	3	
+true	wom_strength_2	0	5	winds_of_magic_3
+false	wom_strength_3	20	3	winds_of_magic_4
+false	wom_strength_4	50	1	winds_of_magic_5

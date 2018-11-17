@@ -1,0 +1,4 @@
+prologue_chapters_tables	2
+battle_key	campaign_key	is_battle	number	banner	campaign_faction_key
+wh_main_empire_intro		true	1	UI/prologue/fe_banner_01.png	
+	main_warhammer	false	2	UI/prologue/fe_banner_02.png	

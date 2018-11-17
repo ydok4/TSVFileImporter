@@ -1,0 +1,6 @@
+audio_projectile_limitations_tables	0
+key	near_inside	near_outside	far_inside	far_outside	uncapped	max_distance
+large	6	4	14	6	false	400
+magic	10	5	20	10	false	800
+medium	4	2	8	4	false	250
+small	4	2	8	4	false	120

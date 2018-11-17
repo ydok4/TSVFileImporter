@@ -1,0 +1,16 @@
+campaign_character_art_sets_tables	6
+agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+general	wh2_main_art_set_hef_prince_01_mid				false	true	wh2_main_hef_prince_mid	1
+general	wh2_main_art_set_hef_prince_02_mid				false	true	wh2_main_hef_prince_mid	1
+general	wh2_main_art_set_hef_prince_03_mid				false	true	wh2_main_hef_prince_mid	1
+general	wh2_main_art_set_hef_prince_04_mid				false	true	wh2_main_hef_prince_mid	1
+general	wh2_main_art_set_hef_princess_01_mid				false	true	wh2_main_hef_princess_mid	1
+general	wh2_main_art_set_hef_princess_02_mid				false	true	wh2_main_hef_princess_mid	1
+general	wh2_main_art_set_hef_princess_03_mid				false	true	wh2_main_hef_princess_mid	1
+general	wh2_main_art_set_hef_prince_01_high				false	true	wh2_main_hef_prince_high	1
+general	wh2_main_art_set_hef_prince_02_high				false	true	wh2_main_hef_prince_high	1
+general	wh2_main_art_set_hef_prince_03_high				false	true	wh2_main_hef_prince_high	1
+general	wh2_main_art_set_hef_prince_04_high				false	true	wh2_main_hef_prince_high	1
+general	wh2_main_art_set_hef_princess_01_high				false	true	wh2_main_hef_princess_high	1
+general	wh2_main_art_set_hef_princess_02_high				false	true	wh2_main_hef_princess_high	1
+general	wh2_main_art_set_hef_princess_03_high				false	true	wh2_main_hef_princess_high	1

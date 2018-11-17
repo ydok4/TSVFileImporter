@@ -2,6 +2,7 @@ CULTURESTRINGS = {
     brt = "wh_main_brt_bretonnia",
     bst = "wh_dlc03_bst_beastmen",
     chs = "wh_main_chs_chaos",
+    cst = "wh2_dlc11_cst_vampire_coast",
     def = "wh2_main_def_dark_elves",
     dwf = "wh_main_dwf_dwarfs",
     emp = "wh_main_emp_empire",

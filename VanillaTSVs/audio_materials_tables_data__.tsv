@@ -1,0 +1,8 @@
+audio_materials_tables	0
+can_be_snow	fallback	key	switch
+true		earth	earth
+true	rock	metal	metal
+true	earth	rock	rock
+true	earth	sand	sand
+false		water	water
+true	rock	wood	wood

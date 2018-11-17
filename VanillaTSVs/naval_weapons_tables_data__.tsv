@@ -1,0 +1,9 @@
+naval_weapons_tables	4
+is_primary_unit_attack	key	models_entity_weaponry	type	autonomous_engine
+false	egyptian_fighting_tower	egyptian_light_tower	fighting_towers	
+false	egyptian_heavy_tower	egyptian_heavy_tower	fighting_towers	
+false	fire_pots	fire_pots	fire_pots	
+false	greek_heavy_tower	greek_heavy_tower	fighting_towers	
+false	greek_light_tower	greek_light_tower	fighting_towers	
+false	persian_fighting_tower	persian_light_fighting_tower	fighting_towers	
+false	roman_fighting_tower	roman_light_fighting_tower	fighting_towers	

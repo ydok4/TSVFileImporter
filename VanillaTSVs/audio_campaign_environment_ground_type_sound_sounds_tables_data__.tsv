@@ -1,0 +1,4 @@
+audio_campaign_environment_ground_type_sound_sounds_tables	0
+is_3d	sound	looping_sound
+false	generic_desert	generic_desert
+false	generic_sea	generic_sea

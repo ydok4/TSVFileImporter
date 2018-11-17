@@ -1,0 +1,14 @@
+autoresolver_player_types_tables	0
+enemy_player_campaign_difficulty	enemy_player_is_human	if_player_is_attacker	if_player_is_defender	key	player_campaign_difficulty	player_is_human
+	true	true	true	ai_vs_human		false
+		true	true	any		
+		true	false	attacker_target		
+		false	true	defender_target		
+	true	false	true	defending_ai_vs_human		false
+	false	false	true	defending_human_vs_ai		true
+	false	true	true	human_vs_ai		true
+	false	true	true	human_vs_ai_easy	easy	true
+	false	true	true	human_vs_ai_hard	hard	true
+	false	true	true	human_vs_ai_legendary	legendary	true
+	false	true	true	human_vs_ai_normal	normal	true
+	false	true	true	human_vs_ai_vhard	very_hard	true

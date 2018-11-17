@@ -1,0 +1,19 @@
+cai_personality_occupation_decision_policies_tables	0
+food_excess_cap	food_shortage_cap	id	min_attitude	squalor_cap
+6	-2	default	-30	-4
+6	-2	default_early	-30	-4
+6	-2	default_early_uncapturable	-30	-4
+6	-2	default_uncapturable	-30	-4
+6	-2	destroyer	0	-4
+6	-2	destroyer_uncapturable	0	-4
+6	-2	dlc05_wood_elves	-30	-4
+6	-2	dlc05_wood_elves_uncapturable	-30	-4
+6	-2	dlc09_tomb_kings	-30	-4
+6	-2	dlc09_tomb_kings_uncapaturable	-30	-4
+6	-2	looter	-30	-4
+6	-2	looter_early	-30	-4
+6	-2	looter_early_uncapturable	-30	-4
+6	-2	looter_uncapturable	-30	-4
+6	-2	noraze	-30	-4
+6	-2	noraze_uncapturable	-30	-4
+6	-2	raider	-30	-4

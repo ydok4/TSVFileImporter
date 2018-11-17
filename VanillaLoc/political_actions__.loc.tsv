@@ -1,0 +1,20 @@
+Loc PackedFile
+Key	Text	Tooltip
+political_actions_onscreen_description_embezzle_funds	Attempt to misappropriate money or resources through theft, dishonesty or creative accounting.	true
+political_actions_onscreen_name_form_confederation	[[col:yellow]]Form Confederation[[/col]]	true
+political_actions_onscreen_description_seek_office	Seek a title, with all the attendant powers and privileges it confers.	true
+political_actions_onscreen_description_diminish_popularity	Plot to discredit this character, thereby reducing their [[img:icon_reputation]][[/img]]reputation.	true
+political_actions_onscreen_description_gather_support	Spread positive messages about this character in an attempt to bolster their [[img:icon_reputation]][[/img]]reputation.	true
+political_actions_onscreen_name_assassinate	[[col:yellow]]Assassinate[[/col]]	true
+political_actions_onscreen_name_diminish_popularity	[[col:yellow]]Tarnish Reputation[[/col]]	true
+political_actions_onscreen_name_seek_office	[[col:yellow]]Seek Title[[/col]]	true
+political_actions_onscreen_description_secure_loyalty	Attempt to improve this character's [[img:icon_fealty]][[/img]]fealty, making them more well-disposed toward you and your aims.	true
+political_actions_onscreen_description_assassinate	Plot to have this character assassinated, ensuring that they are no longer a threat to your faction.	true
+political_actions_onscreen_description_default	[PH]	true
+political_actions_onscreen_name_gather_support	[[col:yellow]]Gather Support[[/col]]	true
+political_actions_onscreen_name_become_retainer	[[col:yellow]]Become Retainer[[/col]]	true
+political_actions_onscreen_name_secure_loyalty	[[col:yellow]]Secure Fealty[[/col]]	true
+political_actions_onscreen_name_default	[PH]	true
+political_actions_onscreen_description_become_retainer	Request the privilege of accompanying another, more experienced character so that you may gain experience from their exploits.	true
+political_actions_onscreen_description_form_confederation	Request this Faction Leader to join your faction and form a confederation.	true
+political_actions_onscreen_name_embezzle_funds	[[col:yellow]]Embezzle Funds[[/col]]	true

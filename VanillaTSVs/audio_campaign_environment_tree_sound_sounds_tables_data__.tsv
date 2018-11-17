@@ -1,0 +1,19 @@
+audio_campaign_environment_tree_sound_sounds_tables	0
+is_3d	tree_sound	looping_sound
+true	beastmen_forest	beastmen_forest
+true	bretonnia_forest	bretonnia_forest
+true	chaos_forest	chaos_forest
+true	dark_elves_forest	dark_elves_forest
+true	dwarf_forest	dwarf_forest
+true	empire_forest	empire_forest
+true	generic_forest	generic_forest
+true	greenskin_forest	greenskin_forest
+true	high_elves_forest	high_elves_forest
+true	lizardmen_forest	lizardmen_forest
+true	nordic_forest	nordic_forest
+true	skaven_forest	skaven_forest
+true	tombkings_forest	tombkings_forest
+true	vampire_forest	vampire_forest
+true	wood_elves_forest_autumn	wood_elves_forest_autumn
+true	wood_elves_forest_generic	wood_elves_forest_generic
+true	wood_elves_forest_winter	wood_elves_forest_winter

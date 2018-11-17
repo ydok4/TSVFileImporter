@@ -1,0 +1,7 @@
+cai_personality_deal_generation_component_overrides_tables	0
+component	parent
+default	dummy
+dlc09_tomb_kings	default
+passive	default
+schemer	default
+subjugator	default

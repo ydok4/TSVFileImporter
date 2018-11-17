@@ -1,0 +1,5 @@
+campaign_group_racial_suitability_effects_tables	0
+campaign_group	effect_bundle
+wh2_climate_suitable	wh2_main_climate_suitable
+wh2_climate_uninhabitable	wh2_main_climate_uninhabitable
+wh2_climate_unsuitable	wh2_main_climate_unsuitable

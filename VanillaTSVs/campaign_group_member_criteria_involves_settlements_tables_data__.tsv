@@ -1,0 +1,4 @@
+campaign_group_member_criteria_involves_settlements_tables	0
+involves_settlement	member
+true	wh2_captive_option_kill_settlement_vampire_coast
+false	wh2_captive_option_kill_vampire_coast

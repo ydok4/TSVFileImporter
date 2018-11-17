@@ -1,0 +1,13 @@
+Loc PackedFile
+Key	Text	Tooltip
+ritual_additional_ui_explanation_texts_onscreen_text_wh2_dlc09_ritual_tmb_ptra	[[col:dark_g]]A unique Necrotect [[img:icon_hero]][[/img]]Hero, capable of colonising ruins at level 3, will be summoned to your faction's capital.[[/col]]	true
+ritual_additional_ui_explanation_texts_onscreen_text_wh2_dlc11_ritual_cst_bountiful_treasure	[[col:dark_g]][[img:icon_effect_treasury]][[/img]]Treasury: +500 for every building owned from the "Buried Treasure" chain.[[/col]]	true
+ritual_additional_ui_explanation_texts_onscreen_text_wh2_main_ritual_skv_pestilence	[[col:dark_g]]A unique Plague Priest [[img:icon_hero]][[/img]]Hero, capable of spreading a deadly [[img:icon_plague]][[/img]]plague to a foreign settlement, will be summoned at your faction's capital.[[/col]]	true
+ritual_additional_ui_explanation_texts_onscreen_text_wh2_dlc11_ritual_cst_queens_cannon	[[col:dark_g]]A Queen Bess unit will become available for recruitment into any army.[[/col]]	true
+ritual_additional_ui_explanation_texts_onscreen_text_wh2_main_ritual_def_mathlann	[[col:dark_g]]A Black Ark will become available to be recruited from any port settlement.[[/col]]	true
+ritual_additional_ui_explanation_texts_onscreen_text_wh2_main_ritual_lzd_awakening	[[col:dark_g]]A Slann Mage-Priest will become available to be recruited from any settlement.[[/col]]	true
+ritual_additional_ui_explanation_texts_onscreen_text_wh2_main_ritual_hef_vaul	[[col:dark_g]]A dilemma will offer a powerful magical item.[[/col]]	true
+ritual_additional_ui_explanation_texts_onscreen_text_wh2_dlc10_ritual_hef_morai_heg	[[col:dark_g]]A unique [[img:icon_hero]][[/img]]Hero, capable of assassinating without fail, will be summoned to your faction's capital.[[/col]]	true
+ritual_additional_ui_explanation_texts_onscreen_text_wh2_main_ritual_skv_doooom	[[col:dark_g]]A unique Warlock Engineer [[img:icon_hero]][[/img]]Hero, capable of causing a catastrophic earthquake in a foreign settlement, will be summoned at your faction's capital.[[/col]]	true
+ritual_additional_ui_explanation_texts_onscreen_text_wh2_dlc09_ritual_tmb_tahoth	[[col:dark_g]]A Casket of Souls unit will become available for recruitment into any army.[[/col]]	true
+ritual_additional_ui_explanation_texts_onscreen_text_wh2_main_ritual_lzd_primeval_glory	[[col:dark_g]]An army of Feral Carnosaur, Stegadon and Bastiladon units will spawn at your faction's capital.[[/col]]	true

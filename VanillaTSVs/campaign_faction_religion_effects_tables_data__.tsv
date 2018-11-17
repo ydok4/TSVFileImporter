@@ -1,0 +1,4 @@
+campaign_faction_religion_effects_tables	0
+effects_bundle	id	percentage_upper_threshold	religion
+wh_main_effect_religion_undeath_public_order	2	100	wh_main_religion_undeath
+wh2_main_effect_religion_untainted_public_order_skaventrait	62376295	100	wh2_main_religion_skaven

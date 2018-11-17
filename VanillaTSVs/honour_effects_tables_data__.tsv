@@ -1,0 +1,13 @@
+honour_effects_tables	0
+applies_to_ai	factor	key	value
+true	acquired_vassal	acquired_vassal_clan	1
+false	bankruptcy	bankruptcy	-1
+true	becoming_christian	becoming_christian	-2
+true	being_christian	being_christian	-1
+true	battles	crushing_defeat	-2
+false	dishonouring_alliance	dishonouring_alliance	-1
+true	battles	heroic_victory	1
+false	looting_city	looting_city	-1
+false	bankruptcy	not_bankrupt	1
+true	being_christian	renouncing_christianity	1
+false	threatening_with_empty_words	threatening_with_empty_words	-1

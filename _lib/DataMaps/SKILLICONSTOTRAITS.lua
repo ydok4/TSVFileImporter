@@ -17,5 +17,6 @@ SKILLICONSTOTRAITS = {
     skaven = "skaven",
     tomb_kings = "tomb_kings",
     vampire_counts = "vampire_counts",
+    vampire_coast = "vampire_coast",
     wood_elves = "wood_elf",
 }

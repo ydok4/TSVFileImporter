@@ -263,7 +263,7 @@ RebelLeadersTransforms = {
                                         },
                                     },--]]
                                     Type = "DATAMAPCULTURESTRINGS",
-                                    Value = "REPLACEWITHOPERATION1",
+                                    Value = "KEYISINOPERATION1",
                                 },
                                 {
                                     Type = "APPEND",

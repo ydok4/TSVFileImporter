@@ -1,0 +1,5 @@
+audio_battle_environment_weathers_tables	0
+disables_environment	name	wind_intensity_modifier
+true	rain_heavy	50
+false	rain_light	10
+false	rain_medium	25

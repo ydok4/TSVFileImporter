@@ -1,0 +1,4 @@
+frontend_faction_groups_tables	0
+icon_path	key	sort_order
+ui/flags/faction_group_destruction/mon_64.png	destruction	1
+ui/flags/faction_group_order/mon_64.png	order	0

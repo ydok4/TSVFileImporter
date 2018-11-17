@@ -1,0 +1,87 @@
+agent_culture_details_tables	9
+agent	culture	associated_unit	key	season	level	agent_recruited_movie	gender	icon	small_icon	recruitable_in_ui
+dignitary	wh2_dlc11_cst_vampire_coast	wh2_dlc11_cst_cha_vampire_fleet_captain_0	1122969389		0		f		ui/campaign ui/agents/wh_main_wizard.png	true
+minister	wh2_main_rogue		114291892		0				ui/campaign ui/agents/wh_main_emp_champion.png	true
+general	wh2_dlc11_cst_vampire_coast	wh2_dlc11_cst_cha_vampire_fleet_admiral_0	1159840472		0				ui/campaign ui/agents/paladin.png	true
+wizard	wh2_dlc09_tmb_tomb_kings	wh2_dlc09_tmb_cha_liche_priest_death_0	1162984081		0		m		ui/campaign ui/agents/wh_main_wizard.png	true
+champion	wh2_dlc09_tmb_tomb_kings	wh2_dlc09_tmb_cha_tomb_prince_0	1173480852		0		m		ui/campaign ui/agents/wh2_dlc09_tmb_champion.png	true
+dignitary	wh_main_chs_chaos	wh_dlc08_nor_cha_fimir_balefiend_fire_0	1187083556		0		m	UI/units/icons/wh_dlc08_nor_fimir_balefiend.png	ui/campaign ui/agents/wh_dlc08_nor_fimir.png	true
+wizard	wh2_main_rogue	wh_main_emp_cha_wizard_fire_0	1299086447		0		m	UI/units/icons/wh_main_emp_wizard_fire.png	ui/campaign ui/agents/wh_main_wizard.png	true
+champion	wh2_dlc11_cst_vampire_coast	wh2_dlc11_cst_cha_mourngul_haunter	1346142836		0		m		ui/campaign ui/agents/wh2_dlc11_cst_champion.png	true
+champion	wh2_main_rogue	wh_main_emp_cha_captain_0	1505540076		0		m	UI/units/icons/wh_main_emp_captain.png	ui/campaign ui/agents/wh_main_emp_champion.png	true
+colonel	wh2_dlc11_cst_vampire_coast		169764009		0				ui/campaign ui/agents/paladin.png	true
+engineer	wh2_dlc09_tmb_tomb_kings	wh2_dlc09_tmb_cha_necrotect_0	1803883940		0		m		ui/campaign ui/agents/wh2_dlc09_tmb_engineer.png	true
+general	wh2_main_rogue	wh_main_emp_cha_general_0	1863471942		0				ui/campaign ui/agents/wh_main_emp_champion.png	true
+engineer	wh2_dlc11_cst_vampire_coast	wh2_dlc11_cst_cha_gunnery_wight_0	1928090079		0		m		ui/campaign ui/agents/wh2_dlc11_cst_engineer.png	true
+dignitary	wh2_main_hef_high_elves	wh2_dlc10_hef_cha_handmaiden_0	2001275565		0		f		ui/campaign ui/agents/wh2_dlc10_hef_handmaiden.png	true
+spy	wh2_dlc11_cst_vampire_coast	wh2_dlc11_cst_cha_damned_paladin_0	2019735024		0				ui/campaign ui/agents/paladin.png	false
+colonel	wh2_main_rogue		2039089441		0				ui/campaign ui/agents/wh_main_emp_champion.png	true
+colonel	wh_main_emp_empire		225		0				ui/campaign ui/agents/wh_main_emp_champion.png	true
+colonel	wh_main_dwf_dwarfs		270		0				ui/campaign ui/agents/wh_main_emp_champion.png	true
+minister	wh_main_emp_empire		287		0				ui/campaign ui/agents/wh_main_emp_champion.png	true
+colonel	wh_main_brt_bretonnia		336		0				ui/campaign ui/agents/wh_main_emp_champion.png	true
+colonel	wh_main_chs_chaos		341		0				ui/campaign ui/agents/wh_main_emp_champion.png	true
+champion	wh_main_emp_empire	wh_main_emp_cha_captain_0	376		0		m	UI/units/icons/wh_main_emp_captain.png	ui/campaign ui/agents/wh_main_emp_champion.png	true
+spy	wh_main_emp_empire	wh_main_emp_cha_witch_hunter	377		0		m	UI/units/icons/wh_main_emp_witch_hunter.png	ui/campaign ui/agents/wh_main_emp_spy.png	true
+dignitary	wh_main_emp_empire	wh_main_emp_cha_warrior_priest_0	382		0		m	UI/units/icons/wh_main_emp_warrior_priest.png	ui/campaign ui/agents/wh_main_emp_dignitary.png	true
+spy	wh_main_grn_greenskins	wh_main_grn_cha_goblin_big_boss_0	391		0		m	UI/units/icons/wh_main_grn_goblin_boss.png	ui/campaign ui/agents/wh_main_grn_spy.png	true
+champion	wh_main_vmp_vampire_counts	wh_main_vmp_cha_wight_king_0	393		0		m	UI/units/icons/wh_main_vmp_wight_king.png	ui/campaign ui/agents/wh_main_vmp_champion.png	true
+spy	wh_main_vmp_vampire_counts	wh_main_vmp_cha_banshee	399		0		f	UI/units/icons/wh_main_vmp_banshee.png	ui/campaign ui/agents/wh_main_vmp_spy.png	true
+dignitary	wh_main_vmp_vampire_counts	wh_main_vmp_cha_vampire_0	406		0		f	UI/units/icons/wh_main_vmp_vampire.png	ui/campaign ui/agents/wh_main_lore_death.png	true
+general	wh_main_emp_empire	wh_main_emp_cha_general_0	407		0				ui/campaign ui/agents/wh_main_emp_champion.png	true
+general	wh_main_brt_bretonnia	wh_main_brt_cha_lord_0	412		0			UI/units/icons/wh_main_brt_lord.png	ui/campaign ui/agents/wh_main_emp_champion.png	true
+general	wh_main_dwf_dwarfs	wh_main_dwf_cha_lord_0	418		0			UI/units/icons/wh_main_dwf_lord.png	ui/campaign ui/agents/wh_main_emp_champion.png	true
+general	wh_main_grn_greenskins	wh_main_grn_cha_orc_warboss_0	428		0			UI/units/icons/wh_main_grn_orc_war_boss.png	ui/campaign ui/agents/wh_main_emp_champion.png	true
+general	wh_main_chs_chaos	wh_main_chs_cha_chaos_lord_0	435		0			UI/units/icons/wh_main_chs_lord.png	ui/campaign ui/agents/wh_main_emp_champion.png	true
+general	wh_main_vmp_vampire_counts	wh_main_vmp_cha_vampire_lord_0	444		0			UI/units/icons/wh_main_vmp_vampire_lord.png	ui/campaign ui/agents/wh_main_emp_champion.png	true
+colonel	wh_main_grn_greenskins		468		0				ui/campaign ui/agents/wh_main_emp_champion.png	true
+colonel	wh_main_vmp_vampire_counts		476		0				ui/campaign ui/agents/wh_main_emp_champion.png	true
+spy	wh2_main_hef_high_elves	wh2_dlc10_hef_cha_shadow_walker	478822470		0		m		ui/campaign ui/agents/wh2_dlc10_hef_hand_of_the_shadowking.png	false
+champion	wh_main_dwf_dwarfs	wh_main_dwf_cha_thane	484		0		m	UI/units/icons/wh_main_dwf_thane.png	ui/campaign ui/agents/wh_main_dwf_champion.png	true
+champion	wh_main_brt_bretonnia	wh_main_brt_cha_paladin_0	489		0		m	UI/units/icons/wh_main_brt_paladin.png	ui/campaign ui/agents/wh_main_brt_champion.png	true
+champion	wh_main_chs_chaos	wh_main_chs_cha_exalted_hero_0	494		0		m	UI/units/icons/wh_main_chs_exalted_hero.png	ui/campaign ui/agents/wh_main_chs_champion.png	true
+runesmith	wh_main_dwf_dwarfs	wh_main_dwf_cha_rune_smith_0	497		0		m	UI/units/icons/wh_main_dwf_rune_smith.png	ui/campaign ui/agents/wh_main_dwf_runesmith.png	true
+engineer	wh_main_dwf_dwarfs	wh_main_dwf_cha_master_engineer_0	506		0		m	UI/units/icons/wh_main_dwf_master_engineer.png	ui/campaign ui/agents/wh_main_dwf_engineer.png	true
+wizard	wh_main_emp_empire	wh_main_emp_cha_wizard_fire_0	514		0		m	UI/units/icons/wh_main_emp_wizard_fire.png	ui/campaign ui/agents/wh_main_wizard.png	true
+wizard	wh_main_brt_bretonnia	wh_main_brt_cha_damsel_0	521		0		f	UI/units/icons/wh_main_brt_damsel.png	ui/campaign ui/agents/wh_main_wizard.png	true
+wizard	wh_main_chs_chaos	wh_main_chs_cha_chaos_sorcerer_death_0	533		0		m	UI/units/icons/wh_main_chs_sorcerer.png	ui/campaign ui/agents/wh_main_wizard.png	true
+wizard	wh_main_grn_greenskins	wh_main_grn_cha_orc_shaman_0	539		0		m	UI/units/icons/wh_main_grn_orc_shaman.png	ui/campaign ui/agents/wh_main_wizard.png	true
+wizard	wh_main_vmp_vampire_counts	wh_main_vmp_cha_necromancer_0	545		0		m	UI/units/icons/wh_main_vmp_necromancer.png	ui/campaign ui/agents/wh_main_wizard.png	true
+wizard	wh_dlc03_bst_beastmen	wh_dlc03_bst_cha_bray_shaman_beasts_0	552		0		m	UI/units/icons/wh_dlc03_bst_bray_shaman_beasts.png	ui/campaign ui/agents/wh_main_wizard.png	true
+champion	wh_dlc03_bst_beastmen	wh_dlc03_bst_cha_gorebull_0	568		0		m	UI/units/icons/wh_dlc03_bst_gorebull.png	ui/campaign ui/agents/wh_dlc03_bst_champion.png	true
+colonel	wh_dlc03_bst_beastmen		574		0				ui/campaign ui/agents/wh_main_emp_champion.png	true
+general	wh_dlc05_wef_wood_elves	wh_dlc05_wef_cha_glade_lord_0	575		0		m		ui/campaign ui/agents/paladin.png	true
+colonel	wh_dlc05_wef_wood_elves		583		0		m		ui/campaign ui/agents/paladin.png	true
+minister	wh_dlc05_wef_wood_elves		591		0		m		ui/campaign ui/agents/paladin.png	true
+wizard	wh_dlc05_wef_wood_elves	wh_dlc05_wef_cha_spellsinger_beasts_0	594		0		f		ui/campaign ui/agents/wh_main_wizard.png	true
+spy	wh_dlc05_wef_wood_elves	wh_dlc05_wef_cha_waystalker_0	595		0		m		ui/campaign ui/agents/wh_dlc05_wef_spy.png	true
+general	wh_dlc03_bst_beastmen	wh_dlc03_bst_cha_beastlord_0	605		0		m		ui/campaign ui/agents/paladin.png	true
+dignitary	wh2_main_def_dark_elves	wh2_main_def_cha_death_hag_0	610		0		f		ui/campaign ui/agents/wh2_main_def_dignitary.png	true
+spy	wh2_main_def_dark_elves	wh2_main_def_cha_khainite_assassin_0	619		0		m		ui/campaign ui/agents/wh2_main_def_spy.png	true
+general	wh2_main_def_dark_elves	wh2_main_def_cha_dreadlord_0	637		0				ui/campaign ui/agents/paladin.png	true
+wizard	wh2_main_def_dark_elves	wh2_main_def_cha_sorceress_dark_0	647		0		f		ui/campaign ui/agents/wh_main_wizard.png	true
+colonel	wh2_main_def_dark_elves		657		0				ui/campaign ui/agents/paladin.png	true
+minister	wh2_main_def_dark_elves		663		0				ui/campaign ui/agents/paladin.png	true
+colonel	wh2_main_hef_high_elves		676		0				ui/campaign ui/agents/wh2_main_hef_champion.png	true
+minister	wh2_main_hef_high_elves		677		0				ui/campaign ui/agents/wh2_main_hef_champion.png	true
+runesmith	wh2_main_hef_high_elves	wh2_main_hef_cha_loremaster_of_hoeth_0	678		0		m		ui/campaign ui/agents/wh2_main_hef_runesmith.png	true
+general	wh2_main_hef_high_elves	wh2_main_hef_cha_prince_0	694		0				ui/campaign ui/agents/wh2_main_hef_champion.png	true
+wizard	wh2_main_hef_high_elves	wh2_main_hef_cha_mage_high_0	703		0		f		ui/campaign ui/agents/wh_main_wizard.png	true
+general	wh2_main_skv_skaven	wh2_main_skv_cha_warlord_0	704		0				ui/campaign ui/agents/paladin.png	true
+champion	wh_dlc05_wef_wood_elves	wh_dlc05_wef_cha_branchwraith_0	712		0		m		ui/campaign ui/agents/wh_dlc05_lore_shadow.png	true
+engineer	wh2_main_skv_skaven	wh2_main_skv_cha_warlock_engineer	720		0		m		ui/campaign ui/agents/wh2_main_lore_ruin.png	true
+wizard	wh2_main_skv_skaven	wh2_main_skv_cha_plague_priest_0	730		0		m		ui/campaign ui/agents/wh2_main_lore_plague.png	true
+colonel	wh2_main_skv_skaven		737		0				ui/campaign ui/agents/paladin.png	true
+minister	wh2_main_skv_skaven		738		0				ui/campaign ui/agents/paladin.png	true
+spy	wh2_main_lzd_lizardmen	wh2_main_lzd_cha_skink_chief_0	744		0		m		ui/campaign ui/agents/wh2_main_lzd_spy.png	true
+general	wh2_main_lzd_lizardmen	wh2_main_lzd_cha_slann_mage_priest_high_0	752		0				ui/campaign ui/agents/paladin.png	true
+wizard	wh2_main_lzd_lizardmen	wh2_main_lzd_cha_skink_priest_beasts_0	762		0		m		ui/campaign ui/agents/wh_main_wizard.png	true
+colonel	wh2_main_lzd_lizardmen		763		0				ui/campaign ui/agents/paladin.png	true
+minister	wh2_main_lzd_lizardmen		764		0				ui/campaign ui/agents/paladin.png	true
+champion	wh2_main_lzd_lizardmen	wh2_main_lzd_cha_saurus_scar_veteran_0	772		0		m		ui/campaign ui/agents/wh2_main_lzd_champion.png	true
+minister	wh2_dlc11_cst_vampire_coast		772316290		0				ui/campaign ui/agents/paladin.png	true
+champion	wh2_main_hef_high_elves	wh2_main_hef_cha_noble_0	781		0		m		ui/campaign ui/agents/wh2_main_hef_champion.png	true
+spy	wh2_main_skv_skaven	wh2_main_skv_cha_assassin	791		0		m		ui/campaign ui/agents/wh2_main_skv_spy.png	true
+spy	wh2_main_rogue	wh_main_emp_cha_witch_hunter	865400248		0		m	UI/units/icons/wh_main_emp_witch_hunter.png	ui/campaign ui/agents/wh_main_emp_spy.png	true
+general	wh2_dlc09_tmb_tomb_kings	wh2_dlc09_tmb_cha_tomb_king_0	898165434		0		m		ui/campaign ui/agents/paladin.png	true
+dignitary	wh2_main_rogue	wh_main_emp_cha_warrior_priest_0	995640602		0		m	UI/units/icons/wh_main_emp_warrior_priest.png	ui/campaign ui/agents/wh_main_emp_dignitary.png	true

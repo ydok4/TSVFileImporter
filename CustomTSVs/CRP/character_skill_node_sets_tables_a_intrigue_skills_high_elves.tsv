@@ -1,0 +1,8 @@
+character_skill_node_sets_tables	2
+agent_key	campaign_key	faction_key	key	subculture	for_army	for_navy	agent_subtype_key
+general			wh2_main_skill_node_set_hef_prince_mid		false	false	wh2_main_hef_prince_mid
+general			wh2_main_skill_node_set_hef_princess_mid		false	false	wh2_main_hef_princess_mid
+general			wh2_main_skill_node_set_hef_prince_high		false	false	wh2_main_hef_prince_high
+general			wh2_main_skill_node_set_hef_princess_high		false	false	wh2_main_hef_princess_high
+general			wh2_main_skill_node_set_hef_prince_low		false	false	wh2_main_hef_prince
+general			wh2_main_skill_node_set_hef_princess_low		false	false	wh2_main_hef_princess

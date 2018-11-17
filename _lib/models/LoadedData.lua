@@ -25,7 +25,9 @@ end
 
 function LoadedData:AddFiles()
     for key, filter in pairs(self.FilterData) do
-        self:LoadFile(key, filter);
+        if not filter.ExportAsLua then
+            self:LoadFile(key, filter);
+        end
     end
 end
 
@@ -34,7 +36,7 @@ function LoadedData:LoadFile(key, filter)
     if filter.Directory ~= nil then
         file = assert(io.open(filter.Directory.."/"..filter.FileName, "r"));
     else
-        file = assert(io.open(filter.FileName, "r"));
+        file = assert(io.open("VanillaTSVs/"..filter.FileName, "r"));
     end
     local fileExtension = GetFileExtension(filter.FileName);
     self.Files[key] = {};
@@ -87,19 +89,27 @@ function LoadedData:WriteFiles()
             local outputFileName = RemoveFileExtension(filterData.FileName);
 
             local directoryPath = "";
-            if filterData.Directory ~= nil then
+            --[[if filterData.Directory ~= nil then
                 directoryPath = filterData.Directory.."/";
-            end
+            end--]]
             outputFileName = "out/"..directoryPath..outputFileName.."_new."..fileType;
 
             local iostream = assert(io.open(outputFileName, "w+"));
             if fileType == "tsv" then
                 local headerRow = self.Files[key][1];
-                for headerKey, headerColumn in pairs(headerRow) do
-                    if headerKey == #headerRow then
+                for headerIndex, headerColumn in pairs(headerRow) do
+                    if headerIndex == #headerRow then
                         iostream:write(headerColumn.."\n");
                     else
                         iostream:write(headerColumn.."\t");
+                    end
+                end
+                local columnKeyRow = self.Files[key][2];
+                for columnIndex, columnKeyColumn in pairs(columnKeyRow) do
+                    if columnIndex == #columnKeyRow then
+                        iostream:write(columnKeyColumn.."\n");
+                    else
+                        iostream:write(columnKeyColumn.."\t");
                     end
                 end
                 for rowKey, row in pairs(file) do
@@ -127,7 +137,7 @@ function LoadedData:WriteFiles()
                 local reversedTable = ReversePairs(self.Files[key][1]);
                 for index, row in pairs(reversedTable) do
                     if string.match(row, "<?xml") then
-                        
+
                     else
                         local extractedTag = string.match(row, "<(.*)");
                         extractedTag = string.match(extractedTag, "(.*) ");
@@ -165,7 +175,7 @@ function LoadedData:WriteFiles()
                         for columnIndex, column in pairs(row) do
                             if columnIndex ~= filterData.LuaData.KeyColumn then
                                 if filterData.LuaData.RequiredColumns == nil or Contains(filterData.LuaData.RequiredColumns, tostring(columnIndex)) then
-                                    if filterData.LuaData.SingleValue ~= nil and filterData.LuaData.SingleValue[columnIndex] == nil and #duplicateKeys > 0 and filterData.LuaData.ColumnNames ~= nil then
+                                    if (filterData.LuaData.SingleValue == nil or (filterData.LuaData.SingleValue and filterData.LuaData.SingleValue[columnIndex] == nil)) and #duplicateKeys > 0 and filterData.LuaData.ColumnNames ~= nil then
                                         iostream:write("\t\t"..filterData.LuaData.ColumnNames[columnIndex].." = {\n ");
                                         for duplicateKeyIndex, duplicateRow in pairs(duplicateKeys) do
                                             if duplicateKeyIndex == 1 then
@@ -221,16 +231,34 @@ function LoadedData:WriteFiles()
 end
 
 function LoadedData:RowMatchesFilters(fields, filters)
+    if #filters == 0 then
+        return true;
+    end
+
+    local isRowValid = false;
     for fieldIndex, field in pairs(fields) do
-        if self:CheckIfFieldIsValid(fieldIndex, field, filters) == false then
+        local filtersForColumn = self:GetFiltersForColumn(fieldIndex, filters);
+        local isFieldValid = self:CheckIfFieldIsValid(field, filtersForColumn);
+        local isFieldConditionOr = false;
+        if filtersForColumn then
+            for filterIndex, filterData in pairs(filtersForColumn) do
+                if filterData.RowOperator == "OR" then
+                    isFieldConditionOr = true;
+                end
+            end
+        end
+        if isFieldConditionOr == false and isFieldValid == false then
             return false;
+        elseif isFieldConditionOr == true and isFieldValid == true then
+            isRowValid = true;
+        elseif isFieldConditionOr == false and isFieldValid == true then
+            isRowValid = true;
         end
     end
-    return true;
+    return isRowValid;
 end
 
-function LoadedData:CheckIfFieldIsValid(fieldIndex, field, filters)
-    local filtersForColumn = self:GetFiltersForColumn(fieldIndex, filters);
+function LoadedData:CheckIfFieldIsValid(field, filtersForColumn)
     -- If there aren't any filters then there must be no way this field
     -- is invalid
     if filtersForColumn == nil then
@@ -269,6 +297,12 @@ end
 function LoadedData:ApplyFilterToField(filter, fieldValue)
     if filter.Type == "MATCHVALUE" then
         return filter.Value == fieldValue;
+    elseif string.match(filter.Type, "ISVALUESTEP") then
+        local stepNumber = string.match(filter.Type, "ISVALUE(.*)");
+        if (fieldValue == self.PreviousRowsInOperation[stepNumber][tonumber(filter.Value)]) then
+            return true;
+        end
+        return false;
     elseif string.match(filter.Type, "CONTAINSVALUESTEP") then
         local stepNumber = string.match(filter.Type, "CONTAINSVALUE(.*)");
         if string.match(fieldValue, self.PreviousRowsInOperation[stepNumber][tonumber(filter.Value)]) then
@@ -277,9 +311,19 @@ function LoadedData:ApplyFilterToField(filter, fieldValue)
         return false;
     elseif string.match(filter.Type, "CONTAINSTRANSFORMEDVALUESTEP") then
         local stepNumber = string.match(filter.Type, "CONTAINSTRANSFORMEDVALUE(.*)");
-        local stepValue = self.PreviousTransformedRowsInOperation[stepNumber][tonumber(filter.Value)];
+        local stepColumn = -1;
+        local concatString = "";
+        if string.match(filter.Value, "+") then
+            stepColumn = tonumber(string.match(filter.Value, "(.*)+"));
+            concatString = string.match(filter.Value, "+(.*)");
+        else
+            stepColumn = tonumber(filter.Value);
+        end
+        local stepValue = self.PreviousTransformedRowsInOperation[stepNumber][stepColumn];
         if stepValue ~= '' and string.match(fieldValue, stepValue) then
-            return true;
+            if concatString == "" or string.match(fieldValue, stepValue..concatString) then
+                return true;
+            end
         end
         return false;
     elseif filter.Type == "CONTAINSVALUE" then
@@ -337,6 +381,12 @@ function LoadedData:TransformFile(file, filter, transformStep)
     local fileTransformData = self.TransformData[self.CurrentActiveFile];
     local transformStepData = fileTransformData[stepKey];
     local firstRow = false;
+
+    if filter.ExportAsLua then
+        file = {};
+        file[#file + 1] = {"dummy", "data"};
+        file[#file + 1] = {"dummy", "data"};
+    end
 
     for rowIndex, row in pairs(file) do
         if firstRow == false then
@@ -501,6 +551,12 @@ function LoadedData:ApplyTransformToColumn(column, columnTransform)
             if existingData ~= nil then
                 return existingData[tonumber(columnTransform.Value)];
             end
+        elseif columnTransform.Type == "REPLACEWITHSUBOPERATION" then
+            local transformedValue = "";
+            for xmlSubOperationIndex, xmlSubOperation in pairs(columnTransform.SubOperations) do
+                transformedValue = self:ApplyTransformToColumn(transformedValue, xmlSubOperation);
+            end
+            return transformedValue;
         elseif string.match(columnTransform.Type, "REPLACEWITH") then
             local replaceValue = string.match(columnTransform.Type, "REPLACEWITH(.*)");
             column = column:gsub(replaceValue, columnTransform.Value);
@@ -545,25 +601,31 @@ function LoadedData:ApplyTransformToColumn(column, columnTransform)
             local mapKey = string.match(columnTransform.Type, "DATAMAP(.*)");
             local map = _G[mapKey];
             local checkValue = self:ApplyTransformToColumn(column, columnTransform.Value);
-            for key, value in pairs(map) do
-                -- statements
-                if string.match(checkValue, key) then
-                    return value;
+            if string.match(columnTransform.Value, "KEYISINOPERATION") then
+                for key, value in pairs(map) do
+                    -- statements
+                    if string.match(checkValue, key) then
+                        return value;
+                    end
+                end
+            else
+                for key, value in pairs(map) do
+                    -- statements
+                    if checkValue == key then
+                        return value;
+                    end
                 end
             end
             return column;
-        elseif columnTransform.Type == "REPLACEWITHSUBOPERATION" then
-            local transformedValue = "";
-            for xmlSubOperationIndex, xmlSubOperation in pairs(columnTransform.SubOperations) do
-                transformedValue = self:ApplyTransformToColumn(transformedValue, xmlSubOperation);
-            end
-            return transformedValue;
         end
     else
         if columnTransform == "SELECTEXISTING" then
             return column;
         elseif string.match(columnTransform, "REPLACEWITHOPERATION") then
             local operationNumber = string.match(columnTransform, "REPLACEWITH(.*)");
+            return self.PreviousTransformedXMLOperations[operationNumber];
+        elseif string.match(columnTransform, "KEYISINOPERATION") then
+            local operationNumber = string.match(columnTransform, "KEYISIN(.*)");
             return self.PreviousTransformedXMLOperations[operationNumber];
         elseif columnTransform == "SELECTNONE" then
             return "";

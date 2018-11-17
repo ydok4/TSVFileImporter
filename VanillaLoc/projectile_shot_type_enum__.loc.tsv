@@ -1,0 +1,32 @@
+Loc PackedFile
+Key	Text	Tooltip
+projectile_shot_type_enum_onscreen_name_oil	Burning Oil	true
+projectile_shot_type_enum_tooltip_text_oil	Some burning oil...	true
+projectile_shot_type_enum_onscreen_name_artillery_canister	Multi-Shot Round	true
+projectile_shot_type_enum_tooltip_text_small_arm_whistling	Causes less damage, but has a fearsome sound. Adversely affects the morale, melee attack & firing rate of targets & any unit they pass over.	true
+projectile_shot_type_enum_onscreen_name_small_arm_extended	Extended Shot	true
+projectile_shot_type_enum_onscreen_name_small_arm_whistling	Whistling Shot	true
+projectile_shot_type_enum_onscreen_name_explosives	Explosive Pot	true
+projectile_shot_type_enum_tooltip_text_artillery_flammable	Does more damage, but is less accurate and slower. Can cause buildings to catch fire.	true
+projectile_shot_type_enum_onscreen_name_artillery_flammable	Flammable Round	true
+projectile_shot_type_enum_onscreen_name_artillery_explosive	Explosive Round	true
+projectile_shot_type_enum_onscreen_name_artillery_whistling	Whistling Round	true
+projectile_shot_type_enum_tooltip_text_torch	A torch...	true
+projectile_shot_type_enum_onscreen_name_torch	Torch	true
+projectile_shot_type_enum_tooltip_text_artillery_explosive	Does more damage than Standard Round, but is less accurate. Most effective against infantry.	true
+projectile_shot_type_enum_tooltip_text_artillery_whistling	Causes less damage, but has a fearsome sound. Adversely affects the morale, melee attack & firing rate of targets & any unit they pass over.	true
+projectile_shot_type_enum_tooltip_text_artillery_poison	Reduces enemy's melee attack and defence & causes fatigue. Also reduces firing range.	true
+projectile_shot_type_enum_onscreen_name_small_arm_default	Standard Shot	true
+projectile_shot_type_enum_tooltip_text_small_arm_default	This is the standard shot type for this unit.	true
+projectile_shot_type_enum_onscreen_name_artillery_default	Standard Round	true
+projectile_shot_type_enum_tooltip_text_artillery_default	This is the standard shot type for this unit.	true
+projectile_shot_type_enum_onscreen_name_small_arm_poison	Poison Shot	true
+projectile_shot_type_enum_onscreen_name_small_arm_flaming	Flaming Shot	true
+projectile_shot_type_enum_tooltip_text_small_arm_flaming	Does more damage, but is less accurate and slower. Can cause buildings to catch fire.	true
+projectile_shot_type_enum_tooltip_text_small_arm_poison	Reduces enemy melee attack and defence, and fatigues the target unit. Does less damage	true
+projectile_shot_type_enum_onscreen_name_artillery_poison	Poison Round	true
+projectile_shot_type_enum_tooltip_text_explosives	An explosive pot...	true
+projectile_shot_type_enum_tooltip_text_small_arm_extended	Has greater range but causes less damage.	true
+projectile_shot_type_enum_tooltip_text_artillery_canister	Shooting many smaller projectiles instead of one large one is more effective when fighting multiple small targets, such as infantry units.	true
+projectile_shot_type_enum_onscreen_name_small_arm_heavy	Heavy Shot	true
+projectile_shot_type_enum_tooltip_text_small_arm_heavy	Causes greater damage but has shorter range & reduced accuracy.	true

@@ -1,0 +1,19 @@
+Loc PackedFile
+Key	Text	Tooltip
+battle_types_onscreen_siege	Siege Battle	true
+battle_types_onscreen_limes	Limes	true
+battle_types_onscreen_naval	Naval Battle	true
+battle_types_onscreen_ambush	Ambush Battle	true
+battle_types_onscreen_unfortified_settlement	Minor Settlement Battle	true
+battle_types_onscreen_coastal_battle	Coastal Battle	true
+battle_types_onscreen_free_for_all	Free-For-All Battle	true
+battle_types_onscreen_river_crossing_battle	Chokepoint Battle	true
+battle_types_onscreen_capture_point	Capture Point Battle	true
+battle_types_onscreen_underground_intercept	Subterranean Battle	true
+battle_types_onscreen_classic	Land Battle	true
+battle_types_onscreen_campaign_battle	Campaign Battle	true
+battle_types_onscreen_Tutorial	Tutorial	true
+battle_types_onscreen_naval_siege	Port Assault	true
+battle_types_onscreen_unfortified_port	Unfortified Port Assault	true
+battle_types_onscreen_historic	Scenario Battle	true
+battle_types_onscreen_napoleon_historic	text_rejected	true

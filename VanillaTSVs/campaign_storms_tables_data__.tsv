@@ -1,0 +1,10 @@
+campaign_storms_tables	5
+attrition	strength	key	tiling_composite_scene	composite_scene	type
+mist	1	fog	storm_base	cst_fog	cst_fog_storm
+storm_sandstorm	1	sandstorm	storm_base	storm_sandstorm	land_storm
+sea_monster_storm	1	vampire_coast_sea_monster_storm	storm_base	storm_sea_monster	vampire_coast_sea_monster_storm
+storm_level_1	1	severe_gale	storm_base	storm_level_1	wandering_decaying_sea_storm
+storm_level_2	2	storm	storm_base	storm_level_2	wandering_decaying_sea_storm
+storm_level_3	3	severe_storm	storm_base	storm_level_3	wandering_decaying_sea_storm
+storm_level_4	4	hurricane	storm_base	storm_level_4	wandering_decaying_sea_storm
+storm_level_5	5	tempest	storm_base	storm_level_5	wandering_decaying_sea_storm

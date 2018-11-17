@@ -1,0 +1,3 @@
+plagues_tables	0
+grade	infectivity	lifetime	minimum_squalor	name	plague_type
+1	1	5	0	wh2_main_plague_skaven	SKAVEN

@@ -18,7 +18,7 @@ TraitTransforms = {
             -- in other STEPS
             Transforms = {
                 {
-                    Type = "NEWROW", 
+                    Type = "NEWROW",
                     Columns = {
                     },
                 },
@@ -71,7 +71,7 @@ TraitTransforms = {
             -- in other STEPS
             Transforms = {
                 {
-                    Type = "NEWROW", 
+                    Type = "NEWROW",
                     Columns = {
                         {
                             -- Key
@@ -213,7 +213,7 @@ TraitTransforms = {
             -- in other STEPS
             Transforms = {
                 {
-                    Type = "NEWROW", 
+                    Type = "NEWROW",
                     Columns = {
                     },
                 },
@@ -237,7 +237,7 @@ TraitTransforms = {
             -- in other STEPS
             Transforms = {
                 {
-                    Type = "NEWROW", 
+                    Type = "NEWROW",
                     Columns = {
                         {
                             -- Trait level key

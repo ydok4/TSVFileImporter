@@ -1,0 +1,4 @@
+ritual_payload_spawn_storms_tables	1
+max_turns_duration	strength	payload	region	type
+5	1	wh2_dlc09_ritual_tmb_khsar		land_storm
+5	1	wh2_dlc11_ritual_cst_sea_mist		cst_fog_storm

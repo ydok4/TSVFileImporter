@@ -1,0 +1,34 @@
+Loc PackedFile
+Key	Text	Tooltip
+lab_settings_localised_tooltip_entity_scale	Changes the scale of single entity units. Does not apply to entities mounted on vehicles.	true
+lab_settings_localised_name_ability_radius	Ability radius	true
+lab_settings_localised_tooltip_impact	Increase the force of impacts and detonations to send entities flying further away.	true
+lab_settings_localised_name_ability_cooldown	Ability recharge reduction	true
+lab_settings_localised_tooltip_reload_time	Reduce reload times to increase ranged unit damage per second.	true
+lab_settings_localised_tooltip_ability_radius	Increase the effect radius of abilities.	true
+lab_settings_localised_name_impact	Impact Force	true
+lab_settings_localised_tooltip_morale	Increase unit base leadership to make units less likely to rout.	true
+lab_settings_localised_tooltip_projectile_penetration	Increase the distance that a projectile can penetrate entities.	true
+lab_settings_localised_tooltip_damage	Modify the amount of damage caused to entities.	true
+lab_settings_localised_tooltip_vigour	Reduce the vigour cost of actions to keep units fresh for longer.	true
+lab_settings_localised_name_morale	Leadership	true
+lab_settings_localised_name_projectile_penetration	Projectile penetration	true
+lab_settings_localised_name_damage	Damage	true
+lab_settings_localised_name_vigour	Vigour cost reduction	true
+lab_settings_localised_name_charge_duration	Charge duration	true
+lab_settings_localised_tooltip_blood	Increase the amount of blood emitted by entities.	true
+lab_settings_localised_name_unit_size	Unit size	true
+lab_settings_localised_tooltip_winds_of_magic	Increase the availability of the Winds of Magic for spellcasting	true
+lab_settings_localised_name_winds_of_magic	Winds of Magic	true
+lab_settings_localised_name_gravity	Gravity	true
+lab_settings_localised_tooltip_unit_size	Increase unit size and single-entity health. Beware that large unit sizes can greatly reduce performance.	true
+lab_settings_localised_name_blood	Blood	true
+lab_settings_localised_tooltip_ability_cooldown	Reduces ability recharge times.	true
+lab_settings_localised_name_entity_scale	Entity scale	true
+lab_settings_localised_name_reload_time	Reload time	true
+lab_settings_localised_tooltip_charge_duration	Increase the duration it takes for charge bonus to fade out.	true
+lab_settings_localised_tooltip_ammunition	Increase unit ammunition.	true
+lab_settings_localised_name_explosions	Explosions	true
+lab_settings_localised_tooltip_gravity	Modify the effect of gravity on entities knocked flying.	true
+lab_settings_localised_tooltip_explosions	Increase size of explosions and Vortex spells.	true
+lab_settings_localised_name_ammunition	Ammunition	true

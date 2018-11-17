@@ -1,0 +1,10 @@
+audio_sphere_of_influences_tables	0
+group	is_reversed	key	max_camera_distance	max_influence	max_influence_distance	max_visual_attenuation	min_camera_distance	min_influence_distance	priority
+hero	false	hero_combat	25	0.1	40	1	10	20	0.1
+hero	false	hero_default	15	0.050000004	40	1	8	20	0.25
+combat	false	kharibdyss_scream	50	0.7	40	0.6	10	10	0.90000004
+combat	false	large_creature_combat	15	0.15	30	1	8	10	0.25
+explosion	false	large_explosion	50	0.15	20	0.6	30	10	0.7
+magic	false	magic_global_mute	250	1	550	1	50	150	1
+magic	false	magic_total_mute	500	1	1100	1	100	1000	1
+combat	false	matched_combat	80	0.5	25	0.8	60	15	0.35000002

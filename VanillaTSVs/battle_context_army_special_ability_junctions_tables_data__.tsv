@@ -1,0 +1,3 @@
+battle_context_army_special_ability_junctions_tables	0
+army_special_ability	battle_context	key
+wh2_main_army_abilities_vauls_hammer	fighting_battle_type_siege	wh2_main_fighting_battle_type_siege_vauls_hammer

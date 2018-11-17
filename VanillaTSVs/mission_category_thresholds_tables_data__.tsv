@@ -1,0 +1,6 @@
+mission_category_thresholds_tables	1
+category	effect_bundle	key	name	threshold_weight
+Grudges	wh_main_bundle_grudges_low	GRUDGES_1_THRESHOLD	[PH] Low	0
+Grudges	wh_main_bundle_grudges_medium	GRUDGES_2_THRESHOLD	[PH] Medium	10
+Grudges	wh_main_bundle_grudges_high	GRUDGES_3_THRESHOLD	[PH] High	20
+Grudges	wh_main_bundle_grudges_high	GRUDGES_4_THRESHOLD	[PH] Max	30

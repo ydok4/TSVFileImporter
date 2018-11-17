@@ -1,0 +1,6 @@
+Loc PackedFile
+Key	Text	Tooltip
+frontend_faction_groups_localised_name_order	Forces of Order	true
+frontend_faction_groups_localised_description_order	There are those whose very existence brings balance to and sheds light upon an otherwise grim, miserable, shadow-filled world.	true
+frontend_faction_groups_localised_name_destruction	Forces of Destruction	true
+frontend_faction_groups_localised_description_destruction	Those who revel in wanton destruction exalt ruin, desolation, and madness as virtues above all else and to the bitter, blood-spattered end.	true

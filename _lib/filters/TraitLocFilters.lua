@@ -17,6 +17,7 @@ TraitLocFilters = {
         },
     },
     character_skills__loc = {
+        Directory = "VanillaLoc",
         FileName = "character_skills__.loc.tsv",
         OutputFile = false,
         Filter = {
@@ -30,6 +31,7 @@ TraitLocFilters = {
         },
     },
     character_trait_levels__loc = {
+        Directory = "VanillaLoc",
         FileName = "character_trait_levels__.loc.tsv",
         OutputFile = true,
         Filter = {

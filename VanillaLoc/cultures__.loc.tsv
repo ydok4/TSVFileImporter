@@ -1,0 +1,19 @@
+Loc PackedFile
+Key	Text	Tooltip
+cultures_name_wh2_main_hef_high_elves	High Elves	true
+cultures_name_wh2_main_def_dark_elves	Dark Elves	true
+cultures_name_wh2_main_rogue	Rogue Armies	true
+cultures_name_wh_dlc05_wef_wood_elves	Wood Elves	true
+cultures_name_wh2_dlc09_tmb_tomb_kings	Tomb Kings	true
+cultures_name_wh_main_brt_bretonnia	Bretonnia	true
+cultures_name_wh2_main_lzd_lizardmen	Lizardmen	true
+cultures_name_wh_main_grn_greenskins	Greenskins	true
+cultures_name_wh_dlc03_bst_beastmen	Beastmen	true
+cultures_name_wh_main_dwf_dwarfs	Dwarfs	true
+cultures_name_wh_main_vmp_vampire_counts	Vampire Counts	true
+cultures_name_wh_dlc08_nor_norsca	Norsca	true
+cultures_name_wh2_main_skv_skaven	Skaven	true
+cultures_name_wh_main_emp_empire	Empire	true
+cultures_name_wh2_dlc11_cst_vampire_coast	Vampire Coast	true
+cultures_name_wh_main_chs_chaos	Chaos	true
+cultures_name_*	%PLACEHOLDER%	true

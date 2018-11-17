@@ -1,0 +1,14 @@
+ui_tooltip_components_tables	2
+child_id	icon_path	ui_tooltip	state_name	is_visible
+description		test_effect_list_tooltip		true
+entry1	placeholder	test_effect_list_tooltip		true
+entry2	placeholder	test_effect_list_tooltip		true
+entry3	placeholder	test_effect_list_tooltip		true
+title		test_effect_list_tooltip		true
+icon_with_text	placeholder	test_quit_game_tooltip		true
+entry1	bullet_point_white	test_title_list_and_footer_tooltip		true
+entry2	bullet_point_white	test_title_list_and_footer_tooltip		true
+entry3	bullet_point_white	test_title_list_and_footer_tooltip		true
+footer		test_title_list_and_footer_tooltip		true
+title		test_title_list_and_footer_tooltip		true
+text		tooltip_how_to_play_title		true

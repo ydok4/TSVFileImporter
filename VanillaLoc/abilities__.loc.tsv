@@ -1,0 +1,29 @@
+Loc PackedFile
+Key	Text	Tooltip
+abilities_on_screen_target_passive_ability	 	true
+abilities_on_screen_description_hinder_agent	Your hero will convert the opposing hero to join your cause.	true
+abilities_on_screen_description_command_force	a	true
+abilities_on_screen_description_assist_army	Your hero will join the army in battle and enhance the force on the campaign map.	true
+abilities_on_screen_target_assist_province	Own Province	true
+abilities_on_screen_target_hinder_settlement	Settlement	true
+abilities_on_screen_target_hinder_province	Foreign Province	true
+abilities_on_screen_description_hinder_army	Your hero will cause damage to the opposing army or hinder their effectiveness on the campaign map.	true
+abilities_on_screen_name_hinder_agent	Manipulate Hero	true
+abilities_on_screen_name_hinder_army	Target Army	true
+abilities_on_screen_name_hinder_settlement	Target Settlement	true
+abilities_on_screen_name_assist_army	Embed Hero	true
+abilities_on_screen_target_hinder_character	Character	true
+abilities_on_screen_target_hinder_agent	Hero	true
+abilities_on_screen_description_hinder_settlement	Your hero will impede the opposing settlement's effectiveness.	true
+abilities_on_screen_name_hinder_province	Deploy Hero	true
+abilities_on_screen_target_command_force	 	true
+abilities_on_screen_name_assist_province	Deploy Hero	true
+abilities_on_screen_name_hinder_character	Assassinate	true
+abilities_on_screen_name_passive_ability	 	true
+abilities_on_screen_description_assist_province	Your hero will use their skills to assist the workings of the local province.	true
+abilities_on_screen_target_assist_army	 	true
+abilities_on_screen_description_passive_ability	 	true
+abilities_on_screen_name_command_force	 	true
+abilities_on_screen_target_hinder_army	Army	true
+abilities_on_screen_description_hinder_character	Your hero will assassinate the opposing character.	true
+abilities_on_screen_description_hinder_province	Your hero will use their skills to diminish the workings of the opposing province.	true

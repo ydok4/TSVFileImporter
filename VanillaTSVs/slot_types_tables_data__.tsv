@@ -1,0 +1,8 @@
+slot_types_tables	0
+can_convert	can_destroy	key
+true	true	foreign
+true	false	horde_primary
+true	true	horde_secondary
+true	false	port
+true	false	primary
+true	true	secondary

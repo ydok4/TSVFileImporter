@@ -1,0 +1,8 @@
+cdir_events_incident_option_junctions_tables	2
+id	incident_key	option_key	value
+2312001	wh2_main_hef_add_influence	VAR_CHANCE	100
+2312002	wh2_main_hef_add_influence	GEN_TARGET_NONE	
+2312003	wh2_main_hef_mid_lord_influence_cost	VAR_CHANCE	100
+2312004	wh2_main_hef_mid_lord_influence_cost	GEN_TARGET_NONE	
+2312005	wh2_main_hef_high_lord_influence_cost	VAR_CHANCE	100
+2312006	wh2_main_hef_high_lord_influence_cost	GEN_TARGET_NONE	

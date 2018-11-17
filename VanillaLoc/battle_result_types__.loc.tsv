@@ -1,0 +1,22 @@
+Loc PackedFile
+Key	Text	Tooltip
+battle_result_types_result_description_draw	The only winner here is the Blood God.	true
+battle_result_types_result_description_close_victory	You have won the battle. But do not celebrate too much, for the gods will look ill upon he who came so near to defeat.	true
+battle_result_types_result_screen_name_heroic_victory	Heroic Victory	true
+battle_result_types_result_description_valiant_defeat	You have lost, but there is honour in this defeat… the enemy is as broken as you.	true
+battle_result_types_result_screen_name_error_unknown	ERROR UNKNOWN	true
+battle_result_types_result_description_close_defeat	A near thing, but the enemy's superior tactics have brought low your army.	true
+battle_result_types_result_screen_name_valiant_defeat	Valiant Defeat	true
+battle_result_types_result_description_heroic_victory	Victory is yours! Revel in your might and bask in fleeting glory. The enemy will remember this defeat, scorched into their racial memory 'til the End Times and beyond.	true
+battle_result_types_result_screen_name_close_victory	Close Victory	true
+battle_result_types_result_description_error_unknown	0	true
+battle_result_types_result_screen_name_draw	Draw	true
+battle_result_types_result_screen_name_close_defeat	Close Defeat	true
+battle_result_types_result_description_pyrrhic_victory	The enemy has cost you dearly. Do you even deserve to call it a victory?	true
+battle_result_types_result_screen_name_decisive_defeat	Decisive Defeat	true
+battle_result_types_result_description_decisive_defeat	You have been roundly beaten. Carrion-eaters already pick at your fallen; their shame is on you.	true
+battle_result_types_result_screen_name_pyrrhic_victory	Pyrrhic Victory	true
+battle_result_types_result_screen_name_decisive_victory	Decisive Victory	true
+battle_result_types_result_description_crushing_defeat	The perfidious foe mocks you! Go and suffer in the ignominy of defeat, but don't linger, for the enemy is coming to finish the job.	true
+battle_result_types_result_screen_name_crushing_defeat	Crushing Defeat	true
+battle_result_types_result_description_decisive_victory	You are victorious! The corpses of the enemy litter the ground and those still able to flee do so with the laughter of our gods ringing in their ears!	true

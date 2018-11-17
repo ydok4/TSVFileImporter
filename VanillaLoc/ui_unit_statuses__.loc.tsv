@@ -1,0 +1,18 @@
+Loc PackedFile
+Key	Text	Tooltip
+ui_unit_statuses_tooltip_moving_fast	Moving fast	true
+ui_unit_statuses_tooltip_taking_fire	Taking fire	true
+ui_unit_statuses_tooltip_unorderable	Rampage: Out of Control	true
+ui_unit_statuses_tooltip_obstructed	Obstructed	true
+ui_unit_statuses_tooltip_shattered	Shattered	true
+ui_unit_statuses_tooltip_terrified	Terrified	true
+ui_unit_statuses_tooltip_capturing	Capturing	true
+ui_unit_statuses_tooltip_shaken	Shaken	true
+ui_unit_statuses_tooltip_melee	In melee	true
+ui_unit_statuses_tooltip_moving	Moving	true
+ui_unit_statuses_tooltip_hidden	Hidden	true
+ui_unit_statuses_tooltip_firing	Firing	true
+ui_unit_statuses_tooltip_on_fire	On Fire	true
+ui_unit_statuses_tooltip_withdraw	Withdrawing	true
+ui_unit_statuses_tooltip_routing	Routing	true
+ui_unit_statuses_tooltip_wavering	Wavering	true

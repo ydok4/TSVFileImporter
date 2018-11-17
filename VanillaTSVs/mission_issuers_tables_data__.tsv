@@ -1,0 +1,13 @@
+mission_issuers_tables	3
+issuer_key	icon_path
+BLESSED_SPAWNING	ui/campaign ui/mission_issuers/mission_issuer_blessed_spawning.png
+BOOK_NAGASH	ui/campaign ui/mission_issuers/book_nagash_generic.png
+CLAN_ELDERS	
+FELICION	ui/campaign ui/mission_issuers/felicion.png
+GREY_SEER_VULSCREEK	ui/campaign ui/mission_issuers/grey_seer_vulscreek.png
+LOREMASTER_TALARIAN	ui/campaign ui/mission_issuers/loremaster_talarian.png
+PRIEST_NERUTEP	ui/campaign ui/mission_issuers/priest_nerutep.png
+SNEEK_SCRATCHETT	ui/campaign ui/mission_issuers/sneek_scratchett.png
+SQUIRE_GALIFREIUS	ui/campaign ui/mission_issuers/squire_galifreius.png
+SYMBOLS	ui/campaign ui/mission_issuers/symbols.png
+YUKANNADOOZAT	ui/campaign ui/mission_issuers/yukannadoozat.png

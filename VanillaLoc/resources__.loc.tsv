@@ -1,0 +1,149 @@
+Loc PackedFile
+Key	Text	Tooltip
+resources_long_description_res_amber	 	true
+resources_long_description_res_location_emp	 	true
+resources_long_description_res_location_vmp	 	true
+resources_long_description_res_location_tmb	 	true
+resources_onscreen_text_res_location_colony	Elven Colony	true
+resources_long_description_res_location_dwf_grn_skv	 	true
+resources_long_description_res_location_nor	 	true
+resources_onscreen_text_res_location_generic	Strategic Location	true
+resources_long_description_res_dyes	 	true
+resources_onscreen_text_res_fortress	Fortress Gate	true
+resources_onscreen_text_res_rom_iron	Iron	true
+resources_long_description_res_location_skv	 	true
+resources_onscreen_text_res_rom_wine	Wine	true
+resources_onscreen_text_res_rom_lead	Salt	true
+resources_onscreen_text_res_location_emp_vmp	Strategic Location	true
+resources_onscreen_text_res_location_hef_def	Strategic Location	true
+resources_onscreen_text_res_location_hef_wef	Strategic Location	true
+resources_onscreen_text_res_rom_glass	Dwarf Beer	true
+resources_onscreen_text_res_location_vmp_dwf_grn_skv_arkhan	Strategic Location	true
+resources_long_description_res_location_teb	 	true
+resources_long_description_res_location_def	 	true
+resources_long_description_res_location_hef	 	true
+resources_onscreen_text_res_animals	Exotic Animals	true
+resources_long_description_res_gold	 	true
+resources_long_description_res_gems	 	true
+resources_onscreen_text_res_location_dwf_grn	Strategic Location	true
+resources_onscreen_text_res_medicine	Medicinal Plants	true
+resources_onscreen_text_res_rom_oil	Pastures	true
+resources_long_description_res_rom_textiles	 	true
+resources_onscreen_text_res_location_dwf_skv	Strategic Location	true
+resources_long_description_res_location_xef_emp_brt	 	true
+resources_long_description_res_location_lzd	 	true
+resources_onscreen_text_res_obsidian	Carved Obsidian	true
+resources_onscreen_text_res_location_emp_brt	Strategic Location	true
+resources_description_res_gold_idols	The wiser races are capable of sculpting gold into magnificent idols.	true
+resources_onscreen_text_res_location_skv_lzd	Strategic Location	true
+resources_onscreen_text_res_trinkets	Elven Trinkets	true
+resources_onscreen_text_res_rom_furs	Furs	true
+resources_long_description_res_location_dwf	 	true
+resources_onscreen_text_res_ritual_currency	Vital Ritual Location	true
+resources_long_description_res_location_brt	 	true
+resources_long_description_res_location_brt_wef_hef	 	true
+resources_long_description_res_location_emp_vmp_brt	 	true
+resources_long_description_res_location_grn	 	true
+resources_description_res_rom_glass	Beer is incredibly important to Dwarfs and men alike, although the watery brews of the umgi are rightly shunned by thirsty Dawi.	true
+resources_description_res_rom_furs	Fauna and game are worth hunting for both food and furs. Of course, in the Old World's forests, a hunter must be wary of becoming the hunted.	true
+resources_description_res_location_skv_lzd	This location is of special importance to the Skaven and Lizardmen.	true
+resources_description_res_trinkets	Elven baubles lack the practicality of Dwarf-made items, but the finesse within makes then undeniably exquisite.	true
+resources_description_res_location_emp_brt	This location is of special importance to the Empire provinces and Bretonnian kingdoms.	true
+resources_description_res_obsidian	It takes an artisan to carve and fashion obsidian. Dark Elves are the true masters of this art, although others have produced fine pieces too.	true
+resources_description_res_location_dwf_skv	This location is of special importance to the Dwarfs realms and the Skaven.	true
+resources_long_description_res_savage	 	true
+resources_description_res_location_vmp_arkhan	This location is of special importance to the Vampire Counts and the Followers of Nagash.	true
+resources_description_res_rom_timber	Wood is a flexible resource, used in anything from buildings to hand weapons. Just be careful which trees you take it from, as some won't take kindly to being felled.	true
+resources_long_description_res_spices	 	true
+resources_onscreen_text_res_savage	Savage Orcs	true
+resources_description_res_medicine	Herbs and flora with medicinal properties are always valued by apothecaries.	true
+resources_description_res_location_dwf_grn	This location is of special importance to the Dwarf realms and the Greenskin Tribes.	true
+resources_onscreen_text_res_spices	Spices	true
+resources_description_res_location_emp_vmp	This location is of special importance to the Empire and the Vampire Counts.	true
+resources_description_res_location_hef_def	This location is of special importance to the High Elves and Dark Elves.	true
+resources_description_res_location_hef_wef	This location is of special importance to the High Elves and the Wood Elves.	true
+resources_description_res_rom_lead	Salt can be taken from the sea or the mines. It is a useful commodity and not just a way for Halfling cooks to season meat.	true
+resources_description_res_rom_wine	While a High Elf would turn his nose up at it, Bretonnian wine is said to be the best - although the southern wineries of the Empire are now challenging its prominence.	true
+resources_description_res_rom_iron	Iron ore can be fashioned into many things, but in these lands it is mainly used for weapons. Of course, some races are better at metallurgy than others.	true
+resources_description_res_fortress	This location has a large garrison, but cannot have economic buildings.	true
+resources_description_res_location_generic	This location is of special importance.	true
+resources_long_description_res_location_vmp_arkhan	 	true
+resources_description_res_rom_marble	Marble is a valuable and exotic material mainly used in grandstanding buildings, having great value within the nations of man.	true
+resources_description_res_location_dwf	This location is of special importance to the Dwarf realms.	true
+resources_onscreen_text_res_amber	Amber	true
+resources_description_res_location_brt	This location is of special importance to the Bretonnian Dukedoms.	true
+resources_description_res_location_brt_wef_hef	This location is of special importance to the Bretonnian kingdoms, High Elves and Wood Elves.	true
+resources_description_res_location_emp_vmp_brt	This location is of special importance to the Empire, Bretonnia, and the Vampire Counts.	true
+resources_description_res_location_grn	This location is of special importance to the Greenskin Tribes.	true
+resources_long_description_res_location_colony	 	true
+resources_onscreen_text_res_rom_timber	Timber	true
+resources_description_res_ritual_currency	This location contains many components deemed essential for rituals.	true
+resources_long_description_res_rom_glass	 	true
+resources_long_description_res_rom_marble	 	true
+resources_description_res_rom_textiles	From clay comes ceramics that range from basic bowls to more delicate and extravagant items.	true
+resources_long_description_res_rom_oil	 	true
+resources_long_description_res_location_vmp_dwf_grn_skv_arkhan	 	true
+resources_description_res_location_xef_emp_brt	This location is of special importance to the Elves, Empire provinces and Bretonnian kingdoms.	true
+resources_description_res_location_lzd	This location is of special importance to the Lizardmen.	true
+resources_long_description_res_animals	 	true
+resources_description_res_location_teb	This location is of special importance to the Southern Realms.	true
+resources_description_res_location_def	This location is of special importance to the Dark Elves.	true
+resources_description_res_location_hef	This location is of special importance to the High Elves.	true
+resources_description_res_location_colony	This location is the site of an ancient High Elf colony. It increases income from ports.	true
+resources_description_res_gems	Gems hold great value for they are precious and prized, with only the occasional Daemon imprisoned within.	true
+resources_description_res_gold	The presence of gold is a sign that a mine can be placed and the wealth it brings harvested.	true
+resources_onscreen_text_res_rom_marble	Marble	true
+resources_description_res_savage	This area is sacred to the Savage Orcs; at some point the Greenskins' tribal migration will bring them to this area.	true
+resources_description_res_location_nor	This location is of special importance to the Norscans.	true
+resources_long_description_res_ritual_currency	 	true
+resources_description_res_location_dwf_grn_skv	This location is of special importance to the Dwarf realms, the Greenskin Tribes and the Skaven.	true
+resources_long_description_res_rom_timber	 	true
+resources_description_res_spices	The spices and seasonings sourced in far Cathay and Ind hold great value due to their rarity.	true
+resources_description_res_location_emp	This location is of special importance to the Empire provinces.	true
+resources_description_res_location_vmp	This location is of special importance to the Vampire Counts.	true
+resources_description_res_location_tmb	This location is of special importance to the Tomb Kings.	true
+resources_description_res_rom_oil	Pastures are rare places of peace for animals to graze, where farmers can tend to their herds and flocks.	true
+resources_description_res_location_skv	This location is of special importance to the Skaven.	true
+resources_description_res_location_vmp_dwf_grn_skv_arkhan	This location is of special importance to the Dwarf Realms, Greenskin Tribes, Skaven, Vampire Counts and the Followers of Nagash.	true
+resources_description_res_dyes	The creation of dyes to feed the burgeoning fashions of the courts of the Old World is a vibrant industry indeed.	true
+resources_description_res_animals	The hides and furs of creatures from across the Great Ocean fetch a hefty price.	true
+resources_long_description_res_location_generic	 	true
+resources_onscreen_text_res_dyes	Dyes	true
+resources_long_description_res_fortress	 	true
+resources_long_description_res_rom_iron	 	true
+resources_onscreen_text_res_location_skv	Strategic Location	true
+resources_long_description_res_rom_wine	 	true
+resources_onscreen_text_res_location_emp	Strategic Location	true
+resources_onscreen_text_res_location_vmp	Strategic Location	true
+resources_onscreen_text_res_location_tmb	Strategic Location	true
+resources_onscreen_text_res_location_dwf_grn_skv	Strategic Location	true
+resources_onscreen_text_res_location_nor	Strategic Location	true
+resources_onscreen_text_res_gold	Gold	true
+resources_onscreen_text_res_gems	Gemstones	true
+resources_long_description_res_location_dwf_grn	 	true
+resources_long_description_res_medicine	 	true
+resources_description_res_amber	The hardened sap of the greenwood is sought after by Wood Elves, but all races know its value.	true
+resources_long_description_res_rom_lead	 	true
+resources_long_description_res_location_emp_vmp	 	true
+resources_long_description_res_location_hef_def	 	true
+resources_long_description_res_location_hef_wef	 	true
+resources_long_description_res_gold_idols	 	true
+resources_onscreen_text_res_location_teb	Strategic Location	true
+resources_onscreen_text_res_location_def	Strategic Location	true
+resources_onscreen_text_res_location_hef	Strategic Location	true
+resources_long_description_res_location_dwf_skv	 	true
+resources_onscreen_text_res_gold_idols	Golden Idols	true
+resources_onscreen_text_res_location_xef_emp_brt	Strategic Location	true
+resources_onscreen_text_res_location_lzd	Strategic Location	true
+resources_long_description_res_obsidian	 	true
+resources_long_description_res_location_emp_brt	 	true
+resources_onscreen_text_res_rom_textiles	Pottery	true
+resources_onscreen_text_res_location_vmp_arkhan	Strategic Location	true
+resources_onscreen_text_res_location_brt	Strategic Location	true
+resources_onscreen_text_res_location_brt_wef_hef	Strategic Location	true
+resources_onscreen_text_res_location_emp_vmp_brt	Strategic Location	true
+resources_onscreen_text_res_location_grn	Strategic Location	true
+resources_long_description_res_location_skv_lzd	 	true
+resources_long_description_res_trinkets	 	true
+resources_long_description_res_rom_furs	 	true
+resources_onscreen_text_res_location_dwf	Strategic Location	true

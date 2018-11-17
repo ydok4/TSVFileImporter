@@ -1,0 +1,10 @@
+Loc PackedFile
+Key	Text	Tooltip
+stances_onscreen_protector	Protector	true
+stances_onscreen_client_state	Client State	true
+stances_onscreen_war	War	true
+stances_onscreen_master	Overlord	true
+stances_onscreen_neutral	Neutral	true
+stances_onscreen_military_allies	Allied	true
+stances_onscreen_vassal	Vassal	true
+stances_onscreen_defensive_allies	Defensive Alliance	true

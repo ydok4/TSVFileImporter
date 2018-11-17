@@ -1,0 +1,5 @@
+cdir_events_incident_payloads_tables	1
+id	incident_key	payload_key	value
+231211	wh2_main_hef_mid_lord_influence_cost	INFLUENCE	AMOUNT[-15]
+231212	wh2_main_hef_high_lord_influence_cost	INFLUENCE	AMOUNT[-60]
+231213	wh2_main_hef_add_influence	INFLUENCE	AMOUNT[100]
