@@ -43,18 +43,19 @@ function LoadedData:LoadFile(key, filter)
     self.CurrentActiveFile = key;
 
     if fileExtension == "tsv" then
-        local firstLine = true;
+        local lineNumber = 1;
         for line in file:lines() do
             local fields = Split(line, "\t");
             local matchesFilter = self:RowMatchesFilters(fields, filter.Filter);
-            if firstLine == true or matchesFilter == true then
+            if lineNumber <= 2 or matchesFilter == true then
                 table.insert(self.Files[key], fields);
-                firstLine = false;
             end
 
             if filter.OnlyLoadHeader == true then
                 break;
             end
+
+            lineNumber = lineNumber + 1;
         end
     elseif fileExtension == "xml" then
         local container = {};
@@ -235,7 +236,7 @@ function LoadedData:RowMatchesFilters(fields, filters)
         return true;
     end
 
-    local isRowValid = false;
+    local isOrRowOperator = false;
     for fieldIndex, field in pairs(fields) do
         local filtersForColumn = self:GetFiltersForColumn(fieldIndex, filters);
         local isFieldValid = self:CheckIfFieldIsValid(field, filtersForColumn);
@@ -244,18 +245,24 @@ function LoadedData:RowMatchesFilters(fields, filters)
             for filterIndex, filterData in pairs(filtersForColumn) do
                 if filterData.RowOperator == "OR" then
                     isFieldConditionOr = true;
+                    isOrRowOperator = true;
                 end
             end
         end
         if isFieldConditionOr == false and isFieldValid == false then
             return false;
         elseif isFieldConditionOr == true and isFieldValid == true then
-            isRowValid = true;
-        elseif isFieldConditionOr == false and isFieldValid == true then
-            isRowValid = true;
+            return true;
         end
     end
-    return isRowValid;
+
+    -- If we reach this point with an OR operator this means
+    -- none of the or conditions are true
+    if isOrRowOperator == true then
+        return false;
+    end
+
+    return true;
 end
 
 function LoadedData:CheckIfFieldIsValid(field, filtersForColumn)
@@ -386,12 +393,13 @@ function LoadedData:TransformFile(file, filter, transformStep)
         file = {};
         file[#file + 1] = {"dummy", "data"};
         file[#file + 1] = {"dummy", "data"};
+        file[#file + 1] = {"dummy", "data"};
     end
 
     for rowIndex, row in pairs(file) do
-        if firstRow == false then
+        if rowIndex <= 2 and filter.Directory ~= "PortraitGenerator" then
             firstRow = true;
-        else
+        elseif rowIndex ~= 1 then
             if transformStep == 1 then
                 print("\n");
             end

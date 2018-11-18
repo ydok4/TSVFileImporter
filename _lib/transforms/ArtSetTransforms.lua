@@ -103,9 +103,6 @@ ArtSetTransforms = {
                     RowOperator = "OR",
                 },
             },
-            -- Transforms determine how data should be changed
-            -- In this case I just want to load the data so I can transform it 
-            -- in other STEPS
             Transforms = {
                 {
                     Type = "NEWROW",

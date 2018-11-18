@@ -67,7 +67,7 @@ HighElfInfluentialLordFilters = {
         },
     },
     portrait_settings__template = {
-        FileName = "portrait_settings__high_elves_intrigue.xml",
+        FileName = "portrait_settings__template.xml",
         Directory = "PortraitGenerator",
         OutputFile = true,
         Filter = {

@@ -1,0 +1,7 @@
+campaign_character_art_sets_tables	6
+agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+general	wh_main_art_set_vmp_lord_01_replacement				false	true	vmp_lord_replacement	1
+general	wh_main_art_set_vmp_lord_02_replacement				false	true	vmp_lord_replacement	1
+general	wh_main_art_set_vmp_lord_03_replacement				false	true	vmp_lord_replacement	1
+general	wh_main_art_set_vmp_lord_04_replacement				false	true	vmp_lord_replacement	1
+general	wh_main_art_set_vmp_lord_05_replacement				false	true	vmp_lord_replacement	1

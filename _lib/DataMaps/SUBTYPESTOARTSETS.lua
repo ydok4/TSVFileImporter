@@ -13,8 +13,6 @@ SUBTYPESTOARTSET = {
     wh2_main_hef_mage_light = "hef_mage",
 
     wh2_dlc11_cst_admiral = "wh2_dlc11_cst_admiral_vampires",
-    --wh2_dlc11_cst_admiral_death = "",
-    --wh2_dlc11_cst_admiral_deep = "",
     wh2_dlc11_cst_admiral_fem = "cst_admiral_female_vampires",
     wh2_dlc11_cst_admiral_fem_death = "cst_admiral_female_death",
     wh2_dlc11_cst_admiral_fem_deep = "cst_admiral_female_deep",

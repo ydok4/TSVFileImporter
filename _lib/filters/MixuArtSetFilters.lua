@@ -1,6 +1,6 @@
 MixuArtSetFilters = {
         agent_subtypes_tables_data__= {
-            FileName = "agent_subtypes_tables_ab_mixus_hero__.tsv",
+            FileName = "agent_subtypes_tables_ab_mixus_hero_pack.tsv",
             Directory = "MixuTSV",
             OutputFile = false,
             Filter = {
@@ -15,7 +15,7 @@ MixuArtSetFilters = {
         },
         -- Original skill files
         campaign_character_art_sets_tables_data__ = {
-            FileName = "campaign_character_art_sets_tables_ab_mixu_lord_pack__.tsv",
+            FileName = "campaign_character_art_sets_tables_ab_mixu_lord_pack.tsv",
             Directory = "MixuTSV",
             -- Filters work on a per column basis
             -- Each index in the filter object correlates to
