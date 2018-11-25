@@ -1,0 +1,212 @@
+Loc PackedFile
+Key	Text	Tooltip
+effects_description_wh_effect_enable_ability_spellweaver_passive_ancients_protection	Passive ability: "Ancients' Protection"	true
+effects_description_wh_main_effect_agent_enable_recruitment_shadowdancer	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Shadowdancer	true
+effects_description_wh_main_effect_agent_cap_increase_shadowdancer	Hero capacity: %+n for Shadowdancers	true
+effects_description_wh_main_effect_enable_mount_luminark_of_hysh	Mount: Luminark of Hysh	true
+effects_description_wh2_main_effect_emp_luminark_ror_reload	Reload time reduction: %+n% for Luminark of Hysh{{tr:rank7}} and Templehof Luminark units	true
+effects_description_wh2_main_effect_emp_luminark_ror_magic_resistance	Magic resistance: %n%  for Luminark of Hysh{{tr:rank7}} and Templehof Luminark units	true
+effects_description_wh2_main_effect_emp_artillery_rank7_missile_damage	Missile damage: %+n% for Great Cannon, Helblaster Volley Gun, Helstorm Rocket Battery and Mortar{{tr:rank7}}	true
+effects_description_wh2_main_effect_emp_artillery_rank7_magic_resistance	Magic resistance: %n% for Great Cannon, Helblaster Volley Gun, Helstorm Rocket Battery and Mortar{{tr:rank7}}	true
+effects_description_wh2_main_effect_emp_artillery_rank7_ammo	Ammunition: %+n% for Great Cannon, Helblaster Volley Gun, Helstorm Rocket Battery and Mortar{{tr:rank7}}	true
+effects_description_wh2_main_effect_emp_artillery_rank7_morale	Leadership: %+n for Great Cannon, Helblaster Volley Gun, Helstorm Rocket Battery and Mortar{{tr:rank7}}	true
+effects_description_wh2_main_effect_emp_state_troops_rank7_melee_defence	Melee defence: %+n for Swordmen, Spearmen, Halberdiers, Free Company Militia and Flagellants{{tr:rank7}}	true
+effects_description_wh2_main_effect_emp_state_troops_rank7_melee_damage	Weapon strength: %+n% for Swordmen, Spearmen, Halberdiers, Free Company Militia and Flagellants{{tr:rank7}}	true
+effects_description_wh2_main_effect_emp_state_troops_rank7_charge_bonus	Charge bonus: %+n for Swordmen, Spearmen, Halberdiers, Free Company Militia and Flagellants{{tr:rank7}}	true
+effects_description_wh2_main_effect_emp_flagellants_rank7_melee_attack	Melee attack: %+n for Flagellants{{tr:rank7}}	true
+effects_description_wh2_main_effect_emp_flagellants_rank7_missile_resistance	Missile resistance: %n% for Flagellants{{tr:rank7}}	true
+effects_description_wh2_main_effect_emp_flagellants_rank7_melee_damage	Weapon strength: %+n% for Flagellants{{tr:rank7}}	true
+effects_description_wh2_main_effect_emp_flagellants_rank7_speed	Speed: %+n% for Flagellants{{tr:rank7}}	true
+effects_description_wh2_main_effect_emp_missile_rank7_reload	Reload time reduction: %+n% for Crossbow and Handgunner units{{tr:rank7}}	true
+effects_description_wh2_main_effect_emp_missile_rank7_ammo	Ammunition: %+n% for Crossbow and Handgunner units{{tr:rank7}}	true
+effects_description_wh2_main_effect_emp_missile_rank7_speed	Speed: %+n% for Crossbow and Handgunner units{{tr:rank7}}	true
+effects_description_wh2_main_effect_emp_knights_rank7_charge_bonus	Charge bonus: %+n for Empire Knights, Knights of the Blazing Sun and Reiksguard units{{tr:rank7}}	true
+effects_description_wh2_main_effect_emp_knights_rank7_melee_damage	Weapon strength: %+n% for Empire Knights, Knights of the Blazing Sun and Reiksguard units{{tr:rank7}}	true
+effects_description_wh2_main_effect_emp_knights_rank7_melee_attack	Melee attack: %+n for Empire Knights, Knights of the Blazing Sun and Reiksguard units{{tr:rank7}}	true
+effects_description_wh_effect_enable_ability_light_wizard_passive_light_of_purity	Passive ability: "Light of Purity"	true
+effects_description_wh_effect_enable_ability_amber_wizard_passive_the_beast_unleashed	Passive ability: "The Beast Unleashed"	true
+effects_description_wh_main_name_dummy_magister	Gives the character the title: "Magister"	true
+effects_description_wh2_main_effect_grn_melee_savage_rank7_melee_damage	Weapon strength: %+n% for Savage Orc units{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_melee_savage_rank7_magic_resistance	Magic resistance: %n% for Savage Orc units{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_melee_savage_rank7_bonus_vs_infantry	Bonus vs. Infantry: %+n for Savage Orc units{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_melee_savage_rank7_speed	Speed: %+n% for Savage Orc units{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_missile_savage_rank7_reload	Reload time reduction: %+n% for Savage Orc Arrer Boyz{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_missile_savage_rank7_ammo	Ammunition: %+n% for Savage Orc Arrer Boyz{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_missile_savage_rank7_speed	Speed: %+n% for Savage Orc Arrer Boyz{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_missile_savage_rank7_melee_attack	Melee attack: %+n for Savage Orc Arrer Boyz{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_beasts_rank7_physical_resistance	Physical resistance: %n% for Giants and Trolls{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_beasts_rank7_morale	Leadership: %+n for Giants and Trolls{{tr:rank7}}	true
+effects_description_wh2_main_effect_fighting_versus_undead_morale	Leadership: %+n when fighting against Vampire Counts, Vampire Coast and Tomb Kings	true
+effects_description_wh2_main_effect_grn_beasts_rank7_charge_bonus	Charge bonus: %+n for Giants and Trolls{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_cavalry_savage_rank7_weapon_damage	Weapon strength: %+n% for Savage Orc Boar Boyz units{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_cavalry_savage_rank7_fatigue_resistance	Vigour loss reduction for Savage Orc Boar Boyz units{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_cavalry_savage_rank7_speed	Speed: %+n% for Savage Orc Boar Boyz units{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_cavalry_savage_rank7_magic_resistance	Magic resistance: %n% for Savage Orc Boar Boyz units{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_melee_orcs_rank7_melee_damage	Weapon strength: %+n% for Orc Boyz, Orc Big 'Uns and Black Orcs{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_melee_orcs_rank7_melee_defence	Melee defence: %+n for Orc Boyz, Orc Big 'Uns and Black Orcs{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_melee_orcs_rank7_morale	Leadership: %+n for Orc Boyz, Orc Big 'Uns and Black Orcs{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_missile_orcs_rank7_missile_damage	Missile damage: %+n% for Orc Arrer Boyz{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_missile_orcs_rank7_ammo	Ammunition: %+n% for Orc Arrer Boyz{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_missile_orcs_rank7_missile_resistance	Missile resistance: %n% for Orc Arrer Boyz{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_boar_boyz_orcs_rank7_charge_bonus	Charge bonus: %+n for Orc Boar Boyz, Orc Boar Boy Big 'Uns and Orc Boar Chariot{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_boar_boyz_orcs_rank7_bonus_vs_infantry	Bonus vs. Infantry: %+n for Orc Boar Boyz, Orc Boar Boy Big 'Uns and Orc Boar Chariot{{tr:rank7}}	true
+effects_description_wh2_main_effect_grn_boar_boyz_orcs_rank7_melee_attack	Melee attack: %+n for Orc Boar Boyz, Orc Boar Boy Big 'Uns and Orc Boar Chariot{{tr:rank7}}	true
+effects_description_wh2_main_effect_dwf_slayer_hero_replenishment	Casualty replenishment rate: %+n% for Giant Slayer and Slayer units	true
+effects_description_wh2_main_effect_fighting_versus_greenskins_melee_damage	Weapon strength: %+n% when fighting against Greenskin Tribes and Beastmen Warherds	true
+effects_description_wh2_main_effect_fighting_versus_all_elves_melee_damage	Weapon strength: %+n% when fighting against Elves	true
+effects_description_wh2_main_effect_fighting_versus_chaos_melee_attack	Melee attack: %+n when fighting against Chaos and Norsca	true
+effects_description_wh2_main_effect_fighting_versus_greenskins_melee_attack	Melee attack: %+n when fighting against Greenskin Tribes and Beastmen Warherds	true
+effects_description_wh2_main_effect_fighting_versus_skaven_melee_attack	Melee attack: %+n when fighting against Skaven	true
+effects_description_wh2_main_effect_fighting_versus_vampires_melee_attack	Melee attack: %+n when fighting against Undead	true
+effects_description_wh2_main_effect_fighting_versus_all_elves_melee_attack	Melee attack: %+n when fighting against Elves	true
+effects_description_wh2_main_effect_unit_enable_attribute_charge_reflector	Attribute: Expert Charge Defence	true
+effects_description_wh2_main_effect_unit_enable_attribute_charge_reflector_vs_large	Attribute: Charge Defence vs. Large	true
+effects_description_wh_main_effect_agent_enable_recruitment_giantslayer	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Dragon Slayer	true
+effects_description_wh_main_effect_agent_cap_increase_giantslayer	Hero capacity: %+n for Dragon Slayer and Thane heroes	true
+effects_description_wh_main_effect_agent_recruitment_xp_giantslayer	Hero recruit rank: %+n for Dragon Slayer	true
+effects_description_wh_main_effect_agent_cap_increase_bst_doombull	Doombull capacity: %+n	true
+effects_description_wh_main_effect_agent_cap_increase_bst_doombull_dummy	A Doombull will become available to be recruited from your faction's [[img:icon_general]][[/img]]Lord pool	true
+effects_description_wh_effect_enable_ability_doombull_slaughterers_call	Ability: "Slaughterer's Call"	true
+effects_description_wh_effect_enable_ability_doombull_passive_the_unrelenting_warherd	Passive ability: "The Unrelenting Warherd"	true
+effects_description_wh_effect_enable_ability_doombull_passive_strength_of_the_land	Passive ability: "Strength of the Land"	true
+effects_description_wh2_main_effect_bst_ungors_gors_rank7_leadership	Leadership: %+n for Ungor and Gor units {{tr:rank7}}	true
+effects_description_wh2_main_effect_bst_ungors_gors_rank7_melee_attack	Melee attack: %+n for Ungor and Gor units {{tr:rank7}}	true
+effects_description_wh2_main_effect_bst_ungors_gors_rank7_missile_resistance	Missile resistance: %n% for Ungor and Gor units {{tr:rank7}}	true
+effects_description_wh2_main_effect_bst_minotaur_rank7_physical_resistance	Physical resistance: %n% for Minotaur units {{tr:rank7}}	true
+effects_description_wh2_main_effect_bst_minotaur_rank7_weapon_damage	Weapon strength: %+n% for Minotaur units {{tr:rank7}}	true
+effects_description_wh2_main_effect_bst_minotaur_rank7_charge_bonus	Charge bonus: %+n for Minotaur units {{tr:rank7}}	true
+effects_description_wh2_main_effect_bst_centigor_chariots_rank7_melee_defence	Melee defence: %+n for Centigor and Razorgor Chariot and Razorgor Herd units {{tr:rank7}}	true
+effects_description_wh2_main_effect_bst_centigor_chariots_rank7_charge_bonus	Charge bonus: %+n for Centigor and Razorgor Chariot and Razorgor Herd units {{tr:rank7}}	true
+effects_description_wh2_main_effect_bst_centigor_chariots_rank7_weapon_damage	Weapon strength: %+n% for Centigor and Razorgor Chariot and Razorgor Herd units {{tr:rank7}}	true
+effects_description_wh2_main_effect_bst_beasts_of_chaos_rank7_speed	Speed: %+n% for Giants, Cygors and Warhounds units {{tr:rank7}}	true
+effects_description_wh2_main_effect_bst_beasts_of_chaos_missile_resistance	Missile resistance: %n% for Giants, Cygors and Warhounds units {{tr:rank7}}	true
+effects_description_wh2_main_effect_bst_beasts_of_chaos_melee_attack	Melee attack: %+n for Giants, Cygors and Warhounds units {{tr:rank7}}	true
+effects_description_wh2_main_effect_bst_minotaurs_replenishment	Casualty replenishment rate: %+n% for Doombull, embedded Gorebull [[img:icon_hero]][[/img]]Heroes and Minotaur units	true
+effects_description_wh_effect_enable_ability_doombull_blood_lust	Ability: "Blood Lust"	true
+effects_description_wh2_main_effect_bst_minotaurs_morale	Leadership: %+n for Doombull, embedded Gorebull [[img:icon_hero]][[/img]]Heroes and Minotaur units	true
+effects_description_wh_main_effect_agent_cap_increase_wef_dark_and_high_dummy	A Darkweaver and a Highweaver will become available to be recruited from your faction's [[img:icon_general]][[/img]]Lord pool	true
+effects_description_wh2_main_effect_unit_enable_attribute_encourage	[[img:icon_general]][[/img]]Encourages nearby units	true
+effects_description_wh2_main_effect_wef_forest_spirits_rank7_armour	Armour: %+n for Dryads, Tree-Kin, Treeman and Forest Dragon units {{tr:rank7}}	true
+effects_description_wh2_main_effect_wef_forest_spirits_rank7_charge_bonus	Charge bonus: %+n for Dryads, Tree-Kin, Treeman and Forest Dragon units {{tr:rank7}}	true
+effects_description_wh2_main_effect_wef_forest_spirits_rank7_physical_resistance	Physical resistance: %n% for Dryads, Tree-Kin, Treeman and Forest Dragon units {{tr:rank7}}	true
+effects_description_wh2_main_effect_wef_archers_rank7_missile_damage	Missile damage: %+n% for Deepwood Scouts, Glade Guards and Waywatchers units {{tr:rank7}}	true
+effects_description_wh2_main_effect_wef_archers_rank7_melee_defence	Melee defence: %+n for Deepwood Scouts, Glade Guards and Waywatchers units {{tr:rank7}}	true
+effects_description_wh2_main_effect_wef_archers_rank7_missile_resistance	Missile resistance: %n% for Deepwood Scouts, Glade Guards and Waywatchers units {{tr:rank7}}	true
+effects_description_wh2_main_effect_wef_elven_warriors_rank7_leadership	Leadership: %+n for Eternal Guards, Wardancers and Wildwood Rangers units {{tr:rank7}}	true
+effects_description_wh2_main_effect_wef_elven_warriors_rank7_melee_attack	Melee attack: %+n for Eternal Guards, Wardancers and Wildwood Rangers units {{tr:rank7}}	true
+effects_description_wh2_main_effect_wef_elven_warriors_rank7_melee_damage	Weapon strength: %+n% for Eternal Guards, Wardancers and Wildwood Rangers units {{tr:rank7}}	true
+effects_description_wh2_main_effect_wef_cavalry_rank7_magic_resistance	Magic resistance: %n% for Glade Riders, Hawk Riders, Sisters of the Thorn and Wild Riders {{tr:rank7}}	true
+effects_description_wh2_main_effect_wef_cavalry_rank7_reload	Reload time reduction: %+n% for Glade Riders, Hawk Riders, Sisters of the Thorn and Wild Riders {{tr:rank7}}	true
+effects_description_wh2_main_effect_wef_cavalry_rank7_melee_damage	Weapon strength: %+n% for Glade Riders, Hawk Riders, Sisters of the Thorn and Wild Riders {{tr:rank7}}	true
+effects_description_wh2_main_effect_wef_cavalry_rank7_melee_defence	Melee defence: %+n for Glade Riders, Hawk Riders, Sisters of the Thorn and Wild Riders {{tr:rank7}}	true
+effects_description_wh_effect_enable_ability_darkweaver_wrath_of_the_woods	Passive ability: "Wrath of the Woods"	true
+effects_description_wh_effect_enable_ability_darkweaver_creeping_madness	Passive ability: "Creeping Madness"	true
+effects_description_wh_effect_enable_ability_highweaver_blessing_of_lileath	Ability: "Blessing of Lileath"	true
+effects_description_wh_effect_enable_ability_highweaver_lileaths_protection	Ability: "Lileath's Protection"	true
+effects_description_wh_effect_disable_ability_highweaver_blessing_of_lileath	Replaces: "Blessing of Lileath"	true
+effects_description_wh2_main_effect_character_wef_darkweaver_rampage	Attribute: Rampage for Darkweavers	true
+effects_description_wh2_main_effect_character_wef_darkweaver_miscast_chance	Miscast base chance: %+n% for Darkweavers	true
+effects_description_wh2_effect_enable_wef_darkweaver_passive_rampage	Passive ability: "Dangerous Temptations" for Darkweavers	true
+effects_description_wh_effect_cooldown_spell_lore_of_necrarch	Cooldown: %+n% to all spells	true
+effects_description_wh2_main_effect_vmp_chariots_rank7_melee_defence	Melee defence: %+n for Corpse Carts, Black Coach and Mortis Engine units {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_chariots_rank7_charge_bonus	Charge bonus: %+n for Corpse Carts, Black Coach and Mortis Engine units {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_chariots_rank7_speed	Speed: %+n% for Corpse Carts, Black Coach and Mortis Engine units {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_chariots_rank7_magic_resistance	Magic resistance: %n% for Corpse Carts, Black Coach and Mortis Engine units {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_wraiths_rank7_melee_damage	Weapon strength: %+n% for Banshee [[img:icon_hero]][[/img]]Heroines, Cairn Wraiths, Hexwraiths and Chillgheists {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_wraiths_rank7_melee_attack	Melee attack: %+n for Banshee [[img:icon_hero]][[/img]]Heroines, Cairn Wraiths, Hexwraiths and Chillgheists {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_wraiths_rank7_charge_bonus	Charge bonus: %+n for Banshee [[img:icon_hero]][[/img]]Heroines, Cairn Wraiths, Hexwraiths and Chillgheists {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_cavalry_dogs_rank7_missile_resistance	Missile resistance: %n% for Blood Knights, Black Knights and Dire Wolves {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_cavalry_dogs_rank7_armour	Armour: %+n for Blood Knights, Black Knights and Dire Wolves {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_cavalry_dogs_rank7_melee_defence	Melee defence: %+n for Blood Knights, Black Knights and Dire Wolves {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_skellingtons_rank7_melee_damage	Weapon strength: %+n% for Grave Guards, Skeleton Warriors and Zombies {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_skellingtons_rank7_physical_resistance	Physical resistance: %n% for Grave Guards, Skeleton Warriors and Zombies {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_skellingtons_rank7_speed	Speed: %+n% for Grave Guards, Skeleton Warriors and Zombies {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_raised_inf_replenishment_bonus	Casualty replenishment rate: %+n% for all skeleton and ethereal units	true
+effects_description_wh2_main_effect_vmp_raised_inf_fatigue_resistance	Vigour loss reduction: %+n% for all skeleton and ethereal units	true
+effects_description_wh2_main_effect_vmp_wraiths_enable_flaming_attacks	Enables flaming attacks for Banshee [[img:icon_hero]][[/img]]Heroines, Cairn Wraiths, Hexwraiths and Chillgheists {{tr:rank7}}	true
+effects_description_wh2_main_effect_enable_fatigue_immune_vmp_all_raised	Perfect Vigour for all skeleton and ethereal units	true
+effects_description_wh2_main_effect_vmp_raised_inf_upkeep	Upkeep: %+n% for all skeleton and ethereal units	true
+effects_description_wh2_main_effect_vmp_ghouls_melee_attack	Melee attack: %+n for Crypt Ghouls and Crypt Horrors units	true
+effects_description_wh2_main_effect_vmp_skeletal_inf_melee_debuff	Melee attack and Melee Defence: %+n for all Grave Guard and Skeleton Warrior units	true
+effects_description_wh2_main_effect_non_vampire_territory_attrition_immunity	Immune to non-Vampire Count territory attrition	true
+effects_description_wh2_main_effect_enable_vanguard_deployment_low_tier_all	Attribute: Vanguard Deployment for certain units	true
+effects_description_wh_effect_enable_ability_vampire_countess_passive_seduction	Passive ability: "Seduction"	true
+effects_description_wh_effect_enable_ability_vampire_countess_domination	Ability: "Domination"	true
+effects_description_wh2_main_effect_character_mount_coven_throne_dummy	Mount: Coven Throne	true
+effects_description_wh2_main_effect_character_mount_coven_throne_info	[[col:yellow]]The Coven Throne will show up as a Corpse Cart in campaign map due to technical issues[[/col]]	true
+effects_description_wh_effect_enable_ability_vampire_countess_beguile	Ability: "Beguile"	true
+effects_description_wh_effect_disable_ability_vampire_countess_beguile	Replaces: "Beguile"	true
+effects_description_wh2_main_effect_vmp_flying_rank7_melee_damage	Weapon strength: %+n% for Vargheists, Terrorgheists and Fell Bats {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_flying_rank7_melee_attack	Melee attack: %+n for Vargheists, Terrorgheists and Fell Bats {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_flying_rank7_leadership	Leadership: %+n for Vargheists, Terrorgheists and Fell Bats {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_ground_monsters_rank7_charge_bonus	Charge bonus: %+n for Varghulfs and Crypt Horrors {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_ground_monsters_rank7_missile_resistance	Missile resistance: %n% for Varghulfs and Crypt Horrors {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_ground_monsters_rank7_melee_attack	Melee attack: %+n for Varghulfs and Crypt Horrors {{tr:rank7}}	true
+effects_description_wh2_main_vampire_diplomacy_mod_men	Diplomatic relations: %+n with Men and Vampire Counts	true
+effects_description_wh2_main_effect_vmp_blood_knight_lord_melee_attack	Melee attack (when on foot): %+n	true
+effects_description_wh2_main_effect_vmp_blood_knight_lord_melee_defence	Melee defence (when on foot): %+n	true
+effects_description_wh2_main_effect_vmp_blood_knight_lord_barded_nightmare_melee_attack	Melee attack (when riding Barded Nightmare): %+n	true
+effects_description_wh2_main_effect_vmp_blood_knight_lord_barded_nightmare_melee_defence	Melee defence (when riding Barded Nightmare): %+n	true
+effects_description_wh2_main_effect_vmp_blood_knight_lord_melee_damage	Weapon strength (when on foot): %+n%	true
+effects_description_wh2_main_effect_vmp_blood_knight_lord_charge_bonus	Charge bonus (when on foot): %+n	true
+effects_description_wh2_main_effect_vmp_blood_knight_lord_bonus_v_small	Bonus vs. Infantry (when on foot): %+n	true
+effects_description_wh2_main_effect_vmp_blood_knight_lord_barded_nightmare_melee_damage	Weapon strength (when riding Barded Nightmare): %+n%	true
+effects_description_wh2_main_effect_vmp_blood_knight_lord_barded_nightmare_charge_bonus	Charge bonus (when riding Barded Nightmare): %+n	true
+effects_description_wh2_main_effect_vmp_blood_knight_lord_barded_nightmare_bonus_v_large	Bonus vs. Large (when riding Barded Nightmare): %+n	true
+effects_description_wh2_main_effect_vmp_skellingtons_rank7_melee_defence	Melee defence: %+n for Grave Guards, Skeleton Warriors and Zombies {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_skellingtons_rank7_melee_attack	Melee attack: %+n for Grave Guards, Skeleton Warriors and Zombies {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_skellingtons_rank7_armour	Armour: %+n for Grave Guards, Skeleton Warriors and Zombies {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_knights_rank7_charge_bonus	Charge bonus: %+n for Blood Knights and Black Knights {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_knights_rank7_melee_attack	Melee attack: %+n for Blood Knights and Black Knights {{tr:rank7}}	true
+effects_description_wh2_main_effect_vmp_knights_rank7_melee_damage	Weapon strength: %+n% for Blood Knights and Black Knights {{tr:rank7}}	true
+effects_description_wh_effect_enable_ability_blood_knight_ability_honour_or_death	Ability: "Honour or Death"	true
+effects_description_wh_effect_text_dummy_necrarch_recruit_rank	Necrarch recruit rank: %+n	true
+effects_description_wh_effect_text_dummy_blood_dragon_lord_recruit_rank	Blood Dragon Lord recruit rank: %+n	true
+effects_description_wh_effect_text_dummy_necrarch_enable_recruitment	A Necrarch will become available to be recruited from your faction's [[img:icon_general]][[/img]]Lord pool	true
+effects_description_wh_effect_text_dummy_blood_dragon_lord_enable_recruitment	A Blood Dragon Lord will become available to be recruited from your faction's [[img:icon_general]][[/img]]Lord pool	true
+effects_description_wh_effect_cooldown_spell_lore_of_blood_knight	Cooldown: %+n% to Lore of Vampires spells	true
+effects_description_wh_effect_enable_ability_shaggoth_champion_raging_storm	Ability: "The Raging Storm"	true
+effects_description_wh2_main_effect_chs_fuelled_by_war_charge_bonus	Charge bonus: %+n for Marauders, Chaos Warriors and Chosen units	true
+effects_description_wh2_main_effect_chs_fuelled_by_war_melee_attack	Melee attack: %+n for Marauders, Chaos Warriors and Chosen units	true
+effects_description_wh2_main_effect_chs_hulks_of_death_melee_attack	Melee attack: %+n for Chaos Giants and Chaos Trolls units	true
+effects_description_wh2_main_effect_chs_hulks_of_death_melee_defence	Melee defence: %+n for Chaos Giants and Chaos Trolls units	true
+effects_description_wh2_main_effect_chs_freakish_mutations_melee_damage	Weapon strength: %+n% for Chaos Spawn and Forsaken and Chaos Feral Manticore units	true
+effects_description_wh2_main_effect_chs_freakish_mutations_melee_attack	Melee attack: %+n for Chaos Spawn and Forsaken and Chaos Feral Manticore units	true
+effects_description_wh2_main_effect_chs_dragon_ogres_shaggoths_charge_bonus	Charge bonus: %+n for Dragon Ogres and Dragon Ogre Shaggoths	true
+effects_description_wh2_main_effect_chs_dragon_ogres_shaggoths_melee_damage	Weapon strength: %+n% for Dragon Ogres and Dragon Ogre Shaggoths	true
+effects_description_wh2_main_effect_chs_beasts_of_chaos_melee_defence	Melee defence: %+n for Gorebeast Chariot, Chaos Chariot and Chaos Warhounds units	true
+effects_description_wh2_main_effect_chs_beasts_of_chaos_armour	Armour: %+n for Gorebeast Chariot, Chaos Chariot and Chaos Warhounds units	true
+effects_description_wh2_main_effect_chs_fuelled_by_war_rank7_physical_resistance	Physical resistance: %n% for Marauders, Chaos Warriors and Chosen units {{tr:rank7}}	true
+effects_description_wh2_main_effect_chs_fuelled_by_war_rank7_melee_defence	Melee defence: %+n for Marauders, Chaos Warriors and Chosen units {{tr:rank7}}	true
+effects_description_wh2_main_effect_chs_fuelled_by_war_rank7_armour	Armour: %+n for Marauders, Chaos Warriors and Chosen units {{tr:rank7}}	true
+effects_description_wh2_main_effect_chs_dragon_ogres_shaggoths_rank7_ward_save	Ward Save: %n% for Dragon Ogres and Dragon Ogre Shaggoths {{tr:rank7}}	true
+effects_description_wh2_main_effect_chs_dragon_ogres_shaggoths_rank7_melee_defence	Melee defence: %+n for Dragon Ogres and Dragon Ogre Shaggoths {{tr:rank7}}	true
+effects_description_wh2_main_effect_chs_dragon_ogres_shaggoths_rank7_leadership	Leadership: %+n for Dragon Ogres and Dragon Ogre Shaggoths {{tr:rank7}}	true
+effects_description_wh2_main_effect_chs_beasts_of_chaos_rank7_speed	Speed: %+n% for Chaos Trolls, Gorebeast Chariot, Chaos Chariot and Chaos Warhounds units {{tr:rank7}}	true
+effects_description_wh2_main_effect_chs_beasts_of_chaos_rank7_missile_resistance	Missile resistance: %n% for Chaos Trolls, Gorebeast Chariot, Chaos Chariot and Chaos Warhounds units {{tr:rank7}}	true
+effects_description_wh2_main_effect_chs_beasts_of_chaos_rank7_melee_attack	Melee attack: %+n for Chaos Trolls, Gorebeast Chariot, Chaos Chariot and Chaos Warhounds units {{tr:rank7}}	true
+effects_description_wh2_main_effect_chs_malformed_monsters_rank7_charge_bonus	Charge bonus: %+n for Chaos Giants, Chaos Spawn and Forsaken and Chaos Feral Manticore units {{tr:rank7}}	true
+effects_description_wh2_main_effect_chs_malformed_monsters_rank7_physical_resistance	Physical resistance: %n% for Chaos Giants, Chaos Spawn and Forsaken and Chaos Feral Manticore units {{tr:rank7}}	true
+effects_description_wh2_main_effect_chs_malformed_monsters_rank7_leadership	Leadership: %+n for Chaos Giants, Chaos Spawn and Forsaken and Chaos Feral Manticore units {{tr:rank7}}	true
+effects_description_wh2_main_effect_enable_chs_humans_expendable	Attribute: Expendable for Chaos Marauders, Chaos Warriors and Marauder Horsemen units	true
+effects_description_wh_effect_text_dummy_shaggoth_champion_enable_recruitment	A Shaggoth Champion will become available to be recruited from your faction's [[img:icon_general]][[/img]]Lord pool	true
+effects_description_wh_effect_enable_ability_passive_chilling_aura	Passive ability: "The Chilling Aura"	true
+effects_description_wh2_main_effect_enable_nor_vanguard_monsters	Attribute: Vanguard Deployment for Fimir Warlord, Fimir Warriors and Skin Wolves	true
+effects_description_wh2_main_effect_nor_fimir_trolls_rank7_melee_damage	Weapon strength: %+n% for Fimir Warriors and Norscan Trolls {{tr:rank7}}	true
+effects_description_wh2_main_effect_nor_fimir_trolls_rank7_charge_bonus	Charge bonus: %+n for Fimir Warriors and Norscan Trolls {{tr:rank7}}	true
+effects_description_wh2_main_effect_nor_fimir_trolls_rank7_melee_attack	Melee attack: %+n for Fimir Warriors and Norscan Trolls {{tr:rank7}}	true
+effects_description_wh2_main_effect_nor_wolves_manticore_rank7_speed	Speed: %+n% for Skin Wolves, Norscan Warhounds and Feral Manticore units {{tr:rank7}}	true
+effects_description_wh2_main_effect_nor_wolves_manticore_rank7_physical_resistance	Physical resistance: %n% for Skin Wolves, Norscan Warhounds and Feral Manticore units {{tr:rank7}}	true
+effects_description_wh2_main_effect_nor_wolves_manticore_rank7_melee_defence	Melee defence: %+n for Skin Wolves, Norscan Warhounds and Feral Manticore units {{tr:rank7}}	true
+effects_description_wh2_main_effect_nor_mammoths_giants_dragon_rank7_charge_bonus	Charge bonus: %+n for War Mammoths, Norscan Giants and Frost-Wyrm units {{tr:rank7}}	true
+effects_description_wh2_main_effect_nor_mammoths_giants_dragon_rank7_missile_resistance	Missile resistance: %n% for War Mammoths, Norscan Giants and Frost-Wyrm units {{tr:rank7}}	true
+effects_description_wh2_main_effect_nor_mammoths_giants_dragon_rank7_armour	Armour: %+n for War Mammoths, Norscan Giants and Frost-Wyrm units {{tr:rank7}}	true
+effects_description_wh2_main_effect_nor_skin_wolves_melee_attack	Melee attack: %+n for all Skin Wolves units	true
+effects_description_wh_effect_enable_bound_spell_rancid_visitation	Bound Spell: "Rancid Visitation"	true
+effects_description_wh_effect_enable_bound_spell_flame_storm	Bound Spell: "Flame Storm"	true
+effects_description_wh2_main_effect_enable_nor_marauders_all_expendable	Attribute: Expendable for all Marauder units	true
+effects_description_wh_effect_enable_ability_passive_swarm_of_flies	Passive ability: "Swarm of Flies"	true
+effects_description_wh_effect_enable_ability_call_of_the_shadow_dancer	Ability: "Call of the Shadow Dancer"	true
+effects_description_wh_effect_enable_ability_illusion_of_darkness	Ability: "Illusion of Darkness"	true
+effects_description_wh_effect_enable_ability_illusion_of_darkness_upgrade	Ability: "Illusion of Darkness"	true
+effects_description_wh_effect_disable_ability_illusion_of_darkness	Upgrades ability: "Illusion of Darkness"	true

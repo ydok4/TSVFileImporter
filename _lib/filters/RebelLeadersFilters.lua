@@ -1,5 +1,6 @@
 RebelLeadersFilters = {
     faction_agent_permitted_subtypes_tables_data__ = {
+        Directory = "VanillaTSVs",
         FileName = "faction_agent_permitted_subtypes_tables_data__.tsv",
         OutputFile = true,
         -- Filters work on a per column basis
@@ -56,9 +57,24 @@ RebelLeadersFilters = {
                 Value = "wh_dlc03_bst_beastmen_chaos",
                 Operator = "OR",
             },
+            {
+                -- Faction Column
+                ColumnNumber = 2,
+                Type = "CONTAINSVALUE",
+                Value = "wh2_dlc11_cst_vampire_coast_encounters",
+                Operator = "OR",
+            },
+            {
+                -- Faction Column
+                ColumnNumber = 2,
+                Type = "CONTAINSVALUE",
+                Value = "qb",
+                Operator = "OR",
+            },
         },
     },
     agent_subtypes_tables_data__= {
+        Directory = "VanillaTSVs",
         FileName = "agent_subtypes_tables_data__.tsv",
         OutputFile = true,
         Filter = {
@@ -72,30 +88,35 @@ RebelLeadersFilters = {
         },
     },
     campaign_character_art_sets_tables_data__= {
+        Directory = "VanillaTSVs",
         FileName = "campaign_character_art_sets_tables_data__.tsv",
         OutputFile = true,
         Filter = {
         },
     },
     campaign_character_arts_tables_data__= {
+        Directory = "VanillaTSVs",
         FileName = "campaign_character_arts_tables_data__.tsv",
         OutputFile = true,
         Filter = {
         },
     },
     variants_tables_data__= {
+        Directory = "VanillaTSVs",
         FileName = "variants_tables_data__.tsv",
         OutputFile = true,
         Filter = {
         },
     },
     agent_uniforms_tables_data__= {
+        Directory = "VanillaTSVs",
         FileName = "agent_uniforms_tables_data__.tsv",
         OutputFile = true,
         Filter = {
         },
     },
     agent_culture_details_tables_data__ = {
+        Directory = "VanillaTSVs",
         FileName = "agent_culture_details_tables_data__.tsv",
         OutputFile = true,
         Filter = {
@@ -108,5 +129,40 @@ RebelLeadersFilters = {
         Filter = {
             RootElement = "Entry",
         },
-    }
+    },
+
+    -- Output Lua files
+    RebelLeadersDataResources = {
+        FileName = "RebelLeadersDataResources.lua",
+        OutputFile = true,
+        ExportAsLua = true,
+        LuaData = {
+            RootName = "RebelLeadersDataResource",
+            KeyColumn = 8,
+            -- Excludes key column because that is always required
+            RequiredColumns = {"2"},
+            ColumnNames = {
+                {
+                    TableColumn = 2,
+                    KeyName = "ArtSetIds",
+                    AsTableItem = true,
+                },
+                {
+                    TableColumn = 9,
+                    KeyName = "IsFemale",
+                    AsTableItem = true,
+                    SingleValue = true,
+                },
+                {
+                    TableColumn = 4,
+                    KeyName = "NameGroup",
+                    AsTableItem = true,
+                    SingleValue = true,
+                },
+            },
+        },
+        Filter = {
+
+        },
+    },
 }

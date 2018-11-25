@@ -1,0 +1,4 @@
+unit_porthole_camera_settings_tables	2
+distance	fov	key	phi	theta	target_x	target_y	target_z	environment_file
+1.7	35	bst_doombull	190	195	-0.17	2.9	0	Porthole/advisor/default_porthole.lighting
+2.6	35	nor_fimir_warlord	195	205	-0.5	2.8	0	Porthole/advisor/default_porthole.lighting

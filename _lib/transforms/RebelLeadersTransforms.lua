@@ -117,6 +117,11 @@ RebelLeadersTransforms = {
                             -- Index of column from indicated step
                             Value = "1",
                         },
+                        {
+                            ColumnNumber = 9,
+                            Type = "REPLACEWITHSTEP2",
+                            Value = "9",
+                        }
                     },
                 },
             },
@@ -286,6 +291,29 @@ RebelLeadersTransforms = {
                     },
                 },
             },
+            NextTransformOperation = "STEP6",
+        },
+        STEP6 = {
+            FileName = "RebelLeadersDataResources",
+            IgnoreFilter = true,
+            Filters = {
+
+            },
+            -- This should be done once, assuming the filter criteria is met
+            PerformOnce = true,
+            Transforms = {
+                {
+                    Type = "COPYTABLESTEP3",
+                    Columns = {
+                    },
+                },
+                {
+                    Type = "NEWROW",
+                    Columns = {
+                    },
+                }
+            },
+            DefaultColumnTransformBehaviour = "SELECTEXISTING",
         },
 
     }

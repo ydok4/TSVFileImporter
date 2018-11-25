@@ -1,0 +1,4 @@
+Loc PackedFile
+Key	Text	Tooltip
+agent_actions_localised_action_description_wh2_main_agent_action_champion_passive_spread_corruption	[[col:yellow]]Increases the amount of [[img:icon_corruption_untainted]][[/img]]Untainted in the local province by %n.[[/col]]	true
+agent_actions_localised_action_name_wh2_main_agent_action_champion_passive_spread_corruption	{{tr:agent_action_name_cleanse_corruption}}	true

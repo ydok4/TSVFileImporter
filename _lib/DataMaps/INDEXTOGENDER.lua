@@ -1,0 +1,5 @@
+INDEXTOGENDER = {}
+
+INDEXTOGENDER["0"] = "Special";
+INDEXTOGENDER["1"] = "Female";
+INDEXTOGENDER["2"] = "Male";

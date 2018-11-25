@@ -1,0 +1,5 @@
+cdir_events_dilemma_payloads_tables	2
+choice_key	dilemma_key	id	payload_key	value
+FIRST	wh2_mixu_emp_battle_wizard_lord_unlock	688701	TEXT_DISPLAY	LOOKUP[dummy_wizard_lord_fire_unlocked]
+SECOND	wh2_mixu_emp_battle_wizard_lord_unlock	688702	TEXT_DISPLAY	LOOKUP[dummy_wizard_lord_light_unlocked]
+THIRD	wh2_mixu_emp_battle_wizard_lord_unlock	688703	TEXT_DISPLAY	LOOKUP[dummy_wizard_lord_beast_unlocked]

@@ -1,7 +1,7 @@
 MixuEffectLocFilters = {
         -- Original skill files
         character_skills_tables_data__ = {
-            FileName = "character_skills_tables_ab_mixus_hero_pack_innates__.tsv",
+            FileName = "character_skills_tables_ab_mixus_hero_pack_innates.tsv",
             Directory = "MixuTSV",
             OutputFile = false,
             -- Filters work on a per column basis
@@ -19,7 +19,7 @@ MixuEffectLocFilters = {
             },
         },
         character_skill_level_to_effects_junctions_tables_data__ = {
-        FileName = "character_skill_level_to_effects_junctions_tables_ab_mixus_agent_actions_innates__.tsv",
+        FileName = "character_skill_level_to_effects_junctions_tables_ab_mixus_agent_actions_innates.tsv",
         Directory = "MixuTSV",
         -- Filters work on a per column basis
         -- Each index in the filter object correlates to
@@ -55,9 +55,25 @@ MixuEffectLocFilters = {
         OutputFile = true,
         ExportAsLua = true,
         LuaData = {
-            RootName = "MixuEffectResources",
             KeyColumn = 1,
-            RequiredColumns = {"2", "4", "6"},
+            RequiredColumns = {"2",},
+            ColumnNames = {
+                {
+                    TableColumn = 2,
+                    KeyName = "IconPositive",
+                    SingleValue = true,
+                },
+                {
+                    TableColumn = 4,
+                    KeyName = "IconNegative",
+                    SingleValue = true,
+                },
+                {
+                    TableColumn = 6,
+                    KeyName = "IsPositiveGood",
+                    SingleValue = true,
+                },
+            },
         },
         Filter = {
 
@@ -69,18 +85,26 @@ MixuEffectLocFilters = {
         OutputFile = true,
         ExportAsLua = true,
         LuaData = {
-            RootName = "MixuTraitsToEffects",
             KeyColumn = 1,
             -- Excludes key column because that is always required
-            RequiredColumns = {"4", "2", "5"},
+            RequiredColumns = {"2",},
             ColumnNames = {
-                [2] = "Effects",
-                [4] = "Icon",
-                [5] = "Values",
-            },
-            -- Columns which should not be displayed as tables
-            SingleValue = {
-                [4] = true,
+                {
+                    TableColumn = 2,
+                    KeyName = "Effects",
+                    AsTableItem = true,
+                },
+                {
+                    TableColumn = 4,
+                    KeyName = "Icon",
+                    SingleValue = true,
+                },
+                {
+                    TableColumn = 5,
+                    KeyName = "Values",
+                    AsTableItem = true,
+                    AllowDuplicates = true,
+                },
             },
         },
         Filter = {

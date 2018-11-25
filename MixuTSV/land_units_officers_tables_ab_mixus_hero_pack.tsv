@@ -1,0 +1,9 @@
+land_units_officers_tables	4
+key	officer_1	officer_2	standard_bearer_1	standard_bearer_2	musician_1	musician_2	personality_location	additional_personalities
+wh_main_emp_wizard_lord_light_officer							front	wh_main_emp_wizard_lord_light_riders
+wh2_mixu_grn_cha_savage_orc_warboss	wh2_mixu_grn_cha_savage_orc_warboss						front	
+wh2_mixu_grn_cha_savage_orc_shaman	wh2_mixu_grn_cha_savage_orc_shaman						front	
+wh2_mixu_vmp_cha_vampire_countess_officer							front	wh2_mixu_vmp_cha_vampire_countess_riders
+wh2_mixu_nor_cha_fimir_warlord	wh2_mixu_nor_cha_fimir_warlord						front	
+wh2_mixu_nor_cha_shaman_sorcerer_lord_death	wh2_mixu_nor_cha_shaman_sorcerer_lord_death						front	
+wh2_mixu_nor_cha_shaman_sorcerer_lord_warshrine	wh2_mixu_nor_cha_shaman_sorcerer_lord_warshrine						front	

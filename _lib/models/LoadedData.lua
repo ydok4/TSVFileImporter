@@ -11,6 +11,8 @@ LoadedData = {
     PreviousTransformedXMLOperations = {},
     PreviousRowsInOperation = {},
 
+    PreviousLuaParents = {};
+
     -- Data
     TransformData = {};
     FilterData = {},
@@ -90,9 +92,6 @@ function LoadedData:WriteFiles()
             local outputFileName = RemoveFileExtension(filterData.FileName);
 
             local directoryPath = "";
-            --[[if filterData.Directory ~= nil then
-                directoryPath = filterData.Directory.."/";
-            end--]]
             outputFileName = "out/"..directoryPath..outputFileName.."_new."..fileType;
 
             local iostream = assert(io.open(outputFileName, "w+"));
@@ -147,80 +146,42 @@ function LoadedData:WriteFiles()
                 end
 
             elseif fileType == "lua" then
+                local luaData = filterData.LuaData;
                 -- We use this to keep track of the
                 -- keys we've outputted
                 local addedKeys = {};
                 -- Print out the parent variable
-                if filterData.LuaData.RootName ~= nil then
-                    iostream:write(filterData.LuaData.RootName.." = {\n");
+                if luaData.RootName ~= nil then
+                    iostream:write(luaData.RootName.." = {\n");
                 else
                     iostream:write(key.." = {\n");
                 end
 
                 -- print out all the values as lua
                 for rowIndex, row in pairs(file) do
-
-                    if addedKeys[row[filterData.LuaData.KeyColumn]] == nil then
-                        iostream:write("\t"..row[filterData.LuaData.KeyColumn].." = {\n");
+                    if addedKeys[row[luaData.KeyColumn]] == nil then
+                        OutputTabsForDepth(iostream, 1);
+                        local keyValue = row[luaData.KeyColumn];
+                        OutputKey(iostream, keyValue);
+                        iostream:write(" = {\n");
                         -- Find all values which match the key in case there are duplicates
-                        local firstKey = row[filterData.LuaData.KeyColumn];
+                        local firstKey = row[luaData.KeyColumn];
                         local foundFirstInstance = false;
                         local duplicateKeys = {};
                         for rowIndex2, row2 in pairs(file) do
-                            if row2[filterData.LuaData.KeyColumn] == firstKey then
+                            if row2[luaData.KeyColumn] == firstKey then
                                 duplicateKeys[#duplicateKeys + 1] = row2;
                             end
                         end
 
-                        local firstColumn = false;
-                        for columnIndex, column in pairs(row) do
-                            if columnIndex ~= filterData.LuaData.KeyColumn then
-                                if filterData.LuaData.RequiredColumns == nil or Contains(filterData.LuaData.RequiredColumns, tostring(columnIndex)) then
-                                    if (filterData.LuaData.SingleValue == nil or (filterData.LuaData.SingleValue and filterData.LuaData.SingleValue[columnIndex] == nil)) and #duplicateKeys > 0 and filterData.LuaData.ColumnNames ~= nil then
-                                        iostream:write("\t\t"..filterData.LuaData.ColumnNames[columnIndex].." = {\n ");
-                                        for duplicateKeyIndex, duplicateRow in pairs(duplicateKeys) do
-                                            if duplicateKeyIndex == 1 then
-                                                iostream:write("\t\t\t");
-                                            else
-                                                iostream:write(" ");
-                                            end
-                                            iostream:write("\""..duplicateRow[columnIndex].."\",");
-                                        end
-                                        iostream:write("\n\t\t},\n");
-                                    else
-                                        local hasColumnName = filterData.LuaData.ColumnNames ~= nil and filterData.LuaData.ColumnNames[columnIndex] ~= nil;
-                                        if hasColumnName then
-                                            iostream:write("\t\t"..filterData.LuaData.ColumnNames[columnIndex].." = ");
-                                            if filterData.LuaData.SingleValue ~= nil and filterData.LuaData.SingleValue[columnIndex] == nil then
-                                                iostream:write("{\n ");
-                                            end
-                                            firstColumn = false;
-                                        end
-                                        if hasColumnName and firstColumn == false then
-                                            iostream:write("\t\t\t");
-                                            firstColumn = true;
-                                        elseif firstColumn == false then
-                                            iostream:write("\t\t");
-                                            firstColumn = true;
-                                        else
-                                            iostream:write(" ");
-                                        end
-                                        iostream:write("\""..column.."\",");
-                                        if hasColumnName then
-                                            if filterData.LuaData.SingleValue ~= nil and filterData.LuaData.SingleValue[columnIndex] == nil then
-                                                iostream:write("\n\t\t},");
-                                            end
-                                            iostream:write("\n");
-                                        end
-                                    end
-                                end
-
-                            end
-                        end
-                        iostream:write("\n\t},\n");
-                        addedKeys[row[filterData.LuaData.KeyColumn]] = true;
+                        self.PreviousLuaParents[0]  = {
+                            ColumnIndex = luaData.KeyColumn,
+                            ColumnValue = keyValue,
+                        };
+                        self:PrintOutNestedColumns(iostream, luaData, luaData.ColumnNames, duplicateKeys, 2);
+                        self.PreviousLuaParents[0] = nil;
+                        addedKeys[row[luaData.KeyColumn]] = true;
                     end
-
                 end
 
                 -- Close the parent variable
@@ -229,6 +190,102 @@ function LoadedData:WriteFiles()
             iostream:close();
         end
     end
+end
+
+function LoadedData:PrintOutNestedColumns(iostream, luaData, columnParent,  duplicateKeys, depth)
+    if #duplicateKeys > 0 and columnParent ~= nil then
+        for index, outputColumnData in pairs(columnParent) do
+            local keyNameIndex  = -1;
+            if string.match(outputColumnData.KeyName, "COLUMN") then
+                keyNameIndex = tonumber(string.match(outputColumnData.KeyName, "COLUMN(.*)"));
+            end
+
+            if outputColumnData.AsTableItem and not outputColumnData.SingleValue then
+                OutputTabsForDepth(iostream, depth);
+                OutputKey(iostream, outputColumnData.KeyName);
+                iostream:write(" = {\n");
+            end
+
+            local insertedKeys = {};
+            local firstRecord = true;
+            for duplicateKeyIndex, duplicateRow in pairs(duplicateKeys) do
+                if (outputColumnData.AllowDuplicates or not insertedKeys[duplicateRow[outputColumnData.TableColumn]]) and self:MatchesLuaParents(duplicateRow) then
+                    local columnValue = duplicateRow[outputColumnData.TableColumn];
+                    local keyName = outputColumnData.KeyName;
+                    if keyNameIndex ~= -1 then
+                        keyName = duplicateRow[keyNameIndex];
+                        keyName = keyName:gsub("'", "_");
+                        keyName = keyName:gsub("%s+", "");
+                        keyName = keyName:gsub("-", "_");
+                        keyName = keyName:gsub("é", "e");
+                        keyName = keyName:gsub("‘", "_");
+                        keyName = keyName:gsub(",", "_");
+
+                        if keyName == "" then
+                            keyName = keyName:gsub("", "_");
+                        end
+                    end
+
+                    if outputColumnData.SingleValue == true and outputColumnData.AsTableItem == true then
+                        OutputTabsForDepth(iostream, depth);
+                        OutputKey(iostream, keyName);
+                        iostream:write(" = \""..duplicateRow[outputColumnData.TableColumn].."\",\n");
+                    elseif outputColumnData.SingleValue == true then
+                        OutputTabsForDepth(iostream, depth);
+                        OutputKey(iostream, keyName);
+                        iostream:write(" = \""..duplicateRow[outputColumnData.TableColumn].."\",\n");
+                    elseif outputColumnData.AsTableItem then
+                        if outputColumnData.NestedColumns == nil then
+                            if firstRecord == true then
+                                OutputTabsForDepth(iostream, depth + 1);
+                                firstRecord = false;
+                            end
+                            iostream:write(" \""..columnValue.."\",");
+                        else
+                            OutputTabsForDepth(iostream, depth + 1);
+                            OutputKey(iostream, columnValue);
+                            iostream:write(" = {\n");
+                            self.PreviousLuaParents[depth] = {
+                                ColumnIndex = outputColumnData.TableColumn,
+                                ColumnValue = duplicateRow[outputColumnData.TableColumn],
+                            };
+                            self:PrintOutNestedColumns(iostream, luaData, outputColumnData.NestedColumns, duplicateKeys, depth + 2);
+                            self.PreviousLuaParents[depth] = nil;
+                        end
+                    elseif not outputColumnData.AsTableItem then
+                        OutputTabsForDepth(iostream, depth);
+                        OutputKey(iostream, columnValue);
+                        iostream:write(" = {\n");
+                        self.PreviousLuaParents[depth] = {
+                            ColumnIndex = outputColumnData.TableColumn,
+                            ColumnValue = duplicateRow[outputColumnData.TableColumn],
+                        };
+                        self:PrintOutNestedColumns(iostream, luaData, outputColumnData.NestedColumns, duplicateKeys, depth + 1);
+                        self.PreviousLuaParents[depth] = nil;
+                    end
+
+                    insertedKeys[duplicateRow[outputColumnData.TableColumn]] = true;
+                end
+            end
+
+            if outputColumnData.AsTableItem == true and not outputColumnData.SingleValue then
+                iostream:write("\n");
+                OutputTabsForDepth(iostream, depth);
+                iostream:write("},\n");
+            end
+        end
+        OutputTabsForDepth(iostream, depth - 1)
+        iostream:write("},\n");
+    end
+end
+
+function LoadedData:MatchesLuaParents(row)
+    for key, value in pairs(self.PreviousLuaParents) do
+        if not row[value.ColumnIndex] or row[value.ColumnIndex] ~= value.ColumnValue then
+            return false;
+        end
+    end
+    return true;
 end
 
 function LoadedData:RowMatchesFilters(fields, filters)
@@ -397,6 +454,9 @@ function LoadedData:TransformFile(file, filter, transformStep)
     end
 
     for rowIndex, row in pairs(file) do
+        if transformStep == 1 then
+            --local test = "";
+        end
         if rowIndex <= 2 and filter.Directory ~= "PortraitGenerator" then
             firstRow = true;
         elseif rowIndex ~= 1 then
@@ -483,6 +543,8 @@ function LoadedData:TransformRow(row, transformOperation)
             local transformedStepRow = self.PreviousTransformedRowsInOperation[stepNumber];
             transformedStepRow = self:TransformColumns(transformedStepRow, transform, transformOperation);
             return transformedStepRow;
+        elseif transform.Type == "CREATETABLE" then
+            newRow = self:CreateTable(transform, transformOperation);
         elseif transform.Type == "NEWROW" then
             newRow = self:TransformColumns(row, transform, transformOperation);
         elseif transform.Type == "XMLDUPLICATE" then
@@ -498,6 +560,11 @@ function LoadedData:TransformRow(row, transformOperation)
             newRow = transformedString;
         end
     end
+    return newRow;
+end
+
+function LoadedData:CreateTable(transform, transformOperation)
+    local newRow = self:CreateColumns(transform, transformOperation);
     return newRow;
 end
 
@@ -537,6 +604,17 @@ function LoadedData:TransformColumns(row, transform, transformOperation)
     end
 
     return transformedColumns;
+end
+
+function LoadedData:CreateColumns(transform, transformOperation)
+    local newRow = {};
+    for columnTransformIndex, columnTransform in pairs(transform.Columns) do
+        if columnTransform.Index == columnTransformIndex then
+            local columnValue = self:ApplyTransformToColumn("", columnTransform);
+            newRow[#newRow + 1] = columnValue;
+        end
+    end
+    return newRow;
 end
 
 function LoadedData:ApplyTransformToColumn(column, columnTransform)

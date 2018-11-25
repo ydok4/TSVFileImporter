@@ -1,0 +1,10 @@
+campaign_character_art_sets_tables	6
+agent_type	art_set_id	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+general	wh_main_art_set_nor_marauder_chieftain_01				false	true	nor_marauder_chieftain	1
+general	wh_main_art_set_nor_marauder_chieftain_02				false	true	nor_marauder_chieftain	1
+general	wh_main_art_set_nor_marauder_chieftain_03				false	true	nor_marauder_chieftain	1
+general	wh_main_art_set_nor_marauder_chieftain_04				false	true	nor_marauder_chieftain	1
+general	mr_garrison_commander_nor_01		wh_main_sc_nor_norsca		false	true	default	1
+general	mr_garrison_commander_nor_02		wh_main_sc_nor_norsca		false	true	default	1
+general	mr_garrison_commander_nor_03		wh_main_sc_nor_norsca		false	true	default	1
+general	mr_garrison_commander_nor_04		wh_main_sc_nor_norsca		false	true	default	1

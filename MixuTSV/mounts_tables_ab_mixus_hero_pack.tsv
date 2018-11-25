@@ -1,0 +1,4 @@
+mounts_tables	10
+key	animation	entity	audio_armour_type	variant	voiceover
+wh2_grn_savage_war_boar	bo1_warboar	wh_main_grn_cav_boar_hero_blood	body	grn_savage_warboar_hero	wh_dlc03_vo_culture_Boar
+wh2_grn_savage_wyvern	bi2_wyvern	wh_main_flying_wyvern_blood	leather	grn_wyvern_savage	wh_main_vo_culture_Dragon_Small

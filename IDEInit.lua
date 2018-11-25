@@ -5,10 +5,11 @@ require '_lib/filteringHelpers'
 require '_lib/DataMaps/CULTURESTRINGS'
 require '_lib/DataMaps/SKILLICONSTOTRAITS'
 require '_lib/DataMaps/SUBTYPESTOARTSETS'
+require '_lib/DataMaps/INDEXTOGENDER'
 
 -- Grab filters.
-local filterData = GetFilters("RebelLeadersFilters");
-local transformData = GetTransforms("RebelLeadersTransforms");
+local filterData = GetFilters("MixuDataFilters");
+local transformData = GetTransforms("AgentDataTransforms");
 
 local loadedData = LoadedData:new({
     IDCounter = 0,

@@ -53,7 +53,24 @@ EffectLocFilters = {
         ExportAsLua = true,
         LuaData = {
             KeyColumn = 1,
-            RequiredColumns = {"2", "4", "6"},
+            RequiredColumns = {"2",},
+            ColumnNames = {
+                {
+                    TableColumn = 2,
+                    KeyName = "IconPositive",
+                    SingleValue = true,
+                },
+                {
+                    TableColumn = 4,
+                    KeyName = "IconNegative",
+                    SingleValue = true,
+                },
+                {
+                    TableColumn = 6,
+                    KeyName = "IsPositiveGood",
+                    SingleValue = true,
+                },
+            },
         },
         Filter = {
 
@@ -66,15 +83,24 @@ EffectLocFilters = {
         LuaData = {
             KeyColumn = 1,
             -- Excludes key column because that is always required
-            RequiredColumns = {"4", "2", "5"},
+            RequiredColumns = {"2",},
             ColumnNames = {
-                [2] = "Effects",
-                [4] = "Icon",
-                [5] = "Values",
-            },
-            -- Columns which should not be displayed as tables
-            SingleValue = {
-                [4] = true,
+                {
+                    TableColumn = 2,
+                    KeyName = "Effects",
+                    AsTableItem = true,
+                },
+                {
+                    TableColumn = 4,
+                    KeyName = "Icon",
+                    SingleValue = true,
+                },
+                {
+                    TableColumn = 5,
+                    KeyName = "Values",
+                    AsTableItem = true,
+                    AllowDuplicates = true,
+                },
             },
         },
         Filter = {
