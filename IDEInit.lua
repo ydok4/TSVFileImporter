@@ -8,8 +8,8 @@ require '_lib/DataMaps/SUBTYPESTOARTSETS'
 require '_lib/DataMaps/INDEXTOGENDER'
 
 -- Grab filters.
-local filterData = GetFilters("MixuDataFilters");
-local transformData = GetTransforms("AgentDataTransforms");
+local filterData = GetFilters("NameResourcesFilters");
+local transformData = GetTransforms("NameResourcesTransforms");
 
 local loadedData = LoadedData:new({
     IDCounter = 0,

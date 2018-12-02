@@ -38,7 +38,7 @@ NameResourcesTransforms = {
             Filters = {
                 {
                     ColumnNumber = 1,
-                    Type = "CONTAINSVALUESTEP1",
+                    Type = "ISVALUESTEP1",
                     -- Index of column from indicated step
                     Value = "1",
                     Operator = "AND",
@@ -65,7 +65,7 @@ NameResourcesTransforms = {
                 {
                     -- Name group column
                     ColumnNumber = 1,
-                    Type = "CONTAINSVALUESTEP2",
+                    Type = "ISVALUESTEP2",
                     -- Index of column from indicated step
                     Value = "1",
                     Operator = "AND",

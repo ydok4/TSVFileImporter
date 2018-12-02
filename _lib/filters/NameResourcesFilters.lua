@@ -7,8 +7,8 @@ NameResourcesFilters = {
             --[[{
                 -- Name group key
                 ColumnNumber = 1,
-                Type = "MATCHVALUE",
-                Value = "89",
+                Type = "CONTAINSVALUE",
+                Value = "98",
                 Operator = "AND",
             },--]]
         },
