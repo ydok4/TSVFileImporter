@@ -15,6 +15,13 @@ RebelLeadersFilters = {
                 Value = "general",
                 Operator = "AND",
             },
+            --[[{
+                -- Faction Column
+                ColumnNumber = 2,
+                Type = "MATCHVALUE",
+                Value = "wh2_main_def_dark_elves_qb1",
+                Operator = "OR",
+            },--]]
             {
                 -- Faction Column
                 ColumnNumber = 2,
@@ -71,6 +78,48 @@ RebelLeadersFilters = {
                 Value = "qb",
                 Operator = "OR",
             },
+            {
+                -- Faction Column
+                ColumnNumber = 2,
+                Type = "CONTAINSVALUE",
+                Value = "wh2_dlc11_cst_harpoon_the_sunken_land_corsairs",
+                Operator = "OR",
+            },
+            {
+                -- Faction Column
+                ColumnNumber = 2,
+                Type = "CONTAINSVALUE",
+                Value = "wh2_dlc11_brt_bretonnia_dil",
+                Operator = "OR",
+            },
+            {
+                -- Faction Column
+                ColumnNumber = 2,
+                Type = "CONTAINSVALUE",
+                Value = "wh2_dlc11_emp_empire_dil",
+                Operator = "OR",
+            },
+            {
+                -- Faction Column
+                ColumnNumber = 2,
+                Type = "CONTAINSVALUE",
+                Value = "wh2_dlc11_def_dark_elves_dil",
+                Operator = "OR",
+            },
+            {
+                -- Faction Column
+                ColumnNumber = 2,
+                Type = "CONTAINSVALUE",
+                Value = "wh2_dlc11_nor_norsca_dil",
+                Operator = "OR",
+            },
+            {
+                -- Faction Column
+                ColumnNumber = 2,
+                Type = "CONTAINSVALUE",
+                Value = "shanty",
+                Operator = "OR",
+            },
         },
     },
     agent_subtypes_tables_data__= {
@@ -78,11 +127,25 @@ RebelLeadersFilters = {
         FileName = "agent_subtypes_tables_data__.tsv",
         OutputFile = true,
         Filter = {
-            --[[{
+            {
                 -- Auto generate column
                 ColumnNumber = 2,
                 Type = "MATCHVALUE",
                 Value = "true",
+                Operator = "AND",
+            },
+            {
+                -- Agent key column
+                ColumnNumber = 1,
+                Type = "DOESNOTMATCHVALUE",
+                Value = "default",
+                Operator = "AND",
+            },
+            --[[{
+                -- Agent key column
+                ColumnNumber = 1,
+                Type = "CONTAINSVALUE",
+                Value = "def",
                 Operator = "AND",
             },--]]
         },

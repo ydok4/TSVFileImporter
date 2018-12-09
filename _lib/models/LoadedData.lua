@@ -361,6 +361,8 @@ end
 function LoadedData:ApplyFilterToField(filter, fieldValue)
     if filter.Type == "MATCHVALUE" then
         return filter.Value == fieldValue;
+    elseif filter.Type == "DOESNOTMATCHVALUE" then
+        return filter.Value ~= fieldValue;
     elseif string.match(filter.Type, "ISVALUESTEP") then
         local stepNumber = string.match(filter.Type, "ISVALUE(.*)");
         if (fieldValue == self.PreviousRowsInOperation[stepNumber][tonumber(filter.Value)]) then

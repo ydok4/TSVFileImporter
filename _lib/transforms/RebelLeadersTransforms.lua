@@ -4,14 +4,57 @@ RebelLeadersTransforms = {
     -- For each record the condition will be checked and then
     -- the transform applied
     -- Empire Rebel Transform
-    faction_agent_permitted_subtypes_tables_data__ = {
-        STEP1 = {
+    agent_subtypes_tables_data__ = {
+    STEP1 = {
+        -- The name of the file this transform operation is to be applied to
+        FileName = "agent_subtypes_tables_data__",
+        -- In an operation if the condition is met,
+        -- Then the transforms are applied
+        Filters = {
+
+        },
+        PostTransformFilters = {
+            {
+                ColumnNumber = 1,
+                Type = "TRANSFORMUNIQUE",
+                -- Index of column from indicated step
+                Value = "",
+                Operator = "AND",
+            },
+        },
+        -- Transforms determine how data should be changed
+        Transforms = {
+            {
+                Type = "NEWROW",
+                Columns = {
+                    {
+                        -- Agent sub type Key column
+                        ColumnNumber = 1,
+                        Type = "APPEND",
+                        -- Index of column from indicated step
+                        Value = "_rebel",
+                    },
+                },
+            },
+        },
+        -- This value is used if a column has unsepecified transforms
+        DefaultColumnTransformBehaviour = "SELECTEXISTING",
+        NextTransformOperation = "STEP2",
+    },
+    STEP2 = {
         -- The name of the file this transform operation is to be applied to
         FileName = "faction_agent_permitted_subtypes_tables_data__",
         -- In an operation if the condition is met,
         -- Then the transforms are applied
         Filters = {
-
+            -- Agent Sub Type Column
+            {
+                ColumnNumber = 3,
+                Type = "MATCHINGSTEP1",
+                -- Index of column from indicated step
+                Value = "1",
+                Operator = "AND",
+            },
         },
         -- Transforms determine how data should be changed
         Transforms = {
@@ -29,51 +72,8 @@ RebelLeadersTransforms = {
         },
         -- This value is used if a column has unsepecified transforms
         DefaultColumnTransformBehaviour = "SELECTEXISTING",
-        NextTransformOperation = "STEP2",
+        NextTransformOperation = "STEP3",
     },
-    STEP2 = {
-        -- The name of the file this transform operation is to be applied to
-        FileName = "agent_subtypes_tables_data__",
-        -- In an operation if the condition is met,
-        -- Then the transforms are applied
-        Filters = {
-            -- Agent Sub Type Column
-            {
-                ColumnNumber = 1,
-                Type = "MATCHINGSTEP1",
-                -- Index of column from indicated step
-                Value = "3",
-                Operator = "AND",
-            },
-        },
-        PostTransformFilters = {
-            {
-                ColumnNumber = 1,
-                Type = "TRANSFORMUNIQUE",
-                -- Index of column from indicated step
-                Value = "",
-                Operator = "AND",
-            },
-        },
-        -- Transforms determine how data should be changed
-        Transforms = {
-                {
-                    Type = "NEWROW",
-                    Columns = {
-                        {
-                            -- Agent sub type Key column
-                            ColumnNumber = 1,
-                            Type = "APPEND",
-                            -- Index of column from indicated step
-                            Value = "_rebel",
-                        },
-                    },
-                },
-            },
-            -- This value is used if a column has unsepecified transforms
-            DefaultColumnTransformBehaviour = "SELECTEXISTING",
-            NextTransformOperation = "STEP3",
-        },
     STEP3 = {
         -- The name of the file this transform operation is to be applied to
         FileName = "campaign_character_art_sets_tables_data__",
@@ -83,7 +83,7 @@ RebelLeadersTransforms = {
             -- Agent Sub Type Column
             {
                 ColumnNumber = 8,
-                Type = "MATCHINGSTEP2",
+                Type = "MATCHINGSTEP1",
                 -- Index of column from indicated step
                 Value = "1",
                 Operator = "AND",
@@ -113,13 +113,13 @@ RebelLeadersTransforms = {
                         {
                             -- Agent sub type column
                             ColumnNumber = 8,
-                            Type = "REPLACEWITHTRANSFORMEDSTEP2",
+                            Type = "REPLACEWITHTRANSFORMEDSTEP1",
                             -- Index of column from indicated step
                             Value = "1",
                         },
                         {
                             ColumnNumber = 9,
-                            Type = "REPLACEWITHSTEP2",
+                            Type = "REPLACEWITHSTEP1",
                             Value = "9",
                         }
                     },
