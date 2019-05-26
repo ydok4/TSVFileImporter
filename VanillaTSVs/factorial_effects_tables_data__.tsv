@@ -1,0 +1,5 @@
+factorial_effects_tables	1
+category	key	ui_infos
+skaven_discoverability	skaven_discoverability_buildings	buildings
+skaven_discoverability	skaven_discoverability_buildings_settlement	buildings_settlement
+skaven_discoverability	skaven_discoverability_characters	characters

@@ -70,11 +70,11 @@ wh2_dlc09_anc_talisman_golden_ankhra	wh_main_anc_talisman	.	true	false	false	1	0
 wh2_dlc09_anc_talisman_golden_eye_of_rah_nutt	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			40	0		false
 wh2_dlc09_anc_talisman_obsidian_pendant	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			40	0		false
 wh2_dlc09_anc_talisman_sun_scarab	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			20	0		false
-wh2_dlc09_anc_weapon_blade_of_antarhak	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			40	0		true
+wh2_dlc09_anc_weapon_blade_of_antarhak	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			40	0		false
 wh2_dlc09_anc_weapon_blade_of_mourning_fire	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			90	0		false
 wh2_dlc09_anc_weapon_blade_of_setep	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			45	0		false
 wh2_dlc09_anc_weapon_crook_and_flail_of_radiance	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			151	0		false
-wh2_dlc09_anc_weapon_destroyer_of_eternities	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			80	0		true
+wh2_dlc09_anc_weapon_destroyer_of_eternities	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			80	0		false
 wh2_dlc09_anc_weapon_double_crescent_of_neru	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			40	0		false
 wh2_dlc09_anc_weapon_enchanted_lapis_mace	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			15	0		false
 wh2_dlc09_anc_weapon_fang_of_quaph	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			20	0		false
@@ -88,7 +88,7 @@ wh2_dlc10_anc_arcane_item_scroll_of_arnizipals_black_horror	wh_main_anc_arcane_i
 wh2_dlc10_anc_arcane_item_scroll_of_assault_of_stone	wh_main_anc_arcane_item	.	true	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			45	0		true
 wh2_dlc10_anc_arcane_item_scroll_of_blast	wh_main_anc_arcane_item	.	true	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			20	0		true
 wh2_dlc10_anc_arcane_item_scroll_of_fear_of_aramar	wh_main_anc_arcane_item	.	true	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			45	0		true
-wh2_dlc10_anc_arcane_item_scroll_of_speed_of_lykos	wh_main_anc_arcane_item	.	true	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	false			20	0		true
+wh2_dlc10_anc_arcane_item_scroll_of_speed_of_lykos	wh_main_anc_arcane_item	.	true	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			20	0		true
 wh2_dlc10_anc_arcane_item_scroll_of_the_amber_trance	wh_main_anc_arcane_item	.	true	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			20	0		true
 wh2_dlc10_anc_arcane_item_stave_of_avelorn	wh_main_anc_arcane_item	.	false	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	0		false
 wh2_dlc10_anc_enchanted_item_burning_phoenix_pinion	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false
@@ -280,6 +280,64 @@ wh2_dlc11_anc_weapon_krakens_bane	wh_main_anc_weapon	.	false	false	false	1	0	999
 wh2_dlc11_anc_weapon_lucky_levis_hookhand	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			75	0		true
 wh2_dlc11_anc_weapon_masamune	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			90	0		true
 wh2_dlc11_anc_weapon_red_blades	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false
+wh2_dlc12_anc_arcane_item_brt_morgianas_mirror	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	0		false
+wh2_dlc12_anc_arcane_item_standard_of_the_sacred_serpent	wh_main_anc_arcane_item	.	false	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	0		false
+wh2_dlc12_anc_armour_alloy_shield	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			50	0		false
+wh2_dlc12_anc_armour_brt_armour_of_brilliance	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false
+wh2_dlc12_anc_armour_glyph_of_potec	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false
+wh2_dlc12_anc_armour_iron_frame	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false
+wh2_dlc12_anc_armour_power_armour	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			50	0		false
+wh2_dlc12_anc_banner_cape_of_sniper	wh2_dlc12_anc_banner_cape_of_sniper	.	false	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh2_dlc12_anc_banner_cape_of_sniper	50	0	banner	false
+wh2_dlc12_anc_banner_incendiary_rounds	wh2_dlc12_anc_banner_incendiary_rounds	.	false	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh2_dlc12_anc_banner_incendiary_rounds	50	0	banner	false
+wh2_dlc12_anc_banner_tracer_rounds	wh2_dlc12_anc_banner_tracer_rounds	.	false	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh2_dlc12_anc_banner_tracer_rounds	50	0	banner	false
+wh2_dlc12_anc_enchanted_item_brt_braid_of_bordeleaux	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false
+wh2_dlc12_anc_enchanted_item_golden_death_mask	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false
+wh2_dlc12_anc_enchanted_item_mask_of_heavens	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false
+wh2_dlc12_anc_enchanted_item_plaque_of_sotek	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false
+wh2_dlc12_anc_enchanted_item_warp_lightning_battery	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			50	0		false
+wh2_dlc12_anc_enchanted_modulated_doomwheel_assembly_kit	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			50	0		false
+wh2_dlc12_anc_mount_lzd_red_crested_skink_chief_ancient_stegadon	wh2_main_anc_mount_ancient_stegadon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_dlc12_lzd_cha_skink_chief_red_crested_3		1	1		false
+wh2_dlc12_anc_mount_lzd_red_crested_skink_chief_horned_one	wh2_dlc12_anc_mount_horned_one	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_dlc12_lzd_cha_skink_chief_red_crested_1		1	1		false
+wh2_dlc12_anc_mount_lzd_red_crested_skink_chief_ripperdactyl	wh2_dlc12_anc_mount_ripperdactyl	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_dlc12_lzd_cha_skink_chief_red_crested_2		1	1		false
+wh2_dlc12_anc_mount_lzd_skink_priest_beasts_ancient_stegadon_engine_gods	wh2_dlc12_anc_mount_ancient_stegadon_engine_gods	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_dlc12_lzd_cha_skink_priest_beasts_4		1	1		false
+wh2_dlc12_anc_mount_lzd_skink_priest_heavens_ancient_stegadon_engine_gods	wh2_dlc12_anc_mount_ancient_stegadon_engine_gods	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_dlc12_lzd_cha_skink_priest_heavens_4		1	1		false
+wh2_dlc12_anc_mount_lzd_tehenhauin_ancient_stegadon_engine_gods	wh2_dlc12_anc_mount_ancient_stegadon_engine_gods	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_dlc12_lzd_cha_tehenhauin_3		1	1		false
+wh2_dlc12_anc_mount_lzd_tehenhauin_horned_one	wh2_dlc12_anc_mount_horned_one	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_dlc12_lzd_cha_tehenhauin_1		1	1		false
+wh2_dlc12_anc_mount_lzd_tehenhauin_ripperdactyl	wh2_dlc12_anc_mount_ripperdactyl	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_dlc12_lzd_cha_tehenhauin_2		1	1		false
+wh2_dlc12_anc_mount_lzd_tlaqua_skink_chief_terradon	wh2_main_anc_mount_terradon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_main_lzd_cha_skink_chief_1		1	1		false
+wh2_dlc12_anc_mount_lzd_tlaqua_skink_priest_beasts_ancient_stegadon_engine_gods	wh2_dlc12_anc_mount_ancient_stegadon_engine_gods	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_dlc12_lzd_cha_skink_priest_beasts_4		1	1		false
+wh2_dlc12_anc_mount_lzd_tlaqua_skink_priest_beasts_terradon	wh2_main_anc_mount_terradon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_main_lzd_cha_skink_priest_beasts_1		1	1		false
+wh2_dlc12_anc_mount_lzd_tlaqua_skink_priest_heavens_ancient_stegadon_engine_gods	wh2_dlc12_anc_mount_ancient_stegadon_engine_gods	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_dlc12_lzd_cha_skink_priest_heavens_4		1	1		false
+wh2_dlc12_anc_mount_lzd_tlaqua_skink_priest_heavens_terradon	wh2_main_anc_mount_terradon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_main_lzd_cha_skink_priest_heavens_1		1	1		false
+wh2_dlc12_anc_mount_skv_ikit_claw_doom_flayer	wh2_dlc12_anc_mount_doom_flayer	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_dlc12_skv_cha_ikit_claw_1		1	1		false
+wh2_dlc12_anc_mount_skv_ikit_claw_doomwheel	wh2_dlc12_anc_mount_doomwheel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_dlc12_skv_cha_ikit_claw_2		1	1		false
+wh2_dlc12_anc_mount_skv_warlock_master_doom_flayer	wh2_dlc12_anc_mount_doom_flayer	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_dlc12_skv_cha_warlock_master_1		1	1		false
+wh2_dlc12_anc_mount_skv_warlock_master_doomwheel	wh2_dlc12_anc_mount_doomwheel	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_dlc12_skv_cha_warlock_master_2		1	1		false
+wh2_dlc12_anc_talisman_amulet_of_itza	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false
+wh2_dlc12_anc_talisman_warp_field_generator	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			50	0		false
+wh2_dlc12_anc_weapon_blade_of_the_serpents_tongue	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false
+wh2_dlc12_anc_weapon_ceremonial_mace_of_malachite	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false
+wh2_dlc12_anc_weapon_mechanical_arm	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			50	0		false
+wh2_dlc12_anc_weapon_retractable_fistblade	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			50	0		false
+wh2_dlc12_anc_weapon_storm_daemon	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false
+wh2_dlc12_anc_weapon_the_blade_of_ancient_skies	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false
+wh2_dlc12_anc_weapon_thing_zapper	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			50	0		false
+wh2_dlc12_lzd_anc_follower_chameleon_spotter	wh2_dlc12_lzd_anc_follower_chameleon_spotter	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			1	0	follower	false
+wh2_dlc12_lzd_anc_follower_consul_of_calith	wh2_dlc12_lzd_anc_follower_consul_of_calith	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			1	0	follower	false
+wh2_dlc12_lzd_anc_follower_lotl_botls_spawn_brother	wh2_dlc12_lzd_anc_follower_lotl_botls_spawn_brother	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			1	0	follower	false
+wh2_dlc12_lzd_anc_follower_obsinite_miner_skink	wh2_dlc12_lzd_anc_follower_obsinite_miner_skink	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			1	0	follower	false
+wh2_dlc12_lzd_anc_follower_piqipoqi_qupacoco	wh2_dlc12_lzd_anc_follower_piqipoqi_qupacoco	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			1	0	follower	false
+wh2_dlc12_lzd_anc_follower_priest_of_the_star_chambers	wh2_dlc12_lzd_anc_follower_priest_of_the_star_chambers	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			1	0	follower	false
+wh2_dlc12_lzd_anc_follower_prophets_spawn_brother	wh2_dlc12_lzd_anc_follower_prophets_spawn_brother	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			1	0	follower	false
+wh2_dlc12_lzd_anc_follower_swamp_trawler_skink	wh2_dlc12_lzd_anc_follower_swamp_trawler_skink	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			1	0	follower	false
+wh2_dlc12_lzd_anc_magic_standard_coatlpelt_flagstaff	wh2_dlc12_lzd_anc_magic_standard_coatlpelt_flagstaff	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh2_dlc12_lzd_anc_magic_standard_coatlpelt_flagstaff	1	0	banner	false
+wh2_dlc12_lzd_anc_magic_standard_culchan_feathered_standard	wh2_dlc12_lzd_anc_magic_standard_culchan_feathered_standard	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh2_dlc12_lzd_anc_magic_standard_culchan_feathered_standard	1	0	banner	false
+wh2_dlc12_lzd_anc_magic_standard_exalted_banner_of_xapati	wh2_dlc12_lzd_anc_magic_standard_exalted_banner_of_xapati	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh2_dlc12_lzd_anc_magic_standard_exalted_banner_of_xapati	1	0	banner	false
+wh2_dlc12_lzd_anc_magic_standard_flag_of_the_daystar	wh2_dlc12_lzd_anc_magic_standard_flag_of_the_daystar	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh2_dlc12_lzd_anc_magic_standard_flag_of_the_daystar	1	0	banner	false
+wh2_dlc12_lzd_anc_magic_standard_shroud_of_chaqua	wh2_dlc12_lzd_anc_magic_standard_shroud_of_chaqua	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh2_dlc12_lzd_anc_magic_standard_sign_of_the_coiled_one	1	0	banner	false
+wh2_dlc12_lzd_anc_magic_standard_sign_of_the_coiled_one	wh2_dlc12_lzd_anc_magic_standard_sign_of_the_coiled_one	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh2_dlc12_lzd_anc_magic_standard_totem_of_the_spitting_viper	1	0	banner	false
+wh2_dlc12_lzd_anc_magic_standard_totem_of_the_spitting_viper	wh2_dlc12_lzd_anc_magic_standard_totem_of_the_spitting_viper	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh2_dlc12_lzd_anc_magic_standard_shroud_of_chaqua	1	0	banner	false
+wh2_dlc12_lzd_anc_magic_standard_totem_pole_of_destiny	wh2_dlc12_lzd_anc_magic_standard_totem_pole_of_destiny	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh2_dlc12_lzd_anc_magic_standard_totem_pole_of_destiny	1	0	banner	false
 wh2_main_anc_arcane_item_black_staff	wh_main_anc_arcane_item	.	true	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			55	0		true
 wh2_main_anc_arcane_item_book_of_hoeth	wh_main_anc_arcane_item	.	true	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			55	0		true
 wh2_main_anc_arcane_item_circlet_of_iron	wh_main_anc_arcane_item	.	false	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	0		false
@@ -571,7 +629,7 @@ wh2_main_anc_talisman_ring_of_darkness	wh_main_anc_talisman	.	true	false	false	1
 wh2_main_anc_talisman_ring_of_hotek	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			50	0		true
 wh2_main_anc_talisman_rival_hide_talisman	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			15	0		true
 wh2_main_anc_talisman_ruby_guardian_phoenix	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			150	0		false
-wh2_main_anc_talisman_sacred_incense	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			150	0		false
+wh2_main_anc_talisman_sacred_incense	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			30	0		true
 wh2_main_anc_talisman_sapphire_guardian_phoenix	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			150	0		false
 wh2_main_anc_talisman_shadow_magnet_trinket	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			30	0		true
 wh2_main_anc_talisman_talisman_of_saphery	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			35	0		true
@@ -592,7 +650,7 @@ wh2_main_anc_weapon_caledors_bane	wh_main_anc_weapon	.	true	false	false	1	0	9999
 wh2_main_anc_weapon_chillblade	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			50	0		true
 wh2_main_anc_weapon_cobra_mace_of_mazdamundi	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false
 wh2_main_anc_weapon_crimson_death	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			35	0		true
-wh2_main_anc_weapon_dagger_of_hotek	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			150	0		false
+wh2_main_anc_weapon_dagger_of_hotek	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			30	0		true
 wh2_main_anc_weapon_dagger_of_sotek	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			25	0		true
 wh2_main_anc_weapon_deathpiercer	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			25	0		true
 wh2_main_anc_weapon_destroyer	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false
@@ -626,6 +684,9 @@ wh2_main_anc_weapon_web_of_shadows	wh_main_anc_weapon	.	true	false	false	1	0	999
 wh2_main_anc_weapon_weeping_blade	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			30	0		true
 wh2_main_anc_weapon_winged_staff	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			150	0		false
 wh2_main_anc_weapon_wrath_of_kurnous	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			150	0		false
+wh2_pro07_anc_mount_emp_amethyst_wizard_barded_warhorse	wh_main_anc_mount_barded_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_pro07_emp_cha_wizard_death_3		1	1		false
+wh2_pro07_anc_mount_emp_amethyst_wizard_imperial_pegasus	wh_main_anc_mount_imperial_pegasus	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_pro07_emp_cha_wizard_death_2		1	1		false
+wh2_pro07_anc_mount_emp_amethyst_wizard_warhorse	wh_main_anc_mount_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh2_pro07_emp_cha_wizard_death_1		1	1		false
 wh_dlc01_anc_follower_chaos_barbarian	wh_main_anc_chaos_warrior	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	true
 wh_dlc01_anc_follower_chaos_beast_tamer	wh_main_anc_chaos_warrior	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	true
 wh_dlc01_anc_follower_chaos_collector	wh_main_anc_chaos_human	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	true
@@ -668,7 +729,7 @@ wh_dlc03_anc_arcane_item_jagged_dagger	wh_main_anc_arcane_item	.	true	false	fals
 wh_dlc03_anc_arcane_item_skull_of_rarkos	wh_main_anc_arcane_item	.	true	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			60	0		true
 wh_dlc03_anc_arcane_item_staff_of_darkoth	wh_main_anc_arcane_item	.	true	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			50	0		true
 wh_dlc03_anc_armour_blackened_plate	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			20	0		true
-wh_dlc03_anc_armour_pelt_of_the_shadowgave	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			45	0		false
+wh_dlc03_anc_armour_pelt_of_the_shadowgave	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			45	0		true
 wh_dlc03_anc_armour_ramhorn_helm	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			15	0		true
 wh_dlc03_anc_armour_the_dark_mail	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false
 wh_dlc03_anc_armour_trollhide	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			50	0		true
@@ -834,16 +895,16 @@ wh_dlc07_anc_weapon_sword_of_the_quest	wh_main_anc_weapon	.	true	false	false	1	0
 wh_dlc07_anc_weapon_the_silver_lance_of_the_blessed	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			75	0		true
 wh_dlc07_anc_weapon_the_wyrmlance	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			15	0		true
 wh_dlc07_anc_weapon_trident_of_manann	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false
-wh_dlc08_anc_armour_blood_stained_armour_of_morkar	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			100	0		false
-wh_dlc08_anc_armour_helm_of_reavers	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			30	0		false
-wh_dlc08_anc_armour_huskarl_plates	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			100	0		false
-wh_dlc08_anc_armour_mammoth_hide_cape	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			100	0		false
+wh_dlc08_anc_armour_blood_stained_armour_of_morkar	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			100	0		true
+wh_dlc08_anc_armour_helm_of_reavers	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			30	0		true
+wh_dlc08_anc_armour_huskarl_plates	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			100	0		true
+wh_dlc08_anc_armour_mammoth_hide_cape	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			100	0		true
 wh_dlc08_anc_enchanted_item_ancient_frost_wyrm_scale	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false
 wh_dlc08_anc_enchanted_item_arachnarok_eggs	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false
-wh_dlc08_anc_enchanted_item_frost_wyrm_scale	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			100	0		false
+wh_dlc08_anc_enchanted_item_frost_wyrm_scale	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			100	0		true
 wh_dlc08_anc_enchanted_item_great_horn_of_dragon_ogre	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false
-wh_dlc08_anc_enchanted_item_manticore_horn	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			30	0		false
-wh_dlc08_anc_enchanted_item_vial_of_troll_blood	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			100	0		false
+wh_dlc08_anc_enchanted_item_manticore_horn	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			30	0		true
+wh_dlc08_anc_enchanted_item_vial_of_troll_blood	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			100	0		true
 wh_dlc08_anc_follower_baernsonlings_berserker	wh_dlc08_anc_norsca_berserker	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			1	0	follower	false
 wh_dlc08_anc_follower_baernsonlings_werekin	wh_dlc08_anc_follower_werekin	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			1	0	follower	false
 wh_dlc08_anc_follower_beserker	wh_dlc08_anc_norsca_berserker	.	true	false	false	1	0	9999			false	false	false	general	1	1	30	50	true			1	0	follower	false
@@ -859,10 +920,10 @@ wh_dlc08_anc_follower_slave_worker	wh_dlc08_anc_follower_slave_male	.	true	false
 wh_dlc08_anc_follower_vargs_beast_trainer	wh_dlc08_anc_norsca_mammoth_trainer	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			1	0	follower	false
 wh_dlc08_anc_follower_whalers	wh_dlc08_anc_follower_norscan_man	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			1	0	follower	false
 wh_dlc08_anc_magic_standard_ancient_mammoth_cub	wh_dlc08_anc_magic_standard_ancient_mammoth_cub	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh_dlc08_anc_magic_standard_ancient_mammoth_cub	200	0	banner	false
-wh_dlc08_anc_magic_standard_banner_of_wolfclaw	wh_dlc08_anc_magic_standard_banner_of_wolfclaw	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh_dlc08_anc_magic_standard_banner_of_wolfclaw	1	0	banner	false
-wh_dlc08_anc_magic_standard_black_iron_reavers	wh_dlc08_anc_magic_standard_black_iron_reavers	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh_dlc08_anc_magic_standard_black_iron_reavers	1	0	banner	false
-wh_dlc08_anc_magic_standard_crimson_reapers	wh_dlc08_anc_magic_standard_crimson_reapers	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh_dlc08_anc_magic_standard_crimson_reapers	1	0	banner	false
-wh_dlc08_anc_magic_standard_drake_hunters	wh_dlc08_anc_magic_standard_drake_hunters	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh_dlc08_anc_magic_standard_drake_hunters	1	0	banner	false
+wh_dlc08_anc_magic_standard_banner_of_wolfclaw	wh_dlc08_anc_magic_standard_banner_of_wolfclaw	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh_dlc08_anc_magic_standard_banner_of_wolfclaw	1	0	banner	true
+wh_dlc08_anc_magic_standard_black_iron_reavers	wh_dlc08_anc_magic_standard_black_iron_reavers	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh_dlc08_anc_magic_standard_black_iron_reavers	1	0	banner	true
+wh_dlc08_anc_magic_standard_crimson_reapers	wh_dlc08_anc_magic_standard_crimson_reapers	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh_dlc08_anc_magic_standard_crimson_reapers	1	0	banner	true
+wh_dlc08_anc_magic_standard_drake_hunters	wh_dlc08_anc_magic_standard_drake_hunters	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh_dlc08_anc_magic_standard_drake_hunters	1	0	banner	true
 wh_dlc08_anc_mount_nor_chieftain_marauder_chariot	wh_main_anc_mount_chaos_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh_main_nor_cha_marauder_chieftan_2		1	1		false
 wh_dlc08_anc_mount_nor_chieftain_norscan_warhorse	wh_main_anc_mount_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh_main_nor_cha_marauder_chieftan_1		1	1		false
 wh_dlc08_anc_mount_nor_chieftain_war_mammoth	wh_dlc08_anc_mount_chaos_war_mammoth	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh_main_nor_cha_marauder_chieftan_3		1	1		false
@@ -877,18 +938,18 @@ wh_dlc08_anc_mount_nor_wulfrik_marauder_chariot	wh_main_anc_mount_chaos_chariot	
 wh_dlc08_anc_mount_nor_wulfrik_norscan_warhorse	wh_main_anc_mount_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh_dlc08_nor_cha_wulfrik_1		1	1		false
 wh_dlc08_anc_mount_nor_wulfrik_war_mammoth	wh_dlc08_anc_mount_chaos_war_mammoth	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh_dlc08_nor_cha_wulfrik_3		1	1		false
 wh_dlc08_anc_talisman_giant_cygor_eyeball	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false
-wh_dlc08_anc_talisman_headband_of_berserker	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			100	0		false
-wh_dlc08_anc_talisman_lootbag_of_marauders	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			30	0		false
-wh_dlc08_anc_talisman_slave_chain	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			30	0		false
+wh_dlc08_anc_talisman_headband_of_berserker	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			100	0		true
+wh_dlc08_anc_talisman_lootbag_of_marauders	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			30	0		true
+wh_dlc08_anc_talisman_slave_chain	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			30	0		true
 wh_dlc08_anc_talisman_terrorgheist_skull	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false
 wh_dlc08_anc_talisman_wintertooth_crown	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false
-wh_dlc08_anc_talisman_wolf_teeth_amulet	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			30	0		false
-wh_dlc08_anc_weapon_fimir_hammer	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			30	0		false
-wh_dlc08_anc_weapon_flaming_axe_of_cormac	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			100	0		false
+wh_dlc08_anc_talisman_wolf_teeth_amulet	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			30	0		true
+wh_dlc08_anc_weapon_fimir_hammer	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			30	0		true
+wh_dlc08_anc_weapon_flaming_axe_of_cormac	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			100	0		true
 wh_dlc08_anc_weapon_forest_dragon_fang	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false
 wh_dlc08_anc_weapon_stinky_giant_club	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false
 wh_dlc08_anc_weapon_sword_of_torgald	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false
-wh_dlc08_anc_weapon_troll_fang_dagger	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			30	0		false
+wh_dlc08_anc_weapon_troll_fang_dagger	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			30	0		true
 wh_dlc10_anc_mount_nor_surtha_ek_marauder_chariot	wh_main_anc_mount_chaos_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh_main_nor_cha_marauder_chieftan_2		1	1		false
 wh_main_anc_arcane_item_black_periapt	wh_main_anc_arcane_item	.	true	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			55	0		true
 wh_main_anc_arcane_item_book_of_arkhan	wh_main_anc_arcane_item	.	true	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			25	0		true
@@ -1192,10 +1253,10 @@ wh_main_anc_rune_master_rune_of_slowness	wh_main_anc_rune_master_rune_of_slownes
 wh_main_anc_rune_master_rune_of_stoicism	wh_main_anc_rune_master_rune_of_stoicism	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh_main_banner_rune_master_rune_of_stoicism	35	0	rune	true
 wh_main_anc_rune_master_rune_of_stromni_redbeard	wh_main_anc_rune_master_rune_of_stromni_redbeard	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh_main_banner_rune_master_rune_of_stromni_redbeard	75	0	rune	true
 wh_main_anc_rune_master_rune_of_valaya	wh_main_anc_rune_master_rune_of_valaya	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh_main_banner_rune_master_rune_of_valaya	65	0	rune	true
-wh_main_anc_rune_rune_of_fury	wh_main_anc_rune_rune_of_fury	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	true
-wh_main_anc_rune_rune_of_might	wh_main_anc_rune_rune_of_might	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	true
-wh_main_anc_rune_rune_of_parrying	wh_main_anc_rune_rune_of_parrying	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	true
-wh_main_anc_rune_rune_of_striking	wh_main_anc_rune_rune_of_striking	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	true
+wh_main_anc_rune_rune_of_fury	wh_main_anc_rune_rune_of_fury	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	false
+wh_main_anc_rune_rune_of_might	wh_main_anc_rune_rune_of_might	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	false
+wh_main_anc_rune_rune_of_parrying	wh_main_anc_rune_rune_of_parrying	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	false
+wh_main_anc_rune_rune_of_striking	wh_main_anc_rune_rune_of_striking	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	false
 wh_main_anc_rune_strollaz_rune	wh_main_anc_rune_strollaz_rune	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		wh_main_banner_rune_strollaz_rune	35	0	rune	true
 wh_main_anc_talisman_amulet_of_sea_gold	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false
 wh_main_anc_talisman_dawnstone	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			25	0		true
@@ -1258,10 +1319,10 @@ wh_main_anc_weapon_tormentor_sword	wh_main_anc_weapon	.	true	false	false	1	0	999
 wh_main_anc_weapon_warrior_bane	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			5	0		true
 wh_pro01_anc_armour_armour_of_glimril_scales	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false
 wh_pro01_anc_enchanted_item_rune_helm_of_zhufbar	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false
-wh_pro01_anc_rune_rune_of_fury	wh_main_anc_rune_rune_of_fury	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	true
-wh_pro01_anc_rune_rune_of_might	wh_main_anc_rune_rune_of_might	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	true
-wh_pro01_anc_rune_rune_of_parrying	wh_main_anc_rune_rune_of_parrying	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	true
-wh_pro01_anc_rune_rune_of_striking	wh_main_anc_rune_rune_of_striking	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	true
+wh_pro01_anc_rune_rune_of_fury	wh_main_anc_rune_rune_of_fury	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	false
+wh_pro01_anc_rune_rune_of_might	wh_main_anc_rune_rune_of_might	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	false
+wh_pro01_anc_rune_rune_of_parrying	wh_main_anc_rune_rune_of_parrying	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	false
+wh_pro01_anc_rune_rune_of_striking	wh_main_anc_rune_rune_of_striking	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			10	0	rune	false
 wh_pro01_anc_talisman_cloak_of_valaya	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false
 wh_pro01_anc_weapon_the_rune_axe_of_grombrindal	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false
 wh_pro02_anc_enchanted_item_blood_chalice_of_bathori	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false

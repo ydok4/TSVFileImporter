@@ -261,6 +261,62 @@ wh2_dlc11_vmp_bloodline_von_carstein_lord_campaign_01		vmp_bloodline_von_carstei
 wh2_dlc11_vmp_depth_guard		cst_depth_guard	hu1/cst/cst_depth_guards/cst_depth_guards_imposter	1	1.16	0.050000004	
 wh2_dlc11_vmp_depth_guard_polearms		cst_depth_guard_polearms	hu1/cst/cst_depth_guards/cst_depth_guards_imposter	1	1.16	0.050000004	
 wh2_dlc11_vmp_depth_guard_ror		cst_depth_guard_ror	hu1/cst/cst_depth_guards/cst_depth_guards_imposter	1	1.16	0.050000004	
+wh2_dlc12_lzd_bastiladon_3	VariantMeshes/wh_variantmodels/hq1/lzd/lzd_bastiladon/tech	lzd_bastiladon_ark_of_sotek		1.2	1	0	
+wh2_dlc12_lzd_cold_one_riders_spears_shields_ror		lzd_cold_one_riders_spears_shields_ror	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_grey_imposter	1	1.12	0.02	hu7/lzd/lzd_skink/imposter/skink_super_imposter
+wh2_dlc12_lzd_cold_one_ror		lzd_cold_one_ror	rp3\lzd\lzd_cold_one\imposter\lzd_cold_one_imposter	1.15	1	0	
+wh2_dlc12_lzd_lord_kroak		lzd_lord_kroak		1	1.6	0	
+wh2_dlc12_lzd_lord_kroak_platform		lzd_lord_kroak_platform		1	0.85	0	
+wh2_dlc12_lzd_ripperdactyl	VariantMeshes\wh_variantmodels\bi3\lzd\lzd_terradon\tech	lzd_ripperdactyl	bi3/lzd/lzd_ripperdactyl/lzd_ripperdactyl_imposter	1	1	0	
+wh2_dlc12_lzd_ripperdactyl_hero	VariantMeshes\wh_variantmodels\bi3\lzd\lzd_terradon\tech	lzd_ripperdactyl	bi3/lzd/lzd_ripperdactyl/lzd_ripperdactyl_imposter	1	1	0	
+wh2_dlc12_lzd_ripperdactyl_ror	VariantMeshes\wh_variantmodels\bi3\lzd\lzd_terradon\tech	lzd_ripperdactyl_ror	bi3/lzd/lzd_ripperdactyl/lzd_ripperdactyl_collosadon_imposter	1	1	0	
+wh2_dlc12_lzd_salamander		lzd_salamander	lz1/lzd/lzd_salamander/lzd_salamander_imposter	1	1	0	
+wh2_dlc12_lzd_salamander_ancient		lzd_salamander_ancient		1	1.8499999	0	
+wh2_dlc12_lzd_salamander_ror		lzd_salamander_ror	lz1/lzd/lzd_salamander/lzd_salamander_umbral_imposter	1	1	0	
+wh2_dlc12_lzd_saurus_shield_chaqua_ror		lzd_saurus_shield_chaqua_ror	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_grey_imposter	1	1.1	0.050000004	hu7/lzd/lzd_skink/imposter/skink_super_imposter
+wh2_dlc12_lzd_skink_chief_red_crested		lzd_skink_chief_red_crested	hu7\lzd\lzd_skink\imposter\lzd_skink_imposter	1	1.1	0	
+wh2_dlc12_lzd_skink_chief_red_crested_campaign_01		lzd_skink_chief_red_crested_campaign_01	hu7\lzd\lzd_skink\imposter\lzd_skink_imposter	1	1.1	0	
+wh2_dlc12_lzd_skink_chief_red_crested_campaign_02		lzd_skink_chief_red_crested_campaign_02	hu7\lzd\lzd_skink\imposter\lzd_skink_imposter	1	1.1	0	
+wh2_dlc12_lzd_skink_chief_red_crested_campaign_03		lzd_skink_chief_red_crested_campaign_03	hu7\lzd\lzd_skink\imposter\lzd_skink_imposter	1	1.1	0	
+wh2_dlc12_lzd_skink_red_crested		lzd_skink_red_crested	hu7/lzd/lzd_skink/imposter/lzd_skink_redcrest_imposter	1	1	0	
+wh2_dlc12_lzd_skink_red_crested_ror		lzd_skink_red_crested_ror	hu7\lzd\lzd_skink\imposter\lzd_skink_red_imposter	1	1	0	
+wh2_dlc12_lzd_skink_ripperdactyl_riders_ror	VariantMeshes\wh_variantmodels\bi3\lzd\lzd_terradon\tech	lzd_skink_ripperdactyl_riders_ror	hu7\lzd\lzd_skink\imposter\lzd_skink_imposter	1	1	0	hu7/lzd/lzd_skink/imposter/skink_super_imposter
+wh2_dlc12_lzd_skink_terradon_riders_ror		lzd_skink_terradon_riders_ror	hu7\lzd\lzd_skink\imposter\lzd_skink_imposter	1	1	0	hu7/lzd/lzd_skink/imposter/skink_super_imposter
+wh2_dlc12_lzd_stegadon_ancient_engine_gods	VariantMeshes\wh_variantmodels\hq1\lzd\lzd_stegadon\tech	lzd_stegadon_ancient_engine_gods		1.6	1	0	
+wh2_dlc12_lzd_stegadon_ancient_ror	VariantMeshes\wh_variantmodels\hq1\lzd\lzd_stegadon\tech	lzd_stegadon_ancient_ror		1.6	1	0	
+wh2_dlc12_lzd_tehenhauin_01		lzd_tehenhauin		1	1.25	0	
+wh2_dlc12_lzd_temple_guard_ror		lzd_saurus_temple_guard_ror	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_grey_imposter	1	1.1	0.050000004	hu7/lzd/lzd_skink/imposter/skink_super_imposter
+wh2_dlc12_lzd_terradon_ror	VariantMeshes\wh_variantmodels\bi3\lzd\lzd_terradon\tech	lzd_terradon_ror	bi3\lzd\lzd_terradon\imposter\lzd_terradon_imposter	1	1	0	
+wh2_dlc12_lzd_terradon_zwup	VariantMeshes\wh_variantmodels\bi3\lzd\lzd_terradon\tech	lzd_terradon_zwup	bi3\lzd\lzd_terradon\imposter\lzd_terradon_imposter	1	1	0	
+wh2_dlc12_lzd_tiktaqto		lzd_tiktaqto		1	1.15	0	
+wh2_dlc12_skv_campaign_doom_flayer	warmachines/engines/skv_doom_flayer/tech/	campaign_skv_doom_flayer		1	1	0	
+wh2_dlc12_skv_campaign_doom_flayer_ikit	warmachines/engines/skv_doom_flayer/tech/	campaign_skv_doom_flayer_ikit		1	1	0	
+wh2_dlc12_skv_campaign_doomwheel	art\campaign\chariots\cam_dw1\skv\skv_doom_wheel\tech\	campaign_skv_doomwheel		0.4	1	0	
+wh2_dlc12_skv_campaign_doomwheel_ikit	art\campaign\chariots\cam_dw1\skv\skv_doom_wheel\tech\	campaign_skv_doomwheel_ikit		0.4	1	0	
+wh2_dlc12_skv_clanrat_ror		skv_clanrat_ror	hu17\skv\skv_clan_rats\imposter\skv_clanrat_imposter	1	1	0.050000004	
+wh2_dlc12_skv_doomwheel_ror	warmachines/engines/skv_doomwheel/tech/	skv_skyre_artillery_crew_ror		1	1	0	
+wh2_dlc12_skv_doomwheel_ror_tech_lab	warmachines/engines/skv_doomwheel/tech/	skv_doomwheel_warp_01		1	1	0	
+wh2_dlc12_skv_ikit		skv_ikit_claw		1	1.15	0	
+wh2_dlc12_skv_ikit_campaign		skv_ikit_claw_campaign		1	1.3	0	
+wh2_dlc12_skv_ikit_campaign_doomwheel		skv_ikit_claw_campaign_doomwheel		1	1.3	0	
+wh2_dlc12_skv_ikit_doomwheel		skv_ikit_claw_doomwheel		1	1.15	0	
+wh2_dlc12_skv_ikit_doomwheel_engineer_crew		skv_skyre_artillery_crew_ror_tech_lab		1	1	0	
+wh2_dlc12_skv_plague_monk_censer_ror		skv_plague_monk_censer_ror		1	1	0.050000004	
+wh2_dlc12_skv_ratling_gun		skv_ratling_gun_gunner		1	1	0.050000004	
+wh2_dlc12_skv_ratling_gun_ror		skv_ratling_gun_gunner_ror		1	1	0.050000004	
+wh2_dlc12_skv_ratling_gun_ror_tech_lab		skv_ratling_gun_gunner_ror_tech_lab		1	1	0.050000004	
+wh2_dlc12_skv_skyre_artillery_crew_ror		skv_skyre_artillery_crew_ror		1	1	0.050000004	
+wh2_dlc12_skv_stormvermin_halberd_ror		skv_stormvermin_halberd_ror	hu17\skv\skv_stormvermin\imposter\skv_stormvermin_imposter	1	1.15	0.050000004	
+wh2_dlc12_skv_warlock_master		skv_warlock_master		1	1.15	0	
+wh2_dlc12_skv_warlock_master_campaign_01		skv_warlock_master_campaign_01		1	1.15	0	
+wh2_dlc12_skv_warlock_master_campaign_02		skv_warlock_master_campaign_02		1	1.15	0	
+wh2_dlc12_skv_warlock_master_campaign_03		skv_warlock_master_campaign_03		1	1.15	0	
+wh2_dlc12_skv_warlock_master_campaign_04		skv_warlock_master_campaign_04		1	1.15	0	
+wh2_dlc12_skv_warlock_master_campaign_05		skv_warlock_master_campaign_05		1	1.15	0	
+wh2_dlc12_skv_warpfire_thrower_ror_tech_lab		skv_warpfire_gunner_ror_tech_lab		1	1	0.050000004	
+wh2_dlc12_skv_warplightning_crew_ror		skv_warplightning_crew		1	1	0.050000004	
+wh2_dlc12_skv_warplock_jezzails		skv_weapon_team_jezzails		1	1	0.050000004	
+wh2_dlc12_skv_warplock_jezzails_ror_tech_lab		skv_weapon_team_jezzails_ror_tech_lab		1	1	0.050000004	
+wh2_dlc12_skv_weapon_team_jezzails_ror		skv_weapon_team_jezzails_ror		1	1	0.050000004	
 wh2_main_PLACEHOLDER				1	1	0	
 wh2_main_campaign_def_ship_agent		campaign_def_ship_agent		1	0.55	0	
 wh2_main_campaign_hef_ship_agent		campaign_hef_ship_agent		1	0.6	0	
@@ -403,14 +459,14 @@ wh2_main_hef_white_lions_of_chrace		hef_white_lions_of_chrace	hu1d\hef\hef_white
 wh2_main_lzd_bastiladon_0	VariantMeshes/wh_variantmodels/hq1/lzd/lzd_bastiladon/tech	lzd_bastiladon_feral		1	1.1	0	
 wh2_main_lzd_bastiladon_1	VariantMeshes/wh_variantmodels/hq1/lzd/lzd_bastiladon/tech	lzd_bastiladon_healing_platform		1.2	1	0	
 wh2_main_lzd_bastiladon_2	VariantMeshes/wh_variantmodels/hq1/lzd/lzd_bastiladon/tech	lzd_bastiladon_solar_engine		1.2	1	0	
-wh2_main_lzd_chameleon_skinks		lzd_chameleon_skinks		1	1	0	
-wh2_main_lzd_chameleon_skinks_blessed		lzd_chameleon_skinks_blessed		1	1.15	0	
+wh2_main_lzd_chameleon_skinks		lzd_chameleon_skinks	hu7\lzd\lzd_chameleon_skink\imposter\lzd_chameleon_skink_imposter	1	1	0	
+wh2_main_lzd_chameleon_skinks_blessed		lzd_chameleon_skinks_blessed	hu7\lzd\lzd_chameleon_skink\imposter\lzd_chameleon_skink_sacred_imposter	1	1.15	0	
 wh2_main_lzd_cold_one		lzd_cold_one	rp3\lzd\lzd_cold_one\imposter\lzd_cold_one_imposter	1.15	1	0	
 wh2_main_lzd_cold_one_campaign	VariantMeshes\wh_variantmodels\rp3\def\def_cold_one\tech	lzd_cold_one	rp3\lzd\lzd_cold_one\imposter\lzd_cold_one_imposter	1.15	1	0	
-wh2_main_lzd_cold_one_feral		lzd_cold_one_feral		1.15	1	0	
+wh2_main_lzd_cold_one_feral		lzd_cold_one_feral	rp3\lzd\lzd_cold_one\imposter\lzd_cold_one_imposter	1.15	1	0	
 wh2_main_lzd_cold_one_riders_shields		lzd_cold_one_riders_shields	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_imposter	1	1.12	0.02	hu7/lzd/lzd_skink/imposter/skink_super_imposter
-wh2_main_lzd_cold_one_riders_spears_blessed		lzd_cold_one_riders_spears_blessed	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_spear_imposter	1	1.12	0.02	hu7/lzd/lzd_skink/imposter/skink_super_imposter
-wh2_main_lzd_cold_one_riders_spears_shields		lzd_cold_one_riders_spears_shields	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_spear_imposter	1	1.12	0.02	hu7/lzd/lzd_skink/imposter/skink_super_imposter
+wh2_main_lzd_cold_one_riders_spears_blessed		lzd_cold_one_riders_spears_blessed	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_imposter	1	1.12	0.02	hu7/lzd/lzd_skink/imposter/skink_super_imposter
+wh2_main_lzd_cold_one_riders_spears_shields		lzd_cold_one_riders_spears_shields	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_imposter	1	1.12	0.02	hu7/lzd/lzd_skink/imposter/skink_super_imposter
 wh2_main_lzd_hero_saurus_scar_veteran		lzd_hero_saurus_scar_veteran		1	1.15	0.050000004	
 wh2_main_lzd_hero_saurus_scar_veteran_campaign_01		lzd_hero_saurus_scar_veteran_campaign_01		1	1.15	0.050000004	
 wh2_main_lzd_hero_saurus_scar_veteran_campaign_02		lzd_hero_saurus_scar_veteran_campaign_02		1	1.15	0.050000004	
@@ -435,28 +491,28 @@ wh2_main_lzd_mon_carnosaur_0		lzd_carnosaur_feral		1	1.3	0
 wh2_main_lzd_mon_carnosaur_blessed_0		lzd_carnosaur_feral_blessed		1	1.3	0	
 wh2_main_lzd_platform	warmachines\chariot\lzd_slann_platform\tech	lzd_slann_palanquin		1	1	0	
 wh2_main_lzd_saurus		lzd_saurus	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_imposter	1	1.1	0.050000004	hu7/lzd/lzd_skink/imposter/skink_super_imposter
-wh2_main_lzd_saurus_shield		lzd_saurus_shield	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_shield_imposter	1	1.1	0.050000004	hu7/lzd/lzd_skink/imposter/skink_super_imposter
-wh2_main_lzd_saurus_shield_blessed		lzd_saurus_shield_blessed	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_shield_imposter	1	1.1	0.050000004	hu7/lzd/lzd_skink/imposter/skink_super_imposter
-wh2_main_lzd_saurus_spear		lzd_saurus_spear	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_spear_imposter	1	1.1	0.050000004	hu7/lzd/lzd_skink/imposter/skink_super_imposter
-wh2_main_lzd_saurus_spear_shield		lzd_saurus_spear_shield	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_spear_shield_imposter	1	1.1	0.050000004	hu7/lzd/lzd_skink/imposter/skink_super_imposter
-wh2_main_lzd_saurus_spear_shield_blessed		lzd_saurus_spear_shield_blessed	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_spear_shield_imposter	1	1.1	0.050000004	hu7/lzd/lzd_skink/imposter/skink_super_imposter
+wh2_main_lzd_saurus_shield		lzd_saurus_shield	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_imposter	1	1.1	0.050000004	hu7/lzd/lzd_skink/imposter/skink_super_imposter
+wh2_main_lzd_saurus_shield_blessed		lzd_saurus_shield_blessed	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_sacred_imposter	1	1.1	0.050000004	hu7/lzd/lzd_skink/imposter/skink_super_imposter
+wh2_main_lzd_saurus_spear		lzd_saurus_spear	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_imposter	1	1.1	0.050000004	hu7/lzd/lzd_skink/imposter/skink_super_imposter
+wh2_main_lzd_saurus_spear_shield		lzd_saurus_spear_shield	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_imposter	1	1.1	0.050000004	hu7/lzd/lzd_skink/imposter/skink_super_imposter
+wh2_main_lzd_saurus_spear_shield_blessed		lzd_saurus_spear_shield_blessed	hu7b\lzd\lzd_saurus_warriors\imposter\lzd_saurus_sacred_imposter	1	1.1	0.050000004	hu7/lzd/lzd_skink/imposter/skink_super_imposter
 wh2_main_lzd_siege_ladder_01		lzd_siege_ladder		1	1	0	
 wh2_main_lzd_skink_chief		lzd_skink_chief		1	1.1	0.050000004	
 wh2_main_lzd_skink_chief_campaign_01		lzd_skink_chief_campaign_01		1	1.1	0.050000004	
 wh2_main_lzd_skink_chief_campaign_02		lzd_skink_chief_campaign_02		1	1.1	0.050000004	
 wh2_main_lzd_skink_chief_campaign_03		lzd_skink_chief_campaign_03		1	1.1	0.050000004	
 wh2_main_lzd_skink_chief_no_scale		lzd_skink_chief		1	1	0.050000004	
-wh2_main_lzd_skink_cohort_shield		lzd_skink_cohort_shield	hu7\lzd\lzd_skink\imposter\lzd_skink_cohort_shield_imposter	1	1	0	hu7/lzd/lzd_skink/imposter/skink_super_imposter
-wh2_main_lzd_skink_cohort_shield_javelins		lzd_skink_cohort_javelins	hu7\lzd\lzd_skink\imposter\lzd_skink_cohort_javelins_imposter	1	1	0	hu7/lzd/lzd_skink/imposter/skink_super_imposter
-wh2_main_lzd_skink_crew		lzd_skink_crew	hu7\lzd\lzd_skink\imposter\lzd_skink_crew_imposter	1	1.1	0.050000004	hu7/lzd/lzd_skink/imposter/skink_super_imposter
+wh2_main_lzd_skink_cohort_shield		lzd_skink_cohort_shield	hu7\lzd\lzd_skink\imposter\lzd_skink_imposter	1	1	0	hu7/lzd/lzd_skink/imposter/skink_super_imposter
+wh2_main_lzd_skink_cohort_shield_javelins		lzd_skink_cohort_javelins	hu7\lzd\lzd_skink\imposter\lzd_skink_imposter	1	1	0	hu7/lzd/lzd_skink/imposter/skink_super_imposter
+wh2_main_lzd_skink_crew		lzd_skink_crew	hu7\lzd\lzd_skink\imposter\lzd_skink_imposter	1	1.1	0.050000004	hu7/lzd/lzd_skink/imposter/skink_super_imposter
 wh2_main_lzd_skink_priest		lzd_skink_priest		1	1.1	0.050000004	
 wh2_main_lzd_skink_priest_avatar		lzd_skink_priest_avatar		1	1.1	0.050000004	
 wh2_main_lzd_skink_priest_campaign_01		lzd_skink_priest_campaign_01		1	1.1	0.050000004	
 wh2_main_lzd_skink_priest_campaign_02		lzd_skink_priest_campaign_02		1	1.1	0.050000004	
 wh2_main_lzd_skink_priest_campaign_03		lzd_skink_priest_campaign_03		1	1.1	0.050000004	
 wh2_main_lzd_skink_priest_no_scale		lzd_skink_priest		1	1	0.050000004	
-wh2_main_lzd_skink_skirmisher		lzd_skink_skirmisher	hu7\lzd\lzd_skink\imposter\lzd_skink_skirmisher_imposter	1	1	0	hu7/lzd/lzd_skink/imposter/skink_super_imposter
-wh2_main_lzd_skink_skirmisher_blessed		lzd_skink_skirmisher_blessed	hu7\lzd\lzd_skink\imposter\lzd_skink_skirmisher_imposter	1	1	0	hu7/lzd/lzd_skink/imposter/skink_super_imposter
+wh2_main_lzd_skink_skirmisher		lzd_skink_skirmisher	hu7\lzd\lzd_skink\imposter\lzd_skink_imposter	1	1	0	hu7/lzd/lzd_skink/imposter/skink_super_imposter
+wh2_main_lzd_skink_skirmisher_blessed		lzd_skink_skirmisher_blessed	hu7\lzd\lzd_skink\imposter\lzd_skink_imposter	1	1	0	hu7/lzd/lzd_skink/imposter/skink_super_imposter
 wh2_main_lzd_slann		lzd_slann		1	1.15	0.050000004	
 wh2_main_lzd_slann_campaign_01		lzd_slann_campaign_01		1	1.15	0.050000004	
 wh2_main_lzd_slann_campaign_02		lzd_slann_campaign_02		1	1.15	0.050000004	
@@ -478,13 +534,12 @@ wh2_main_skv_assassin_campaign_01		skv_assassin_campaign_01	hu17\skv\skv_plague_
 wh2_main_skv_assassin_campaign_02		skv_assassin_campaign_02	hu17\skv\skv_plague_monks\imposter\skv_plague_monk_imposter	1	1.15	0.050000004	hu17/skv/skv_clan_rats/imposter/hu17_imposter
 wh2_main_skv_assassin_campaign_03		skv_assassin_campaign_03	hu17\skv\skv_plague_monks\imposter\skv_plague_monk_imposter	1	1.15	0.050000004	hu17/skv/skv_clan_rats/imposter/hu17_imposter
 wh2_main_skv_clanrat		skv_clanrat	hu17\skv\skv_clan_rats\imposter\skv_clanrat_imposter	1	1	0.050000004	hu17/skv/skv_clan_rats/imposter/hu17_imposter
-wh2_main_skv_clanrat_shield		skv_clanrat_shield	hu17\skv\skv_clan_rats\imposter\skv_clanrat_shield_imposter	1	1	0	hu17/skv/skv_clan_rats/imposter/hu17_imposter
-wh2_main_skv_clanrat_spear		skv_clanrat_spear	hu17\skv\skv_clan_rats\imposter\skv_clanrat_spear_imposter	1	1	0	hu17/skv/skv_clan_rats/imposter/hu17_imposter
-wh2_main_skv_clanrat_spear_shield		skv_clanrat_spear_shield	hu17\skv\skv_clan_rats\imposter\skv_clanrat_spear_shield_imposter	1	1	0	hu17/skv/skv_clan_rats/imposter/hu17_imposter
+wh2_main_skv_clanrat_shield		skv_clanrat_shield	hu17\skv\skv_clan_rats\imposter\skv_clanrat_imposter	1	1	0	hu17/skv/skv_clan_rats/imposter/hu17_imposter
+wh2_main_skv_clanrat_spear		skv_clanrat_spear	hu17\skv\skv_clan_rats\imposter\skv_clanrat_imposter	1	1	0	hu17/skv/skv_clan_rats/imposter/hu17_imposter
+wh2_main_skv_clanrat_spear_shield		skv_clanrat_spear_shield	hu17\skv\skv_clan_rats\imposter\skv_clanrat_imposter	1	1	0	hu17/skv/skv_clan_rats/imposter/hu17_imposter
 wh2_main_skv_death_globe_bombardiers		skv_death_globe_bombardiers	hu17\skv\skv_poisoned_wind_globadiers\imposter\skv_death_wind_globadiers_imposter	1	1	0.050000004	hu17/skv/skv_clan_rats/imposter/hu17_imposter
 wh2_main_skv_death_runners		skv_death_runnners	hu17\skv\skv_death_runners\imposter\skv_death_runnners_imposter	1	1	0.050000004	hu17/skv/skv_clan_rats/imposter/hu17_imposter
-wh2_main_skv_doomwheel		skv_doomwheel		1	1	0	
-wh2_main_skv_doomwheel_clanrat		skv_doomwheel_clanrat	hu17\skv\skv_clan_rats\imposter\skv_clanrat_imposter	1	1	0	hu17/skv/skv_clan_rats/imposter/hu17_imposter
+wh2_main_skv_doomwheel	warmachines/engines/skv_doomwheel/tech/	skv_doomwheel		1	1	0	
 wh2_main_skv_doomwheel_rat		skv_rat		1	1	0	
 wh2_main_skv_grey_seer		skv_grey_seer	hu17\skv\skv_plague_monks\imposter\skv_plague_monk_imposter	1	1.15	0.050000004	hu17/skv/skv_clan_rats/imposter/hu17_imposter
 wh2_main_skv_grey_seer_campaign_01		skv_grey_seer_campaign_01	hu17\skv\skv_plague_monks\imposter\skv_plague_monk_imposter	1	1.15	0.050000004	hu17/skv/skv_clan_rats/imposter/hu17_imposter
@@ -513,9 +568,10 @@ wh2_main_skv_siege_ladder_01		skv_siege_ladder		1	1	0
 wh2_main_skv_skavenslaves		skv_skavenslaves	hu17\skv\skv_skaven_slaves\imposter\skv_skavenslaves_imposter	1	1	0.050000004	hu17/skv/skv_clan_rats/imposter/hu17_imposter
 wh2_main_skv_skavenslaves_sling		skv_skavenslaves_sling	hu17\skv\skv_skaven_slaves\imposter\skv_skavenslaves_imposter	1	1	0.050000004	hu17/skv/skv_clan_rats/imposter/hu17_imposter
 wh2_main_skv_skavenslaves_spear		skv_skavenslaves_spear	hu17\skv\skv_skaven_slaves\imposter\skv_skavenslaves_spear_imposter	1	1	0.050000004	hu17/skv/skv_clan_rats/imposter/hu17_imposter
-wh2_main_skv_skyre_artillery_crew		skv_skyre_artillery_crew		1	1.15	0.050000004	
-wh2_main_skv_stormvermin_halberd		skv_stormvermin_halberd	hu17\skv\skv_stormvermin\imposter\skv_stormvermin_halberd_imposter	1	1.15	0.050000004	hu17/skv/skv_clan_rats/imposter/hu17_imposter
-wh2_main_skv_stormvermin_shield		skv_stormvermin_shield	hu17\skv\skv_stormvermin\imposter\skv_stormvermin_shield_imposter	1	1.15	0.050000004	hu17/skv/skv_clan_rats/imposter/hu17_imposter
+wh2_main_skv_skyre_artillery_crew		skv_skyre_artillery_crew		1	1	0.050000004	
+wh2_main_skv_skyre_artillery_crew_ror_tech_lab		skv_skyre_artillery_crew_ror_tech_lab		1	1	0	
+wh2_main_skv_stormvermin_halberd		skv_stormvermin_halberd	hu17\skv\skv_stormvermin\imposter\skv_stormvermin_imposter	1	1.15	0.050000004	hu17/skv/skv_clan_rats/imposter/hu17_imposter
+wh2_main_skv_stormvermin_shield		skv_stormvermin_shield	hu17\skv\skv_stormvermin\imposter\skv_stormvermin_imposter	1	1.15	0.050000004	hu17/skv/skv_clan_rats/imposter/hu17_imposter
 wh2_main_skv_warlock_engineer		skv_warlock_engineer		1	1.15	0.050000004	
 wh2_main_skv_warlock_engineer_campaign_01		skv_warlock_engineer_campaign_01		1	1.15	0.050000004	
 wh2_main_skv_warlock_engineer_campaign_02		skv_warlock_engineer_campaign_02		1	1.15	0.050000004	
@@ -527,6 +583,10 @@ wh2_main_skv_warlord_campaign_03		skv_warlord_campaign_03		1	1.1	0.050000004
 wh2_main_skv_warpfire_thrower		skv_warpfire_gunner		1	1	0.050000004	
 wh2_main_skv_warplightning_crew		skv_warplightning_crew		1	1	0.050000004	
 wh2_pro06_tmb_bone_giant		tmb_bone_giant		1	0.8999999	0	
+wh2_pro07_ch_emp_wizard_amethyst		emp_wizard_amethyst		1	1.15	0.050000004	
+wh2_pro07_ch_emp_wizard_amethyst_campaign_01		emp_wizard_amethyst_campaign_01		1	1.15	0.050000004	
+wh2_pro07_ch_emp_wizard_amethyst_campaign_02		emp_wizard_amethyst_campaign_02		1	1.15	0.050000004	
+wh2_pro07_ch_emp_wizard_amethyst_campaign_03		emp_wizard_amethyst_campaign_03		1	1.15	0.050000004	
 wh_brt_artillery_crew		brt_artillery_crew	hu1\brt\brt_peasants_bowmen\low_poly\brt_peasants_bowmen_lowlod	1	1	0.050000004	hu1\imposter\humanoid_imposter
 wh_brt_beaquis_the_hippogryph	VariantMeshes\wh_variantmodels\bc2b\brt\brt_hippogryph_beaquis\tech	brt_beaquis_the_hippogryph		1	1.1	0	
 wh_brt_ch_damsel		brt_damsel		1	1.15	0.050000004	

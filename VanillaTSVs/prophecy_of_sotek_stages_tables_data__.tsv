@@ -1,0 +1,9 @@
+prophecy_of_sotek_stages_tables	1
+effect_bundle	order	stage	tooltip_type
+wh2_dlc12_workshop_level_1_reward	1	ikit_stage_1	itik
+wh2_dlc12_workshop_level_2_reward	2	ikit_stage_2	itik
+wh2_dlc12_workshop_level_3_reward	3	ikit_stage_3	itik
+wh2_dlc12_workshop_level_4_reward	4	ikit_stage_4	itik
+wh2_dlc12_prophecy_of_sotek_stage_1	1	stage_1	sotek
+wh2_dlc12_prophecy_of_sotek_stage_2	2	stage_2	sotek
+wh2_dlc12_prophecy_of_sotek_stage_3	3	stage_3	sotek

@@ -3,6 +3,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1002513161	wh2.camp.kroqgar.intro.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1002997383	wh2.camp.advice.black_arks.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1003510593	dlc09.camp.vortex.advice.early_game.dynasties.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+10048647	dlc12.camp.me.flyby.lzd.tehenhauin.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1005966996	wh2.camp.advice.doom_engineers.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1007355920	wh2_dlc11.camp.noctilus.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1010943657	wh2.camp.vortex.malekith.intro.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
@@ -18,6 +19,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1026760375	wh2.camp.prelude.ft.150.skv	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1027147762	dlc09.camp.advice.quest.khatep.the_liche_staff.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1027596052	dlc10.camp.advice.hef.power_of_nature.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1027968004	dlc12.camp.vortex.flyby.skv.ikit.006	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1031454882	wh2.camp.advice.black_arks.002	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1032396157	wh2_dlc11.camp.vortex.CylostaDirefin.early_game.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1033789383	wh2.battle.advice.final_battle_mid.003	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -28,17 +30,21 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1043695353	wh2.camp.malekith.intro.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1044581348	wh2.camp.vortex.skrolk.intro.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1045040160	wh2_dlc11.camp.advice.quest.aranessa.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1045662481	dlc12.camp.me.flyby.skv.ikit.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1045911796	wh2.camp.vortex.kroqgar.early_game.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1048058674	dlc09.camp.arkhan.intro.005	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1048906539	dlc10.camp.advice.def.sword_of_khaine.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 10496947	wh2.camp.vortex.advice.early_game.ritual_settlements.071	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 106389932	dlc09.camp.vortex.khatep.intro.003	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
+1064826399	wh2_dlc12.camp.advice.brt.vows.004	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1065475264	wh2.camp.morathi.intro.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1067259794	wh2_dlc10.camp.vortex.alarielle.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1070313870	wh2.camp.advice.skaven_corruption.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 107039269	dlc08.battle.speech.nor.battle_shaggoth.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1080733262	wh2.camp.vortex.advice.early_game.ritual_settlements_lokhir.0110	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1085760202	war.camp.advice.race.vampire_coast.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1086838998	dlc08.camp.advice.nor.confederation.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+108708228	wh2_dlc12.camp.advice.skv.under_empire.010	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1089991496	wh2.camp.vortex.advice.early_game.ritual_settlements.061	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1090022808	dlc10.camp.advice.hef.protector_of_ulthuan.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1094799890	wh2.camp.prelude.ft.020.def	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -50,6 +56,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 110892793	dlc08.battle.speech.nor.battle_giant.002	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1109905499	wh2_dlc11.camp.advice.cst.pirate_coves.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1111967415	wh2_dlc11.camp.aranessa.intro.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+111636	wh2.dlc12.lzd.lordkroak.qb.pt.02.krokgar	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1118419890	wh2_dlc11.camp.advice.cst.treasure_hunts.004	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1121021642	dlc09.camp.advice.quest.settra.the_crown_of_nehekhara.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1121460725	wh2_dlc11.camp.advice.cst.treasure_hunts.005	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -65,6 +72,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1141752065	wh2.camp.prelude.ft.003.def	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1143993449	dlc08.camp.flyby.nor.wulfrik.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1144307709	dlc09.camp.vortex.advice.early_game.ritual_settlements.080	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1145215735	wh2_dlc12.camp.advice.skv.under_empire.013	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1149636452	wh2.camp.vortex.advice.early_game.trade_agreements.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 115052114	dlc09.camp.vortex.arkhan.book_of_nagash.006	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1150753379	wh2.camp.morathi.intro.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -79,13 +87,16 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1186773487	wh2_dlc10.camp.vortex.hellebron.intro.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1186811253	wh2_dlc11.camp.vortex.LuthorHarkon.early_game.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1188890065	dlc09.camp.vortex.arkhan.intro.002	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
+1191670786	dlc12.camp.vortex.flyby.lzd.tehenhauin.006	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1192075328	dlc08.camp.advice.nor.gods_tzeentch.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1193637493	wh2.camp.prelude.ft.011.skv	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1196816282	wh2.camp.advice.skills.legendary.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1197657421	wh2.battle.advice.final_battle_intro.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1197893058	dlc08.battle.speech.nor.battle_arachnarok.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1199187028	dlc08.battle.speech.nor.battle_forestdragon.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1199381868	wh2_dlc12.camp.advice.lzd.prophecy_of_sotek.003	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1201766662	wh2_dlc11.camp.advice.cst.shanty.005	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1202184491	wh2_dlc12.camp.vortex.tiktaqto.early_game.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 120238544	dlc10.camp.advice.mortal_worlds_torment.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1202415589	dlc09.camp.vortex.arkhan.book_of_nagash.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1202810405	dlc08.camp.advice.nor.outposts_karaz_a_karak.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -94,7 +105,9 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1205160620	dlc10.camp.advice.def.death_night.010	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1208564992	dlc09.camp.vortex.arkhan.early_game.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1209266566	wh2.camp.advice.untainted_corruption.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1210151292	wh2_dlc12.camp.advice.skv.under_empire.012	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1211683230	wh2_dlc10.camp.alith_anar.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1214312680	wh2.dlc12.lzd.lordkroak.qb.pt.02.mazdamundi	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1217107518	war.camp.advice.quest.kroqgar.hand_of_gods.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 121735204	dlc10.camp.advice.def.death_night.009	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1221857106	dlc08.battle.speech.nor.battle_cygor.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -117,6 +130,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1255400792	wh2.battle.advice.final_battle_mid.005	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1256279682	dlc10.camp.advice.hef.protector_of_ulthuan.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1258052244	wh2_dlc10.camp.alarielle.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1264982431	wh2_dlc12.camp.advice.skv.ikit_workshop.003	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1271073751	war.camp.advice.race.wood_elves.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1272061346	wh2_dlc10.camp.vortex.alarielle.intro.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1273026514	dlc08.camp.advice.nor.wintertooth.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -128,6 +142,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 128837092	wh2.camp.prelude.ft.002.lzd	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 128886462	wh2.camp.vortex.kroqgar.intro.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1289671237	wh2.camp.vortex.malekith.early_game.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
+1289958565	wh2.dlc12.lzd.lordkroak.qb.pt.03	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1294864382	wh2.camp.teclis.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 129519309	dlc10.camp.advice.def.death_night.005	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 129526122	wh2.camp.vortex.advice.early_game.ritual_settlements.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -135,6 +150,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1298191441	war.camp.advice.race.dark_elves.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1300335079	wh2_dlc11.camp.vortex.Lokhir_Fellheart.intro.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1302035794	wh2.camp.vortex.advice.early_game.ritual_settlements.030	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1306059761	wh2_dlc12.camp.vortex.tiktaqto.early_game.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1307525487	wh2_dlc10.camp.alarielle.intro.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1307559367	wh2.camp.advice.vortex_ritual.011	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1307875030	wh2.camp.prelude.ft.002.skv	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -149,6 +165,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1330714723	wh2_dlc11.camp.advice.cst.loyalty.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1336881044	dlc08.battle.speech.nor.battle_mammoth.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1336976141	wh2.camp.vortex.tyrion.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
+1340208705	wh2_dlc12.camp.vortex.ikit.early_game.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1343430914	wh2_dlc11.camp.advice.cst.treasure_hunts.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1344848191	wh2_dlc11.camp.vortex.Cylosta_Direfin.intro.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1345031771	wh2.battle.advice.final_battle_mid.002	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -160,12 +177,14 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1356028347	dlc09.camp.vortex.settra.early_game.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1359717335	wh2.camp.malekith.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1364928433	dlc08.camp.advice.nor.outposts_couronne.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+136763561	wh2_dlc12.camp.vortex.tehenhauin.early_game.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 136876059	war.camp.advice.quest.tyrion.sunfang.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1370134547	dlc10.camp.advice.mortal_worlds_torment.003	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1371070133	wh2.camp.advice.intrigue_at_the_court.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1372922774	wh2.camp.tyrion.intro.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1375975863	wh2.camp.vortex.advice.early_game.ritual_buildings.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1382188826	wh2.camp.vortex.advice.early_game.eliminate_faction.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1382198538	dlc12.camp.vortex.flyby.skv.ikit.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1383019490	dlc08.camp.advice.nor.chapter_1.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1385565406	wh2.camp.vortex.mazdamundi.early_game.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1386349514	dlc08.battle.speech.nor.battle_cygor.002	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -183,6 +202,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1414977729	wh2.camp.advice.skaven_corruption.002	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1418070034	dlc09.camp.vortex.khatep.book_of_nagash.005	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1420162726	wh2.camp.prelude.ft.040.lzd	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1425922232	dlc12.camp.vortex.flyby.skv.ikit.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1426447501	dlc09.camp.vortex.advice.early_game.resources.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1426468880	dlc08.battle.speech.nor.battle_frostwyrm.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1426836861	dlc09.camp.settra.intro.005	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -199,22 +219,29 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 146116554	wh2_dlc11.camp.advice.cst.sea_monster.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1463703656	wh2.camp.prelude.ft.011.lzd	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1464063458	dlc08.battle.speech.nor.battle_terrorgheist.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+146868905	wh2.dlc12.lzd.lordkroak.qb.pt.04	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+147111948	wh2_dlc12.camp.vortex.ikit.early_game.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1472445826	dlc09.camp.tretch.intro.002	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 147346970	wh2.battle.advice.murderous_prowess.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 147594158	wh2.camp.prelude.ft.001.def	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1477057367	wh2.camp.vortex.advice.early_game.ritual_settlements.081	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1479101305	wh2.camp.vortex.malekith.early_game.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1490966238	dlc08.camp.advice.nor.chapter_3.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1492430373	dlc12.camp.vortex.flyby.lzd.tehenhauin.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1492640394	wh2_dlc11.camp.advice.cst.treasure_hunts.008	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1492790523	wh2.camp.vortex.advice.early_game.ritual_buildings.070	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1496085650	dlc09.camp.vortex.advice.early_game.eliminate_faction.008	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1496427958	wh2.camp.queek.intro.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1499576512	wh2.battle.intro.571	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1503586120	dlc12.camp.vortex.flyby.lzd.tehenhauin.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
+1506455648	dlc12.camp.me.flyby.lzd.tiktaqto.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1510542931	dlc08.camp.advice.nor.outposts.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1511606748	dlc12.camp.me.flyby.lzd.tiktaqto.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 151230629	wh2.camp.vortex.tyrion.early_game.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1513643857	dlc09.camp.vortex.khatep.early_game.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1515321873	wh2.camp.mazdamundi.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 152040690	wh2.camp.vortex.malekith.early_game.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
+1523870846	dlc12.camp.me.flyby.lzd.tehenhauin.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1524016901	dlc08.camp.advice.nor.mon_hunt.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1524856937	dlc08.battle.speech.nor.battle_forestdragon.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1526082562	wh2.camp.vortex.queek.early_game.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
@@ -257,9 +284,12 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 159060668	dlc08.battle.speech.nor.battle_mammoth.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1593301794	dlc09.camp.vortex.settra.book_of_nagash.004	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1597107204	dlc09.camp.vortex.khalida.intro.002	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
+1597992925	wh2_dlc12.camp.advice.lzd.sacrifices_to_sotek.004	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1598495346	wh2_dlc11.camp.advice.quest.cylostra.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1603750271	wh2_dlc12.camp.advice.lzd.prophecy_of_sotek.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1607853967	wh2_dlc11.camp.advice.quest.lokhir.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1613078665	wh2.camp.prelude.ft.050	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1615907969	wh2.camp.vortex.advice.early_game.eliminate_faction.010	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1620105484	dlc09.camp.vortex.settra.intro.005	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1624500677	wh2.camp.mazdamundi.intro.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1628174465	wh2_dlc11.camp.lokhir.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -268,19 +298,25 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1631721780	wh2_dlc10.camp.vortex.early_game.ritual_buildings_lokhir.0110	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1637098729	wh2.battle.intro.191	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1637662060	wh2.camp.vortex.advice.early_game.hero_actions.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1638017412	dlc12.camp.me.flyby.lzd.tiktaqto.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1642246901	wh2.camp.prelude.ft.040.def	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1643838122	wh2_dlc11.camp.advice.cst.infamy.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1644808009	wh2_dlc11.camp.aranessa.intro.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1650232957	war.camp.advice.race.lizardmen.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1651592876	wh2_dlc11.camp.vortex.Cylosta_Direfin.intro.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
+1656145048	wh2_dlc12.camp.advice.skv.ikit_workshop.004	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1658207935	dlc08.camp.flyby.nor.throgg.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1664408733	wh2_dlc10.camp.vortex.alith_anar.intro.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1666319759	wh2.camp.prelude.ft.060.def	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1666795961	wh2_dlc12.camp.advice.brt.vows.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1667064173	wh2_dlc12.camp.vortex.ikit.early_game.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1669622460	wh2_dlc11.camp.vortex.Cylosta_Direfin.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1674531962	war.camp.advice.quest.malekith.circlet_of_iron.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1678086989	dlc08.battle.speech.nor.battle_arachnarok.002	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1678456475	wh2_dlc12.camp.advice.brt.vows.003	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1678675075	wh2.camp.vortex.advice.early_game.treasure_hunting.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1680143870	wh2.camp.vortex.morathi.intro.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
+1681113267	wh2_dlc12.camp.advice.lzd.sacrifices_to_sotek.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1681738823	wh2_dlc11.camp.advice.cst.loyalty.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1683661411	dlc09.camp.tretch.intro.005	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1684065320	wh2_dlc11.camp.advice.cst.shanty.007	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -308,6 +344,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1741670257	wh2.camp.vortex.morathi.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1743185267	war.camp.advice.race.skaven.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 174323567	dlc08.battle.speech.nor.battle_terrorgheist.002	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1743566126	wh2_dlc12.camp.vortex.ikit.early_game.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1744599856	dlc08.camp.advice.nor.outposts_altdorf.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1752059312	wh2.camp.teclis.intro.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1757875418	wh2_dlc11.camp.advice.cst.treasure_hunts.009	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -315,6 +352,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1762606362	wh2.camp.advice.loyalty.003	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1763410373	wh2.camp.malekith.intro.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1763797762	dlc09.camp.khalida.intro.005	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1767250369	dlc12.camp.vortex.flyby.lzd.tiktaqto.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1768304908	dlc09.camp.vortex.settra.intro.002	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1770345791	wh2.camp.vortex.teclis.early_game.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1773097736	wh2.camp.vortex.skrolk.early_game.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
@@ -343,6 +381,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 184397199	wh2.camp.vortex.advice.early_game.provinces.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1844654918	wh2.camp.vortex.advice.early_game.non_aggression_pacts.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1845916665	dlc08.camp.advice.nor.gods.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1848955988	dlc12.camp.me.flyby.lzd.tiktaqto.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1850585164	wh2_dlc11.camp.vortex.CylostaDirefin.early_game.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1855241763	dlc09.camp.vortex.settra.intro.004	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
 185613965	dlc08.battle.speech.nor.battle_mammoth.002	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -351,6 +390,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1859241564	wh2_dlc11.camp.advice.cst.shanty.004	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1861510554	wh2_dlc11.camp.vortex.advice.early_game.pieces_of_eight.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1862292643	wh2.camp.vortex.advice.early_game.eliminate_faction.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1862913745	wh2_dlc12.camp.advice.skv.ikit_workshop.011	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 186318234	wh2.battle.advice.final_battle_mid.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1864933802	wh2_dlc10.camp.vortex.hellebron.early_game.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1865633406	dlc08.camp.advice.nor.gods.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -358,6 +398,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1866507419	wh2_dlc11.camp.vortex.Cylosta_Direfin.intro.000	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1868422401	dlc09.camp.advice.quest.tretch.lucky_skullhelm.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1873387064	wh2_dlc11.camp.vortex.lokhirfellheart.early_game.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
+1875900526	wh2_dlc12.camp.vortex.tiktaqto.early_game.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1877232724	dlc10.camp.advice.mortal_worlds_torment.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1878876311	wh2.camp.vortex.morathi.early_game.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1885853966	dlc09.camp.tretch.intro.004	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -372,6 +413,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1915000760	wh2.camp.morathi.intro.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1920134677	wh2.camp.prelude.ft.040.skv	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 192459525	wh2_dlc11.camp.advice.vmp.bloodlines.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1925728262	wh2_dlc12.camp.vortex.tehenhauin.early_game.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1926516469	war.camp.advice.race.lizardmen.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1929134686	wh2.camp.vortex.advice.early_game.trade_agreements.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1931619828	wh2.camp.advice.skaven_underworld.002	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -380,9 +422,12 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1952099706	wh2_dlc10.camp.vortex.alarielle.intro.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1952382894	wh2_dlc11.camp.vortex.Count_Noctilus.intro.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 195507003	dlc09.camp.vortex.khalida.intro.004	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
+1956008091	wh2.camp.vortex.advice.early_game.eliminate_faction.009	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+1958778147	dlc12.camp.vortex.flyby.lzd.tiktaqto.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1960384360	dlc08.camp.advice.nor.gods_nurgle.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1961086007	wh2_dlc11.camp.aranessa.intro.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1961352500	dlc08.battle.speech.nor.battle_forestdragon.002	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+196318106	wh2.dlc12.lzd.lordkroak.qb.pt.01	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1971899488	wh2_dlc11.camp.harkon.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1972307211	wh2.camp.vortex.advice.early_game.eliminate_faction.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1973737575	wh2_dlc11.camp.advice.quest.harkon.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -390,6 +435,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1976806238	wh2.camp.advice.skills.lord.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1977342582	wh2_dlc11.camp.vortex.Aranessa_Saltspite.intro.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1977573564	dlc08.camp.advice.nor.gods_nurgle.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+198183956	wh2_dlc12.camp.advice.lzd.prophecy_of_sotek.004	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1982747542	wh2.camp.tyrion.intro.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1986482840	wh2.camp.advice.plagues.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1987337467	wh2_dlc11.camp.advice.cst.pieces_of_eight.004	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -399,8 +445,10 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1992243772	war.camp.advice.quest.skrolk.rod_of_corruption.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1994204844	wh2.camp.vortex.tyrion.early_game.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 1995575920	wh2_dlc11.camp.vortex.Luthor_Harkon.intro.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
+1996596299	dlc12.camp.vortex.flyby.lzd.tiktaqto.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 199770247	dlc08.battle.speech.nor.battle_shaggoth.003	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 1999740168	wh2.camp.advice.rites.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+2000141397	dlc12.camp.me.flyby.lzd.tiktaqto.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 200214450	dlc08.battle.speech.nor.battle_cygor.002	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2006847992	wh2_main.camp.ungrim.intro.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2007063581	dlc10.camp.advice.hef.assassination_targets.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -410,10 +458,12 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 2014005590	wh2.camp.advice.skaven_food.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2016183748	wh2_dlc11.camp.advice.cst.pieces_of_eight.003	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2017614752	dlc08.battle.speech.nor.battle_frostwyrm.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+2018923101	wh2_dlc12.camp.advice.skv.ikit_workshop.010	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2029592222	dlc09.camp.arkhan.intro.004	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2035574035	wh2.camp.vortex.advice.early_game.ritual_settlements.040	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2039027250	wh2_dlc11.camp.vortex.Count_Noctilus.intro.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 2043261628	dlc08.camp.flyby.nor.wulfrik.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+2044792067	wh2_dlc12.camp.advice.skv.under_empire.009	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2046021194	wh2_dlc10.camp.vortex.alarielle.early_game.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 2046578877	dlc08.camp.flyby.nor.wulfrik.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2047622462	wh2.camp.vortex.teclis.early_game.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
@@ -429,14 +479,17 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 2069921145	wh2_dlc10.battle.speech.nor.battle_hellpit.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2073203645	wh2_dlc11.camp.advice.cst.shanty.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2079130443	wh2_dlc11.camp.vortex.LuthorHarkon.early_game.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
+2080418757	dlc12.camp.me.flyby.skv.ikit.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2081177130	wh2.camp.vortex.advice.early_game.ritual_buildings.040	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2084437776	wh2.camp.vortex.skrolk.early_game.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 2086692374	wh2.camp.prelude.ft.021.skv	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2088249794	wh2.camp.vortex.queek.early_game.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 2090558017	dlc09.camp.vortex.khalida.early_game.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
 2096270772	dlc09.camp.advice.quest.khalida.venom_staff.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+2099796815	wh2_dlc12.camp.advice.skv.ikit_workshop.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2100441528	war.camp.advice.quest.mazdamundi.sunburst_standard_of_hexoatl.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2100533856	dlc08.camp.advice.nor.champions.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+2100776483	wh2_dlc12.camp.advice.skv.under_empire.005	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2100785382	wh2_dlc11.camp.lokhir.intro.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2101300215	wh2.battle.intro.600	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 2102838959	wh2.battle.advice.army_abilities.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -1038,8 +1091,10 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 219220603	dlc08.camp.flyby.nor.wulfrik.006	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 21981236	wh2.battle.advice.rampaging.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 220410835	wh2.camp.vortex.advice.early_game.tech_buildings.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+228338098	dlc12.camp.me.flyby.skv.ikit.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 229090424	dlc08.camp.advice.nor.gods_slaanesh.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 229611827	wh2.camp.vortex.skrolk.early_game.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
+239287583	wh2_dlc12.camp.advice.lzd.sacrifices_to_sotek.003	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 239911511	wh2.camp.vortex.advice.early_game.ritual_settlements.021	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 240723785	wh2.camp.vortex.mazdamundi.intro.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 244590687	wh2.camp.prelude.ft.020.lzd	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -1057,11 +1112,14 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 266991326	dlc09.camp.vortex.advice.early_game.tomb_kings_recruitment.002	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 269205675	wh2_dlc10.camp.hellebron.intro.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 275332698	wh2_dlc11.camp.noctilus.intro.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+275403719	dlc12.camp.vortex.flyby.lzd.tehenhauin.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 275737955	wh2.camp.vortex.teclis.intro.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 276833476	dlc08.battle.speech.nor.battle_terrorgheist.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+280682467	dlc12.camp.me.flyby.lzd.tehenhauin.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 281046362	dlc09.camp.vortex.khalida.book_of_nagash.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
 281204086	wh2.battle.advice.final_battle_victory.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 284733771	wh2.camp.prelude.ft.060.lzd	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+287715300	wh2_dlc12.camp.vortex.tiktaqto.early_game.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 288467012	dlc09.camp.vortex.arkhan.book_of_nagash.005	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
 29324047	wh2_dlc11.camp.cylostra.intro.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 302595760	wh2_dlc11.camp.vortex.advice.early_game.ship_growth.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -1073,10 +1131,12 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 3259858	dlc09.camp.vortex.settra.book_of_nagash.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
 328554251	wh2_dlc11.camp.lokhir.intro.006	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 329055356	wh2_dlc11.camp.vortex.CylostaDirefin.early_game.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
+32953697	dlc12.camp.vortex.flyby.skv.ikit.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 340922408	wh2.camp.vortex.mazdamundi.intro.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 344333734	wh2_dlc11.camp.vortex.advice.early_game.pirate_cove.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 34653442	dlc09.camp.khatep.intro.002	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 348296480	wh2_main.camp.ungrim.intro.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+349200062	wh2_dlc12.camp.advice.skv.under_empire.014	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 354421931	war.camp.advice.race.bretonnia.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 355058254	wh2.camp.prelude.ft.010.lzd	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 355364371	wh2.camp.vortex.malekith.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
@@ -1098,9 +1158,12 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 39418685	dlc09.camp.vortex.khatep.book_of_nagash.002	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
 395858296	wh2_dlc10.camp.vortex.early_game.ritual_buildings.110	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 395962737	dlc08.battle.speech.nor.battle_giant.003	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+405604948	wh2_dlc12.camp.advice.skv.under_empire.006	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 407107860	wh2_dlc11.camp.vortex.LuthorHarkon.early_game.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
+407737739	wh2_dlc12.camp.advice.skv.under_empire.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 410186714	wh2.camp.prelude.ft.010.def	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 41061424	wh2_dlc10.camp.alith_anar.intro.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+412061438	dlc12.camp.me.flyby.skv.ikit.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 412736968	wh2_dlc11.camp.vortex.Luthor_Harkon.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 413617586	wh2.camp.vortex.queek.early_game.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 42304108	dlc09.camp.khalida.intro.003	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -1113,6 +1176,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 431396178	wh2.camp.vortex.morathi.early_game.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 432495708	dlc10.camp.advice.def.death_night.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 433592838	dlc08.battle.speech.nor.battle_frostwyrm.002	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+43620846	wh2_dlc12.camp.advice.skv.ikit_workshop.009	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 437512517	wh2.camp.vortex.skrolk.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 437897116	wh2.camp.vortex.advice.early_game.public_order.010	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 439478600	dlc08.battle.speech.nor.battle_giant.002	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -1126,6 +1190,8 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 46166907	dlc09.camp.vortex.settra.intro.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
 461790302	wh2_dlc11.camp.vortex.AranessaSaltspite.early_game.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 462612249	dlc09.camp.tretch.intro.003	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+462701875	wh2_dlc12.camp.vortex.tiktaqto.early_game.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
+463934718	wh2_dlc12.camp.advice.brt.vows.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 466337987	wh2.camp.kroqgar.intro.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 468110951	wh2.camp.vortex.malekith.intro.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 470497323	wh2_dlc11.camp.vortex.Luthor_Harkon.intro.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
@@ -1147,7 +1213,11 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 514052309	dlc09.camp.vortex.tretch.early_game.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 517827210	dlc09.camp.arkhan.intro.003	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 52253966	wh2_dlc11.camp.kemmler.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+525374503	dlc12.camp.vortex.flyby.lzd.tehenhauin.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
+529458696	dlc12.camp.me.flyby.lzd.tehenhauin.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+534331723	dlc12.camp.vortex.flyby.lzd.tiktaqto.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 538052691	wh2_dlc11.camp.kemmler.intro.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+541279729	wh2_dlc12.camp.advice.skv.ikit_workshop.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 543957196	dlc08.camp.advice.nor.champions.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 543969690	dlc09.camp.vortex.advice.early_game.ritual_buildings.080	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 54420756	wh2_dlc11.camp.advice.cst.pirates.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -1163,8 +1233,10 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 579559826	war.camp.advice.quest.teclis.sword_of_teclis.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 585656116	wh2_dlc10.camp.vortex.alarielle.early_game.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 587142350	dlc08.camp.advice.nor.outposts_drakenhof.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+587381224	wh2_dlc12.camp.advice.skv.under_empire.003	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 589313245	wh2_dlc11.camp.noctilus.intro.006	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 589588319	dlc08.battle.speech.nor.battle_frostwyrm.002	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+590042582	wh2_dlc12.camp.advice.lzd.sacrifices_to_sotek.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 592474149	dlc09.camp.vortex.advice.early_game.tomb_kings_hero_technologies.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 594227667	wh2_dlc11.camp.harkon.intro.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 5957094	wh2.camp.prelude.ft.030.def	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -1177,21 +1249,27 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 607362072	wh2.camp.prelude.ft.101.def	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 613070096	dlc09.camp.vortex.khalida.book_of_nagash.006	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
 62129792	wh2_dlc11.camp.vortex.Luthor_Harkon.intro.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
+624170023	dlc12.camp.vortex.flyby.lzd.tehenhauin.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 626967804	wh2_main.camp.ungrim.intro.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 630356096	wh2_dlc11.camp.advice.cst.pieces_of_eight.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 634092929	wh2.camp.advice.inhospitable_climates.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 634373499	wh2.camp.vortex.mazdamundi.early_game.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 636363890	dlc08.camp.flyby.nor.throgg.006	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+639307358	wh2_dlc12.camp.vortex.ikit.early_game.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 641249102	wh2_dlc11.battle.advice.cst.extra_powder.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 645532341	dlc08.camp.flyby.nor.wulfrik.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 646272984	wh2_dlc11.camp.advice.cst.search_for_the_vengeance.001	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 648676660	wh2.camp.vortex.kroqgar.intro.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
+648990170	dlc12.camp.me.flyby.skv.ikit.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 649638032	wh2.camp.advice.stalking.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 650624192	wh2.camp.vortex.advice.early_game.ritual_settlements.080	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+654345984	wh2_dlc12.camp.advice.skv.ikit_workshop.006	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+656332418	wh2_dlc12.camp.advice.skv.under_empire.011	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 656996200	wh2.camp.vortex.advice.early_game.ritual_settlements.031	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 657670637	wh2_dlc11.camp.advice.cst.pieces_of_eight.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 659017581	dlc09.camp.vortex.advice.early_game.eliminate_faction.006	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 662237460	wh2_dlc11.camp.vortex.Count_Noctilus.intro.006	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
+6694292	wh2_dlc12.camp.vortex.tehenhauin.early_game.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 675073509	wh2_dlc11.camp.vortex.Lokhir_Fellheart.intro.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 675399248	wh2.camp.vortex.tyrion.intro.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 676859062	dlc09.camp.vortex.tretch.intro.002	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
@@ -1206,7 +1284,9 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 68880666	wh2_dlc11.camp.vortex.Lokhir_Fellheart.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 692747019	wh2_dlc11.camp.harkon.intro.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 693665405	dlc08.battle.speech.nor.battle_cygor.003	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+695641573	wh2_dlc12.camp.advice.skv.ikit_workshop.008	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 701478838	wh2.camp.prelude.ft.195	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+704185714	wh2_dlc12.camp.advice.lzd.prophecy_of_sotek.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 713387340	wh2.battle.advice.positioning.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 714638725	wh2.camp.prelude.ft.030.lzd	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 716458203	wh2.camp.prelude.ft.010.skv	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -1215,8 +1295,10 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 719765064	wh2.camp.vortex.advice.early_game.ritual_settlements.011	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 726342169	wh2.camp.prelude.ft.130.def	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 72642668	dlc09.camp.arkhan.intro.002	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+728034173	dlc12.camp.vortex.flyby.lzd.tiktaqto.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 728698372	war.camp.advice.quest.teclis.war_crown_of_saphery.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 728837029	wh2.camp.advice.final_battle.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+733768676	wh2_dlc12.camp.advice.skv.ikit_workshop.005	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 735828342	wh2_dlc11.camp.aranessa.intro.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 736278846	wh2.camp.advice.global_recruitment.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 737903497	wh2.camp.advice.undead_attrition.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -1228,10 +1310,14 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 74665758	dlc08.camp.advice.nor.gods.003	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 746778796	dlc10.camp.advice.def.sword_of_khaine.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 749926637	wh2.camp.vortex.advice.early_game.growth.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+751314096	wh2_dlc12.camp.vortex.tehenhauin.early_game.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 752964953	wh2.camp.vortex.advice.early_game.ritual_settlements.010	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+753747671	dlc12.camp.me.flyby.lzd.tehenhauin.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+75904382	wh2_dlc12.camp.advice.lzd.sacrifices_to_sotek.006	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 762113450	wh2_dlc10.camp.hellebron.intro.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 762327448	dlc08.camp.advice.nor.gods_slaanesh.003	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 762537452	dlc09.camp.vortex.arkhan.intro.003	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
+764076018	wh2_dlc12.camp.advice.skv.under_empire.008	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 76614145	dlc09.camp.vortex.advice.early_game.eliminate_faction.005	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 768519411	wh2.camp.advice.influence.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 771435535	wh2.camp.vortex.queek.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
@@ -1247,6 +1333,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 797975384	wh2.camp.prelude.ft.180.skv	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 799165858	wh2.camp.morathi.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 801864386	wh2.battle.intro.092	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+803077480	wh2.dlc12.lzd.lordkroak.qb.pt.02.tehenhauin	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 807694819	wh2_dlc11.camp.vortex.Count_Noctilus.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 808198717	wh2.camp.advice.loyalty.002	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 809404386	wh2_dlc11.camp.vortex.Aranessa_Saltspite.intro.000	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
@@ -1257,23 +1344,29 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 825464176	wh2_dlc11.camp.advice.cst.shanty.003	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 831267170	wh2.camp.advice.vortex_ritual.002	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 832340734	dlc09.camp.vortex.settra.book_of_nagash.005	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
+833995385	wh2_dlc12.camp.advice.skv.under_empire.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 837972959	dlc08.battle.speech.nor.battle_forestdragon.002	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 839140143	wh2.camp.vortex.kroqgar.intro.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 840508739	wh2_dlc11.camp.vortex.Cylosta_Direfin.intro.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 841251833	dlc09.camp.vortex.settra.intro.003	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
+841702547	wh2_dlc12.camp.vortex.tehenhauin.early_game.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 845424229	wh2_dlc11.camp.vortex.LuthorHarkon.early_game.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 846160442	dlc09.camp.settra.intro.004	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 847870329	wh2_dlc11.camp.vortex.LuthorHarkon.early_game.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 85254504	dlc09.camp.khalida.intro.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 856051498	dlc09.camp.vortex.settra.book_of_nagash.003	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
+85641417	wh2_dlc12.camp.advice.skv.ikit_workshop.007	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 856566703	wh2.camp.advice.loyalty.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+857772693	dlc12.camp.vortex.flyby.skv.ikit.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 858144874	wh2.camp.vortex.advice.early_game.ritual_settlements.100	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 86117373	dlc08.camp.advice.nor.mon_hunt.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 868291846	dlc08.camp.advice.nor.empire_destroyed.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 870978887	war.camp.advice.race.tomb_kings.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 871452689	dlc09.camp.vortex.tretch.intro.004	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
 875671511	dlc09.camp.vortex.arkhan.book_of_nagash.004	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
+879757778	wh2.dlc12.lzd.lordkroak.qb.pt.02.tiktaqto	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 880065845	dlc08.camp.advice.nor.gods_khorne.004	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+881767946	wh2_dlc12.camp.advice.lzd.sacrifices_to_sotek.005	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 882034754	wh2_dlc10.camp.vortex.hellebron.early_game.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 882637844	wh2.camp.vortex.advice.early_game.ritual_buildings.050	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 883702818	wh2_dlc11.camp.vortex.Luthor_Harkon.intro.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
@@ -1285,6 +1378,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 904928378	dlc09.camp.vortex.advice.early_game.eliminate_faction.007	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 905738973	wh2.camp.vortex.advice.early_game.ritual_settlements.060	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 906188176	wh2_dlc11.camp.vortex.lokhirfellheart.early_game.005	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
+909454917	dlc12.camp.vortex.flyby.skv.ikit.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 909584961	wh2_dlc10.camp.vortex.alarielle.intro.003	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 913174943	wh2_dlc11.camp.vortex.lokhirfellheart.early_game.001	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 916863341	war.camp.advice.race.high_elves.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
@@ -1310,9 +1404,11 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 956982466	wh2_dlc11.camp.vortex.Aranessa_Saltspite.intro.002	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 963100094	wh2.camp.prelude.ft.021.lzd	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 966793253	wh2.camp.vortex.advice.early_game.ritual_settlements.051	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
+967160985	wh2_dlc12.camp.advice.skv.under_empire.004	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 974393343	wh2_dlc11.camp.advice.vmp.bloodlines.001	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 976997398	wh2.camp.vortex.advice.early_game.ritual_settlements.091	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 979347927	dlc09.camp.vortex.khalida.book_of_nagash.003	1	1	Scripted	Scripted	Scripted	0	0	false		0	false	none			false	false	n	faction_leader	false	
+979482694	wh2_dlc12.camp.advice.skv.under_empire.007	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 980175181	dlc08.camp.advice.nor.gods_slaanesh.002	1	1	Campaign	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	
 988705364	wh2_dlc10.camp.vortex.hellebron.early_game.004	1	1	Campaign	Advice	Camera Fly-bys	0	0	false		0	false	none			false	false	n	faction_leader	false	
 99215515	wh2_dlc11.camp.vortex.advice.early_game.loyalty.001	1	1	Scripted	Advice	Scripted	0	0	false		0	false	none			false	false	n	standard_advisor	false	

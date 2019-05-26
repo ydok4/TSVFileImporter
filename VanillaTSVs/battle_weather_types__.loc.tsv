@@ -1,0 +1,6 @@
+Loc PackedFile	1
+key	text	tooltip
+battle_weather_types_onscreen_snow	Snow	true
+battle_weather_types_onscreen_rain	Rain	true
+battle_weather_types_onscreen_fog	Fog	true
+battle_weather_types_onscreen_dry	Dry	true

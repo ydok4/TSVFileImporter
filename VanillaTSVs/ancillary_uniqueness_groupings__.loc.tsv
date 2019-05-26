@@ -1,0 +1,12 @@
+Loc PackedFile	1
+key	text	tooltip
+ancillary_uniqueness_groupings_onscreen_name_wh_main_anc_group_rare	[[col:ancillary_rare]]Rare[[/col]]	true
+ancillary_uniqueness_groupings_description_wh_main_anc_group_common	Weak and disposable, can help in a pinch. Low costs and recharge.	true
+ancillary_uniqueness_groupings_description_wh_main_anc_group_uncommon	Useful in the right context. Balanced costs and recharge.	true
+ancillary_uniqueness_groupings_description_wh_main_anc_group_crafted	Crafted by the smiths of Vaul and imbued by powerful mages.	true
+ancillary_uniqueness_groupings_onscreen_name_wh_main_anc_group_common	Common	true
+ancillary_uniqueness_groupings_onscreen_name_wh_main_anc_group_unique	[[col:ancillary_unique]]Unique[[/col]]	true
+ancillary_uniqueness_groupings_description_wh_main_anc_group_unique	One of a kind! Strong and long lasting effects. High costs and recharge.	true
+ancillary_uniqueness_groupings_onscreen_name_wh_main_anc_group_crafted	[[col:ancillary_crafted]]Crafted[[/col]]	true
+ancillary_uniqueness_groupings_description_wh_main_anc_group_rare	Strong and long lasting effects. High costs and recharge.	true
+ancillary_uniqueness_groupings_onscreen_name_wh_main_anc_group_uncommon	[[col:ancillary_uncommon]]Uncommon[[/col]]	true

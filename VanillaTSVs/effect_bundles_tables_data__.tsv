@@ -33,9 +33,9 @@ wh2_dlc09_decrease_army_cap_5	 	 	 	faction
 wh2_dlc09_decrease_army_cap_6	 	 	 	faction
 wh2_dlc09_decrease_army_cap_7	 	 	 	faction
 wh2_dlc09_decrease_army_cap_8	 	 	 	faction
-wh2_dlc09_dilemma_increase_cap_liche_priest_hero	 	Hero Capacity Increase	agent.png	faction
-wh2_dlc09_dilemma_increase_cap_necrotect_hero	 	Hero Capacity Increase	agent.png	faction
-wh2_dlc09_dilemma_increase_cap_tomb_prince_hero	 	Hero Capacity Increase	agent.png	faction
+wh2_dlc09_dilemma_increase_cap_liche_priest_hero	 	Hero Capacity Increase	wizard.png	faction
+wh2_dlc09_dilemma_increase_cap_necrotect_hero	 	Hero Capacity Increase	necrotect.png	faction
+wh2_dlc09_dilemma_increase_cap_tomb_prince_hero	 	Hero Capacity Increase	tomb_prince.png	faction
 wh2_dlc09_disable_crafting	[HIDDEN]	[HIDDEN]	 	faction
 wh2_dlc09_edict_tmb_worship_of_asaph	 	Worship of Asaph	edict_tmb_worship_of_asaph.png	province
 wh2_dlc09_edict_tmb_worship_of_djaf	 	Worship of Djaf	edict_tmb_worship_of_djaf.png	province
@@ -381,7 +381,7 @@ wh2_dlc11_noctilus_war_physical_resist_zombies	The horde grows in numbers and po
 wh2_dlc11_noctilus_war_raiding	"Destroy the land and steal its riches! Leave nothing for the vultures that'll follow - yarrr!"	Scorched Earth	treasury.png	faction
 wh2_dlc11_noctilus_war_replenishment	"Old foes have turned their coats to our side - our ranks are replenished!"	Recruitment Drive	replenishment.png	faction
 wh2_dlc11_noctilus_war_sacking	Clearly, the riches of the weak belong in… nobler hands.	Plunderer	treasury.png	faction
-wh2_dlc11_noctilus_war_siege	"Ha! Our armies overwhelm even the greatest defences!	Unstoppable force	siege_attack.png	faction
+wh2_dlc11_noctilus_war_siege	"Ha! Our armies overwhelm even the greatest defences!"	Unstoppable Force	siege_attack.png	faction
 wh2_dlc11_noctilus_war_weapon_strength_depth_guard	"There will be new-found strength for our most loyal 'ands!"	Strength in Depth	weapon_damage.png	faction
 wh2_dlc11_noctilus_war_weapon_strength_large	Monstrous strength, pushed to new heights… or is that depths?	Abominable Power	weapon_damage.png	faction
 wh2_dlc11_noctilus_war_winds_of_magic	"See how the magic swarms to our call in battle!"	Storm of Magic	magic.png	faction
@@ -397,8 +397,8 @@ wh2_dlc11_payload_dilemma_rotten_wood_second	We have moved all our remaining res
 wh2_dlc11_payload_dilemma_salvage_supplies_first	We had to sacrifice our troops' armour; it will take us some time to ‘acquire’ new equipment.	Damaged Armour	armour.png	faction
 wh2_dlc11_payload_dilemma_salvage_supplies_second	We had to sacrifice our troops' weapons; it will take us some time to ‘acquire’ new equipment.	Rusted Weapons	weapon_damage.png	faction
 wh2_dlc11_payload_dilemma_shipping_ledger_second	The refugees we intercepted have replenished our ranks, enabling us to grow our army considerably.	Refuge in the Afterlife	replenishment.png	faction
-wh2_dlc11_payload_dilemma_shyish_wanes_first	Moving at reduced speeds has enabled our casters to harness much more power from the Winds of Magic; both they and our army are reinforced with a new-found strength.	Consolidating Our Power	resistance_magic.png	faction
-wh2_dlc11_payload_dilemma_shyish_wanes_second	Our connection to the Winds of Magic is thinning, but should our forces crumble we will still have more than enough power to raise fresh troops.	Push On!	replenishment.png	faction
+wh2_dlc11_payload_dilemma_shyish_wanes_first	Moving at reduced speeds has enabled our casters to harness much more power from the Winds of Magic; both they and our army are reinforced with a new-found strength.	Consolidating Our Power	magic.png	faction
+wh2_dlc11_payload_dilemma_shyish_wanes_second	Our connection to the Winds of Magic is thinning, but should our forces crumble we will still have more than enough power to raise fresh troops.	Push On!	army.png	faction
 wh2_dlc11_payload_dilemma_supplies_adrift_first	Our frontline has been reinforced by this lucky find!	Fodder No More!	armour.png	faction
 wh2_dlc11_payload_dilemma_supplies_adrift_second	Our forces are well equipped with state-of-the-art weaponry.	Gun Line	accuracy.png	faction
 wh2_dlc11_payload_effect_casualty_replenishment	You have taken captives from among the raiders.	Raiders Casualty Replenishment	treasury.png	faction
@@ -450,6 +450,97 @@ wh2_dlc11_vmp_ritual_bloodline_awaken_strigoi_bundle_03	{{tr:wh2_dlc11_vmp_ritua
 wh2_dlc11_vmp_ritual_bloodline_awaken_von_carstein_bundle_01	{{tr:wh2_dlc11_vmp_ritual_bloodline_awaken_von_carstein_description}}\n\n(Awoken 1 [[img:icon_general]][[/img]]Lord from this Bloodline)	Von Carstein Gifts	bloodline_von_carstein.png	faction
 wh2_dlc11_vmp_ritual_bloodline_awaken_von_carstein_bundle_02	{{tr:wh2_dlc11_vmp_ritual_bloodline_awaken_von_carstein_description}}\n\n(Awoken 2 [[img:icon_general]][[/img]]Lords from this Bloodline)	Von Carstein Dark Arts	bloodline_von_carstein.png	faction
 wh2_dlc11_vmp_ritual_bloodline_awaken_von_carstein_bundle_03	{{tr:wh2_dlc11_vmp_ritual_bloodline_awaken_von_carstein_description}}\n\n(Awoken 3 [[img:icon_general]][[/img]]Lords from this Bloodline)	Von Carstein Forbidden Dark Arts	bloodline_von_carstein.png	faction
+wh2_dlc12_bundle_agent_action_engineer_hinder_settlement_success_actor	This [[img:icon_hero]][[/img]]Hero must rest after working to expand the Under-Empire.	Exhaustion	dlc12_under_empire.png	character
+wh2_dlc12_bundle_agent_action_kroak_hinder_settlement_success_lord_kroak_settlement	This [[img:icon_hero]][[/img]]Hero must rest following the use of Ultimate Deliverance on target settlement.	Meditative State	agent.png	character
+wh2_dlc12_bundle_agent_action_kroak_hinder_settlement_success_lord_kroak_walls	This [[img:icon_hero]][[/img]]Hero must rest following the use of Colossal Deliverance on target settlement.	Meditative State	agent.png	character
+wh2_dlc12_bundle_magic_standard_cape_of_sniper	 	Cape of Sniper	public_order.png	character
+wh2_dlc12_bundle_magic_standard_incendiary_rounds	 	Incendiary Rounds	public_order.png	character
+wh2_dlc12_bundle_magic_standard_tracer_rounds	 	Tracer Rounds	public_order.png	character
+wh2_dlc12_bundle_underempire_army_spawn	This army has emerged from an Under-City below a settlement, and with surprise on their side they are raring for battle!	The Vermintide	dlc12_under_empire.png	force
+wh2_dlc12_bundle_underempire_cooldown	The Under-Empire has been expanded recently, more time is required before our agents can gather the neccessary supplies to continue expansion.	Under-Empire Expanded	dlc12_under_empire.png	faction
+wh2_dlc12_force_temporary_replenish	Test subjects are prodded, stabbed, shot, zapped, burnt, dematerialised – you name it. If it causes pain or death, it probably happens here.	Kill-Experiment Field	replenishment.png	force
+wh2_dlc12_ikit_workshop_doomflayer_part_0	Nicknamed "Doomballs", these dangerous micro-replicas of the Doomsphere provide Doom-flayers with a potent but unpredictable power source.	Micro-Reactors	 	faction
+wh2_dlc12_ikit_workshop_doomflayer_part_1	Mechanical flaying is a complex business; a Doom-flayer’s parts need constant analysis to stay in sync and to maximise power.	Doom Diagnostics	 	faction
+wh2_dlc12_ikit_workshop_doomflayer_part_2	Allows the Warlock Masters to 'plug-in' to their Doom-flayers, redirecting some of the Warp-energy to their own bodies.	Biointerfaces	 	faction
+wh2_dlc12_ikit_workshop_doomflayer_part_3	What happens when you stick foldable blades onto the ones you already have? An inescapable maelstrom of screaming, agonising, flaying death! Ouch!	Deployable Skewer-Blades	 	faction
+wh2_dlc12_ikit_workshop_doomflayer_part_4	Equipping a Doom-flayer with a set of motorized whirling blades gives it the ability to deflect incoming projectiles.	Propeller Knife-Blades	 	faction
+wh2_dlc12_ikit_workshop_doomflayer_part_5	Warpstone-powered incendiary devices triggered around the Doom-flayer are effective countermeasures against anything thrown at them... which is typically an awful lot!	Warp-Flares	 	faction
+wh2_dlc12_ikit_workshop_doomflayer_part_6	The secret recipe for this black stone alloy results in blades that get sharper and sharper the more they cut and slash.	Obsidian Alloy	 	faction
+wh2_dlc12_ikit_workshop_doomflayer_part_7	Similar to the Doomwheel’s 'Meat Shield' technique, putrid flesh is used to assault the enemy’s senses as a method of distraction.	Decomposing Decoys	 	faction
+wh2_dlc12_ikit_workshop_doomflayer_part_8	Rigorous testing has shown that penetrating these reinforced, serrated armour plates is near-impossible without damaging the penetrating weapon.	Spiked Armour Plates	 	faction
+wh2_dlc12_ikit_workshop_doomflayer_part_9	An iron ball of death is more effective the less it is dragged down by resistance – be that by wind, blood, flesh, or bone!	Aero-Die-Namics	 	faction
+wh2_dlc12_ikit_workshop_doomwheel_part_0	These components allow a cyclical energy transfer between the scurrying rats powering the Doomwheel and its Warpstone generator, leading to incredible power surges.	Warpstone Dynamos	 	faction
+wh2_dlc12_ikit_workshop_doomwheel_part_1	Adding these to a Doomwheel's Warpstone generator allows a Warlock Master to overcharge its power output to unpredictable levels.	Warp-Spark Plugs	 	faction
+wh2_dlc12_ikit_workshop_doomwheel_part_2	A portable power system used for keeping other Doomwheel systems operational when the scurrying rats are at full automotive capacity.	Micro-Warp-Batteries	 	faction
+wh2_dlc12_ikit_workshop_doomwheel_part_3	Allows Warp Lightning bolts to be split with a stunning 200% efficiency, using a technique likely 'acquired' from the Luminarks of Nuln.	Splitter Prisms	 	faction
+wh2_dlc12_ikit_workshop_doomwheel_part_4	Using these curiously-designed parts, power transfer can occur at impossible speeds, leading to even more devastating zappers.	Superconductors	 	faction
+wh2_dlc12_ikit_workshop_doomwheel_part_5	Fitted to Doomwheel bolt-throwers, these allow Warp-energy to be briefly stored before firing, making for more concentrated attacks.	Warp-Capacitors	 	faction
+wh2_dlc12_ikit_workshop_doomwheel_part_6	Smells like rat-bile mixed with crude oil, but few things are better for keeping engine parts moving – just don’t ask how it’s made.	Skavenslave Grease	 	faction
+wh2_dlc12_ikit_workshop_doomwheel_part_7	These parts have long been scavenged from Dwarf-things' Gyrocopters – with modifications, they can also afford the Doomwheels more killing-mileage!	Gyro-Cogs	 	faction
+wh2_dlc12_ikit_workshop_doomwheel_part_8	Blending metallurgy, alchemy, and sorcery results in the best armour you can possibly forge. Smells toxic, but what doesn't on a Doomwheel?	Warpstone Alloys	 	faction
+wh2_dlc12_ikit_workshop_doomwheel_part_9	Tying up some slaves and suspending them around the Doomwheel provides some level of grisly protection – just keep the flesh fresh!	Meat Shields	 	faction
+wh2_dlc12_ikit_workshop_gatling_part_0	Research into new bullet designs yields interesting results; all that's needed now is an assembly line of slaves to painstakingly mass-produce them.	Claw-Crafted Bullets	 	faction
+wh2_dlc12_ikit_workshop_gatling_part_1	This new-fangled invention for ammunition replenishment enables on-the-spot conversion of metal scraps into bullets.	On-Board Waste Compactor	 	faction
+wh2_dlc12_ikit_workshop_gatling_part_2	The hotter a Ratling Gun gets, the faster it can fire, but the more liable it is to overheat. Coolant solves this problem.	Ratling Coolant	 	faction
+wh2_dlc12_ikit_workshop_jezail_part_0	The Skaven do not have great eyesight, so the sniping ability of Warplock Jezzails benefits greatly from immensely powerful telescopic scopes.	Rat-Eye Scopes	 	faction
+wh2_dlc12_ikit_workshop_jezail_part_1	A costly method of manufacturing bullets results in this all-purpose ammunition, effective against all types of armour whenever within killing range.	Craven Rounds	 	faction
+wh2_dlc12_ikit_workshop_jezail_part_2	Invisibility is seemingly a step too far, so the Engineers of Skryre shall devise something they claim is just as good.	Ghillie Fur-Suits	 	faction
+wh2_dlc12_ikit_workshop_nuke_part_0	A giant labyrinth of pumps, valves, turbines, and generators, all submerged in an ominous cloud of green steam. Here, Warpstone’s power is harvested.	Warp-Power Plant	 	faction
+wh2_dlc12_ikit_workshop_nuke_part_1	In the filthy caverns of the Under-Empire, the potential for mass destruction shall silently sit, stockpiled until the moment of explosive grandeur.	Under-Empire Silos	 	faction
+wh2_dlc12_ikit_workshop_nuke_part_2	Devising new 'waste-not, want-not' methods will make even the most degraded or poisonous waste materials processable for Warp-fuel production.	Toxic Waste Salvage	 	faction
+wh2_dlc12_ikit_workshop_nuke_part_3	Test subjects are prodded, stabbed, shot, zapped, burnt, dematerialised – you name it. If it causes pain or death, it probably happens here.	Kill-Experiment Field	 	faction
+wh2_dlc12_ikit_workshop_nuke_part_4	Warpstone ore is quite unusable in its crude state, needing processes of separation and purification before being in any way useful.	Refined Warpstone	 	faction
+wh2_dlc12_ikit_workshop_nuke_part_5	Give the Doomrockets an extra 'kick'. The enemy’s going to feel this one!	Chemical Warp-Heads	 	faction
+wh2_dlc12_ikit_workshop_tier_1	Surrounded by stained workbenches scattered with crude components, electronics, and bits of salvage, the Warlock Engineers of Skryre design and manufacture death.	Technician's Grotto	 	faction
+wh2_dlc12_ikit_workshop_tier_2	The improved tools found here facilitate more complex crafting, easing the process of constructing weaponry to satisfy destructive tendencies.	Engineering Bay	 	faction
+wh2_dlc12_ikit_workshop_tier_3	A redesign of the entire laboratory layout has resulted in a facility where the boundless potential of Warpstone can be realised to its fullest extent.	Warptech Lab	 	faction
+wh2_dlc12_ikit_workshop_tier_4	This is where the greatest brains of all Skavendom devise the world's most heinous contraptions, making them into horrific realities on the grandest scale.	Great Warpforge	 	faction
+wh2_dlc12_ikit_workshop_warpfire_part_0	Enemies previously outside of the Warpfire Thrower’s reach will now be just as flame-grilled as everything else that dares come near!	Motorised Pumps	 	faction
+wh2_dlc12_ikit_workshop_warpfire_part_1	Whether handling dangerous materials in the lab or wielding chemical-spewing weaponry in the field, protective attire is always a boon!	Hazmat Fur-Suits	 	faction
+wh2_dlc12_ikit_workshop_warpfire_part_2	With pump designs haphazardly copied from the Dwarfs, the Warpfire Throwers will squirt their toxic filth further than ever before!	Gout Boosters	 	faction
+wh2_dlc12_lord_trait_lzd_lord_tehenhauin	The first and greatest Prophet of Sotek led the Lizardmen to fight the Skaven after the City of Gold fell to rodent-spawn’s vile plague. His journey was filled with great battles and countless sacrifices in the name of the vengeful Serpent-God.	Prophet of Sotek	character.png	faction
+wh2_dlc12_lord_trait_lzd_lord_tiktaqto	The Master of Skies is a fearless airborne Skink Chief, who protects the Lizardmen's temple-cities from above by slaying threats before they can even approach.	Master of Skies	character.png	faction
+wh2_dlc12_lord_trait_skv_lord_ikit_claw	Few will ever come close to Clan Skryre’s pre-eminent inventor, whose name is carved into history through his deadly machines of destruction.	Chief Warlock Engineer	character.png	faction
+wh2_dlc12_lzd_anc_magic_standard_coatlpelt_flagstaff	 	Coatlpelt Flagstaff	public_order.png	character
+wh2_dlc12_lzd_anc_magic_standard_culchan_feathered_standard	 	Culchan-Feathered Standard	public_order.png	character
+wh2_dlc12_lzd_anc_magic_standard_exalted_banner_of_xapati	 	Exalted Banner of Xapati	public_order.png	character
+wh2_dlc12_lzd_anc_magic_standard_flag_of_the_daystar	 	Flag of the Daystar	public_order.png	character
+wh2_dlc12_lzd_anc_magic_standard_shroud_of_chaqua	 	Shroud of Chaqua	public_order.png	character
+wh2_dlc12_lzd_anc_magic_standard_sign_of_the_coiled_one	 	Sign of the Coiled One	public_order.png	character
+wh2_dlc12_lzd_anc_magic_standard_totem_of_the_spitting_viper	 	Totem of the Spitting Viper	public_order.png	character
+wh2_dlc12_lzd_anc_magic_standard_totem_pole_of_destiny	 	Totem Pole of Destiny	public_order.png	character
+wh2_dlc12_lzd_tiktaqto_ritual_persistence	{{tr:wh2_dlc12_lzd_tiktaqto_ritual_persistence_description}}	{{tr:wh2_dlc12_lzd_tiktaqto_ritual_persistence_title}}	campaign_movement.png	faction
+wh2_dlc12_nuke_ability_enable	ph	ph	 	faction
+wh2_dlc12_nuke_ability_upgrade_enable	ph	ph	 	faction
+wh2_dlc12_prophecy_of_sotek_1_1	PH	Inspired Skinks	military_spending.png	faction
+wh2_dlc12_prophecy_of_sotek_1_2	Tier 2 Sacrifices unlocked	Sacrifices Unlock	effect_rite.png	faction
+wh2_dlc12_prophecy_of_sotek_2_3	Tier 3 Sacrifices unlocked	Sacrifices Unlock	effect_rite.png	faction
+wh2_dlc12_prophecy_of_sotek_2_4	Tier 4 Sacrifices unlocked	Sacrifices Unlock	effect_rite.png	faction
+wh2_dlc12_prophecy_of_sotek_3_1	Tier 5 and 6 Sacrifices unlocked	Sacrifices Unlock	effect_rite.png	faction
+wh2_dlc12_prophecy_of_sotek_stage_1	"Against the tide of non-believers, Sotek’s red-crested faithful shall emerge as his champions to go forth and make disciples of all the Old Ones’ children, beseeching them in the name of the Serpent-God."	Stage 1: The Rise of the Red Crests	dlc12_plaque_stage_1.png	faction
+wh2_dlc12_prophecy_of_sotek_stage_2	"At the time of the three hundredth cycle of this world, the two moons shall unite and summon forth the Rodent-God and his evil spawn to deliver plague and pestilence upon the land named Lustria."	Stage 2: The Skaven War	dlc12_plaque_stage_2.png	faction
+wh2_dlc12_prophecy_of_sotek_stage_3	"Behold Sotek, a serpent of such unimaginable size and appetite that he shall swallow the Rat-God himself and spend a thousand years digesting him, crushing him within his coils!"	Stage 3: Sotek Manifests	dlc12_plaque_stage_3.png	faction
+wh2_dlc12_qb_ikit_enable_storm_daemon	ph	Storm Daemon	public_order_troubled.png	force
+wh2_dlc12_skaven_doomsphere	ph	Doomsphere Explosion	religion_skaven.png	region
+wh2_dlc12_tehenhauin_sacrifice_tier1_banner	In recognition of these offerings, Sotek bestows blessings upon his followers!	Sacrifice of Xahutec	armour.png	faction
+wh2_dlc12_tehenhauin_sacrifice_tier1_follower	In recognition of these offerings, Sotek bestows blessings upon his followers!	Sacrifice of Amaxon	morale.png	faction
+wh2_dlc12_tehenhauin_sacrifice_tier1_jungle_swarm	In recognition of these offerings, Sotek bestows blessings upon his followers!	Sacrifice of Xuhua	general_ability.png	faction
+wh2_dlc12_tehenhauin_sacrifice_tier1_replenishment	In recognition of these offerings, Sotek bestows blessings upon his followers!	Sacrifice of Qurveza	replenishment.png	faction
+wh2_dlc12_tehenhauin_sacrifice_tier2_recruitment	In recognition of these offerings, Sotek bestows blessings upon his followers!	Sacrifice of Gwangee	turns.png	faction
+wh2_dlc12_tehenhauin_sacrifice_tier3_banner	In recognition of these offerings, Sotek bestows blessings upon his followers!	Sacrifice of Qu'ittax	growth.png	faction
+wh2_dlc12_tehenhauin_sacrifice_tier3_follower	In recognition of these offerings, Sotek bestows blessings upon his followers!	Sacrifice of Chiquibol	public_order.png	faction
+wh2_dlc12_tehenhauin_sacrifice_tier4_banner	In recognition of these offerings, Sotek bestows blessings upon his followers!	Sacrifice of Aymara	religion.png	faction
+wh2_dlc12_tehenhauin_sacrifice_tier4_follower	In recognition of these offerings, Sotek bestows blessings upon his followers!	Sacrifice of Incatol	experience.png	faction
+wh2_dlc12_tehenhauin_sacrifice_tier6_sotek	Sotek’s wrath shall be felt by his enemies on the battlefield!	Great Sacrifice of Sotek	general_ability.png	faction
+wh2_dlc12_workshop_level_0_dummy	 	 	 	faction
+wh2_dlc12_workshop_level_1_dummy	 	 	 	faction
+wh2_dlc12_workshop_level_1_reward	 	 	 	faction
+wh2_dlc12_workshop_level_2_dummy	 	 	 	faction
+wh2_dlc12_workshop_level_2_reward	 	 	 	faction
+wh2_dlc12_workshop_level_3_dummy	 	 	 	faction
+wh2_dlc12_workshop_level_3_reward	 	 	 	faction
+wh2_dlc12_workshop_level_4_reward	 	 	 	faction
+wh2_main_ai_kemmler	[HIDDEN]	[HIDDEN]	 	faction
 wh2_main_bundle_agent_action_assist_army_cannot_fail_increase_mobility_target	This army has an embedded [[img:icon_hero]][[/img]]Hero.	{{tr:agent_action_name_increase_mobility}}	campaign_movement.png	force
 wh2_main_bundle_agent_action_assist_army_cannot_fail_replenish_troops_target	This army has an embedded [[img:icon_hero]][[/img]]Hero.	{{tr:agent_action_name_replenish_troops}}	replenishment.png	force
 wh2_main_bundle_agent_action_assist_army_cannot_fail_scavenge_target	This army has an embedded [[img:icon_hero]][[/img]]Hero.	{{tr:agent_action_name_scavenge}}	income.png	force
@@ -535,7 +626,7 @@ wh2_main_bundle_stance_navy_double_time_hef	Increases this fleet's campaign map 
 wh2_main_climate_suitable	The climate in this region is suitable for your faction. There are no penalties for occupying this settlement.	Suitable Climate	 	region
 wh2_main_climate_uninhabitable	The climate in this region is uninhabitable for your faction. All construction and recruitment times are increased and income, replenishment, growth and public order are reduced severely.	Uninhabitable Climate	climate_uninhabitable.png	region
 wh2_main_climate_unsuitable	The climate in this region is harsh and unpleasant for your faction. Construction times of settlements are increased and income, replenishment and public order are lowered.	Unpleasant Climate	climate_unpleasant.png	region
-wh2_main_dilemma_loyalty_def_sorceror_delinquent_payload	There is power to be had and, by the gods, you shall have it!	The Sorcerer Delinquent	skaven_food.png	faction
+wh2_main_dilemma_loyalty_def_sorceror_delinquent_payload	There is power to be had and, by the gods, you shall have it!	The Sorcerer Delinquent	magic.png	faction
 wh2_main_dilemma_loyalty_positive_def_audience_4	As a test of loyalty, force this Lord to turn in any deviant that has as much as whispered a word in criticism of your rule... starting with some family members!	Root out some rebels!	public_order.png	faction
 wh2_main_dilemma_loyalty_positive_def_black_council_1	You will never reclaim what is rightfully yours with so few troops! Tell the Lords to draft anyone capable of bearing arms immediately, on pain of death!	Bolster the military	military_spending.png	faction
 wh2_main_dilemma_loyalty_positive_def_black_council_2	Seize the best architects and craftsmen, and confiscate private stocks of building materials! Your cities must grow!	Demand improvements!	construction.png	faction
@@ -719,7 +810,7 @@ wh2_main_incident_skv_building_cost_down	The clan's Warlock Engineers have found
 wh2_main_incident_skv_campaign_movement_range_increase	The slavemasters have been issued with a new style of lash coated with hundreds of tiny venomous barbs. Fearing its burning lacerations, the Skavenslaves are stepping up the pace. Naturally, army movement capacity has now increased factionwide.	Spiky Whips	campaign_movement.png	faction
 wh2_main_incident_skv_monster_unit_recruitment_cost_down_growth_down	Reports are rife of Rat Ogres, Hell Pit Abominations and other monstrous units devouring the Skaven around them without warning. Is this the work of some foul saboteur from without? A rival who seeks to upset your rule perhaps? As a result of this outrage, recruitment costs for monstrous units have fallen but growth has taken a factionwide hit also.	The Black Hunger	military_spending.png	faction
 wh2_main_incident_skv_morale_down_recruitment_cost_up	Scurrilous rumours regarding this army's quartermasters abound. They issue the worst weapons and armour, keeping the best for themselves; they skim the rations and worse yet whisper mockeries of the Great Horned Rat! The rank-and-file are restive, and it's becoming increasingly expensive to bribe newcomers into joining - army leadership is down, and recruitment costs have risen.	On the Fiddle	morale.png	force
-wh2_main_incident_skv_morale_up_public_order_up	This province has seen record-sized litters in recent years and the population is booming. Packs of Skavenslaves and Clanrats swell and, as every young buck knows, there is strength in numbers. Both leadership and public order in the province have risen as a result of this good news.	Brand New Mischief	public_order.png	province
+wh2_main_incident_skv_morale_up_public_order_up	This province has seen record-sized litters in recent years and the population is booming. Packs of Skavenslaves and Clanrats swell and, as every young buck knows, there is strength in numbers. Both leadership and public order in the province have risen as a result of this good news.	Brand New Mischief	public_order.png	region
 wh2_main_incident_skv_raid_sacking_income_up	Torture detachments have been deployed across your armed forces. While the Clanrats troops scavenge for goods and provisions, they set to work on the local inhabitants, clawing the locations of secret stashes and caches from their hapless subjects. Raiding and sacking income have both increased factionwide as a result of this excellent plan.	Torturers Deployed	treasury.png	faction
 wh2_main_incident_skv_replenish_up	The green Warp-glow of Morrslieb, the evil moon, waxes sick and bright above this army. The Clanrats are invigorated by its viridescent energies, recovering from their wounds and replacing their numbers more swiftly than usual. Army replenishment rate has increased due to the great, weird moon's baleful influence.	Morrslieb's Blessing	replenishment.png	force
 wh2_main_incident_skv_research_rate_up	The Council of Thirteen has decreed that the Warlock Engineers must step up their research efforts - on pain of death! A breathtakingly grisly list of execution methods has been circulated, each devised by the twelve earthbound Council-members, the thirteenth being, simply, a sacrifice to the Horned Rat. Unsurprisingly, your research rate has increased factionwide!	Thirteen Ways to Die	technology.png	faction

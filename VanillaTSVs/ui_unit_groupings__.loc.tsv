@@ -1,0 +1,540 @@
+Loc PackedFile	1
+key	text	tooltip
+ui_unit_groupings_onscreen_wh_dlc05_bst_harpies	Flying Melee Infantry	true
+ui_unit_groupings_tooltip_wh2_main_hef_hero_champion	Well-respected war leaders in their own right, High Elf Nobles have developed their considerable skill-at-arms over many years of intensive experience in melee combat.	true
+ui_unit_groupings_tooltip_wh2_main_lzd_hero_champion	The Lizardmen's Saurus Scar-Veterans are highly-seasoned melee fighters, with few equals among their adversaries on the field.	true
+ui_unit_groupings_onscreen_catapult	Catapult	true
+ui_unit_groupings_onscreen_wh2_dlc09_lord_infantry_spear	Spear Infantry	true
+ui_unit_groupings_tooltip_wh2_main_wizard_high	High Magic practitioners, proficient in using all the Winds of Magic, are supremely powerful beings whose spells are way beyond ordinary mortal understanding.	true
+ui_unit_groupings_onscreen_wh_dlc07_brt_grail_relique	Support Infantry	true
+ui_unit_groupings_onscreen_vmp_cavalry_scythe	Cavalry	true
+ui_unit_groupings_tooltip_wizard_fire_pegasus	Pyromancers are effectively magical artillery, due to the Lore of Fire's selection of aggressive spells, but are not necessarily the most powerful.	true
+ui_unit_groupings_onscreen_lord_wizard_life	Wizard	true
+ui_unit_groupings_tooltip_wh2_main_lord_wizard_ruin	Sudden, unnatural gales and lethal bolts of Warp-lightning from the sky, ground-splitting earthquakes and scorching fire from the soil – each one delivered in the Horned Rat’s undying name. 	true
+ui_unit_groupings_tooltip_wh_dlc05_wef_dryad	Vicious in hand-to-hand combat, these shapeshifting spirit-creatures prey on the unsuspecting.	true
+ui_unit_groupings_onscreen_vmp_tomb_banshee	Melee Specialist	true
+ui_unit_groupings_onscreen_wh_dlc05_wef_treeman	Monster	true
+ui_unit_groupings_tooltip_missile_cavalry_axe	Fast moving and with a long range, missile cavalry excel at harassing their enemies, but are weak if pinned in melee.	true
+ui_unit_groupings_tooltip_wh_dlc03_bst_centigor_missile	Fearsome beasts, armed with a pair of lethal throwing axes – running away will not help.	true
+ui_unit_groupings_tooltip_wizard_death_flying_monster	The Lore of Death is an offensive lore with a suite of spells that can assassinate enemy characters and decimate entire units!	true
+ui_unit_groupings_tooltip_wh2_dlc09_tmb_casket_of_souls	Tormented souls, now freed from their spiritual prison, burst forth in a flash of blinding light to seek out the foe and deliver unbearable madness and death to their door.	true
+ui_unit_groupings_onscreen_lord_wizard_deep	Wizard	true
+ui_unit_groupings_onscreen_wh2_main_missile_infantry_javelin	Missile Infantry	true
+ui_unit_groupings_onscreen_grn_goblin_bigboss_cavalry	Melee Specialist	true
+ui_unit_groupings_onscreen_wh_dlc03_bst_centigor_great_weapon	Bestial Cavalry Great Weapons	true
+ui_unit_groupings_tooltip_wizard_light_cavalry_flying	Light is a defensive Lore concentrated on augmentation spells, especially useful against Undead and Daemonic creatures. 	true
+ui_unit_groupings_tooltip_emp_warrior_priest	The Warrior Priests of Sigmar are powerful fighters whose battle prayers can further bolster their followers' resolve. 	true
+ui_unit_groupings_onscreen_wh2_dlc10_hef_hand_of_the_shadow_crown	Assassin	true
+ui_unit_groupings_tooltip_wizard_nehekhara	The Lore of Nehekhara is focused on damage, either applied directly to the enemy or by enhancing the attack of your Undead legions.	true
+ui_unit_groupings_tooltip_lord_infantry_hammer_great	Hammers take little notice of armour, causing massive amounts of damage regardless of where they hit. Managing to score a hit can be very challenging though...	true
+ui_unit_groupings_tooltip_vmp_infantry_scythe	The scythe is a clumsy weapon in combat not suited for parries or blocks. However, if the wielder is ethereal, it doesn't matter. 	true
+ui_unit_groupings_onscreen_wh2_main_missile_infantry_sling	Missile Infantry	true
+ui_unit_groupings_onscreen_wh2_main_skv_infantry_sword_stormvermin	Sword Infantry	true
+ui_unit_groupings_onscreen_emp_rocket_battery	Rocket Battery	true
+ui_unit_groupings_onscreen_wh_dlc06_grn_nasty_skulker	Sneaky Infantry	true
+ui_unit_groupings_tooltip_wizard_fire_cavalry	Pyromancers are effectively magical artillery, due to the Lore of Fire's selection of aggressive spells, but are not necessarily the most powerful.	true
+ui_unit_groupings_onscreen_wh2_main_lzd_infantry_mace	Mace Infantry	true
+ui_unit_groupings_tooltip_infantry_sword_dual	The sword's main advantage in combat is its flexibility. It can be used offensively and defensively, and offers a good compromise between regular and armour-piercing damage.	true
+ui_unit_groupings_tooltip_missile_cavalry_bow_spider	Fast moving and with a long range, missile cavalry excel at harassing their enemies, but are weak if pinned in melee.	true
+ui_unit_groupings_onscreen_infantry_axe_great	Great Axe Infantry	true
+ui_unit_groupings_tooltip_wizard_death_cavalry_flying	The Lore of Death is an offensive lore with a suite of spells that can assassinate enemy characters and decimate entire units!	true
+ui_unit_groupings_onscreen_wh_dlc03_bst_gorebull	Melee Specialist	true
+ui_unit_groupings_tooltip_wizard_life	The Lore of Life heals those who control it by taking the lifeforce of their opponents!	true
+ui_unit_groupings_tooltip_wh_dlc03_bst_centigor	Brutal beasts, striding into battle to wreak havoc.	true
+ui_unit_groupings_onscreen_wh2_main_lord_wizard_dark	Wizard	true
+ui_unit_groupings_tooltip_monstrous_infantry	Monstrous creatures are typically several feet taller than men and capable of stomping weaker foes into the ground. 	true
+ui_unit_groupings_tooltip_brt_paladin_pegasus	It is the Bretonnians that have taken the art of flying cavalry and made it their own. 	true
+ui_unit_groupings_tooltip_cavalry_flying_rare	Flying cavalry have the advantages enjoyed by more traditional mounted units but with an even greater range.	true
+ui_unit_groupings_tooltip_lord_wizard_metal	The Lore of Metal is full of hexes and high-damage spells; heavily-armoured units are particularly susceptible.	true
+ui_unit_groupings_tooltip_brt_paladin_cavalry	Bretonnian Knights are masters of cavalry-based close combat. 	true
+ui_unit_groupings_tooltip_wh2_dlc12_wizard_lord_kroak	This master of magick uses power generated from the Deliverance of Itza to destroy both armies and cities.	true
+ui_unit_groupings_tooltip_lord_cavalry_flying	Flying cavalry have all the advantages of more traditional mounted units, but with an even greater range. 	true
+ui_unit_groupings_tooltip_wizard_deep	The Lore of the Deep draws power from the depths of the seas to disrupt the enemy's plans and drown their crews. 	true
+ui_unit_groupings_onscreen_dwf_thane	Melee Specialist	true
+ui_unit_groupings_tooltip_grn_goblin_bigboss	Big Bosses are surprisingly capable in melee, although they will find facing the champions of other races a challenge. 	true
+ui_unit_groupings_tooltip_wh_dlc06_grn_squig	The Squigs’ fearsome mandibles can crack skulls with ease, gobbling men up like so many mushrooms in a feeding trough.	true
+ui_unit_groupings_onscreen_cav_flying	Flying Cavalry	true
+ui_unit_groupings_onscreen_emp_warrior_priest_cavalry	Melee Specialist	true
+ui_unit_groupings_tooltip_dwf_master_engineer	This Engineer puts his ingenuity into field-testing handgun accuracy and range. 	true
+ui_unit_groupings_tooltip_wizard_wild_chariot	Nature can be both shield and weapon, brought to bear against the enemy or to defend allied troops.	true
+ui_unit_groupings_tooltip_war_beast	Wolves, hounds and other beasts bred for war. Their claws and jaws can crack skulls, but they struggle against decent armour.	true
+ui_unit_groupings_onscreen_wh2_main_cold_one	Cold One Cavalry	true
+ui_unit_groupings_tooltip_emp_captain	The Captains of men are oft-times great fighters as well as leaders. 	true
+ui_unit_groupings_onscreen_wh_dlc06_bolt_thrower	Field Artillery	true
+ui_unit_groupings_onscreen_wh2_main_def_mon_war_hydra	Monster	true
+ui_unit_groupings_onscreen_lord_wizard_wild	Wizard	true
+ui_unit_groupings_tooltip_wh2_dlc11_cst_close_quarters_missile_infantry	Extremely short-range troops, who cause high-impact damage to their foes.	true
+ui_unit_groupings_tooltip_wh2_main_def_infantry_dual_daggers	Forever in Khaine's service, on the battlefield the heartless Witch Elves carry a pair of poisoned daggers with which to do their endless, bloody work.	true
+ui_unit_groupings_onscreen_wh2_main_hef_phoenix_fire	Monstrous Beast	true
+ui_unit_groupings_tooltip_lord_dragon	These large-winged monsters are the most powerful creatures in the world.	true
+ui_unit_groupings_tooltip_wh2_main_lord_cavalry_hybrid	Proficient in melee and missile combat alike, a fast mount grants this Lord much tactical flexibility.	true
+ui_unit_groupings_onscreen_lord_wizard_death	Wizard	true
+ui_unit_groupings_tooltip_chs_dragon_ogre_shaggoth	The near-immortal Dragon Ogres bellow their rage at the younger races and hit hard when they charge. 	true
+ui_unit_groupings_onscreen_wizard_life_flying_monster	Wizard	true
+ui_unit_groupings_tooltip_wh2_main_lzd_infantry_cudgel	An indelicate weapon at the best of times, the cudgel is doubly-crushing when wielded by a cold-blooded Skink.	true
+ui_unit_groupings_tooltip_shock_cavalry_boar	A well-timed charge by these near-unstoppable cavalry units can cause devastating damage.	true
+ui_unit_groupings_tooltip_wh_dlc08_nor_giant	Large, aggressive and mostly drunk.	true
+ui_unit_groupings_tooltip_lord_wizard_heavens	Drawn from the skies, the Lore of Heavens is a mix of augmentation spells and powers with potentially devastating consequences for the enemy.	true
+ui_unit_groupings_tooltip_wh2_main_wizard_ruin	Sudden, unnatural gales and lethal bolts of Warp-lightning from the sky, ground-splitting earthquakes and scorching fire from the soil – each one delivered in the Horned Rat’s undying name. 	true
+ui_unit_groupings_tooltip_wh2_main_hef_hero_loremaster	These gifted warriors are also master magic-users, each with a faultless grasp of the principles of magical lore.	true
+ui_unit_groupings_tooltip_wizard_wild	Nature can be both shield and weapon, brought to bear against the enemy or to defend allied troops.	true
+ui_unit_groupings_tooltip_wh_dlc05_wef_orion	Either thrown or used in melee, the Spear of Kurnous offers superior reach over a sword or axe, making it an ideal choice against larger enemies.	true
+ui_unit_groupings_tooltip_wh2_main_lord_wizard_high	High Magic practitioners, proficient in using all the Winds of Magic, are supremely powerful beings whose spells are way beyond ordinary mortal understanding.	true
+ui_unit_groupings_tooltip_wh_dlc03_bst_cygor	The Cygor is a beast without peer, hurling rocks from afar to smash enemies before they can close on its imposing physique.	true
+ui_unit_groupings_tooltip_lord_wizard_light	Light is a defensive Lore concentrated on augmentation spells, especially useful against Undead and Daemonic creatures. 	true
+ui_unit_groupings_tooltip_wh2_dlc10_def_whip_infantry	In the right hands, the barbed whip makes a mockery of even the most skilful warrior, keeping the foe off balance and unable to press their attack.	true
+ui_unit_groupings_onscreen_chs_exalted_hero_cavalry	Melee Specialist	true
+ui_unit_groupings_onscreen_wh_dlc05_wef_glaive_infantry	Glaive Infantry	true
+ui_unit_groupings_onscreen_wh_dlc03_bst_razorgor	Monstrous Beast	true
+ui_unit_groupings_onscreen_wh2_main_lord_wizard_high	Wizard	true
+ui_unit_groupings_tooltip_cav_flying	Flying cavalry have the advantage of more traditional mounted units, but with an even greater range. 	true
+ui_unit_groupings_tooltip_emp_warrior_priest_cavalry	A Warrior Priest on horseback can preach and fight at greater speed.  	true
+ui_unit_groupings_onscreen_lord_wizard_light	Wizard	true
+ui_unit_groupings_tooltip_wizard_nehekhara_cavalry	The Lore of Nehekhara is focused on damage, either applied directly to the enemy or by enhancing the attack of your Undead legions.	true
+ui_unit_groupings_onscreen_wh_dlc06_grn_squig	War Beasts	true
+ui_unit_groupings_tooltip_wh_dlc03_bst_razorgor	These larger-than-usual beasts bear down upon their enemies on the battlefield, rending them apart with bestial fury and cruel determination.	true
+ui_unit_groupings_tooltip_wizard_fire	Pyromancers are effectively magical artillery, due to the Lore of Fire's selection of aggressive spells, but are not necessarily the most powerful.	true
+ui_unit_groupings_onscreen_emp_witch_hunter	Missile Specialist	true
+ui_unit_groupings_tooltip_wh2_dlc09_lord_tmb_warsphinx	Towering over the battlefield, statues that once stood sentinel over Nehekhara’s elaborate temples now direct their great strength and fury against the Tomb Kings' many foes.	true
+ui_unit_groupings_onscreen_grn_goblin_bigboss	Melee Specialist	true
+ui_unit_groupings_onscreen_wh2_main_def_infantry_dual_daggers	Dual Dagger Infantry	true
+ui_unit_groupings_tooltip_wh2_main_def_mon_war_hydra	Built to destroy massed ranks with its fiery breath, the Hydra strikes terror into its opponents and can heal its own wounds.	true
+ui_unit_groupings_tooltip_lord_wizard_death	The Lore of Death is an offensive lore with a suite of spells that can assassinate enemy characters and decimate entire units!	true
+ui_unit_groupings_tooltip_wh2_main_hef_phoenix_fire	When enraged in battle, the plumage of the majestic Flamespyre Phoenix combusts, leaving angry, deadly fire trailing behind it.	true
+ui_unit_groupings_onscreen_wh2_dlc11_cst_close_quarters_missile_infantry	Close-Quarters Missile Infantry	true
+ui_unit_groupings_onscreen_shock_cavalry_boar	Shock Cavalry	true
+ui_unit_groupings_onscreen_lord_wizard_fire	Wizard	true
+ui_unit_groupings_tooltip_wizard_life_flying_monster	The Lore of Life heals those who control it, whilst taking the lifeforce of their opponents!	true
+ui_unit_groupings_onscreen_war_beast	War Beasts	true
+ui_unit_groupings_tooltip_wh2_main_cold_one	These Cold Ones hunt down their prey in small packs. Although used by Dark Elves too, they are best controlled by Lizardmen.	true
+ui_unit_groupings_tooltip_wh2_main_wizard_dark	The courage to walk Dark Magic's more direct, immediate, and dangerous path to spellcraft requires an uncanny sharpness of mind and bloody-minded determination.	true
+ui_unit_groupings_tooltip_wh_dlc06_bolt_thrower	With a long range, Bolt Throwers are able to cause great damage but are very weak in melee.	true
+ui_unit_groupings_tooltip_nor_mammoth	Near unstoppable on the charge, these masses of fur, muscle and tusks can break through the strongest enemies.	true
+ui_unit_groupings_tooltip_brt_paladin	By the Lady, this Bretonnian champion excels in melee!	true
+ui_unit_groupings_tooltip_missile_cavalry_bow	Fast moving and with a long range, missile cavalry excel at harassing their enemies, but are weak if pinned in melee.	true
+ui_unit_groupings_onscreen_wh_dlc03_bst_cygor	Specialist Artillery	true
+ui_unit_groupings_onscreen_wh_dlc05_wef_orion	Hybrid Weapon Specialist	true
+ui_unit_groupings_onscreen_wh_dlc08_nor_hunters_javelin	Javelin Infantry	true
+ui_unit_groupings_tooltip_dwf_thane	Wielding an ancestral axe, a Thane is a melee champion of Hold and Clan. 	true
+ui_unit_groupings_onscreen_wh_dlc08_nor_giant	Monster	true
+ui_unit_groupings_tooltip_wizard_life_cavalry	The Lore of Life heals those who control it by taking the lifeforce of their opponents!	true
+ui_unit_groupings_tooltip_wizard_fire_chariot	Pyromancers are effectively magical artillery, due to the Lore of Fire's selection of aggressive spells, but are not necessarily the most powerful. 	true
+ui_unit_groupings_tooltip_wh2_dlc11_cst_deck_droppers_pistols	Fast-moving cavalry, able to fire whilst flying above their enemies.	true
+ui_unit_groupings_tooltip_wh2_dlc11_cst_missile_pistol	Short-range missile infantry that won't win a gunfight on their own, but can pin down a foe.	true
+ui_unit_groupings_onscreen_wh_dlc05_wef_dryad	Creature Infantry	true
+ui_unit_groupings_tooltip_vmp_cavalry_scythe	Fast and good against smaller targets, cavalry also has more staying power in melee than the charge-focussed shock cavalry.	true
+ui_unit_groupings_tooltip_chs_dragon_ogres	The near-immortal Dragon Ogres bellow their rage at the younger races and hit hard when they charge. 	true
+ui_unit_groupings_tooltip_wh_dlc07_brt_grail_relique	A support infantry unit reinforces others with its aura and strikes foes with powerful magical attacks.	true
+ui_unit_groupings_onscreen_lord_wizard_metal	Wizard	true
+ui_unit_groupings_tooltip_emp_captain_cavalry	Captains are also warriors who excel in melee from horseback. 	true
+ui_unit_groupings_onscreen_wh2_main_lzd_hero_champion	Melee Specialist	true
+ui_unit_groupings_onscreen_wh2_main_hef_hero_champion	Melee Specialist	true
+ui_unit_groupings_onscreen_missile_cavalry_bow_wolf	Missile Cavalry	true
+ui_unit_groupings_tooltip_wh_dlc06_grn_nasty_skulker	Armed with razor-sharp daggers, these Goblins strike hard, causing lethal armour piercing damage before scurrying away under a confounding cloud of smoke.	true
+ui_unit_groupings_tooltip_emp_rocket_battery	Rockets' inaccuracy does not matter much considering the wide area of devastation they cause.	true
+ui_unit_groupings_tooltip_wh2_main_lord_wizard_dark	The courage to walk Dark Magic's more direct, immediate, and dangerous path to spellcraft requires an uncanny sharpness of mind and bloody-minded determination.	true
+ui_unit_groupings_onscreen_vmp_crypt_ghouls	Cudgel Infantry	true
+ui_unit_groupings_tooltip_wh2_main_lzd_infantry_mace	As the Saurus wield their sword-maces they are fighting two foes: their opponent and their own primal instincts.	true
+ui_unit_groupings_tooltip_lord_wizard_shadows	Wizards who harness the Lore of Shadows use aggressive spells to scythe through enemy hearts!	true
+ui_unit_groupings_onscreen_emp_warrior_priest	Melee Specialist	true
+ui_unit_groupings_tooltip_emp_captain_pegasus	To fight from the back of a rearing Pegasus takes great skill - use his mobility to strike where the fighting is thickest. 	true
+ui_unit_groupings_onscreen_lord_infantry_hammer_great	Hammer Infantry	true
+ui_unit_groupings_tooltip_wh2_dlc10_hef_hand_of_the_shadow_crown	More than just highly-trained assassins, the Hands of the Shadow Crown will ensure their mission's success no matter the cost.	true
+ui_unit_groupings_tooltip_grn_goblin_bigboss_cavalry	Once on a wolf or a giant spider, a Big Boss is far more mobile - able to boost da boyz' resolve when required. 	true
+ui_unit_groupings_tooltip_wh_dlc03_bst_centigor_great_weapon	These monsters smash their foes to pieces with huge, armour-rending weapons.	true
+ui_unit_groupings_onscreen_wh_dlc03_bst_centigor	Bestial Cavalry	true
+ui_unit_groupings_tooltip_wh_dlc03_bst_gorebull	These units excel in the thick of the fight, tearing the foe to shreds with savage strength and wild abandon.	true
+ui_unit_groupings_onscreen_chs_exalted_hero	Melee Specialist	true
+ui_unit_groupings_onscreen_monstrous_infantry	Monstrous Infantry	true
+ui_unit_groupings_tooltip_wh2_main_missile_infantry_javelin	Javelin-armed missile infantry cause high damage, but only over a short range.	true
+ui_unit_groupings_onscreen_cavalry_skeleton	Cavalry	true
+ui_unit_groupings_onscreen_wh2_dlc09_tmb_casket_of_souls	Magical Artillery	true
+ui_unit_groupings_tooltip_infantry_axe_great	What two-handed axes lack in elegance, they make up for in brutal, armour-shattering force.	true
+ui_unit_groupings_tooltip_wh2_dlc11_cst_deck_droppers	Fast-moving cavalry that can take to the skies, raining down damage from above at range.	true
+ui_unit_groupings_onscreen_infantry_pickaxe	Pickaxe Infantry	true
+ui_unit_groupings_onscreen_missile_cavalry_bow_spider	Missile Cavalry	true
+ui_unit_groupings_tooltip_wh2_main_skv_infantry_censer	The fanatical Plague Monks use their censers to spread virulent diseases as well as for flailing their unfortunate opponents to an ignoble, unmerciful death.	true
+ui_unit_groupings_onscreen_wh2_main_lord_wizard_ruin	Wizard	true
+ui_unit_groupings_onscreen_wh_dlc03_bst_centigor_missile	Bestial Missile Cavalry 	true
+ui_unit_groupings_tooltip_wh2_dlc09_lord_infantry_spear	Spears offer superior reach over swords and axes, generally making them the better choice against large enemies.	true
+ui_unit_groupings_onscreen_field_gun	Field Gun	true
+ui_unit_groupings_tooltip_wh2_main_skv_missile_infantry_throwing_star	Although short of range due to being hand-thrown in battle, do not discount the effectiveness of quick-firing, massed throwing stars against tightly-packed opponents!	true
+ui_unit_groupings_onscreen_wh_dlc05_wef_sisters_thorn	Magical Cavalry	true
+ui_unit_groupings_tooltip_lord_cavalry_wolf	Fast and good against smaller targets, cavalry also has more staying power in melee than the charge-focused shock cavalry.	true
+ui_unit_groupings_onscreen_chs_exalted_hero_manticore	Melee Specialist	true
+ui_unit_groupings_onscreen_wh2_dlc09_tmb_warsphinx	Monster	true
+ui_unit_groupings_tooltip_lord_wizard_wild	Nature can be both shield and weapon, brought to bear against the enemy or to defend allied troops.	true
+ui_unit_groupings_onscreen_wh2_main_lord_cavalry_hybrid	Hybrid-Weapon Cavalry	true
+ui_unit_groupings_onscreen_wh_dlc05_wef_waystalker	Hybrid Weapon Specialist	true
+ui_unit_groupings_tooltip_wh2_dlc09_tmb_ushabti	As the Nehekharan gods’ chosen, Ushabti can crush mere men into the sands with their looming girth, never to be seen again.	true
+ui_unit_groupings_onscreen_wh2_dlc12_hunting_packs	Hunting Packs	true
+ui_unit_groupings_onscreen_wizard_lil_waaagh	Wizard	true
+ui_unit_groupings_tooltip_wh2_main_skv_missile_infantry_globe_death	Although hand-thrown and therefore short-range by design, there's nothing weak about the virulent maladies contained within these globes, as those caught in their blast would testify if indeed they'd lived to tell the tale!	true
+ui_unit_groupings_onscreen_wh_dlc03_minotaurs_great_weapon	Monstrous Infantry Great Weapons	true
+ui_unit_groupings_onscreen_infantry_axe_dual	Berserker Axe Infantry	true
+ui_unit_groupings_onscreen_chs_dragon_ogre_shaggoth	Dragon Ogre Shaggoth	true
+ui_unit_groupings_tooltip_hero_infantry_axe	Frontline soldiers trained for hand-to-hand combat with their enemies.	true
+ui_unit_groupings_onscreen_wh2_main_lzd_infantry_cudgel	Cudgel Infantry	true
+ui_unit_groupings_onscreen_missile_cavalry_javelin	Missile Cavalry	true
+ui_unit_groupings_tooltip_wizard_big_waaagh_cavalry	The Big Waaagh! is a big bombastic lore with lots of intimidating, large spells that meter out damage to the enemy.	true
+ui_unit_groupings_tooltip_wh_dlc05_wef_glaive_infantry	The glaive is a large, lethal, bladed weapon with improved armour-piercing capabilities.	true
+ui_unit_groupings_tooltip_chs_exalted_hero_cavalry	The Champions of Chaos are brutal and merciless in combat, when mounted they can close with the enemy more quickly. 	true
+ui_unit_groupings_onscreen_lord_wizard_beasts	Wizard	true
+ui_unit_groupings_onscreen_wh2_main_wizard_ruin	Wizard	true
+ui_unit_groupings_onscreen_wh2_main_hef_hero_loremaster	Wizard	true
+ui_unit_groupings_tooltip_wh_dlc05_wef_treeman	Towering over their enemies, these living trees protect the forest with brute force when necessary.	true
+ui_unit_groupings_tooltip_vmp_tomb_banshee	Tomb Banshees are screaming wretches - ethereal beings with a short-range wailing attack.	true
+ui_unit_groupings_tooltip_lord_wizard_life	The Lore of Life heals those who control it by taking the lifeforce of their opponents!	true
+ui_unit_groupings_tooltip_wh2_main_hef_phoenix_frost	The aged, cooled Frostheart Phoenix no longer possesses the fire it once commanded, but remains a hardy, formidable battlefield opponent.	true
+ui_unit_groupings_tooltip_wh_dlc05_bst_harpies	Winged creatures who prey on weaker foes in hand-to-hand combat.	true
+ui_unit_groupings_tooltip_catapult	These siege engines are perfect for firing over your own battle line and over walls, but they are generally less accurate than cannons.	true
+ui_unit_groupings_onscreen_wh2_main_wizard_high	Wizard	true
+ui_unit_groupings_tooltip_wh2_dlc11_cst_mourngul_haunter	The Mourngul Haunter is a terrifying monster able to stalk its prey and cause high levels of damage to any foe.	true
+ui_unit_groupings_onscreen_wizard_big_waaagh	Wizard	true
+ui_unit_groupings_onscreen_wizard_nehekhara	Wizard	true
+ui_unit_groupings_tooltip_wh2_dlc09_tmb_carrion	Wolves, hounds and other beasts bred for war. Their claws and jaws can splinter bone, but they struggle with decent armour.	true
+ui_unit_groupings_onscreen_wh2_dlc09_tmb_scorpion	Monster	true
+ui_unit_groupings_tooltip_lord_infantry_sword	The sword's main advantage in combat is flexibility. It can be used offensively and defensively, and it offers a good compromise between regular damage and armour piercing damage.	true
+ui_unit_groupings_tooltip_wh2_main_skv_missile_infantry_globe	Although hand-thrown and therefore short range by design, there's nothing weak about the virulent maladies contained within these globes, as those caught in their blast would testify if indeed they'd lived to tell the tale!	true
+ui_unit_groupings_tooltip_lord_wizard_deep	The Lore of the Deep draws power from the depths of the seas to disrupt the enemy's plans and drown their crews. 	true
+ui_unit_groupings_onscreen_cavalry	Cavalry	true
+ui_unit_groupings_tooltip_wh2_dlc11_cst_syreens	These wretched, ethereal beings charm unfortunate mortals into willingly meeting their demise.	true
+ui_unit_groupings_onscreen_monstrous_infantry_flying	Flying Monstrous Infantry	true
+ui_unit_groupings_onscreen_wh2_dlc09_tmb_necrotect	Whip Infantry	true
+ui_unit_groupings_tooltip_wh2_main_skv_infantry_sword_death_runners	These Skaven Death Runners are armed with Warpstone and magic-infused 'Weeping Blades', to melt armour and make even the merest scratch a fatal flesh wound.	true
+ui_unit_groupings_onscreen_wizard_vampires_cavalry	Wizard	true
+ui_unit_groupings_tooltip_lord_infantry_axe	Frontline soldiers trained for hand-to-hand combat with their enemies.	true
+ui_unit_groupings_onscreen_chs_dragon_ogres	Dragon Ogres	true
+ui_unit_groupings_onscreen_wh2_dlc11_cst_mourngul_haunter	Melee Specialist	true
+ui_unit_groupings_onscreen_wh2_main_skv_infantry_sword_death_runners	Dual Sword Infantry	true
+ui_unit_groupings_tooltip_wh2_main_lord_wizard_plague	Virulent disease - insidious, creeping, contagions leading to hideous infirmity, madness and death. If ever pestilence needed a helping hand, this Wizard provides it.	true
+ui_unit_groupings_onscreen_lord_infantry_axe_great	Great Axe Infantry	true
+ui_unit_groupings_onscreen_lord_infantry_axe	Axe Infantry	true
+ui_unit_groupings_onscreen_wh2_dlc11_cst_missile_pistol	Pistol Missile Infantry	true
+ui_unit_groupings_onscreen_wh2_main_hef_phoenix_frost	Monstrous Beast	true
+ui_unit_groupings_tooltip_monstrous_infantry_flying	Monstrous creatures are typically several feet taller than men, and capable of stomping weaker foes into the ground. 	true
+ui_unit_groupings_tooltip_wh2_dlc11_cst_gunnery_wight	Gunnery Wights make the Vampire Coast's gunline hold fast, replenishing troops' ammunition to keep them in the fight.	true
+ui_unit_groupings_tooltip_vmp_crypt_ghouls	Although armed with crude cudgels, a scratch from their filth-encrusted, poisonous claws is more dangerous to most living beings.	true
+ui_unit_groupings_tooltip_missile_cavalry_bow_wolf	Fast moving and with a long range, missile cavalry excel at harassing their enemies, but are weak if pinned in melee.	true
+ui_unit_groupings_onscreen_wh2_dlc11_cst_syreens	Melee Infantry	true
+ui_unit_groupings_onscreen_wh2_main_cold_one_spear	Cold One Spear Cavalry	true
+ui_unit_groupings_tooltip_wh2_dlc09_tmb_scorpion	Tomb Scorpions suddenly burst from beneath the sand right into the centre of the fray, using surprise and savagery to quickly gain the advantage.	true
+ui_unit_groupings_tooltip_cavalry_skeleton	Fast, and good against smaller targets, cavalry also have more staying power in melee than charge-focused shock cavalry.	true
+ui_unit_groupings_tooltip_infantry_pickaxe	An ambushing force that can attack with mattock and blasting charges. 	true
+ui_unit_groupings_onscreen_wh2_dlc11_cst_exploding_monster	Exploding Monster	true
+ui_unit_groupings_onscreen_wh_dlc05_wef_glade_lord	Hybrid Weapon Specialist	true
+ui_unit_groupings_onscreen_wh2_main_skv_infantry_censer	Flail Infantry	true
+ui_unit_groupings_tooltip_wizard_big_waaagh	The Big Waaagh! is a big bombastic lore with lots of intimidating, large spells that meter out damage to the enemy.	true
+ui_unit_groupings_onscreen_wh2_dlc09_tmb_carrion	Flying War Beasts	true
+ui_unit_groupings_tooltip_chs_exalted_hero	The Champions of Chaos are brutal and merciless in combat. 	true
+ui_unit_groupings_onscreen_monster_missile	Missile Monster	true
+ui_unit_groupings_tooltip_emp_witch_hunter	Witch Hunters are hardy fighters but have good missile capabilities as well. 	true
+ui_unit_groupings_tooltip_chs_exalted_hero_manticore	The Champions of Chaos are brutal and merciless in combat, especially when mounted on monstrous beasts. 	true
+ui_unit_groupings_onscreen_missile_infantry_pistol	Close-Quarters Infantry	true
+ui_unit_groupings_onscreen_wh2_dlc09_lord_tmb_warsphinx	Monster	true
+ui_unit_groupings_tooltip_wh_dlc05_wef_sisters_thorn	Fast and good when fighting infantry, this cavalry unit can also cast aggressive spells.	true
+ui_unit_groupings_onscreen_wizard_big_waaagh_cavalry	Wizard	true
+ui_unit_groupings_onscreen_wizard_nehekhara_cavalry	Wizard	true
+ui_unit_groupings_onscreen_missile_chariot	Missile Chariot	true
+ui_unit_groupings_tooltip_infantry_axe_dual	Ferocious infantry specialising in brutal hand-to-hand combat.	true
+ui_unit_groupings_onscreen_lord_chs_kholek	Dragon Ogre Shaggoth	true
+ui_unit_groupings_onscreen_hero_infantry_axe	Axe Infantry	true
+ui_unit_groupings_tooltip_wizard_lil_waaagh	Goblin Shamans use spells from the Little Waaagh!, a collection of vindictive spells that can really hurt their opponents.	true
+ui_unit_groupings_onscreen_wh2_main_skv_missile_infantry_globe_death	Missile Infantry	true
+ui_unit_groupings_onscreen_wh2_main_hef_missile_infantry_bow_spear	Missile & Spear Infantry	true
+ui_unit_groupings_onscreen_field_gun_flame	Field Gun	true
+ui_unit_groupings_tooltip_lord_wizard_fire	Pyromancers are effectively magical artillery, due to the Lore of Fire's selection of aggressive spells, but are not necessarily the most powerful.	true
+ui_unit_groupings_onscreen_wh2_dlc09_tmb_ushabti	Monstrous Infantry	true
+ui_unit_groupings_onscreen_wh2_main_wizard_dark	Wizard	true
+ui_unit_groupings_onscreen_wizard_vampires	Wizard	true
+ui_unit_groupings_onscreen_wh_dlc08_nor_frost_wyrm	Flying Monster	true
+ui_unit_groupings_onscreen_lord_cavalry_wolf	Cavalry	true
+ui_unit_groupings_onscreen_monster_generic	Monster	true
+ui_unit_groupings_tooltip_wh_dlc08_nor_hunters_javelin	Medium-range units specialising in large opponents whilst also being competent when fighting hand-to-hand.	true
+ui_unit_groupings_tooltip_lord_wizard_beasts	The beasts of the world rise up and obey when summoned, their very essence used to empower and transform the caster.	true
+ui_unit_groupings_tooltip_field_gun	These smaller cannons, guns and flamethrowers are primarily used against units, not buildings.	true
+ui_unit_groupings_onscreen_chariot	Chariot	true
+ui_unit_groupings_onscreen_wizard_life_cavalry	Wizard	true
+ui_unit_groupings_onscreen_wizard_fire_chariot	Wizard	true
+ui_unit_groupings_onscreen_wh2_dlc10_hef_handmaiden	Hybrid Weapon Specialist	true
+ui_unit_groupings_onscreen_missile_cavalry_bow	Missile Cavalry	true
+ui_unit_groupings_onscreen_lord_wizard_big_waaagh	Wizard	true
+ui_unit_groupings_onscreen_wh2_dlc09_tmb_sepulchral_stalkers	Monstrous Infantry	true
+ui_unit_groupings_tooltip_infantry_spear	Spears offer superior reach over swords and axes, generally making them the better choice against large enemies.	true
+ui_unit_groupings_tooltip_wizard_metal_manticore	The Lore of Metal is full of hexes and high-damage spells; units with lots of armour are particularly susceptible.	true
+ui_unit_groupings_onscreen_brt_paladin	Melee Specialist	true
+ui_unit_groupings_onscreen_nor_mammoth	War Mammoth	true
+ui_unit_groupings_tooltip_wizard_beasts_cavalry	The beasts of the world rise up and obey when summoned, their very essence used to empower and transform the caster.	true
+ui_unit_groupings_onscreen_wh2_main_wizard_plague	Wizard	true
+ui_unit_groupings_onscreen_wh2_dlc11_cst_specialist_missile_infantry	Specialist Missile Infantry	true
+ui_unit_groupings_onscreen_wh2_dlc09_tmb_necrosphinx	Monster	true
+ui_unit_groupings_onscreen_wizard_shadows_cavalry_flying	Wizard	true
+ui_unit_groupings_tooltip_lord_chariot	Fast moving, with a wide turning circle, Chariots can punch through weak enemy units but are vulnerable if pinned in combat.	true
+ui_unit_groupings_onscreen_infantry_sword_great	Greatsword Infantry	true
+ui_unit_groupings_onscreen_wizard_light_cavalry	Wizard	true
+ui_unit_groupings_onscreen_wizard_shadows_flying_monster	Wizard	true
+ui_unit_groupings_tooltip_lord_wizard_vampires	Spells from the Lore of Vampires are used to summon and shackle Undead minions, and curse them too!	true
+ui_unit_groupings_onscreen_wizard_fire	Wizard	true
+ui_unit_groupings_tooltip_wh2_dlc10_tmb_bone_giant	Loosing arrows the size of four men, this enormous skeleton punishes the enemy from long range.	true
+ui_unit_groupings_onscreen_wh2_dlc09_tmb_tomb_prince	Halberd Infantry	true
+ui_unit_groupings_onscreen_lord_infantry_lord_of_change	Wizard	true
+ui_unit_groupings_onscreen_missile_cavalry_rifle	Missile Cavalry	true
+ui_unit_groupings_tooltip_infantry_axe_throwing	Short-range units that can harass the enemy before laying into them with powerful close-combat attacks.	true
+ui_unit_groupings_tooltip_wh2_dlc09_tmb_necroserpent_halberd	Atop their monstrous, snake-like, living statues, Necropolis Knights only need swipe their mounts' mighty tails to shatter the bones of the unfortunate foe.	true
+ui_unit_groupings_onscreen_infantry_sword	Sword Infantry	true
+ui_unit_groupings_onscreen_infantry_spear_halberd	Halberd Infantry	true
+ui_unit_groupings_tooltip_giant	Large, aggressive and mostly drunk.	true
+ui_unit_groupings_onscreen_wh2_dlc11_cst_explosives_infantry	Explosives Infantry	true
+ui_unit_groupings_tooltip_magic_chariot	A special chariot supports surrounding units with its aura and strikes foes with powerful magical attacks.	true
+ui_unit_groupings_onscreen_wizard_death	Wizard	true
+ui_unit_groupings_onscreen_shock_cavalry	Shock Cavalry	true
+ui_unit_groupings_onscreen_wizard_beasts_chariot	Wizard	true
+ui_unit_groupings_onscreen_wh2_dlc11_cst_deck_droppers	Flying Missile Cavalry	true
+ui_unit_groupings_tooltip_wh2_main_lzd_missile_infantry_blowpipe	Skinks with blowpipes use poison darts at short range, with a high rate of fire; they can also fire whilst moving.	true
+ui_unit_groupings_tooltip_wh2_dlc10_lord_alith_anar_mirror	Some Lords are just as deadly with a missile weapon as they are with blade, axe or hammer.	true
+ui_unit_groupings_tooltip_missile_infantry_rifle	Long-range units that provide support for melee infantry, but are comparatively weak in close combat.	true
+ui_unit_groupings_onscreen_lord_wizard_lil_waaagh	Wizard	true
+ui_unit_groupings_onscreen_wizard_beasts_flying_monster	Wizard	true
+ui_unit_groupings_tooltip_wh2_dlc09_tmb_ushabti_bow	Armed with the lethal Great Bow of the Desert, Ushabti can rain furious death and devastation upon the foe without ever getting too close.	true
+ui_unit_groupings_onscreen_wh2_main_def_missile_infantry_bow_shades	Missile Infantry	true
+ui_unit_groupings_onscreen_lord_wizard_shadows	Wizard	true
+ui_unit_groupings_tooltip_wizard_heavens_cavalry_flying	Drawn from the skies, the Lore of Heavens is a mix of augmentation spells and powers with potentially devastating consequences for the enemy.	true
+ui_unit_groupings_onscreen_emp_captain_pegasus	Melee Specialist	true
+ui_unit_groupings_onscreen_wizard_death_chariot	Wizard	true
+ui_unit_groupings_onscreen_emp_captain_cavalry	Melee Specialist	true
+ui_unit_groupings_onscreen_wizard_beasts	Wizard	true
+ui_unit_groupings_onscreen_wh2_dlc11_cst_deck_droppers_pistols	Flying Pistol Cavalry	true
+ui_unit_groupings_onscreen_wizard_metal_cavalry	Wizard	true
+ui_unit_groupings_onscreen_wh2_dlc12_wizard_lord_kroak	Wizard	true
+ui_unit_groupings_tooltip_lord_halberd	Similar to spears, halberds are a good choice against large enemies. They are heavier than spears, giving them the edge against armour.	true
+ui_unit_groupings_tooltip_lord_cavalry	Fast and good against smaller targets, cavalry also has more staying power in melee than the charge-focused shock cavalry.	true
+ui_unit_groupings_onscreen_wizard_deep	Wizard	true
+ui_unit_groupings_onscreen_lord_cavalry_flying	Flying Cavalry	true
+ui_unit_groupings_onscreen_wh2_dlc09_tmb_necroserpent_halberd	Monstrous Cavalry	true
+ui_unit_groupings_tooltip_infantry_spear_halberd	Similar to spears, halberds are a good choice against large enemies. They are heavier than spears, giving them the edge against armour.	true
+ui_unit_groupings_tooltip_wizard_beasts	The beasts of the world rise up and obey when summoned, their very essence used to empower and transform the caster.	true
+ui_unit_groupings_onscreen_brt_paladin_cavalry	Melee Specialist	true
+ui_unit_groupings_tooltip_infantry_sword	The sword's main advantage in combat is flexibility. It can be used offensively and defensively, and it offers a good compromise between regular and armour-piercing damage.	true
+ui_unit_groupings_onscreen_missile_infantry_rifle	Missile Infantry	true
+ui_unit_groupings_onscreen_wh2_main_lord_monstrous_infantry	Monstrous Infantry	true
+ui_unit_groupings_onscreen_cavalry_flying_rare	Flying Cavalry	true
+ui_unit_groupings_onscreen_brt_paladin_pegasus	Melee Specialist	true
+ui_unit_groupings_tooltip_cavalry_wolf	Greenskins ride to war on myriad beasts. Goblin Cavalry is typically light, but fast and manoeuvrable.	true
+ui_unit_groupings_onscreen_wizard_heavens_cavalry_flying	Wizard	true
+ui_unit_groupings_tooltip_lord_wizard_runelord	Having a Runelord in the presence of grateful Clans-Dwarfs bolsters their abilities. 	true
+ui_unit_groupings_tooltip_wh_dlc05_wef_wild_riders	Fast and good against smaller targets, this cavalry unit also has greater staying power in melee than charge-focused shock cavalry.	true
+ui_unit_groupings_onscreen_wh2_main_lzd_missile_infantry_blowpipe	Missile Infantry	true
+ui_unit_groupings_onscreen_wizard_life	Wizard	true
+ui_unit_groupings_onscreen_wh2_dlc09_tmb_ushabti_bow	Monstrous Missile Infantry	true
+ui_unit_groupings_onscreen_wizard_death_cavalry_flying	Wizard	true
+ui_unit_groupings_onscreen_wh_dlc05_wef_great_eagle	Monstrous Beast	true
+ui_unit_groupings_onscreen_wizard_fire_cavalry	Wizard	true
+ui_unit_groupings_onscreen_infantry_sword_dual	Sword Infantry	true
+ui_unit_groupings_onscreen_vmp_infantry_scythe	Scythe Infantry	true
+ui_unit_groupings_tooltip_wh2_main_skv_infantry_sword_stormvermin	These deadly Skaven melee masters are armed with swords with which to cut a disease-ridden swathe through enemy lines.	true
+ui_unit_groupings_tooltip_wh2_main_missile_infantry_sling	Never discount the humble sling, lest you get a very nasty surprise courtesy of an expert trained from childhood in its deadliest of uses! Slings have a high arc of fire and are best used at medium range.	true
+ui_unit_groupings_onscreen_wizard_light_cavalry_flying	Wizard	true
+ui_unit_groupings_onscreen_wizard_light	Wizard	true
+ui_unit_groupings_tooltip_missile_cavalry_bow_skeleton	Fast moving and with a long range, missile cavalry excel at harassing their enemies, but are weak if pinned in melee.	true
+ui_unit_groupings_tooltip_lord_wizard_lil_waaagh	Goblin Shamans use spells from the Little Waaagh!, a collection of vindictive spells that can really hurt their opponents.	true
+ui_unit_groupings_onscreen_wh2_main_def_spy	Hybrid Weapon Specialist	true
+ui_unit_groupings_onscreen_wizard_death_flying_monster	Wizard	true
+ui_unit_groupings_tooltip_wizard_beasts_chariot	The beasts of the world rise up and obey when summoned, their very essence used to empower and transform the caster.	true
+ui_unit_groupings_tooltip_shock_cavalry	A well-timed charge by these near-unstoppable cavalry units can cause devastating damage.	true
+ui_unit_groupings_onscreen_missile_cavalry_axe	Missile Cavalry	true
+ui_unit_groupings_onscreen_wizard_fire_pegasus	Wizard	true
+ui_unit_groupings_onscreen_wh2_dlc10_flying_missile_cavalry	Flying Missile Cavalry	true
+ui_unit_groupings_onscreen_magic_chariot	Magic Chariot	true
+ui_unit_groupings_onscreen_giant	Monster	true
+ui_unit_groupings_tooltip_wh2_dlc11_cst_explosives_infantry	High-threat infantry that can disrupt and damage their enemies with exploding firearms.	true
+ui_unit_groupings_onscreen_wh2_dlc10_def_whip_infantry	Whip Infantry	true
+ui_unit_groupings_onscreen_wh2_main_skv_spy	Melee Specialist	true
+ui_unit_groupings_tooltip_wh2_dlc09_tmb_tomb_prince	Fearless as only those who have ‘survived’ death truly can be, Tomb Princes use their mighty halberds to turn away the blows and brace against the weight of large opponents.	true
+ui_unit_groupings_onscreen_infantry_axe_throwing	Close-Quarters Infantry	true
+ui_unit_groupings_tooltip_missile_cavalry_rifle	Fast moving and with a long range, missile cavalry excel at harassing their enemies, but are weak if pinned in melee.	true
+ui_unit_groupings_onscreen_wizard_wild	Wizard	true
+ui_unit_groupings_onscreen_wizard_death_pegasus	Wizard	true
+ui_unit_groupings_onscreen_lord_wizard_heavens	Wizard	true
+ui_unit_groupings_tooltip_lord_wizard_vampires_shadows	Wizards mix of spells from the lores of Vampires and Shadows to summon and shackle Undead minions, whilst also aggressively scything through enemies' hearts!	true
+ui_unit_groupings_tooltip_wizard_shadows_flying_monster	Wizards who harness the Lore of Shadows can cast aggressive spells to scythe through enemy hearts!	true
+ui_unit_groupings_onscreen_wh_dlc06_grn_squig_sword	Cavalry	true
+ui_unit_groupings_onscreen_wizard_death_cavalry	Wizard	true
+ui_unit_groupings_tooltip_wh_dlc05_wef_hawk_riders	With vision as sharp as a bird’s, these precision archers can target and destroy their foes before disappearing just as quickly as they appeared.	true
+ui_unit_groupings_tooltip_wh2_main_wizard_plague	Virulent disease - insidious, creeping, contagions leading to hideous infirmity, madness and death. If ever pestilence needed a helping hand, this Wizard provides it.	true
+ui_unit_groupings_onscreen_wizard_metal_manticore	Wizard	true
+ui_unit_groupings_onscreen_infantry_spear	Spear Infantry	true
+ui_unit_groupings_onscreen_wh2_dlc11_cst_promethean_missile	Monstrous Missile Beasts	true
+ui_unit_groupings_tooltip_wh2_dlc09_tmb_necroserpent_spear	Atop their monstrous, snake-like, living statues, Necropolis Knights only need swipe their mounts' mighty tails to shatter the bones of the unfortunate foe.	true
+ui_unit_groupings_onscreen_wh2_dlc09_tmb_hierotitan	Magical Monster	true
+ui_unit_groupings_onscreen_wizard_metal_chariot	Wizard	true
+ui_unit_groupings_tooltip_lord_wizard_big_waaagh	The Big Waaagh! is a big bombastic lore with lots of intimidating, large spells that meter out damage to the enemy.	true
+ui_unit_groupings_tooltip_wh2_dlc09_tmb_necrosphinx	Those who once stood dormant for centuries, silently guarding Nehekhara’s cities and tombs, are now imbued with magical vigour to unleash furious carnage upon the foe.	true
+ui_unit_groupings_onscreen_wizard_metal	Wizard	true
+ui_unit_groupings_onscreen_wh2_dlc10_def_kharibdyss	Monster Killer	true
+ui_unit_groupings_tooltip_wh2_dlc11_cst_specialist_missile_infantry	Missile specialists that can thin enemy ranks, either through supreme accuracy, greater range or sheer armour penetration.	true
+ui_unit_groupings_tooltip_wizard_shadows_cavalry_flying	Wizards who harness the Lore of Shadows use aggressive spells to scythe through enemy hearts!	true
+ui_unit_groupings_onscreen_lord_dragon	Flying Monster	true
+ui_unit_groupings_tooltip_missile_infantry_bow	Long-range units that provide support for melee infantry, but are comparatively weak in close combat.	true
+ui_unit_groupings_tooltip_infantry_axe	Frontline soldiers trained for hand-to-hand combat with their enemies.	true
+ui_unit_groupings_onscreen_wizard_beasts_cavalry	Wizard	true
+ui_unit_groupings_onscreen_emp_captain	Melee Specialist	true
+ui_unit_groupings_tooltip_wh2_dlc09_tmb_sepulchral_stalkers	Masters of the patient ambush, Sepulchral Stalkers strike at the most opportune moment, surprising and impaling their prey before fixing the terrified foe with their deadly gaze.	true
+ui_unit_groupings_onscreen_dwf_master_engineer	Missile Specialist	true
+ui_unit_groupings_onscreen_wh2_dlc11_cst_promethean	Monstrous Beast	true
+ui_unit_groupings_onscreen_wizard_wild_chariot	Wizard	true
+ui_unit_groupings_tooltip_vmp_varghulf	These monsters are Vampires consumed by the animalistic hunter within. They are powerful in attack against infantry and other characters. 	true
+ui_unit_groupings_onscreen_wh_dlc04_emp_flagelllents	Mace Infantry	true
+ui_unit_groupings_tooltip_monster_missile	Towering over the battlefield, this monster can both cause damage from range and at close quarters.	true
+ui_unit_groupings_tooltip_vmp_wight_king	The Wight King is an ancient warrior who was rarely bested in his mortal life or this one. 	true
+ui_unit_groupings_tooltip_wizard_death	The Lore of Death is an offensive lore with a suite of spells that can assassinate enemy characters and decimate entire units!	true
+ui_unit_groupings_onscreen_wh2_main_lord_infantry_hybrid	Hybrid-Weapon Infantry	true
+ui_unit_groupings_tooltip_wh2_main_infantry_dual_swords	The sword's main advantage in combat is its flexibility. It can be used offensively and defensively, and offers a good compromise between regular and armour-piercing damage.	true
+ui_unit_groupings_tooltip_vmp_fell_bats	Wolves, hounds and other beasts bred for war. Their claws and jaws can splinter bone, but they struggle with decent armour.	true
+ui_unit_groupings_tooltip_wizard_shadows	Wizards who harness the Lore of Shadows use aggressive spells to scythe through enemy hearts!	true
+ui_unit_groupings_onscreen_wh2_main_def_missile_infantry_handbow	Handbow Infantry	true
+ui_unit_groupings_onscreen_wh2_dlc10_lord_alith_anar_mirror	Hybrid-Weapon Infantry	true
+ui_unit_groupings_tooltip_wh_dlc08_nor_skin_wolf	Large, fast and agile, these savage beasts relish combat and are capable of taking down much larger foes.	true
+ui_unit_groupings_tooltip_cavalry_spider	Greenskins ride to war on myriad beasts. Goblin Cavalry is typically light, but fast and manoeuvrable.	true
+ui_unit_groupings_onscreen_grn_arachnarok	Gigantic Spider	true
+ui_unit_groupings_tooltip_wh2_dlc11_cst_exploding_monster	With the sole purpose of causing carnage, this monster will explode on contact with the enemy.	true
+ui_unit_groupings_tooltip_wh_dlc05_wef_glade_lord	Masters of both sword and bow, Glade Lords can cause great damage from near or afar.	true
+ui_unit_groupings_tooltip_wh2_main_def_missile_infantry_bow_shades	Swift and silent, the scouts of the Dark Elf race are stealthy soldiers, further braced by the unforgiving conditions of the Blackspine Mountains from which they hail.	true
+ui_unit_groupings_onscreen_wh2_main_def_dignitary	Melee Specialist	true
+ui_unit_groupings_tooltip_wh2_main_skv_hell_pit	Of the many shocking, hideous abominations created by Skavenkind, the magically-resistant horrors of the Hell Pit are hand-reared and fed just enough to make them more than a little dangerous in battle.	true
+ui_unit_groupings_tooltip_wh2_main_cold_one_spear	These Cold Ones can pierce armour with their spears and perform particularly well against large opponents. Although used by Dark Elves too, they are best controlled by Lizardmen.	true
+ui_unit_groupings_onscreen_wh2_dlc11_cst_gunnery_wight	Support Specialist	true
+ui_unit_groupings_onscreen_cavalry_flying	Flying Cavalry	true
+ui_unit_groupings_onscreen_dwf_irondrakes_torpedo	Torpedo Missile Infantry	true
+ui_unit_groupings_tooltip_wizard_beasts_flying_monster	The beasts of the world rise up and obey when summoned, their very essence used to empower and transform the caster.	true
+ui_unit_groupings_onscreen_cavalry_spear_skeleton	Spear Cavalry	true
+ui_unit_groupings_tooltip_lord_infantry_axe_great	What two-handed axes lack in elegance, they make up for in brutal, armour-shattering force.	true
+ui_unit_groupings_onscreen_wh2_main_lord_wizard_plague	Wizard	true
+ui_unit_groupings_tooltip_wizard_metal_cavalry	The Lore of Metal is full of hexes and high-damage spells; units with lots of armour are particularly susceptible.	true
+ui_unit_groupings_tooltip_wizard_heavens_cavalry	Drawn from the skies, the Lore of Heavens is a mix of augmentation spells and powers with potentially devastating consequences for the enemy.	true
+ui_unit_groupings_tooltip_wh2_main_skv_infantry_halberd	As the elite warriors of the Skaven army, the black-furred Stormvermin are armed with halberds with which to carry out their precision melee assault.	true
+ui_unit_groupings_tooltip_wizard_shadows_chariot	Wizards who harness the Lore of Shadows use aggressive spells to scythe through enemy hearts!	true
+ui_unit_groupings_tooltip_wh_dlc07_brt_green_knight	By the Lady, this Bretonnian champion excels in melee!	true
+ui_unit_groupings_onscreen_dwf_gyrocopter	Flying War Machine	true
+ui_unit_groupings_tooltip_wizard_death_chariot	The Lore of Death is an offensive lore with a suite of spells that can assassinate enemy characters and decimate entire units!	true
+ui_unit_groupings_onscreen_wizard_fire_manticore	Wizard	true
+ui_unit_groupings_tooltip_chariot	Fast moving, with a wide turning circle, Chariots can punch through weak enemy units, but are vulnerable if pinned in combat.	true
+ui_unit_groupings_onscreen_wh2_dlc11_cst_deck_droppers_bombs	Flying Missile Cavalry	true
+ui_unit_groupings_tooltip_wh2_dlc10_hef_handmaiden	Masters of both spear and bow, Handmaidens of the Everqueen are equipped to protect the Asur from any threat.	true
+ui_unit_groupings_tooltip_wh2_main_lzd_dinosaur	Dinosaurs are mostly feral; as such, they are difficult to control and prone to rampaging.	true
+ui_unit_groupings_tooltip_dwf_runesmith	Having a Runesmith in the presence of grateful Clans-Dwarfs bolsters their abilities. 	true
+ui_unit_groupings_tooltip_monster_generic	Towering over the battlefield, this monster will decimate smaller enemies coming its way with lethal force.	true
+ui_unit_groupings_onscreen_dragon	Flying Monster	true
+ui_unit_groupings_tooltip_wh2_main_skv_doomwheel	Fast moving machines capable of breaking enemy lines and holding their own in close combat.	true
+ui_unit_groupings_tooltip_wizard_vampires	Spells from the Lore of Vampires are used to summon and shackle Undead minions, and curse them too!	true
+ui_unit_groupings_onscreen_vmp_wight_king_cavalry	Melee Specialist	true
+ui_unit_groupings_tooltip_wh_dlc08_nor_frost_wyrm	These large, winged monsters are some of the most powerful creatures in the world.	true
+ui_unit_groupings_tooltip_field_gun_flame	These smaller cannons, guns and flamethrowers are primarily used against units, not buildings.	true
+ui_unit_groupings_onscreen_wizard_shadows_cavalry	Wizard	true
+ui_unit_groupings_onscreen_wh2_main_lzd_infantry_halberd	Halberd Infantry	true
+ui_unit_groupings_onscreen_wizard_heavens	Wizard	true
+ui_unit_groupings_tooltip_infantry_sword_great	The greatsword is a large, balanced weapon with improved armour-piercing capabilities.	true
+ui_unit_groupings_tooltip_wh2_main_hef_missile_infantry_bow_spear	These highly-trained skirmishers are also proficient in melee, with the well-honed discipline to form a spear wall that can meet all-comers head on.	true
+ui_unit_groupings_tooltip_missile_chariot	Fast moving units with a wide turning circle, they can punch through weak enemy units, but are vulnerable if pinned in melee.	true
+ui_unit_groupings_tooltip_lord_chs_kholek	The near-immortal Dragon Ogres bellow their rage at the younger races and hit hard when they charge. 	true
+ui_unit_groupings_onscreen_wh2_dlc10_magic_melee_cav	Magical Cavalry	true
+ui_unit_groupings_tooltip_infantry_hammer_great	Hammers pay little notice to armour, dealing massive amounts of damage regardless of where they hit.	true
+ui_unit_groupings_onscreen_lord_chariot	Chariot	true
+ui_unit_groupings_tooltip_wh2_main_lzd_dinosaur_missile	Some dinosaurs carry a platform with which to support their army, either by buffing surrounding friendly units or devastating their foes.	true
+ui_unit_groupings_tooltip_wh2_main_def_missile_infantry_bow_shades_dual_weapons	Just as stealthy as others of their kind, these Dark Elf Shades carry two deadly blades in addition to their lethal bows.	true
+ui_unit_groupings_onscreen_dwf_irondrakes	Flamethrower Infantry	true
+ui_unit_groupings_onscreen_cannon	Siege Artillery	true
+ui_unit_groupings_tooltip_lord_infantry_lord_of_change	The Lore of Metal is full of hexes and high-damage spells; heavily-armoured units are particularly susceptible.	true
+ui_unit_groupings_tooltip_wh_dlc08_nor_skin_wolf_werekin	Large, fast and agile. These savage beasts relish combat.	true
+ui_unit_groupings_tooltip_emp_steam_tank	A steam-powered, full-metal war machine boasting a cannon and an autonomous, short-range turret.	true
+ui_unit_groupings_onscreen_wh2_dlc10_tmb_bone_giant	Specialist Artillery	true
+ui_unit_groupings_tooltip_wh2_main_lzd_terradon	Terradons, fragile yet extremely fast, can soar above the battlefield to drop a single load (usually rocks) upon the unsuspecting foe; their riders carry fireleech bolas or javelins.	true
+ui_unit_groupings_onscreen_grn_doomdiver	Catapult	true
+ui_unit_groupings_onscreen_wh2_main_lzd_hero_spy	Missile Specialist	true
+ui_unit_groupings_onscreen_wh2_main_def_missile_infantry_bow_shades_great_weapons	Missile Infantry	true
+ui_unit_groupings_tooltip_missile_infantry_pistol	Short-range units that are equally proficient with black powder weapons as they are wielding their blades.	true
+ui_unit_groupings_tooltip_wizard_light_cavalry	Light is a defensive Lore concentrated on augmentation spells, especially useful against Undead and Daemonic creatures. 	true
+ui_unit_groupings_onscreen_lord_wizard_nehekhara	Wizard	true
+ui_unit_groupings_tooltip_wh2_main_lzd_dinosaur_support	Some dinosaurs carry a platform with which to support their army, either by buffing surrounding friendly units or devastating their foes.	true
+ui_unit_groupings_onscreen_lord_wizard_vampires	Wizard	true
+ui_unit_groupings_onscreen_wh2_main_skv_doomwheel	War Machine	true
+ui_unit_groupings_tooltip_wizard_death_pegasus	The Lore of Death is an offensive lore with a suite of spells that can assassinate enemy characters and decimate entire units!	true
+ui_unit_groupings_tooltip_lord_wizard_nehekhara	The Lore of Nehekhara is focused on damage, either applied directly to the enemy or by enhancing the attack of your Undead legions.	true
+ui_unit_groupings_tooltip_wh_dlc06_grn_squig_sword	Greenskins ride to war on myriad beasts. Goblin Cavalry is typically light, but fast and manoeuvrable.	true
+ui_unit_groupings_tooltip_dragon	These large, winged monsters are some of the most powerful creatures in the world.	true
+ui_unit_groupings_onscreen_lord_wizard_vampires_shadows	Wizard	true
+ui_unit_groupings_onscreen_wh2_main_lzd_dinosaur_support	Support Monster	true
+ui_unit_groupings_tooltip_wh2_main_skv_spy	There's nothing the feared, lethal assassins of Clan Eshin don't know about hand-to-hand combat and securing that essential kill in the unforgiving cut-and-thrust of melee.	true
+ui_unit_groupings_tooltip_missile_cavalry_javelin	Fast moving and with a long range, missile cavalry excel at harassing their enemies, but are weak if pinned in melee.	true
+ui_unit_groupings_tooltip_wh2_main_lzd_hero_spy	Second in stature only to the priestly-class, the wily Skink Chiefs are masters of both clandestine mayhem and irregular, skirmish warfare.	true
+ui_unit_groupings_tooltip_grn_doomdiver	A launcher of (more-or-less) guided, insane, living missiles that are primarily used against infantry targets.	true
+ui_unit_groupings_onscreen_wh2_main_lzd_terradon	Flying Missile Cavalry	true
+ui_unit_groupings_tooltip_wizard_metal_chariot	The Lore of Metal is full of hexes and high-damage spells; units with lots of armour are particularly susceptible.	true
+ui_unit_groupings_tooltip_wh2_dlc09_tmb_hierotitan	Radiating a sinister aura of magic, Hierotitans judge and execute the guilty with matchless strength and peerless brutality.	true
+ui_unit_groupings_onscreen_wh2_dlc09_tmb_necroserpent_spear	Monstrous Cavalry	true
+ui_unit_groupings_tooltip_wh2_dlc10_magic_melee_cav	Fast and good when fighting infantry, this cavalry unit can also cast aggressive spells.	true
+ui_unit_groupings_onscreen_infantry_hammer_great	Hammer Infantry	true
+ui_unit_groupings_tooltip_wh2_dlc11_cst_promethean_missile	Larger, mounted ferocious beasts able to dismantle infantry with ease, whilst being able to cause additional damage from range through their riders.	true
+ui_unit_groupings_onscreen_wh2_main_def_missile_infantry_bow_shades_dual_weapons	Missile Infantry	true
+ui_unit_groupings_tooltip_wizard_shadows_cavalry	Wizards who harness the Lore of Shadows use aggressive spells to scythe through enemy hearts!	true
+ui_unit_groupings_onscreen_wh2_main_lzd_dinosaur_missile	Missile Monster	true
+ui_unit_groupings_tooltip_vmp_wight_king_cavalry	The Wight King is an ancient warrior who was rarely bested in his mortal life or this one. 	true
+ui_unit_groupings_tooltip_wizard_death_cavalry	The Lore of Death is an offensive lore with a suite of spells that can assassinate enemy characters and decimate entire units!	true
+ui_unit_groupings_tooltip_wh_dlc03_minotaurs_great_weapon	Huge beasts of war, powerful beyond reckoning, take to the battlefield with enormous weapons capable of felling the mightiest warrior.	true
+ui_unit_groupings_onscreen_wh_dlc05_wef_hawk_riders	Flying Missile Cavalry	true
+ui_unit_groupings_onscreen_infantry_axe	Axe Infantry	true
+ui_unit_groupings_tooltip_wh2_main_lzd_infantry_halberd	The Temple Guard, armed with a halberd -mace, are the only Saurus Infantry disciplined enough never to rampage.	true
+ui_unit_groupings_tooltip_wh2_dlc12_hunting_packs	Hunting in large packs, these fast-moving creatures can both attack from range or cause considerable damage at close quarters.	true
+ui_unit_groupings_tooltip_wh2_dlc10_def_kharibdyss	A true monster killer in every sense, able to take on the largest of foes in combat and inflict great damage upon them with ease.	true
+ui_unit_groupings_tooltip_wh_dlc05_wef_waystalker	Masters of both sword and bow, Waystalkers can cause great damage from near or afar.	true
+ui_unit_groupings_tooltip_wizard_metal	The Lore of Metal is full of hexes and high-damage spells; units with lots of armour are particularly susceptible.	true
+ui_unit_groupings_onscreen_missile_infantry_bow	Missile Infantry	true
+ui_unit_groupings_tooltip_wizard_heavens	Drawn from the skies, the Lore of Heavens is a mix of augmentation spells and powers with potentially devastating consequences for the enemy.	true
+ui_unit_groupings_tooltip_wh2_dlc09_tmb_warsphinx	Towering over the battlefield, statues that once stood sentinel over Nehekhara’s elaborate temples now direct their great strength and fury against the Tomb Kings' many foes.	true
+ui_unit_groupings_tooltip_wh2_main_def_missile_infantry_bow_shades_great_weapons	You can be stealthy whilst carrying a great weapon; these Shades have long-mastered use of terrain combined with silent movement to take their opponents (very nastily) by surprise.	true
+ui_unit_groupings_onscreen_vmp_varghulf	Monster	true
+ui_unit_groupings_onscreen_wh2_main_skv_missile_infantry_throwing_star	Missile Infantry	true
+ui_unit_groupings_onscreen_emp_steam_tank	War Machine	true
+ui_unit_groupings_onscreen_wh_dlc08_nor_skin_wolf_werekin	Skin Wolf Werekin	true
+ui_unit_groupings_tooltip_wh2_dlc11_cst_promethean	These larger-than-usual beasts bear down upon their enemies in battle, rending them apart with bestial fury and cruel determination.	true
+ui_unit_groupings_tooltip_wh2_dlc11_cst_deck_droppers_bombs	Fast-moving cavalry that can take to the skies, raining down explosive damage from above.	true
+ui_unit_groupings_tooltip_dwf_irondrakes	Short-range missile infantry that shower the enemy in fiery alchemical fury!	true
+ui_unit_groupings_onscreen_dwf_runesmith	Support Specialist	true
+ui_unit_groupings_tooltip_cannon	Cannons and mortars are accurate artillery pieces that cause a lot of damage to a very focused area, making them ideal for taking out strong, single targets.	true
+ui_unit_groupings_onscreen_wh2_main_lzd_dinosaur	Monster	true
+ui_unit_groupings_onscreen_wh_dlc07_brt_green_knight	Melee Specialist	true
+ui_unit_groupings_onscreen_wizard_shadows	Wizard	true
+ui_unit_groupings_tooltip_wizard_fire_manticore	Pyromancers are effectively magical artillery, due to the Lore of Fire's selection of aggressive spells, but are not necessarily the most powerful.	true
+ui_unit_groupings_tooltip_wizard_vampires_cavalry	Spells from the Lore of Vampires are used to summon and shackle Undead minions, and curse them too!	true
+ui_unit_groupings_onscreen_vmp_wight_king	Melee Specialist	true
+ui_unit_groupings_onscreen_lord_cavalry	Cavalry	true
+ui_unit_groupings_onscreen_lord_halberd	Halberd Infantry	true
+ui_unit_groupings_onscreen_wh2_main_skv_infantry_halberd	Halberd Infantry	true
+ui_unit_groupings_tooltip_wh_dlc05_wef_great_eagle	These larger-than-usual beasts bear down upon their enemies on the battlefield, rending them apart with bestial fury and cruel determination.	true
+ui_unit_groupings_tooltip_grn_arachnarok	An eight-legged arachnid monster that offers a surprisingly smooth ride for its bow-wielding passengers.	true
+ui_unit_groupings_tooltip_wh2_dlc09_tmb_necrotect	There can be no rest for those born - and reborn to Unlife - whose lot is only to toil for their Tomb King's eternal grandeur.	true
+ui_unit_groupings_onscreen_wh_dlc08_nor_skin_wolf	Skin Wolf	true
+ui_unit_groupings_tooltip_wh2_main_lord_monstrous_infantry	Monstrous creatures are typically several feet taller than men and capable of stomping weaker foes into the ground. 	true
+ui_unit_groupings_onscreen_cavalry_spider	Cavalry	true
+ui_unit_groupings_onscreen_wh_dlc05_wef_wild_riders	Melee Cavalry	true
+ui_unit_groupings_onscreen_lord_wizard_runelord	Support Specialist	true
+ui_unit_groupings_onscreen_wh2_main_skv_hell_pit	Monster	true
+ui_unit_groupings_onscreen_cavalry_wolf	Cavalry	true
+ui_unit_groupings_tooltip_cavalry	Fast, and good against smaller targets, cavalry also have more staying power in melee than charge-focused shock cavalry.	true
+ui_unit_groupings_onscreen_wh2_main_skv_missile_infantry_globe	Missile Infantry	true
+ui_unit_groupings_tooltip_wizard_light	Light is a defensive Lore concentrated on augmentation spells, especially useful against Undead and Daemonic creatures. 	true
+ui_unit_groupings_tooltip_dwf_irondrakes_torpedo	Medium-range missile infantry that fire high-explosive torpedoes.	true
+ui_unit_groupings_onscreen_missile_cavalry_bow_skeleton	Missile Cavalry	true
+ui_unit_groupings_tooltip_cavalry_flying	Flying cavalry have the advantage of more traditional mounted units, but with an even greater range. 	true
+ui_unit_groupings_tooltip_wh2_main_def_missile_infantry_handbow	These missile-armed Dark Elves carry short-range handbows to cause maximum damage up close before, like all the best skirmishers, feinting to range to begin all over again.	true
+ui_unit_groupings_tooltip_wh2_main_def_dignitary	Dark Elf Death Hags are the keepers of Khaine's bloody mysteries; they mix murderous medicines, then dip and use their poisoned blades deftly in melee.	true
+ui_unit_groupings_onscreen_lord_infantry_sword	Sword Infantry	true
+ui_unit_groupings_tooltip_wh2_dlc10_flying_missile_cavalry	Thanks to their flying Dark Pegasus mounts, these Dark Riders can hunt their prey with impunity.	true
+ui_unit_groupings_onscreen_wh2_main_infantry_dual_swords	Dual Sword Infantry	true
+ui_unit_groupings_onscreen_vmp_fell_bats	Flying War Beasts	true
+ui_unit_groupings_tooltip_wh2_main_lord_infantry_hybrid	Some Lords are just as deadly with a missile weapon as they are with blade, axe or hammer.	true
+ui_unit_groupings_tooltip_dwf_gyrocopter	Flying machines equipped with guns and bombs. As a last resort, they can go into melee and slash at enemies with their rotor blades.	true
+ui_unit_groupings_tooltip_wh_dlc04_emp_flagelllents	Armour is little barrier to maces, and as such they cause great damage wherever they hit. However, actually scoring a hit can be a challenge, as a large spiky ball can easily miss its mark.	true
+ui_unit_groupings_tooltip_wh2_main_def_spy	Khaine's chosen assassins are trained from the very beginning of their lives to kill up close in the name of the Bloody-handed God.	true
+ui_unit_groupings_onscreen_wizard_shadows_chariot	Wizard	true
+ui_unit_groupings_onscreen_wizard_heavens_cavalry	Wizard	true
+ui_unit_groupings_tooltip_cavalry_spear_skeleton	A well-timed charge by these near-unstoppable cavalry units can cause devastating damage.	true

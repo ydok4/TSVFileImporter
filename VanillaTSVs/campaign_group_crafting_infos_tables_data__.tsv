@@ -1,5 +1,7 @@
 campaign_group_crafting_infos_tables	0
 campaign_group	unique_resource
 wh2_dlc09_ritual_tmb	tmb_canopic_jars
+wh2_dlc12_lzd_cult_of_sotek	lzd_sacrificial_offerings
+wh2_dlc12_skv_clan_skyre	skv_reactor_core
 wh_feature_dwarfs	dwf_oathgold
 wh_feature_vampire_counts	vmp_blood_kiss

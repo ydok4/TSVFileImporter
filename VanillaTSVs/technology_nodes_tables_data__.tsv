@@ -180,17 +180,17 @@ campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	rese
 		4	tech_dlc03_bst_stats_3	tech_dlc03_bst_man_cleavers	bst_mil	2	700	0	0		
 		5	tech_dlc03_bst_stats_4	tech_dlc03_bst_the_kalkengard_larder	bst_mil	1	700	0	0		
 		5	tech_dlc03_bst_stats_5	tech_dlc03_bst_encircled_prey	bst_mil	2	700	0	0		
-		0	tech_dlc07_brt_chivalry_beastmen_1	tech_dlc07_brt_chivalry_beastmen_1	brt_mil	2	500	0	0		
-		6	tech_dlc07_brt_chivalry_chaos_1	tech_dlc07_brt_chivalry_chaos_1	brt_mil	3	600	0	0		
-		0	tech_dlc07_brt_chivalry_dark_elves	tech_dlc07_brt_chivalry_dark_elves	brt_mil	1	600	0	0		
-		4	tech_dlc07_brt_chivalry_greenskins_1	tech_dlc07_brt_chivalry_greenskins_1	brt_mil	2	300	0	0		
-		5	tech_dlc07_brt_chivalry_greenskins_2	tech_dlc07_brt_chivalry_greenskins_2	brt_mil	2	400	0	0		
-		4	tech_dlc07_brt_chivalry_norsca_1	tech_dlc07_brt_chivalry_norsca_1	brt_mil	3	300	0	0		
-		5	tech_dlc07_brt_chivalry_norsca_2	tech_dlc07_brt_chivalry_norsca_2	brt_mil	3	400	0	0		
-		0	tech_dlc07_brt_chivalry_skaven	tech_dlc07_brt_chivalry_skaven	brt_mil	4	600	0	0		
-		4	tech_dlc07_brt_chivalry_tomb_kings	tech_dlc07_brt_chivalry_tomb_kings	brt_mil	4	800	0	0		
-		0	tech_dlc07_brt_chivalry_vampires_1	tech_dlc07_brt_chivalry_vampires_1	brt_mil	0	500	0	0		
-		0	tech_dlc07_brt_chivalry_wood_elves_1	tech_dlc07_brt_chivalry_wood_elves_1	brt_mil	3	500	0	0		
+		6	tech_dlc07_brt_chivalry_beastmen_1	tech_dlc07_brt_chivalry_beastmen_1	brt_mil	5	300	0	0	brt_chivalry	
+		6	tech_dlc07_brt_chivalry_chaos_1	tech_dlc07_brt_chivalry_chaos_1	brt_mil	4	300	0	0	brt_chivalry	
+		7	tech_dlc07_brt_chivalry_dark_elves	tech_dlc07_brt_chivalry_dark_elves	brt_mil	4	300	0	0	brt_chivalry	
+		6	tech_dlc07_brt_chivalry_greenskins_1	tech_dlc07_brt_chivalry_greenskins_1	brt_mil	1	300	0	0		
+		7	tech_dlc07_brt_chivalry_greenskins_2	tech_dlc07_brt_chivalry_greenskins_2	brt_mil	1	300	0	0		
+		6	tech_dlc07_brt_chivalry_norsca_1	tech_dlc07_brt_chivalry_norsca_1	brt_mil	2	300	0	0		
+		7	tech_dlc07_brt_chivalry_norsca_2	tech_dlc07_brt_chivalry_norsca_2	brt_mil	2	300	0	0		
+		7	tech_dlc07_brt_chivalry_skaven	tech_dlc07_brt_chivalry_skaven	brt_mil	5	300	0	0	brt_chivalry	
+		8	tech_dlc07_brt_chivalry_tomb_kings	tech_dlc07_brt_chivalry_tomb_kings	brt_mil	3	300	0	0	brt_chivalry	
+		6	tech_dlc07_brt_chivalry_vampires_1	tech_dlc07_brt_chivalry_vampires_1	brt_mil	3	300	0	0	brt_chivalry	
+		7	tech_dlc07_brt_chivalry_wood_elves_1	tech_dlc07_brt_chivalry_wood_elves_1	brt_mil	3	300	0	0	brt_chivalry	
 		4	tech_dlc07_brt_economy_farm_1	tech_dlc07_brt_economy_farm_1	brt_mil	7	500	0	0		
 		4	tech_dlc07_brt_economy_farm_2	tech_dlc07_brt_economy_farm_2	brt_mil	8	500	0	0		
 		5	tech_dlc07_brt_economy_farm_3	tech_dlc07_brt_economy_farm_3	brt_mil	7	1000	0	0		
@@ -204,7 +204,7 @@ campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	rese
 		8	tech_dlc07_brt_economy_industry_4	tech_dlc07_brt_economy_industry_4	brt_mil	8	1000	0	0		
 		6	tech_dlc07_brt_economy_industry_mines	tech_dlc07_brt_economy_industry_mines	brt_mil	9	500	0	0		
 		7	tech_dlc07_brt_economy_industry_pottery	tech_dlc07_brt_economy_industry_pottery	brt_mil	9	600	0	0		
-		7	tech_dlc07_brt_economy_industry_start	tech_dlc07_brt_economy_industry_start	brt_mil	6	1	3000	0		
+		5	tech_dlc07_brt_economy_industry_start	tech_dlc07_brt_economy_industry_start	brt_mil	6	1	3000	0		
 		6	tech_dlc07_brt_economy_industry_steel	tech_dlc07_brt_economy_industry_steel	brt_mil	10	1200	0	0		
 		7	tech_dlc07_brt_economy_industry_swords	tech_dlc07_brt_economy_industry_swords	brt_mil	10	1200	0	0		
 		8	tech_dlc07_brt_economy_industry_tournaments	tech_dlc07_brt_economy_industry_tournaments	brt_mil	10	1500	0	0		
@@ -219,23 +219,23 @@ campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	rese
 		3	tech_dlc07_brt_economy_other_siege	tech_dlc07_brt_economy_other_siege	brt_mil	10	1000	0	0		
 		1	tech_dlc07_brt_economy_other_spears	tech_dlc07_brt_economy_other_spears	brt_mil	10	1200	0	0		
 		0	tech_dlc07_brt_economy_other_tithes	tech_dlc07_brt_economy_other_tithes	brt_mil	10	1	10000	0		
-		2	tech_dlc07_brt_economy_start	tech_dlc07_brt_economy_start	brt_mil	6	500	0	0		
+		0	tech_dlc07_brt_economy_start	tech_dlc07_brt_economy_start	brt_mil	6	500	0	0		
 		2	tech_dlc07_brt_economy_trade_1	tech_dlc07_brt_economy_trade_1	brt_mil	7	1	4000	0		
 		2	tech_dlc07_brt_economy_trade_2	tech_dlc07_brt_economy_trade_2	brt_mil	8	1	8000	50		
-		4	tech_dlc07_brt_heraldry_artois	tech_dlc07_brt_heraldry_artois	brt_mil	0	600	0	0		
-		5	tech_dlc07_brt_heraldry_bastonne	tech_dlc07_brt_heraldry_bastonne	brt_mil	1	600	0	0		
-	wh_main_brt_bretonnia	6	tech_dlc07_brt_heraldry_bordeleaux_bret	tech_dlc07_brt_heraldry_bordeleaux	brt_mil	0	600	0	0		
-	wh_main_brt_carcassonne	6	tech_dlc07_brt_heraldry_bordeleaux_carc	tech_dlc07_brt_heraldry_bordeleaux	brt_mil	1	600	0	0		
-	wh_main_brt_bordeleaux	6	tech_dlc07_brt_heraldry_bretonnia_bord	tech_dlc07_brt_heraldry_bretonnia	brt_mil	0	600	0	0		
-	wh_main_brt_carcassonne	6	tech_dlc07_brt_heraldry_bretonnia_carc	tech_dlc07_brt_heraldry_bretonnia	brt_mil	0	600	0	0		
-	wh_main_brt_bordeleaux	6	tech_dlc07_brt_heraldry_carcassonne_bord	tech_dlc07_brt_heraldry_carcassonne	brt_mil	1	600	0	0		
-	wh_main_brt_bretonnia	6	tech_dlc07_brt_heraldry_carcassonne_bret	tech_dlc07_brt_heraldry_carcassonne	brt_mil	1	600	0	0		
-		7	tech_dlc07_brt_heraldry_errantry	tech_dlc07_brt_heraldry_errantry	brt_mil	3	500	0	0		
-		4	tech_dlc07_brt_heraldry_lyonesse	tech_dlc07_brt_heraldry_lyonesse	brt_mil	1	600	0	0		
-		6	tech_dlc07_brt_heraldry_oversea	tech_dlc07_brt_heraldry_oversea	brt_mil	2	500	0	0		
-		5	tech_dlc07_brt_heraldry_parravon	tech_dlc07_brt_heraldry_parravon	brt_mil	0	600	0	0		
-		2	tech_dlc07_brt_heraldry_start	tech_dlc07_brt_heraldry_start	brt_mil	0	500	0	0		
-		7	tech_dlc07_brt_heraldry_unification	tech_dlc07_brt_heraldry_unification	brt_mil	1	500	0	0		
+		1	tech_dlc07_brt_heraldry_artois	tech_dlc07_brt_heraldry_artois	brt_mil	1	400	0	0		
+		2	tech_dlc07_brt_heraldry_bastonne	tech_dlc07_brt_heraldry_bastonne	brt_mil	2	400	0	0		
+	wh_main_brt_bretonnia	3	tech_dlc07_brt_heraldry_bordeleaux_bret	tech_dlc07_brt_heraldry_bordeleaux	brt_mil	1	400	0	0		
+	wh_main_brt_carcassonne	3	tech_dlc07_brt_heraldry_bordeleaux_carc	tech_dlc07_brt_heraldry_bordeleaux	brt_mil	1	400	0	0		
+	wh_main_brt_bordeleaux	3	tech_dlc07_brt_heraldry_bretonnia_bord	tech_dlc07_brt_heraldry_bretonnia	brt_mil	1	400	0	0		
+	wh_main_brt_carcassonne	3	tech_dlc07_brt_heraldry_bretonnia_carc	tech_dlc07_brt_heraldry_bretonnia	brt_mil	2	400	0	0		
+	wh_main_brt_bordeleaux	3	tech_dlc07_brt_heraldry_carcassonne_bord	tech_dlc07_brt_heraldry_carcassonne	brt_mil	2	400	0	0		
+	wh_main_brt_bretonnia	3	tech_dlc07_brt_heraldry_carcassonne_bret	tech_dlc07_brt_heraldry_carcassonne	brt_mil	2	400	0	0		
+		1	tech_dlc07_brt_heraldry_errantry	tech_dlc07_brt_heraldry_errantry	brt_mil	3	400	0	0		
+		1	tech_dlc07_brt_heraldry_lyonesse	tech_dlc07_brt_heraldry_lyonesse	brt_mil	2	400	0	0		
+		2	tech_dlc07_brt_heraldry_oversea	tech_dlc07_brt_heraldry_oversea	brt_mil	3	400	0	0		
+		2	tech_dlc07_brt_heraldry_parravon	tech_dlc07_brt_heraldry_parravon	brt_mil	1	400	0	0		
+		0	tech_dlc07_brt_heraldry_start	tech_dlc07_brt_heraldry_start	brt_mil	0	400	0	0	brt_heraldry	
+		4	tech_dlc07_brt_heraldry_unification	tech_dlc07_brt_heraldry_unification	brt_mil	2	300	0	0	brt_heraldry	
 		5	tech_dlc09_tmb_campaign_bonus_1_1	tech_dlc09_tmb_campaign_bonus_1_1	tmb_mil	1	200	0	0		
 		6	tech_dlc09_tmb_campaign_bonus_1_2	tech_dlc09_tmb_campaign_bonus_1_2	tmb_mil	1	200	0	0		
 		7	tech_dlc09_tmb_campaign_bonus_1_3	tech_dlc09_tmb_campaign_bonus_1_3	tmb_mil	1	200	0	0		
@@ -298,7 +298,12 @@ campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	rese
 		3	tech_dlc09_tmb_tomb_prince_4	tech_dlc09_tmb_tomb_prince_4	tmb_mil	7	1	1000	0		
 		2	tech_dlc09_tmb_tomb_prince_5	tech_dlc09_tmb_tomb_prince_5	tmb_mil	9	1	2500	0		
 		1	tech_dlc09_tmb_tomb_prince_6	tech_dlc09_tmb_tomb_prince_6	tmb_mil	11	1	0	0		wh2_dlc09_tmb_tech_agent_unlock
-		0	tech_dlc11_brt_chivalry_vampire_coast_1	tech_dlc11_brt_chivalry_vampire_coast_1	brt_mil	5	500	0	0		
+		8	tech_dlc11_brt_chivalry_vampire_coast_1	tech_dlc11_brt_chivalry_vampire_coast_1	brt_mil	5	300	0	0	brt_chivalry	
+		5	tech_dlc12_brt_chivalry_start	tech_dlc12_brt_chivalry_start	brt_mil	0	300	0	0	brt_chivalry	
+		1	tech_dlc12_brt_heraldry_oversea_dwf	tech_dlc12_brt_heraldry_oversea_dwf	brt_mil	4	400	0	0	brt_heraldry	
+		2	tech_dlc12_brt_heraldry_oversea_men	tech_dlc12_brt_heraldry_oversea_men	brt_mil	4	400	0	0	brt_heraldry	
+		3	tech_dlc12_brt_heraldry_oversea_tmb	tech_dlc12_brt_heraldry_oversea_tmb	brt_mil	4	400	0	0	brt_heraldry	
+		3	tech_dlc12_brt_heraldry_oversea_wef	tech_dlc12_brt_heraldry_oversea_wef	brt_mil	3	400	0	0	brt_heraldry	
 		2	tech_dwf_civ_0_2	tech_dwf_civ_0_2	dwf_civ	0	100	0	0		
 		0	tech_dwf_civ_1_0	tech_dwf_civ_1_0	dwf_civ	1	300	0	0		
 		1	tech_dwf_civ_1_1	tech_dwf_civ_1_1	dwf_civ	1	300	0	0		
@@ -374,9 +379,9 @@ campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	rese
 		1	tech_dwf_mil_9_1	tech_dwf_mil_9_1	dwf_mil	9	1500	0	0		
 		2	tech_dwf_mil_9_2	tech_dwf_mil_9_2	dwf_mil	9	1500	0	0		
 		3	tech_dwf_mil_9_3	tech_dwf_mil_9_3	dwf_mil	9	1500	0	0		
-		5	tech_emp_academy_1	tech_emp_academy_1	emp_civ	0	1200	0	0		
-		5	tech_emp_academy_2	tech_emp_academy_2	emp_civ	1	1200	0	0		
-		5	tech_emp_academy_3	tech_emp_academy_3	emp_civ	2	1200	0	0		
+		5	tech_emp_academy_1	tech_emp_academy_1	emp_civ	2	1200	0	0		
+		5	tech_emp_academy_2	tech_emp_academy_2	emp_civ	3	1200	0	0		
+		5	tech_emp_academy_3	tech_emp_academy_3	emp_civ	4	1200	0	0		
 		0	tech_emp_barracks_1	tech_emp_barracks_1	emp_civ	0	800	0	0		
 		0	tech_emp_barracks_2	tech_emp_barracks_2	emp_civ	1	800	0	0		
 		0	tech_emp_barracks_3	tech_emp_barracks_3	emp_civ	2	800	0	0		

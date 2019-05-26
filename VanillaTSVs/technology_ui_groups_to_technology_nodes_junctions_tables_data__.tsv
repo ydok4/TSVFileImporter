@@ -1,5 +1,7 @@
 technology_ui_groups_to_technology_nodes_junctions_tables	2
 bottom_right_node	tech_ui_group	top_left_node	optional_top_right_node	optional_bottom_left_node
+tech_dlc11_brt_chivalry_vampire_coast_1	brt_chivalry	tech_dlc07_brt_chivalry_vampires_1		
+tech_dlc12_brt_heraldry_oversea_tmb	brt_heraldry	tech_dlc07_brt_heraldry_errantry		
 tech_cst_command_06	cst_1	tech_cst_command_05		
 tech_cst_firearms_08	cst_2	tech_cst_firearms_01		
 tech_cst_vampiric_12	cst_3	tech_cst_vampiric_01		

@@ -36,6 +36,14 @@ wh2_dlc11_set_vampire_coast_ship_settlement	placeholder	0	62	61	56
 wh2_dlc11_set_vmp_binding_circle	placeholder	0	255	255	255
 wh2_dlc11_set_vmp_forest	placeholder	0	255	255	255
 wh2_dlc11_vampire_lair	placeholder	0	255	255	255
+wh2_dlc12_set_lizardmen_skink	placeholder	0	255	255	255
+wh2_dlc12_set_skaven_engineering	placeholder	0	255	255	255
+wh2_dlc12_set_skaven_foreign_annexation	UI/Buildings/Icons/skaven_cat_under_empire_annexation.png	2	117	81	67
+wh2_dlc12_set_skaven_foreign_discovery	UI/Buildings/Icons/skaven_cat_under_empire_discovery.png	3	117	107	67
+wh2_dlc12_set_skaven_foreign_food	UI/Buildings/Icons/skaven_cat_under_empire_food.png	4	72	85	73
+wh2_dlc12_set_skaven_foreign_money	UI/Buildings/Icons/skaven_cat_under_empire_money.png	5	77	99	115
+wh2_dlc12_set_skaven_foreign_settlement	UI/Buildings/Icons/skaven_cat_under_empire_settlement.png	1	70	70	70
+wh2_dlc12_set_skaven_foreign_warpstone	UI/Buildings/Icons/skaven_cat_under_empire_warpstone.png	6	113	77	115
 wh2_main_set_black_ark	placeholder	0	62	61	56
 wh2_main_set_brt_barracks	placeholder	0	255	255	255
 wh2_main_set_brt_coastal	placeholder	0	255	255	255

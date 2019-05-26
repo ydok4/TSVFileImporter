@@ -17,3 +17,4 @@ food_excess_cap	food_shortage_cap	id	min_attitude	squalor_cap
 6	-2	noraze	-30	-4
 6	-2	noraze_uncapturable	-30	-4
 6	-2	raider	-30	-4
+6	-2	raider_uncapturable	-30	-4

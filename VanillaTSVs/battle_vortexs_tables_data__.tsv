@@ -1,103 +1,111 @@
 battle_vortexs_tables	15
 change_max_angle	contact_effect	damage	damage_ap	duration	expansion_speed	goal_radius	infinite_height	move_change_freq	movement_speed	start_radius	vortex_key	ignition_amount	is_magical	composite_scene	detonation_force	launch_source	building_collision	launch_vfx	height_off_ground	delay	num_vortexes	composite_scene_blood	affects_allies	launch_source_offset	composite_scene_group
-170		8	4	14	22	12	true	1	4	12	wh2_dlc09_abilities_sand_storm	0	true	composite_scene\spells_and_abilities\wh2_dlc09_abilities_sandstorm.csc	200	target_centre	1.ignore		0	0	1		true	0	
-0	wh_main_unit_contact_poison	22	0	1	15	15	false	0	0	0.1	wh2_dlc09_abilities_venom_wave	0	true	composite_scene\spells_and_abilities\wh2_dlc09_abilities_poison_wave.csc	200	target_centre	1.ignore		0	0.8	1		false	0	
-0		22	0	1	15	15	false	0	0	0.1	wh2_dlc09_abilities_wrath_of_ptra	1	true	composite_scene\spells_and_abilities\wrath_of_ptra.csc	200	target_centre	1.ignore		0	0.8	1		false	0	
+170		7	4	14	22	12	true	1	4	12	wh2_dlc09_abilities_sand_storm	0	true	composite_scene\spells_and_abilities\wh2_dlc09_abilities_sandstorm.csc	200	target_centre	1.ignore		0	0	1		true	0	
+0	wh_main_unit_contact_poison	16	0	1	15	15	false	0	0	0.1	wh2_dlc09_abilities_venom_wave	0	true	composite_scene\spells_and_abilities\wh2_dlc09_abilities_poison_wave.csc	200	target_centre	1.ignore		0	0.8	1		false	0	
+0		16	0	1	15	15	false	0	0	0.1	wh2_dlc09_abilities_wrath_of_ptra	1	true	composite_scene\spells_and_abilities\wrath_of_ptra.csc	200	target_centre	1.ignore		0	0.8	1		false	0	
 2		0	18	4	30	7	false	0.25	7	7	wh2_dlc09_army_abilities_barrage_of_the_legion	0	true	composite_scene\spells_and_abilities\wh2_dlc09_abilities_barrage_of_legion.csc	30	target_near_edge	1.ignore		0	0	1		true	24	
 0		0	0	18	3	30	false	0	0	30	wh2_dlc09_army_abilities_tomb_swarm	0	true	composite_scene\spells_and_abilities\wh2_dlc09_army_abilities_tomb_swarm.csc	0	target_centre	1.ignore		0	1	1		true	0	
-170		24	0	27	22	7	true	1	3	7	wh2_dlc09_spell_nehekhara_sakhmets_incantation_of_the_skullstorm	1	true	composite_scene\spells_and_abilities\wh2_dlc09_nehekhara_skullstorm.csc	40	target_near_edge	1.ignore		0	0	1		true	0	
-170		24	0	27	22	10	true	1	3	10	wh2_dlc09_spell_nehekhara_sakhmets_incantation_of_the_skullstorm_upgraded	1	true	composite_scene\spells_and_abilities\wh2_dlc09_nehekhara_skullstorm_upgraded.csc	40	target_near_edge	1.ignore		0	0	1		true	0	
+170		21	0	27	22	7	true	1	3	7	wh2_dlc09_spell_nehekhara_sakhmets_incantation_of_the_skullstorm	1	true	composite_scene\spells_and_abilities\wh2_dlc09_nehekhara_skullstorm.csc	40	target_near_edge	1.ignore		0	0	1		true	0	
+170		21	0	27	22	10	true	1	3	10	wh2_dlc09_spell_nehekhara_sakhmets_incantation_of_the_skullstorm_upgraded	1	true	composite_scene\spells_and_abilities\wh2_dlc09_nehekhara_skullstorm_upgraded.csc	40	target_near_edge	1.ignore		0	0	1		true	0	
 10		6	3	20	-30	10	false	1	7	10	wh2_dlc10_item_bound_arnizipals_black_horror	0	true	composite_scene/spells_and_abilities/black_horror.csc	100	target_near_edge	1.ignore		0	1.5	1		true	24	
 120		0	12	45	20	35	true	1	0	35	wh2_dlc10_quest_abilities_fiery_head	1	false	composite_scene\spells_and_abilities\wh2_dlc10_hydra_fiery_head.csc	200	target_centre	1.ignore		0	0	1		true	0	
 120		0	12	45	20	35	true	1	0	35	wh2_dlc10_quest_abilities_unidentified_head	1	false	composite_scene\spells_and_abilities\wh2_dlc10_hydra_fiery_head.csc	20	target_centre	1.ignore		0	0	1		true	0	
-170	wh2_main_unit_contact_witch_elf_poison	8	8	11	22	12	true	1	4	12	wh2_dlc10_weapon_abilities_sword_of_khaine	0	true	composite_scene\spells_and_abilities\sword_of_kaine.csc	30	target_centre	1.ignore		0	0.8	1		true	0	
+170	wh2_main_unit_contact_witch_elf_poison	7	7	11	22	12	true	1	4	12	wh2_dlc10_weapon_abilities_sword_of_khaine	0	true	composite_scene\spells_and_abilities\sword_of_kaine.csc	30	target_centre	1.ignore		0	0.8	1		true	0	
 0		0	12	1	30	9	false	0	55	7	wh2_dlc11_army_abilities_queen_bess	1	true	composite_scene\spells_and_abilities\wh2_dlc11_abilities_norse_roar.csc	30	target_near_edge	1.ignore		0	0.5	1		true	24	
 0		10	0	2	10	20	false	0	20	0.1	wh2_dlc11_army_abilities_sartosa_grapeshot	1	false	composite_scene\spells_and_abilities\wh2_dlc11_abilities_sartosa_grapeshot.csc	135	target_near_edge	1.ignore		0	0.5	1		true	24	
 0		0	12	1	26	9	false	0	55	7	wh2_dlc11_army_abilities_zhufbar_42_pounders	0	false	composite_scene\spells_and_abilities\wh2_dlc11_abilities_zhufbar_42_pounders.csc	30	target_near_edge	1.ignore		0	0.5	1		true	24	
 0		0	72	3	30	7	false	0	40	7	wh2_dlc11_deep_ghost_ship	0	true	composite_scene\spells_and_abilities\wh2_dlc11_deep_ghost_ship_wind.csc	30	target_near_edge	1.ignore		0	4.7	1		true	24	ghost_ship
 0		0	108	3	30	7	false	0	40	7	wh2_dlc11_deep_ghost_ship_upgraded	0	true	composite_scene\spells_and_abilities\wh2_dlc11_deep_ghost_ship_wind.csc	30	target_near_edge	1.ignore		0	4.7	1		true	24	ghost_ship
 170		24	12	11	20	20	false	1	1	20	wh2_dlc11_lord_abilities_storm_of_the_night	0	true	composite_scene\spells_and_abilities\wh2_dlc11_abilities_storm_of_the_night.csc	10	target_centre	1.ignore		20.5	0	1		true	0	
-120	wh2_dlc11_spell_deep_krakens_pull	0	7	15	-15	15	true	1	0	15	wh2_dlc11_spell_deep_krakens_pull	0	true	composite_scene\spells_and_abilities\wh2_dlc11_deep_krakens_pull.csc	200	target_centre	1.ignore		0	1	1		true	0	
-120	wh2_dlc11_spell_deep_krakens_pull	0	7	30	-15	15	true	1	0	15	wh2_dlc11_spell_deep_krakens_pull_upgraded	0	true	composite_scene\spells_and_abilities\wh2_dlc11_deep_krakens_pull_upgraded.csc	200	target_centre	1.ignore		0	1	1		true	0	
-0	wh2_dlc11_spell_deep_tidecall	12	0	2	6	12	false	0	24	0.1	wh2_dlc11_spell_deep_tidecall	0	true	composite_scene\spells_and_abilities\wh2_dlc11_deep_tidecall.csc	200	target_near_edge	1.ignore		0	0.3	1		true	24	
-0	wh2_dlc11_spell_deep_tidecall	12	6	2	6	12	false	0	24	0.1	wh2_dlc11_spell_deep_tidecall_upgraded	0	true	composite_scene\spells_and_abilities\wh2_dlc11_deep_tidecall.csc	200	target_near_edge	1.ignore		0	0.3	1		true	24	
-0		0	108	1	25	25	false	0	0	0.1	wh2_dlc11_unit_abilities_gaseous_demise	0	true	composite_scene\spells_and_abilities\wh2_dlc11_gaseous_demise.csc	200	target_near_edge	1.ignore		0	0	1	composite_scene\spells_and_abilities\wh2_dlc11_gaseous_demise_blood.csc	true	0	
-0		0	108	1	25	25	false	0	0	0.1	wh2_main_army_abilities_dark_conduit	0	true	composite_scene\spells_and_abilities\wh2_main_abilities_dark_conduit.csc	200	target_centre	1.ignore		0	0.8	1		false	0	
-0		20	0	2	6	12	false	0	24	0.1	wh2_main_army_abilities_shadows_of_anlec	0	true	composite_scene\spells_and_abilities\wh2_main_abilities_shadows_of_anlec.csc	45	target_near_edge	1.ignore		0	0	1		true	24	
-0		0	108	1	25	25	false	0	0	0.1	wh2_main_army_abilities_warpbomb	0	true	composite_scene\spells_and_abilities\wh2_main_abilities_warpbomb.csc	200	target_centre	1.ignore		0	0.2	1		true	0	
-170		0	8	18	-30	12	true	1	3	12	wh2_main_bound_banishment	0	true	composite_scene/spells_and_abilities/banishment.csc	40	target_centre	1.ignore		0	0	1		true	0	
+120	wh2_dlc11_spell_deep_krakens_pull	0	6	15	-15	15	true	1	0	15	wh2_dlc11_spell_deep_krakens_pull	0	true	composite_scene\spells_and_abilities\wh2_dlc11_deep_krakens_pull.csc	200	target_centre	1.ignore		0	1	1		true	0	
+120	wh2_dlc11_spell_deep_krakens_pull	0	6	30	-15	15	true	1	0	15	wh2_dlc11_spell_deep_krakens_pull_upgraded	0	true	composite_scene\spells_and_abilities\wh2_dlc11_deep_krakens_pull_upgraded.csc	200	target_centre	1.ignore		0	1	1		true	0	
+0	wh2_dlc11_spell_deep_tidecall	8	0	2	6	12	false	0	24	0.1	wh2_dlc11_spell_deep_tidecall	0	true	composite_scene\spells_and_abilities\wh2_dlc11_deep_tidecall.csc	200	target_near_edge	1.ignore		0	0.3	1		true	24	
+0	wh2_dlc11_spell_deep_tidecall	8	4	2	6	12	false	0	24	0.1	wh2_dlc11_spell_deep_tidecall_upgraded	0	true	composite_scene\spells_and_abilities\wh2_dlc11_deep_tidecall.csc	200	target_near_edge	1.ignore		0	0.3	1		true	24	
+0		0	72	1	25	25	false	0	0	0.1	wh2_dlc11_unit_abilities_gaseous_demise	0	true	composite_scene\spells_and_abilities\wh2_dlc11_gaseous_demise.csc	200	target_near_edge	1.ignore		0	0	1	composite_scene\spells_and_abilities\wh2_dlc11_gaseous_demise_blood.csc	true	0	
+0		36	72	1.7	26	10	false	0	105	10	wh2_dlc12_army_abilities_great_invocation_of_sotek	0	false	composite_scene\spells_and_abilities\Invocation_of_sotek_impacts.csc	90	target_near_edge	1.ignore		0	2.5	1		true	24	
+0	wh_main_unit_contact_poison	7	0	28	-1	15	false	0	0	15	wh2_dlc12_army_abilities_jungle_swarm	0	false	composite_scene\spells_and_abilities\wh2_dlc12_army_abilities_jungle_swarm_final.csc	1	target_centre	1.ignore		0	0	1		false	0	
+0		0	4	13	-30	12	true	0	0	12	wh2_dlc12_character_abilities_brass_orb	0	true	composite_scene\spells_and_abilities\wh2_dlc12_skv_brass_orb_ability.csc	40	target_centre	1.ignore		0	0	1		true	0	
+0		24	13	1.9000001	25	15	true	0	0	0.1	wh2_dlc12_spell_kroak_deliverance_of_itza_1	0	true	composite_scene\spells_and_abilities\wh2_dlc12_deliverance_of_itza_level1.csc	225	target_centre	1.ignore		0	4.5	1		false	0	
+0		24	22	1.9000001	30	20	true	0	0	0.1	wh2_dlc12_spell_kroak_deliverance_of_itza_2	0	true	composite_scene\spells_and_abilities\wh2_dlc12_deliverance_of_itza_level2.csc	225	target_centre	1.ignore		0	4.5	1		false	0	
+0		24	31	1.9000001	35	25	true	0	0	0.1	wh2_dlc12_spell_kroak_deliverance_of_itza_3	0	true	composite_scene\spells_and_abilities\wh2_dlc12_deliverance_of_itza_level3.csc	225	target_centre	1.ignore		0	4.5	1		false	0	
+0	wh_main_unit_contact_poison	3	0	28	-1	15	false	0	0	15	wh2_dlc12_unit_abilities_ark_of_sotek	0	false	composite_scene/spells_and_abilities/wh2_dlc12_character_ability_ark_of_sotek.csc	1	target_centre	1.ignore		0	0	1		false	0	
+0		0	24	10	16	6	false	0	7	6	wh2_dlc12_unit_abilities_burning_alignment	1	true	composite_scene/spells_and_abilities/wh2_dlc12_abilities_burning_alignment.csc	100	target_near_edge	1.ignore		0	2	1		true	24	
+0		0	72	1	25	25	false	0	0	0.1	wh2_main_army_abilities_dark_conduit	0	true	composite_scene\spells_and_abilities\wh2_main_abilities_dark_conduit.csc	200	target_centre	1.ignore		0	0.8	1		false	0	
+0		13	0	2	6	12	false	0	24	0.1	wh2_main_army_abilities_shadows_of_anlec	0	true	composite_scene\spells_and_abilities\wh2_main_abilities_shadows_of_anlec.csc	45	target_near_edge	1.ignore		0	0	1		true	24	
+0		0	72	1	25	25	false	0	0	0.1	wh2_main_army_abilities_warpbomb	0	true	composite_scene\spells_and_abilities\wh2_main_abilities_warpbomb.csc	200	target_centre	1.ignore		0	0.2	1		true	0	
+170		0	7	18	-30	12	true	1	3	12	wh2_main_bound_banishment	0	true	composite_scene/spells_and_abilities/banishment.csc	40	target_centre	1.ignore		0	0	1		true	0	
 0		0	24	3	30	7	false	0	44	7	wh2_main_bound_fiery_convocation	0	true	composite_scene\spells_and_abilities\wh2_fiery_convocation.csc	30	target_near_edge	1.ignore		0	4.6	1		true	24	
-170		12	6	27	-22	10	true	1	4	10	wh2_main_bound_flame_storm	1	true	composite_scene/spells_and_abilities/flame_storm.csc	40	target_centre	1.ignore		0	0.8	1		true	0	
-120		0	8	13	-15	15	true	1	0	15	wh2_main_bound_pit_of_shades	0	true	composite_scene\spells_and_abilities\pit_of_shades.csc	200	target_centre	1.ignore		0	0	1		true	0	
-0		22	0	1	15	15	false	0	0	0.1	wh2_main_bound_viletide	0	true	composite_scene/spells_and_abilities/viletide.csc	200	target_centre	1.ignore		0	0.8	1		true	0	
+170		11	6	27	-22	10	true	1	4	10	wh2_main_bound_flame_storm	1	true	composite_scene/spells_and_abilities/flame_storm.csc	40	target_centre	1.ignore		0	0	1		true	0	
+120		0	7	13	-15	15	true	1	0	15	wh2_main_bound_pit_of_shades	0	true	composite_scene\spells_and_abilities\pit_of_shades.csc	200	target_centre	1.ignore		0	0	1		true	0	
+0		16	0	1	15	15	false	0	0	0.1	wh2_main_bound_viletide	0	true	composite_scene/spells_and_abilities/viletide.csc	200	target_centre	1.ignore		0	0.8	1		true	0	
 0		24	12	1	35	15	false	0	0	0.1	wh2_main_character_abilities_arcane_vassal	0	true	composite_scene\spells_and_abilities\wh2_main_abilities_arcane_vassel.csc	200	target_centre	1.ignore		0	0.8	1		false	0	
 0		0	0	1	25	25	false	0	0	1	wh2_main_character_abilities_swiftness_of_itzl	0	false	composite_scene\spells_and_abilities\wh2_main_abilities_swiftness_of_itzl.csc	200	target_centre	1.ignore		0	0	1		false	0	
 0		0	0	1	25	25	false	0	0	1	wh2_main_character_abilities_verminous_valour	0	false	composite_scene\spells_and_abilities\wh2_main_abilities_verminous_valour.csc	200	target_centre	1.ignore		0	0	1		false	0	
-0		0	22	3	2	6	false	0	24	0.1	wh2_main_item_abilities_black_dragon_egg	0	true	composite_scene\spells_and_abilities\wh2_main_abilities_black_dragon_egg.csc	210	target_near_edge	1.ignore		0	0	1		true	36	
-170		16	8	13	25	7	false	1	3	7	wh2_main_item_bound_gilded_horn_of_galon_konook	0	true	composite_scene/spells_and_abilities/gehennas_golden_hounds.csc	40	target_centre	1.ignore		0	0	1		true	0	
-0		22	0	1	18	18	false	0	24	0.1	wh2_main_lord_abilities_gaze_of_malice	0	true	composite_scene\spells_and_abilities\wh2_main_abilities_gaze_of_malice.csc	45	target_near_edge	1.ignore		0	0	1		true	12	
+0		0	16	3	2	6	false	0	24	0.1	wh2_main_item_abilities_black_dragon_egg	0	true	composite_scene\spells_and_abilities\wh2_main_abilities_black_dragon_egg.csc	210	target_near_edge	1.ignore		0	0	1		true	36	
+170		14	7	13	25	7	false	1	3	7	wh2_main_item_bound_gilded_horn_of_galon_konook	0	true	composite_scene/spells_and_abilities/gehennas_golden_hounds.csc	40	target_centre	1.ignore		0	0	1		true	0	
+0		16	0	1	18	18	false	0	24	0.1	wh2_main_lord_abilities_gaze_of_malice	0	true	composite_scene\spells_and_abilities\wh2_main_abilities_gaze_of_malice.csc	45	target_near_edge	1.ignore		0	0	1		true	12	
 360		48	24	1	15	7	false	0	60	7	wh2_main_lord_abilities_the_ruination_of_cities	0	true	composite_scene\spells_and_abilities\wh2_main_abilities_ruination_of_cities.csc	225	target_near_edge	1.ignore		0	0	3		true	0	
-0		20	0	2	6	12	false	0	24	0.1	wh2_main_mount_bound_pestilent_breath	0	true	composite_scene\spells_and_abilities\wh2_pestilent_breath.csc	135	activator_front	1.ignore		0	0	1		true	24	
-170		16	4	7	22	10	true	1	4	10	wh2_main_spell_dark_magic_bladewind	0	true	composite_scene\spells_and_abilities\wh2_main_dark_bladewind.csc	30	target_centre	1.ignore		0	0	1		true	0	
-170		16	4	14	22	10	true	1	3	10	wh2_main_spell_dark_magic_bladewind_upgraded	0	true	composite_scene\spells_and_abilities\wh2_main_dark_bladewind_upgraded.csc	30	target_centre	1.ignore		0	0	1		true	0	
+0		13	0	2	6	12	false	0	24	0.1	wh2_main_mount_bound_pestilent_breath	0	true	composite_scene\spells_and_abilities\wh2_pestilent_breath.csc	135	activator_front	1.ignore		0	0	1		true	24	
+170		14	4	7	22	10	true	1	4	10	wh2_main_spell_dark_magic_bladewind	0	true	composite_scene\spells_and_abilities\wh2_main_dark_bladewind.csc	30	target_centre	1.ignore		0	0	1		true	0	
+170		14	4	14	22	10	true	1	3	10	wh2_main_spell_dark_magic_bladewind_upgraded	0	true	composite_scene\spells_and_abilities\wh2_main_dark_bladewind_upgraded.csc	30	target_centre	1.ignore		0	0	1		true	0	
 5	wh2_main_spell_dark_magic_chillwind	0	24	1	12	6	false	0.1	60	6	wh2_main_spell_dark_magic_chillwind	0	true	composite_scene\spells_and_abilities\wh2_main_dark_chillwind.csc	125	target_near_edge	1.ignore		0	0	1		true	24	
 5	wh2_main_spell_dark_magic_chillwind_upgraded	0	24	1	12	6	false	0.1	60	6	wh2_main_spell_dark_magic_chillwind_upgraded	0	true	composite_scene\spells_and_abilities\wh2_main_dark_chillwind.csc	125	target_near_edge	1.ignore		0	0	1		true	24	
 0		0	24	3	30	7	false	0	44	7	wh2_main_spell_high_magic_fiery_convocation	0	true	composite_scene\spells_and_abilities\wh2_fiery_convocation.csc	30	target_near_edge	1.ignore		0	4.6	1		true	24	
 0		0	48	3	30	7	false	0	44	7	wh2_main_spell_high_magic_fiery_convocation_upgraded	0	true	composite_scene\spells_and_abilities\wh2_fiery_convocation.csc	30	target_near_edge	1.ignore		0	4.6	1		true	24	
 170		24	12	11	20	20	false	1	1	20	wh2_main_spell_high_magic_tempest	0	true	composite_scene\spells_and_abilities\wh2_main_high_tempest.csc	10	target_centre	1.ignore		20.5	0	1		true	0	
 170		24	12	22	20	20	false	1	1	20	wh2_main_spell_high_magic_tempest_upgraded	0	true	composite_scene\spells_and_abilities\wh2_main_high_tempest.csc	10	target_centre	1.ignore		20.5	0	1		true	0	
-0		20	0	2	6	12	false	0	24	0.1	wh2_main_spell_plague_pestilent_breath	0	true	composite_scene\spells_and_abilities\wh2_pestilent_breath.csc	135	target_near_edge	1.ignore		0	0	1		true	24	
-0	wh_main_unit_contact_poison	20	0	2	6	12	false	0	24	0.1	wh2_main_spell_plague_pestilent_breath_upgraded	0	true	composite_scene\spells_and_abilities\wh2_pestilent_breath.csc	135	target_near_edge	1.ignore		0	0	1		true	24	
-0		0	3	20	0.5	15	true	0	0	5	wh2_main_spell_plague_plague	0	true	composite_scene\spells_and_abilities\wh2_main_plague_plague.csc	0	target_centre	1.ignore		0	0	1		true	0	
-0		0	4	20	0.5	15	true	0	0	5	wh2_main_spell_plague_plague_upgraded	0	true	composite_scene\spells_and_abilities\wh2_main_plague_plague.csc	0	target_centre	1.ignore		0	0	1		true	0	
+0		13	0	2	6	12	false	0	24	0.1	wh2_main_spell_plague_pestilent_breath	0	true	composite_scene\spells_and_abilities\wh2_pestilent_breath.csc	135	target_near_edge	1.ignore		0	0	1		true	24	
+0	wh_main_unit_contact_poison	13	0	2	6	12	false	0	24	0.1	wh2_main_spell_plague_pestilent_breath_upgraded	0	true	composite_scene\spells_and_abilities\wh2_pestilent_breath.csc	135	target_near_edge	1.ignore		0	0	1		true	24	
+0		0	2	20	0.5	15	true	0	0	5	wh2_main_spell_plague_plague	0	true	composite_scene\spells_and_abilities\wh2_main_plague_plague.csc	0	target_centre	1.ignore		0	0	1		true	0	
+0		0	3	20	0.5	15	true	0	0	5	wh2_main_spell_plague_plague_upgraded	0	true	composite_scene\spells_and_abilities\wh2_main_plague_plague.csc	0	target_centre	1.ignore		0	0	1		true	0	
 0		0	48	1	15	7	false	0	60	7	wh2_main_spell_ruin_cracks_call	0	true	composite_scene\spells_and_abilities\wh2_main_cracks_call.csc	150	target_near_edge	1.ignore		0	0	1		true	24	
 0		48	48	1	15	7	false	0	60	7	wh2_main_spell_ruin_cracks_call_upgraded	0	true	composite_scene\spells_and_abilities\wh2_main_cracks_call.csc	200	target_near_edge	1.ignore		0	0	1		true	24	
-0		48	0	3	2	6	false	0	24	0.1	wh2_main_spell_ruin_scorch	1	true	composite_scene\spells_and_abilities\wh2_main_ruin_scorch.csc	210	target_near_edge	1.ignore		0	0	1		true	36	
-0		40	0	2	6	12	false	0	24	0.1	wh2_main_weapon_abilities_sunfang	1	true	composite_scene\spells_and_abilities\wh2_main_abilities_sunfang.csc	135	target_near_edge	1.ignore		0	0	1		true	24	
-0		0	11	1	18	18	false	0	24	0.1	wh_dlc03_spell_wild_bray_scream	0	true	composite_scene/spells_and_abilities/bray_scream.csc	45	target_near_edge	1.ignore		0	0	1		true	12	
-0		22	11	1	18	18	false	0	24	0.1	wh_dlc03_spell_wild_bray_scream_upgraded	0	true	composite_scene/spells_and_abilities/bray_scream.csc	45	target_near_edge	1.ignore		0	0	1		true	12	
-0		22	0	1	15	15	false	0	0	0.1	wh_dlc03_spell_wild_viletide	0	true	composite_scene/spells_and_abilities/viletide.csc	200	target_centre	1.ignore		0	0.8	1		true	0	
-0		22	10	1	15	15	false	0	0	0.1	wh_dlc03_spell_wild_viletide_upgraded	0	true	composite_scene/spells_and_abilities/viletide.csc	200	target_centre	1.ignore		0	0.8	1		true	0	
+0		36	0	3	2	6	false	0	24	0.1	wh2_main_spell_ruin_scorch	1	true	composite_scene\spells_and_abilities\wh2_main_ruin_scorch.csc	210	target_near_edge	1.ignore		0	0	1		true	36	
+0		26	0	2	6	12	false	0	24	0.1	wh2_main_weapon_abilities_sunfang	1	true	composite_scene\spells_and_abilities\wh2_main_abilities_sunfang.csc	135	target_near_edge	1.ignore		0	0	1		true	24	
+0		0	8	1	18	18	false	0	24	0.1	wh_dlc03_spell_wild_bray_scream	0	true	composite_scene/spells_and_abilities/bray_scream.csc	45	target_near_edge	1.ignore		0	0	1		true	12	
+0		16	8	1	18	18	false	0	24	0.1	wh_dlc03_spell_wild_bray_scream_upgraded	0	true	composite_scene/spells_and_abilities/bray_scream.csc	45	target_near_edge	1.ignore		0	0	1		true	12	
+0		15	0	1	15	15	false	0	0	0.1	wh_dlc03_spell_wild_viletide	0	true	composite_scene/spells_and_abilities/viletide.csc	200	target_centre	1.ignore		0	0.8	1		true	0	
+0		15	7	1	15	15	false	0	0	0.1	wh_dlc03_spell_wild_viletide_upgraded	0	true	composite_scene/spells_and_abilities/viletide.csc	200	target_centre	1.ignore		0	0.8	1		true	0	
 0		24	24	1	15	15	false	0	0	1	wh_dlc04_unit_passive_the_reliquary_overload	0	true	composite_scene/spells_and_abilities/viletide.csc	200	target_centre	1.ignore		0	0.8	1		true	0	
-170		16	8	13	22	7	false	1	3	7	wh_dlc05_lord_abilities_grey_hounds	0	true	composite_scene/spells_and_abilities/orions_grey_wolves.csc	40	target_centre	1.ignore		0	0	1		true	0	
-0	wh_dlc05_spell_life_awakening_of_the_wood	17	0	1	15	15	false	0	0	1	wh_dlc05_spell_life_awakening_of_the_wood	0	true	composite_scene\spells_and_abilities\awakening_the_wood.csc	200	target_centre	1.ignore		0	1.6	1		true	0	
+170		14	7	13	22	7	false	1	3	7	wh_dlc05_lord_abilities_grey_hounds	0	true	composite_scene/spells_and_abilities/orions_grey_wolves.csc	40	target_centre	1.ignore		0	0	1		true	0	
+0	wh_dlc05_spell_life_awakening_of_the_wood	11	0	1	15	15	false	0	0	1	wh_dlc05_spell_life_awakening_of_the_wood	0	true	composite_scene\spells_and_abilities\awakening_the_wood.csc	200	target_centre	1.ignore		0	1.6	1		true	0	
 0	wh_dlc05_spell_life_the_dwellers_below	0	4	15	40	15	false	0	0	15	wh_dlc05_spell_life_the_dwellers_below	0	true	composite_scene\spells_and_abilities\dwellers_below.csc	2	target_centre	1.ignore		0	0	1		true	0	
 0	wh_dlc05_spell_life_the_dwellers_below_upgraded	0	4	15	40	15	false	0	0	15	wh_dlc05_spell_life_the_dwellers_below_upgraded	0	true	composite_scene\spells_and_abilities\dwellers_below.csc	2	target_centre	1.ignore		0	0	1		true	0	
-120		0	8	13	-15	15	true	1	0	15	wh_dlc05_spell_shadow_pit_of_shades	0	true	composite_scene\spells_and_abilities\pit_of_shades.csc	200	target_centre	1.ignore		0	0	1		true	0	
-120		0	16	13	-15	15	true	1	0	15	wh_dlc05_spell_shadow_pit_of_shades_upgraded	0	true	composite_scene\spells_and_abilities\pit_of_shades.csc	200	target_centre	1.ignore		0	0	1		true	0	
+120		0	7	13	-15	15	true	1	0	15	wh_dlc05_spell_shadow_pit_of_shades	0	true	composite_scene\spells_and_abilities\pit_of_shades.csc	200	target_centre	1.ignore		0	0	1		true	0	
+120		0	14	13	-15	15	true	1	0	15	wh_dlc05_spell_shadow_pit_of_shades_upgraded	0	true	composite_scene\spells_and_abilities\pit_of_shades.csc	200	target_centre	1.ignore		0	0	1		true	0	
 0		72	36	2	40	4	false	0	40	4	wh_dlc05_spell_shadow_the_penumbral_pendulum	0	true	composite_scene\spells_and_abilities\shadow_penumbral_pendulum.csc	40	target_near_edge	1.ignore		0	1	1		true	24	
 0		72	72	2	40	4	false	0	40	4	wh_dlc05_spell_shadow_the_penumbral_pendulum_upgraded	0	true	composite_scene\spells_and_abilities\shadow_penumbral_pendulum.csc	40	target_near_edge	1.ignore		0	1	1		true	24	
 0		0	0	2	0	15	false	0	0	0.1	wh_dlc06_lord_abilities_flash_bomb	0	true	composite_scene\spells_and_abilities\wh_pro01_lord_abilities_flash_bang.csc	0	target_centre	1.ignore		0	0	1		true	0	
 0		0	0	2	0	15	false	0	0	0.1	wh_dlc06_unit_abilities_smoke_bomb	0	true	composite_scene\spells_and_abilities\nasty_skulkers_smoke_bomb.csc	0	target_centre	1.ignore		0	0	1		true	0	
 30		0	18	12	25	4	false	1.5	7	4	wh_dlc06_unit_abilities_the_loons_of_eight_peaks	0	false	composite_scene/spells_and_abilities/fanatic_chain_dwarf.csc	30	activator_front	2.expire		0	0	4	composite_scene\spells_and_abilities\fanatic_chain_dwarf_blood.csc	true	0	
-5	wh_dlc06_unit_contact_discouraged	0	12	5	13	6	false	0.25	14	6	wh_dlc07_item_abilities_wrath_of_manann	0	true	composite_scene/spells_and_abilities/wrath_of_manann.csc	150	target_near_edge	1.ignore		0	0	1		true	24	
-170	wh_dlc08_unit_contact_frostbite	12	9	24	-22	7	true	1	1	7	wh_dlc08_item_abilities_ancient_frost_wyrm_scale	1	true	composite_scene/spells_and_abilities/howling_winter.csc	40	target_centre	1.ignore		0	0	1		true	0	
+5	wh_dlc06_unit_contact_discouraged	0	24	5	13	6	false	0.25	14	6	wh_dlc07_item_abilities_wrath_of_manann	0	true	composite_scene/spells_and_abilities/wrath_of_manann.csc	150	target_near_edge	1.ignore		0	0	1		true	24	
+170	wh_dlc08_unit_contact_frostbite	9	9	24	-22	7	true	1	1	7	wh_dlc08_item_abilities_ancient_frost_wyrm_scale	1	true	composite_scene/spells_and_abilities/howling_winter.csc	40	target_centre	1.ignore		0	0	1		true	0	
 0	wh_dlc08_unit_contact_frostbite	72	36	5	30	4	false	0	19	4	wh_dlc08_item_seafang	0	true	composite_scene/spells_and_abilities/wh_dlc08_seafang.csc	30	target_near_edge	1.ignore		0	0	1		true	0	
 120		0	7	300	-35	15	true	1	0	15	wh_dlc08_quest_abilities_consumer_of_nagash	0	true	composite_scene\spells_and_abilities\pit_of_shades.csc	40	target_centre	1.ignore		0	0	1		true	0	
 170	wh_dlc08_unit_contact_frostbite	12	6	27	-22	6	true	1	1	6	wh_dlc08_quest_abilities_howling_winter	1	true	composite_scene/spells_and_abilities/howling_winter.csc	40	activator_front	1.ignore		0	0	3		true	0	
-0		48	0	3	2	6	false	0	24	0.1	wh_main_item_abilities_fiery_ring_of_thori	1	true	composite_scene/spells_and_abilities/fiery_ring_of_thori.csc	210	target_near_edge	1.ignore		0	0	1		true	36	
-0		22	0	1	15	15	false	0	0	0.1	wh_main_spell_big_waaagh_brain_bursta	0	true	composite_scene/spells_and_abilities/brain_bursta.csc	200	target_centre	1.ignore		0	0.8	1		true	0	
-0		22	10	1	15	15	false	0	0	0.1	wh_main_spell_big_waaagh_brain_bursta_upgraded	0	true	composite_scene/spells_and_abilities/brain_bursta.csc	200	target_centre	1.ignore		0	0.8	1		true	0	
-0		22	0	1	18	18	false	0	24	0.1	wh_main_spell_big_waaagh_eadbutt	0	true	composite_scene/spells_and_abilities/eadbutt.csc	65	target_near_edge	1.ignore		0	0	1		true	12	
-0		44	0	1	18	18	false	0	24	0.1	wh_main_spell_big_waaagh_eadbutt_upgraded	0	true	composite_scene/spells_and_abilities/eadbutt.csc	65	target_near_edge	1.ignore		0	0	1		true	12	
-0		48	24	1	20	20	false	0	0	0.1	wh_main_spell_big_waaagh_foot_of_gork	0	true	composite_scene/spells_and_abilities/foot_of_gork.csc	200	target_centre	1.ignore		0	1.6	1		true	0	
-0		72	36	1	20	20	false	0	0	0.1	wh_main_spell_big_waaagh_foot_of_gork_upgraded	0	true	composite_scene/spells_and_abilities/foot_of_gork.csc	200	target_centre	1.ignore		0	1.6	1		true	0	
-170		4	8	11	-35	12	true	1	4	12	wh_main_spell_death_the_purple_sun_of_xereus	0	true	composite_scene/spells_and_abilities/purple_sun.csc	40	target_centre	1.ignore		0	0	1		true	0	
-170		4	8	22	-35	12	true	1	3	12	wh_main_spell_death_the_purple_sun_of_xereus_upgraded	0	true	composite_scene/spells_and_abilities/purple_sun_upgraded.csc	40	target_centre	1.ignore		0	0	1		true	0	
-170		12	6	27	-22	10	true	1	4	10	wh_main_spell_fire_flame_storm	1	true	composite_scene/spells_and_abilities/flame_storm.csc	40	target_centre	1.ignore		0	0.8	1		true	0	
-170		18	6	54	-22	10	true	1	4	10	wh_main_spell_fire_flame_storm_upgraded	1	true	composite_scene/spells_and_abilities/flame_storm_upgraded.csc	40	target_centre	1.ignore		0	0.8	1		true	0	
+0		36	0	3	2	6	false	0	24	0.1	wh_main_item_abilities_fiery_ring_of_thori	1	true	composite_scene/spells_and_abilities/fiery_ring_of_thori.csc	210	target_near_edge	1.ignore		0	0	1		true	36	
+0		16	0	1	15	15	false	0	0	0.1	wh_main_spell_big_waaagh_brain_bursta	0	true	composite_scene/spells_and_abilities/brain_bursta.csc	200	target_centre	1.ignore		0	0.8	1		true	0	
+0		16	8	1	15	15	false	0	0	0.1	wh_main_spell_big_waaagh_brain_bursta_upgraded	0	true	composite_scene/spells_and_abilities/brain_bursta.csc	200	target_centre	1.ignore		0	0.8	1		true	0	
+0		16	0	1	18	18	false	0	24	0.1	wh_main_spell_big_waaagh_eadbutt	0	true	composite_scene/spells_and_abilities/eadbutt.csc	65	target_near_edge	1.ignore		0	0	1		true	12	
+0		32	0	1	18	18	false	0	24	0.1	wh_main_spell_big_waaagh_eadbutt_upgraded	0	true	composite_scene/spells_and_abilities/eadbutt.csc	65	target_near_edge	1.ignore		0	0	1		true	12	
+0		32	16	1	20	20	false	0	0	0.1	wh_main_spell_big_waaagh_foot_of_gork	0	true	composite_scene/spells_and_abilities/foot_of_gork.csc	200	target_centre	1.ignore		0	1.6	1		true	0	
+0		48	24	1	20	20	false	0	0	0.1	wh_main_spell_big_waaagh_foot_of_gork_upgraded	0	true	composite_scene/spells_and_abilities/foot_of_gork.csc	200	target_centre	1.ignore		0	1.6	1		true	0	
+170		4	7	11	-35	12	true	1	4	12	wh_main_spell_death_the_purple_sun_of_xereus	0	true	composite_scene/spells_and_abilities/purple_sun.csc	40	target_centre	1.ignore		0	0	1		true	0	
+170		4	7	22	-35	12	true	1	3	12	wh_main_spell_death_the_purple_sun_of_xereus_upgraded	0	true	composite_scene/spells_and_abilities/purple_sun_upgraded.csc	40	target_centre	1.ignore		0	0	1		true	0	
+170		11	6	27	-22	10	true	1	4	10	wh_main_spell_fire_flame_storm	1	true	composite_scene/spells_and_abilities/flame_storm.csc	40	target_centre	1.ignore		0	0	1		true	0	
+170		16	6	54	-22	10	true	1	4	10	wh_main_spell_fire_flame_storm_upgraded	1	true	composite_scene/spells_and_abilities/flame_storm_upgraded.csc	40	target_centre	1.ignore		0	0	1		true	0	
 10	wh_main_unit_contact_morale	24	0	20	20	5	false	0.5	9	5	wh_main_spell_fire_the_burning_head	1	true	composite_scene/spells_and_abilities/the_burning_head.csc	30	target_near_edge	1.ignore		0	0	1		true	0	
 10	wh_main_unit_contact_morale	24	0	20	20	7	false	0.5	9	7	wh_main_spell_fire_the_burning_head_upgraded	1	true	composite_scene/spells_and_abilities/the_burning_head.csc	30	target_near_edge	1.ignore		0	0	1		true	0	
-170		0	12	21	22	10	true	1	4	10	wh_main_spell_heavens_chain_lightning	0	true	composite_scene/spells_and_abilities/chain_lightning.csc	30	target_centre	1.ignore		0	0	1		true	0	
-0		20	0	2	6	12	false	0	24	0.1	wh_main_spell_heavens_wind_blast	0	true	composite_scene/spells_and_abilities/wind_blast.csc	135	target_near_edge	1.ignore		0	0	1		true	24	
-0		20	10	2	6	12	false	0	24	0.1	wh_main_spell_heavens_wind_blast_upgraded	0	true	composite_scene/spells_and_abilities/wind_blast.csc	135	target_near_edge	1.ignore		0	0	1		true	24	
-170		0	8	18	-30	12	true	1	3	12	wh_main_spell_light_banishment	0	true	composite_scene/spells_and_abilities/banishment.csc	40	target_centre	1.ignore		0	0	1		true	0	
-170		8	8	18	-30	12	true	1	3	12	wh_main_spell_light_banishment_upgraded	0	true	composite_scene/spells_and_abilities/banishment_upgraded.csc	40	target_centre	1.ignore		0	0	1		true	0	
-90	wh_main_spell_lil_waaagh_curse_of_da_bad_moon	16	0	22	-25	7	true	0.8	4	7	wh_main_spell_lil_waaagh_curse_of_da_bad_moon	0	true	composite_scene/spells_and_abilities/bad_moon.csc	40	target_centre	1.ignore		0	0	1		true	0	
-90	wh_main_spell_lil_waaagh_curse_of_da_bad_moon_upgraded	16	0	44	-25	7	true	0.8	3	7	wh_main_spell_lil_waaagh_curse_of_da_bad_moon_upgraded	0	true	composite_scene/spells_and_abilities/bad_moon_upgraded.csc	40	target_centre	1.ignore		0	0	1		true	0	
-170		16	8	13	22	7	false	1	3	7	wh_main_spell_metal_gehennas_golden_hounds	0	true	composite_scene/spells_and_abilities/gehennas_golden_hounds.csc	40	target_centre	1.ignore		0	0	1		true	0	
-170		16	8	26	22	10	false	1	2.2	10	wh_main_spell_metal_gehennas_golden_hounds_upgraded	0	true	composite_scene/spells_and_abilities/gehennas_golden_hounds_upgraded.csc	40	target_centre	1.ignore		0	0	1		true	0	
+170		0	11	21	22	10	true	1	4	10	wh_main_spell_heavens_chain_lightning	0	true	composite_scene/spells_and_abilities/chain_lightning.csc	30	target_centre	1.ignore		0	0	1		true	0	
+0		13	0	2	6	12	false	0	24	0.1	wh_main_spell_heavens_wind_blast	0	true	composite_scene/spells_and_abilities/wind_blast.csc	135	target_near_edge	1.ignore		0	0	1		true	24	
+0		13	6	2	6	12	false	0	24	0.1	wh_main_spell_heavens_wind_blast_upgraded	0	true	composite_scene/spells_and_abilities/wind_blast.csc	135	target_near_edge	1.ignore		0	0	1		true	24	
+170		0	7	18	-30	12	true	1	3	12	wh_main_spell_light_banishment	0	true	composite_scene/spells_and_abilities/banishment.csc	40	target_centre	1.ignore		0	0	1		true	0	
+170		7	7	18	-30	12	true	1	3	12	wh_main_spell_light_banishment_upgraded	0	true	composite_scene/spells_and_abilities/banishment_upgraded.csc	40	target_centre	1.ignore		0	0	1		true	0	
+90	wh_main_spell_lil_waaagh_curse_of_da_bad_moon	14	0	22	-25	7	true	0.8	4	7	wh_main_spell_lil_waaagh_curse_of_da_bad_moon	0	true	composite_scene/spells_and_abilities/bad_moon.csc	40	target_centre	1.ignore		0	0	1		true	0	
+90	wh_main_spell_lil_waaagh_curse_of_da_bad_moon_upgraded	14	0	44	-25	7	true	0.8	3	7	wh_main_spell_lil_waaagh_curse_of_da_bad_moon_upgraded	0	true	composite_scene/spells_and_abilities/bad_moon_upgraded.csc	40	target_centre	1.ignore		0	0	1		true	0	
+170		14	7	13	22	7	false	1	3	7	wh_main_spell_metal_gehennas_golden_hounds	0	true	composite_scene/spells_and_abilities/gehennas_golden_hounds.csc	40	target_centre	1.ignore		0	0	1		true	0	
+170		14	7	26	22	10	false	1	2.2	10	wh_main_spell_metal_gehennas_golden_hounds_upgraded	0	true	composite_scene/spells_and_abilities/gehennas_golden_hounds_upgraded.csc	40	target_centre	1.ignore		0	0	1		true	0	
 5		0	24	5	30	6	false	0.25	20	6	wh_main_spell_vampires_wind_of_death	0	true	composite_scene/spells_and_abilities/wind_of_death.csc	30	target_near_edge	1.ignore		0	0	1		true	24	
 5		48	24	5	30	8	false	0.25	20	8	wh_main_spell_vampires_wind_of_death_upgraded	0	true	composite_scene/spells_and_abilities/wind_of_death.csc	30	target_near_edge	1.ignore		0	0	1		true	24	
 30		0	18	12	25	4	false	1.5	7	4	wh_main_unit_abilities_spinning_loons	0	false	composite_scene/spells_and_abilities/fanatic.csc	30	activator_front	2.expire		0	0	4	composite_scene/spells_and_abilities/fanatic_blood.csc	true	0	
-0		48	0	3	2	6	false	0	24	0.1	wh_main_weapon_abilities_skabscrath	1	true	composite_scene/spells_and_abilities/skabscrath.csc	210	target_near_edge	1.ignore		0	0	1		true	36	
+0		36	0	3	2	6	false	0	24	0.1	wh_main_weapon_abilities_skabscrath	1	true	composite_scene/spells_and_abilities/skabscrath.csc	210	target_near_edge	1.ignore		0	0	1		true	36	

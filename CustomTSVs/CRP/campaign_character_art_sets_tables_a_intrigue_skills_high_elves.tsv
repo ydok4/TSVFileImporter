@@ -14,3 +14,10 @@ general	wh2_main_art_set_hef_prince_04_high				false	true	wh2_main_hef_prince_hi
 general	wh2_main_art_set_hef_princess_01_high				false	true	wh2_main_hef_princess_high	1
 general	wh2_main_art_set_hef_princess_02_high				false	true	wh2_main_hef_princess_high	1
 general	wh2_main_art_set_hef_princess_03_high				false	true	wh2_main_hef_princess_high	1
+general	wh2_main_art_set_hef_prince_01_low				false	true	wh2_main_hef_prince_low	1
+general	wh2_main_art_set_hef_prince_02_low				false	true	wh2_main_hef_prince_low	1
+general	wh2_main_art_set_hef_prince_03_low				false	true	wh2_main_hef_prince_low	1
+general	wh2_main_art_set_hef_prince_04_low				false	true	wh2_main_hef_prince_low	1
+general	wh2_main_art_set_hef_princess_01_low				false	true	wh2_main_hef_princess_low	1
+general	wh2_main_art_set_hef_princess_02_low				false	true	wh2_main_hef_princess_low	1
+general	wh2_main_art_set_hef_princess_03_low				false	true	wh2_main_hef_princess_low	1

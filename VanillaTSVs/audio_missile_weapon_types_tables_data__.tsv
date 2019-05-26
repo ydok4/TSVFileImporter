@@ -16,7 +16,7 @@ Battle_Individual_Small_Arms_Deck_Gun_Fire		300		deck_gunner_cannon	drakegun	fal
 Battle_Individual_Small_Arms_Deck_Gun_RoR_Fire		300		deck_gunner_cannon_RoR	drakegun	false	true	0		
 		200		dragons_breath	 	false	false	0		
 		200		drakegun	drakegun	false	false	0	wh_grp_drakegun_fire_start	wh_grp_drakegun_fire_stop
-Battle_Individual_Artillery_Flame_Cannon_Fire		150		flame_cannon	flame_cannon	false	true	0		
+Battle_Individual_Artillery_Flame_Cannon_Fire		400		flame_cannon	flame_cannon	false	true	0		
 Battle_Individual_Artillery_Gatling_Gun_Fire		350		gatling_gun	gatling_gun	false	true	0		
 Battle_Individual_Small_Arms_Giant_Blowpipe_Fire		120		giant_blowpipe	bolt_large	false	false	0		
 Battle_Individual_Artillery_Great_Cannon_Fire		400		great_cannon	great_cannon	false	true	0		
@@ -41,3 +41,6 @@ Battle_Individual_Small_Arms_Troll_Hammer_Fire		200		troll_hammer	troll_hammer	f
 		200		warpfiregun	drakegun	false	false	0	wh2_grp_warpfiregun_fire_start	wh2_grp_warpfiregun_fire_stop
 Battle_Individual_Projectile_Grenade_fuse_throw		40		wh2_dlc11_deck_dropper_bomb	rocket_battery	false	true	0		
 Battle_Individual_Melee_Necrofex_Colossus_Cannon_Fire		400		wh2_dlc11_necrofex_cannon	rocket_battery	false	true	0		
+Battle_Individual_Ikit_Claw_Warpfire_Start	Battle_Individual_Ikit_Claw_Warpfire_Stop	200		wh2_dlc12_ikit_warpfiregun	drakegun	false	false	0		
+		400	wh2_grp_ratling_gun_fire_loop	wh2_dlc12_ratling_gun	gatling_gun	true	true	0		
+Battle_Individual_Small_Arms_Jezzails_Sniper_Rifle_Fire		300		wh2_dlc12_warplock_jezzails	repeater_rifle	false	true	0		

@@ -27,20 +27,6 @@ NameResourcesFilters = {
         Filter = {
         },
     },
-    --[[factions_tables = {
-        Directory = "VanillaTSVs",
-        FileName = "factions_tables_data__.tsv",
-        OutputFile = false,
-        Filter = {
-            {
-                -- Auto generate column
-                ColumnNumber = 3,
-                Type = "UNIQUE",
-                Value = "3",
-                Operator = "OR",
-            },
-        },
-    },--]]
 
     names__loc = {
         Directory = "VanillaLoc",
@@ -51,36 +37,12 @@ NameResourcesFilters = {
     },
 
     -- Output Lua files
-    --[[NameGroupResources = {
-        FileName = "NameGroupResources.lua",
-        OutputFile = true,
-        ExportAsLua = true,
-        LuaData = {
-            KeyColumn = 1,
-            -- Excludes key column because that is always required
-            --RequiredColumns = {"6",},
-            ColumnNames = {
-                {
-                    TableColumn = 2,
-                    KeyName = "NameGroup",
-                    SingleValue = true,
-                },
-            },
-        },
-        Filter = {
-
-        },
-    },--]]
-
-    -- Output Lua files
     NameResources = {
         FileName = "NameResources.lua",
         OutputFile = true,
         ExportAsLua = true,
         LuaData = {
             KeyColumn = 6,
-            -- Excludes key column because that is always required
-            --RequiredColumns = {"6",},
             ColumnNames = {
                 {
                     TableColumn = 1,

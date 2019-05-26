@@ -54,6 +54,18 @@ background	wh2_dlc11_def_lokhir_01	UI\loading_ui\load_images\campaign_11.png
 custom_quote	wh2_dlc11_def_lokhir_01	
 background	wh2_dlc11_def_lokhir_gc	UI\loading_ui\load_images\campaign_11.png
 custom_quote	wh2_dlc11_def_lokhir_gc	
+background	wh2_dlc12_lzd_tehenhauin_01	UI\loading_ui\load_images\campaign_9.png
+custom_quote	wh2_dlc12_lzd_tehenhauin_01	
+background	wh2_dlc12_lzd_tehenhauin_gc	UI\loading_ui\load_images\campaign_9.png
+custom_quote	wh2_dlc12_lzd_tehenhauin_gc	
+background	wh2_dlc12_lzd_tiktaqto_01	UI\loading_ui\load_images\campaign_9.png
+custom_quote	wh2_dlc12_lzd_tiktaqto_01	
+background	wh2_dlc12_lzd_tiktaqto_gc	UI\loading_ui\load_images\campaign_9.png
+custom_quote	wh2_dlc12_lzd_tiktaqto_gc	
+background	wh2_dlc12_skv_ikit_claw_01	UI\loading_ui\load_images\campaign_12.png
+custom_quote	wh2_dlc12_skv_ikit_claw_01	
+background	wh2_dlc12_skv_ikit_claw_gc	UI\loading_ui\load_images\campaign_12.png
+custom_quote	wh2_dlc12_skv_ikit_claw_gc	
 background	wh2_main_def_cult_of_pleasure_01	UI\loading_ui\load_images\campaign_11.png
 custom_quote	wh2_main_def_cult_of_pleasure_01	
 background	wh2_main_def_malekith_gc	UI\loading_ui\load_images\campaign_11.png

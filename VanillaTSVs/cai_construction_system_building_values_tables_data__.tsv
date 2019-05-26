@@ -1,5 +1,5 @@
 cai_construction_system_building_values_tables	0
-building_chain	building_instance	building_or_building_range_start_inclusive	building_range_end_inclusive	building_super_chain	cai_construction_system_category	cai_construction_system_category_group	faction	sub_culture	culture	per_faction_building_limit_start	per_faction_building_limit_end	per_faction_building_minimum_discount_when_exceeding_limit_start	per_faction_building_maximum_discount_when_exceeding_limit_start	per_faction_building_minimum_discount_when_exceeding_limit_end	per_faction_building_maximum_discount_when_exceeding_limit_end	per_faction_per_building_discount_increment_when_exceeding_limit_start	per_faction_per_building_discount_increment_when_exceeding_limit_end	per_province_building_limit_start	per_province_building_limit_end	per_province_building_minimum_discount_when_exceeding_limit_start	per_province_building_maximum_discount_when_exceeding_limit_start	per_province_building_minimum_discount_when_exceeding_limit_end	per_province_building_maximum_discount_when_exceeding_limit_end	per_province_per_building_discount_increment_when_exceeding_limit_start	per_province_per_building_discount_increment_when_exceeding_limit_end	score_end_inclusive	score_or_score_start_inclusive	campaign
+building_chain	building_instance	building_or_building_range_start_inclusive	building_range_end_inclusive	building_super_chain	cai_construction_system_category	cai_construction_system_category_group	campaign	culture	faction	per_faction_building_limit_start	per_faction_building_limit_end	per_faction_building_minimum_discount_when_exceeding_limit_start	per_faction_building_maximum_discount_when_exceeding_limit_start	per_faction_building_minimum_discount_when_exceeding_limit_end	per_faction_building_maximum_discount_when_exceeding_limit_end	per_faction_per_building_discount_increment_when_exceeding_limit_start	per_faction_per_building_discount_increment_when_exceeding_limit_end	per_province_building_limit_start	per_province_building_limit_end	per_province_building_minimum_discount_when_exceeding_limit_start	per_province_building_maximum_discount_when_exceeding_limit_start	per_province_building_minimum_discount_when_exceeding_limit_end	per_province_building_maximum_discount_when_exceeding_limit_end	per_province_per_building_discount_increment_when_exceeding_limit_start	per_province_per_building_discount_increment_when_exceeding_limit_end	score_end_inclusive	score_or_score_start_inclusive	sub_culture
 wh2_dlc09_ritual_tmb						cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	25	
 		wh2_dlc09_special_black_tower_of_arkhan_other	wh2_dlc09_special_black_tower_of_arkhan_other			cai_military_group				0	0	500	500	500	500	0	0	-1	-1	0	0	0	0	0	0	500	500	
 		wh2_dlc09_special_black_tower_of_arkhan	wh2_dlc09_special_black_tower_of_arkhan			cai_military_group				0	0	500	500	500	500	0	0	-1	-1	0	0	0	0	0	0	500	500	
@@ -44,7 +44,7 @@ wh2_dlc09_ritual_tmb						cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0
 		wh2_dlc09_special_settlement_pyramid_of_nagash_tmb_1	wh2_dlc09_special_settlement_pyramid_of_nagash_tmb_5			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
 		wh2_dlc09_special_settlement_pyramid_of_nagash_vmp_1	wh2_dlc09_special_settlement_pyramid_of_nagash_vmp_5			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
 		wh2_dlc09_special_settlement_pyramid_of_nagash_vmp_1	wh2_dlc09_special_settlement_pyramid_of_nagash_vmp_5			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
-		wh2_dlc09_tmb_arkhan_burial_mound	wh2_dlc09_tmb_arkhan_burial_mound			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	250	250	
+		wh2_dlc09_tmb_arkhan_burial_mound	wh2_dlc09_tmb_arkhan_burial_mound_2			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	250	250	
 		wh2_dlc09_tmb_cavalry_1	wh2_dlc09_tmb_cavalry_4			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	250	100	
 		wh2_dlc09_tmb_chariots_1	wh2_dlc09_tmb_chariots_3			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	150	50	
 		wh2_dlc09_tmb_citadel_1	wh2_dlc09_tmb_citadel_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	250	250	
@@ -90,8 +90,8 @@ wh2_dlc09_ritual_tmb						cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0
 		wh2_dlc09_tmb_ushabti_1	wh2_dlc09_tmb_ushabti_2			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	200	150	
 		wh2_dlc09_tmb_warsphinx_1	wh2_dlc09_tmb_warsphinx_1			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	250	250	
 		wh2_dlc10_hef_aesanar_camp	wh2_dlc10_hef_aesanar_camp			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	250	250	250	250	0	0	240	120	
-		wh2_dlc10_hef_handmaidens_alarielle	wh2_dlc10_hef_handmaidens_alarielle			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	360	360	360	360	0	0	360	360	
-		wh2_dlc10_hef_handmaidens	wh2_dlc10_hef_handmaidens			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	360	360	360	360	0	0	360	360	
+		wh2_dlc10_hef_handmaidens_alarielle	wh2_dlc10_hef_handmaidens_alarielle			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	370	370	370	370	0	0	360	360	
+		wh2_dlc10_hef_handmaidens	wh2_dlc10_hef_handmaidens			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	370	370	370	370	0	0	360	360	
 		wh2_dlc10_special_world_root_entrance_1	wh2_dlc10_special_world_root_entrance_3			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	360	360	
 		wh2_dlc11_cst_outpostnorsca_major_1_coast	wh2_dlc11_cst_outpostnorsca_major_5_coast			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	25	
 		wh2_dlc11_cst_outpostnorsca_major_1_coast	wh2_dlc11_cst_outpostnorsca_major_5_coast			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	25	
@@ -126,7 +126,7 @@ wh2_dlc09_ritual_tmb						cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0
 		wh2_dlc11_special_ancient_vault_1	wh2_dlc11_special_ancient_vault_2			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	800	0	
 		wh2_dlc11_special_cylostra_opera_house_1	wh2_dlc11_special_cylostra_opera_house_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	800	800	
 		wh2_dlc11_special_dragon_tooth_lighthouse_1	wh2_dlc11_special_dragon_tooth_lighthouse_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	800	800	
-		wh2_dlc11_special_galleons_graveyard_wreck_1	wh2_dlc11_special_galleons_graveyard_wreck_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	400	
+		wh2_dlc11_special_galleons_graveyard_wreck_1	wh2_dlc11_special_galleons_graveyard_wreck_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	1200	1200	
 		wh2_dlc11_special_settlement_galleons_graveyard_1	wh2_dlc11_special_settlement_galleons_graveyard_5			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
 		wh2_dlc11_special_settlement_galleons_graveyard_other_1	wh2_dlc11_special_settlement_galleons_graveyard_other_1			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
 		wh2_dlc11_special_settlement_galleons_graveyard_other_1	wh2_dlc11_special_settlement_galleons_graveyard_other_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
@@ -142,9 +142,9 @@ wh2_dlc09_ritual_tmb						cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0
 		wh2_dlc11_vampirecoast_infrastructure_income_1	wh2_dlc11_vampirecoast_infrastructure_income_2			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	160	160	
 		wh2_dlc11_vampirecoast_infrastructure_income_other_1	wh2_dlc11_vampirecoast_infrastructure_income_other_5			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	120	
 		wh2_dlc11_vampirecoast_infrastructure_public_order_1	wh2_dlc11_vampirecoast_infrastructure_public_order_3			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	120	
-		wh2_dlc11_vampirecoast_military_barracks_1	wh2_dlc11_vampirecoast_military_barracks_4			cai_military_group				-1	-1	0	0	0	0	0	0	1	1	810	810	810	810	0	0	800	200	
-		wh2_dlc11_vampirecoast_military_flying_1	wh2_dlc11_vampirecoast_military_flying_4			cai_military_group				-1	-1	0	0	0	0	0	0	1	1	810	810	810	810	0	0	200	100	
-		wh2_dlc11_vampirecoast_military_ranged_1	wh2_dlc11_vampirecoast_military_ranged_4			cai_military_group				-1	-1	0	0	0	0	0	0	1	1	810	810	810	810	0	0	800	200	
+		wh2_dlc11_vampirecoast_military_barracks_1	wh2_dlc11_vampirecoast_military_barracks_4			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	810	810	810	810	0	0	800	200	
+		wh2_dlc11_vampirecoast_military_flying_1	wh2_dlc11_vampirecoast_military_flying_4			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	810	810	810	810	0	0	200	100	
+		wh2_dlc11_vampirecoast_military_ranged_1	wh2_dlc11_vampirecoast_military_ranged_4			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	810	810	810	810	0	0	800	200	
 		wh2_dlc11_vampirecoast_port_1	wh2_dlc11_vampirecoast_port_3			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	60	
 		wh2_dlc11_vampirecoast_settlement_major_1	wh2_dlc11_vampirecoast_settlement_major_5			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
 		wh2_dlc11_vampirecoast_settlement_major_1	wh2_dlc11_vampirecoast_settlement_major_5			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
@@ -155,20 +155,36 @@ wh2_dlc09_ritual_tmb						cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0
 		wh2_dlc11_vampirecoast_settlement_minor_coast_1	wh2_dlc11_vampirecoast_settlement_minor_coast_3			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
 		wh2_dlc11_vampirecoast_settlement_minor_coast_1	wh2_dlc11_vampirecoast_settlement_minor_coast_3			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
 		wh2_dlc11_vampirecoast_ship_anchor_1	wh2_dlc11_vampirecoast_ship_anchor_3			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	80	80	
-		wh2_dlc11_vampirecoast_ship_cannons_1	wh2_dlc11_vampirecoast_ship_cannons_3			cai_military_group				-1	-1	0	0	0	0	0	0	1	1	810	810	810	810	0	0	200	100	
+		wh2_dlc11_vampirecoast_ship_cannons_1	wh2_dlc11_vampirecoast_ship_cannons_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	810	810	810	810	0	0	200	100	
 		wh2_dlc11_vampirecoast_ship_captains_cabin_1	wh2_dlc11_vampirecoast_ship_captains_cabin_5			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
 		wh2_dlc11_vampirecoast_ship_captains_cabin_1	wh2_dlc11_vampirecoast_ship_captains_cabin_5			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
-		wh2_dlc11_vampirecoast_ship_crows_nest_1	wh2_dlc11_vampirecoast_ship_crows_nest_4			cai_military_group				-1	-1	0	0	0	0	0	0	1	1	810	810	810	810	0	0	200	100	
-		wh2_dlc11_vampirecoast_ship_gunports_1	wh2_dlc11_vampirecoast_ship_gunports_4			cai_military_group				-1	-1	0	0	0	0	0	0	1	1	810	810	810	810	0	0	800	200	
+		wh2_dlc11_vampirecoast_ship_crows_nest_1	wh2_dlc11_vampirecoast_ship_crows_nest_4			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	810	810	810	810	0	0	200	100	
+		wh2_dlc11_vampirecoast_ship_gunports_1	wh2_dlc11_vampirecoast_ship_gunports_4			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	810	810	810	810	0	0	800	200	
 		wh2_dlc11_vampirecoast_ship_helm_1	wh2_dlc11_vampirecoast_ship_helm_3			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
-		wh2_dlc11_vampirecoast_ship_hold_1	wh2_dlc11_vampirecoast_ship_hold_3			cai_military_group				-1	-1	0	0	0	0	0	0	1	1	810	810	810	810	0	0	800	200	
-		wh2_dlc11_vampirecoast_ship_hull_1	wh2_dlc11_vampirecoast_ship_hull_3			cai_military_group				-1	-1	0	0	0	0	0	0	1	1	810	810	810	810	0	0	800	200	
-		wh2_dlc11_vampirecoast_ship_hull_1	wh2_dlc11_vampirecoast_ship_hull_3			cai_support_group				-1	-1	0	0	0	0	0	0	1	1	810	810	810	810	0	0	800	200	
-		wh2_dlc11_vampirecoast_ship_main_deck_1	wh2_dlc11_vampirecoast_ship_main_deck_4			cai_military_group				-1	-1	0	0	0	0	0	0	1	1	810	810	810	810	0	0	800	200	
+		wh2_dlc11_vampirecoast_ship_hold_1	wh2_dlc11_vampirecoast_ship_hold_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	810	810	810	810	0	0	800	200	
+		wh2_dlc11_vampirecoast_ship_hull_1	wh2_dlc11_vampirecoast_ship_hull_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	810	810	810	810	0	0	800	200	
+		wh2_dlc11_vampirecoast_ship_hull_1	wh2_dlc11_vampirecoast_ship_hull_3			cai_support_group				-1	-1	0	0	0	0	0	0	0	0	810	810	810	810	0	0	800	200	
+		wh2_dlc11_vampirecoast_ship_main_deck_1	wh2_dlc11_vampirecoast_ship_main_deck_4			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	810	810	810	810	0	0	800	200	
 		wh2_dlc11_vampirecoast_ship_sail_1	wh2_dlc11_vampirecoast_ship_sail_3			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	80	80	
-		wh2_dlc11_vampirecoast_support_artillery_1	wh2_dlc11_vampirecoast_support_artillery_3			cai_military_group				-1	-1	0	0	0	0	0	0	1	1	810	810	810	810	0	0	200	100	
-		wh2_dlc11_vampirecoast_support_monsters_1	wh2_dlc11_vampirecoast_support_monsters_3			cai_military_group				-1	-1	0	0	0	0	0	0	1	1	810	810	810	810	0	0	800	200	
-		wh2_dlc11_vampirecoast_support_necrofex_1	wh2_dlc11_vampirecoast_support_necrofex_1			cai_military_group				-1	-1	0	0	0	0	0	0	1	1	810	810	810	810	0	0	800	800	
+		wh2_dlc11_vampirecoast_support_artillery_1	wh2_dlc11_vampirecoast_support_artillery_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	810	810	810	810	0	0	200	100	
+		wh2_dlc11_vampirecoast_support_monsters_1	wh2_dlc11_vampirecoast_support_monsters_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	810	810	810	810	0	0	800	200	
+		wh2_dlc11_vampirecoast_support_necrofex_1	wh2_dlc11_vampirecoast_support_necrofex_1			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	810	810	810	810	0	0	800	800	
+		wh2_dlc12_special_bordeleaux_manann_shrine_1	wh2_dlc12_special_bordeleaux_manann_shrine_1			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	1000	500	
+		wh2_dlc12_special_sotek_snake_pit_1	wh2_dlc12_special_sotek_snake_pit_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	600	600	
+		wh2_dlc12_special_warpstone_tractor_beam_1	wh2_dlc12_special_warpstone_tractor_beam_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	600	600	
+		wh2_dlc12_under_empire_annexation_doomsday_1	wh2_dlc12_under_empire_annexation_doomsday_2			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
+		wh2_dlc12_under_empire_annexation_war_camp_1	wh2_dlc12_under_empire_annexation_war_camp_2			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
+		wh2_dlc12_under_empire_discovery_assassins_1	wh2_dlc12_under_empire_discovery_assassins_2			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
+		wh2_dlc12_under_empire_discovery_deeper_tunnels_1	wh2_dlc12_under_empire_discovery_deeper_tunnels_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
+		wh2_dlc12_under_empire_food_kidnappers_1	wh2_dlc12_under_empire_food_kidnappers_2			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
+		wh2_dlc12_under_empire_food_raiding_camp_1	wh2_dlc12_under_empire_food_raiding_camp_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
+		wh2_dlc12_under_empire_money_crafting_1	wh2_dlc12_under_empire_money_crafting_2			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
+		wh2_dlc12_under_empire_money_thieves_1	wh2_dlc12_under_empire_money_thieves_3			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
+		wh2_dlc12_under_empire_settlement_stronghold_1	wh2_dlc12_under_empire_settlement_stronghold_5			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
+		wh2_dlc12_under_empire_settlement_warren_1	wh2_dlc12_under_empire_settlement_warren_5			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
+		wh2_dlc12_under_empire_warpstone_mine_1	wh2_dlc12_under_empire_warpstone_mine_2			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
+		wh2_dlc12_under_empire_warpstone_refinery_1	wh2_dlc12_under_empire_warpstone_refinery_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
+		wh2_dlc12_under_empire_warpstone_strip_mine_1	wh2_dlc12_under_empire_warpstone_strip_mine_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
 		wh2_main_brt_resource_animals_1	wh2_main_brt_resource_animals_3			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	360	90	
 		wh2_main_brt_resource_dyes_1	wh2_main_brt_resource_dyes_3			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	360	90	
 		wh2_main_brt_resource_furs_1	wh2_main_brt_resource_furs_3			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	360	90	
@@ -245,6 +261,19 @@ wh2_dlc09_ritual_tmb						cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0
 		wh2_main_emp_resource_obsidian_1	wh2_main_emp_resource_obsidian_3			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	20	20	
 		wh2_main_emp_resource_spices_1	wh2_main_emp_resource_spices_3			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	20	20	
 		wh2_main_emp_roads_1	wh2_main_emp_roads_2			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	5	5	
+		wh2_main_foreign_slot_discovery_brt_1	wh2_main_foreign_slot_discovery_brt_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10	
+		wh2_main_foreign_slot_discovery_cst_1	wh2_main_foreign_slot_discovery_cst_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10	
+		wh2_main_foreign_slot_discovery_def_1	wh2_main_foreign_slot_discovery_def_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10	
+		wh2_main_foreign_slot_discovery_dwf_1	wh2_main_foreign_slot_discovery_dwf_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10	
+		wh2_main_foreign_slot_discovery_emp_1	wh2_main_foreign_slot_discovery_emp_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10	
+		wh2_main_foreign_slot_discovery_grn_1	wh2_main_foreign_slot_discovery_grn_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10	
+		wh2_main_foreign_slot_discovery_hef_1	wh2_main_foreign_slot_discovery_hef_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10	
+		wh2_main_foreign_slot_discovery_lzd_1	wh2_main_foreign_slot_discovery_lzd_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10	
+		wh2_main_foreign_slot_discovery_nor_1	wh2_main_foreign_slot_discovery_nor_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10	
+		wh2_main_foreign_slot_discovery_skv_1	wh2_main_foreign_slot_discovery_skv_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10	
+		wh2_main_foreign_slot_discovery_tmb_1	wh2_main_foreign_slot_discovery_tmb_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10	
+		wh2_main_foreign_slot_discovery_vmp_1	wh2_main_foreign_slot_discovery_vmp_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10	
+		wh2_main_foreign_slot_discovery_wef_1	wh2_main_foreign_slot_discovery_wef_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10	
 		wh2_main_grn_raiders_1	wh2_main_grn_raiders_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	90	90	
 		wh2_main_hef_barracks_1	wh2_main_hef_barracks_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	190	190	190	190	0	0	180	90	
 		wh2_main_hef_birds_1	wh2_main_hef_birds_2			cai_military_group				0	0	200	200	200	200	0	0	0	0	200	160	150	120	50	40	400	400	
@@ -367,11 +396,11 @@ wh2_dlc09_ritual_tmb						cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0
 		wh2_main_lzd_settlement_minor_1_coast	wh2_main_lzd_settlement_minor_3_coast			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
 		wh2_main_lzd_settlement_minor_1	wh2_main_lzd_settlement_minor_3			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
 		wh2_main_lzd_settlement_minor_1	wh2_main_lzd_settlement_minor_3			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
-		wh2_main_lzd_skinks_1	wh2_main_lzd_skinks_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	200	190	200	190	0	0	180	60	
+		wh2_main_lzd_skinks_1	wh2_dlc12_lzd_skinks_4			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	200	190	200	190	0	0	180	60	
 		wh2_main_lzd_slann_1	wh2_main_lzd_slann_1			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	80	80	
 		wh2_main_lzd_slann_1	wh2_main_lzd_slann_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	260	260	
 		wh2_main_lzd_smith_1	wh2_main_lzd_smith_1			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	190	190	190	190	0	0	180	180	
-		wh2_main_lzd_terradons_1	wh2_main_lzd_terradons_1			cai_military_group				0	0	60	60	60	60	0	0	0	0	250	250	250	250	0	0	240	240	
+		wh2_main_lzd_terradons_1	wh2_dlc12_lzd_terradons_2			cai_military_group				0	0	60	60	60	60	0	0	0	0	250	250	250	250	0	0	240	240	
 		wh2_main_lzd_worship_oldones_1	wh2_main_lzd_worship_oldones_3			cai_support_group				0	0	60	60	60	60	0	0	-1	-1	0	0	0	0	0	0	400	280	
 		wh2_main_lzd_worship_sotek_1	wh2_main_lzd_worship_sotek_3			cai_support_group				0	0	60	60	60	60	0	0	-1	-1	0	0	0	0	0	0	360	240	
 		wh2_main_ritual_def_1	wh2_main_ritual_def_2			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	600	500	
@@ -394,12 +423,12 @@ wh2_dlc09_ritual_tmb						cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0
 		wh2_main_rogue_settlement_minor_coast_1	wh2_main_rogue_settlement_minor_coast_3			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	120	120	
 				wh2_main_sch_special_shrine_of_khaine		cai_military_group				0	0	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	5000	5000	
 		wh2_main_skv_assassins_1	wh2_main_skv_assassins_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	190	190	190	190	0	0	180	120	
-		wh2_main_skv_clanrats_1	wh2_main_skv_clanrats_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	240	230	240	230	0	0	220	90	
+		wh2_main_skv_clanrats_1	wh2_main_skv_clanrats_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	230	230	230	230	0	0	220	90	
 		wh2_main_skv_defence_major_1	wh2_main_skv_defence_major_3			cai_support_group				-1	-1	0	0	0	0	0	0	-1	0	0	50	0	50	0	0	400	200	
 		wh2_main_skv_defence_minor_1	wh2_main_skv_defence_minor_2			cai_support_group				-1	-1	0	0	0	0	0	0	-1	0	0	50	0	50	0	0	210	150	
 		wh2_main_skv_energy_1	wh2_main_skv_energy_5			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	300	120	
 		wh2_main_skv_energy_1	wh2_main_skv_energy_5			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	300	120	
-		wh2_main_skv_engineers_1	wh2_main_skv_engineers_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	200	160	150	120	50	40	225	180	
+		wh2_main_skv_engineers_1	wh2_main_skv_engineers_3			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	230	230	230	230	0	0	225	180	
 		wh2_main_skv_farm_1	wh2_main_skv_farm_3			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	180	60	
 		wh2_main_skv_monsters_1	wh2_main_skv_monsters_2			cai_military_group				-1	-1	0	0	0	0	0	0	0	0	160	120	120	90	40	30	240	180	
 		wh2_main_skv_order_1	wh2_main_skv_temple_1			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	360	120	
@@ -826,8 +855,7 @@ wh2_dlc09_ritual_tmb						cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0
 		wh2_main_special_settlement_sartosa_tmb_1	wh2_main_special_settlement_sartosa_tmb_5			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
 		wh2_main_special_settlement_sartosa_vmp_1	wh2_main_special_settlement_sartosa_vmp_5			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
 		wh2_main_special_settlement_sartosa_vmp_1	wh2_main_special_settlement_sartosa_vmp_5			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
-		wh2_main_special_settlement_sartosa_wef_1	wh2_main_special_settlement_sartosa_wef_5			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
-		wh2_main_special_settlement_sartosa_wef_1	wh2_main_special_settlement_sartosa_wef_5			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
+		wh2_main_special_settlement_sartosa_wef_1	wh2_main_special_settlement_sartosa_wef_1			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
 		wh2_main_special_settlement_skavenblight_1	wh2_main_special_settlement_skavenblight_5			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
 		wh2_main_special_settlement_skavenblight_cst_1	wh2_main_special_settlement_skavenblight_cst_5			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
 		wh2_main_special_settlement_skavenblight_cst_1	wh2_main_special_settlement_skavenblight_cst_5			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
@@ -860,8 +888,7 @@ wh2_dlc09_ritual_tmb						cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0
 		wh2_main_special_settlement_the_awakening_tmb_1	wh2_main_special_settlement_the_awakening_tmb_5			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
 		wh2_main_special_settlement_the_awakening_vmp_1	wh2_main_special_settlement_the_awakening_vmp_5			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
 		wh2_main_special_settlement_the_awakening_vmp_1	wh2_main_special_settlement_the_awakening_vmp_5			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
-		wh2_main_special_settlement_the_awakening_wef_1	wh2_main_special_settlement_the_awakening_wef_5			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
-		wh2_main_special_settlement_the_awakening_wef_1	wh2_main_special_settlement_the_awakening_wef_5			cai_support_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
+		wh2_main_special_settlement_the_awakening_wef_1	wh2_main_special_settlement_the_awakening_wef_1			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	240	240	
 		wh2_main_special_shrine_of_asuryan_1_def	wh2_main_special_shrine_of_asuryan_1_def			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
 		wh2_main_special_shrine_of_asuryan_1_hef	wh2_main_special_shrine_of_asuryan_1_hef			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	
 		wh2_main_special_shrine_of_asuryan_1_other	wh2_main_special_shrine_of_asuryan_1_other			cai_military_group				-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	500	500	

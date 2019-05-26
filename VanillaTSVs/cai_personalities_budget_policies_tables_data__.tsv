@@ -8,7 +8,7 @@ dlc09_tomb_kings	dlc09_tomb_kings
 default	economist		
 default	economist_naval		
 default	economist_schemer		
-default	horde_tech		
+budget_allocation_horde_tech	horde_tech		
 default	militarist		
 default	militarist_naval		
 default	militarist_schemer		

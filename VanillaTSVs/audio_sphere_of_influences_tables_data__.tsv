@@ -7,4 +7,4 @@ combat	false	large_creature_combat	15	0.15	30	1	8	10	0.25
 explosion	false	large_explosion	50	0.15	20	0.6	30	10	0.7
 magic	false	magic_global_mute	250	1	550	1	50	150	1
 magic	false	magic_total_mute	500	1	1100	1	100	1000	1
-combat	false	matched_combat	80	0.5	25	0.8	60	15	0.35000002
+combat	false	matched_combat	25	0.2	40	1	10	20	0.35000002

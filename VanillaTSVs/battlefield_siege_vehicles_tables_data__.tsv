@@ -27,8 +27,8 @@ hit_points	key	model	battle_entity	gun_type	docking_clearance	engine	image_path	
 17000	hef_battering_ram	hef_batteringram	battering_ram		2		UI/Battle UI/siege_vehicle_icons/battering_ram_medium.png	-1	true	true	0	UI/Battle UI/siege_vehicle_icons/battering_ram_cat.png	0	3000	1000	1	3	0.5	
 500	hef_batteringram	hef_batteringram	battering_ram		2		UI/Battle UI/siege_vehicle_icons/siege_tower.png	-1	false	false	0	PLACEHOLDER	0	100	0	1	0	0.5	
 10200	hef_siege_tower_15m	hef_siege_tower_15m	siege_tower		3.2		UI/Battle UI/siege_vehicle_icons/siege_tower_medium.png	-1	false	true	0	UI/Battle UI/siege_vehicle_icons/tower_cat.png	0	2000	0	2	10	1	
-17000	lzd_battering_ram	lzd_batteringram	battering_ram		2		UI/Battle UI/siege_vehicle_icons/battering_ram_medium.png	-1	true	true	0	UI/Battle UI/siege_vehicle_icons/battering_ram_cat.png	0	3000	1000	1	1	0.5	
-500	lzd_batteringram	lzd_batteringram	battering_ram		2		UI/Battle UI/siege_vehicle_icons/siege_tower.png	-1	false	false	0	PLACEHOLDER	0	100	0	1	0	0.5	
+17000	lzd_battering_ram	lzd_batteringram	battering_ram		2		UI/Battle UI/siege_vehicle_icons/battering_ram_medium.png	-1	true	true	0	UI/Battle UI/siege_vehicle_icons/battering_ram_cat.png	0	3000	1000	1	1	0.5	wh2_siege_tower_lizardmen
+500	lzd_batteringram	lzd_batteringram	battering_ram		2		UI/Battle UI/siege_vehicle_icons/siege_tower.png	-1	false	false	0	PLACEHOLDER	0	100	0	1	0	0.5	wh2_siege_tower_lizardmen
 10200	lzd_siege_tower_15m	lzd_siege_tower_15m	siege_tower		3.2		UI/Battle UI/siege_vehicle_icons/siege_tower_medium.png	-1	false	true	0	UI/Battle UI/siege_vehicle_icons/tower_cat.png	0	2000	0	2	7	1	wh2_siege_tower_lizardmen
 17000	nor_battering_ram	nor_batteringram	nor_battering_ram		2		UI/Battle UI/siege_vehicle_icons/battering_ram_medium.png	-1	true	true	0	UI/Battle UI/siege_vehicle_icons/battering_ram_cat.png	0	3000	1000	1	1	1	
 500	nor_batteringram	nor_batteringram	battering_ram		2		UI/Battle UI/siege_vehicle_icons/siege_tower.png	-1	false	false	0	PLACEHOLDER	0	100	0	1	0	1	

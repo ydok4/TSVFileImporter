@@ -1,5 +1,6 @@
 ui_tagged_images_tables	0
 image_path	key
+UI/Campaign UI/Effect_bundles/armour.png	armour
 ui/skins/default/text_icon_assassination_targets.png	assassination_targets
 ui/skins/default/text_icon_blood_voyage.png	blood_voyage
 UI/Flags/wh_main_brt_artois/mon_24.png	brt_artois
@@ -69,6 +70,7 @@ UI/Frontend UI/faction_bullets/bullet_wef_units_monstrous.png	bullet_wef_units_m
 UI/Frontend UI/faction_bullets/bullet_wef_worldroots.png	bullet_wef_worldroots
 ui/campaign ui/effect_bundles/cst_infamy.png	cst_infamy
 ui/skins/default/text_icon_death_night.png	death_night
+UI/Campaign UI/Effect_bundles/growth.png	growth
 ui/skins/default/icon_navy.png	icon_admiral
 UI/skins/warhammer2/alarielle_icon_16.png	icon_alarielle_defender
 UI/skins/warhammer2/mortal_torment_16.png	icon_alarielle_torment
@@ -88,6 +90,9 @@ ui/skins/default/replenish_icon_attrition.png	icon_attrition
 ui/skins/default/icon_raise_dead_small.png	icon_battle_site
 UI\skins\wh_dlc03_bst_beastmen\icon_army_morale.png	icon_bestial_rage
 ui/skins/default/icon_blood_kiss.png	icon_blood_kiss
+ui/campaign ui/skills/campaign_growth.png	icon_campaign_growth
+ui/campaign ui/skills/campaign_public_order.png	icon_campaign_public_order
+ui/campaign ui/skills/campaign_untainted.png	icon_campaign_untainted
 UI/Campaign UI/Effect_bundles/replenishment.png	icon_casualty_replenishment
 ui/skins/default/icon_stat_charge_bonus.png	icon_charge
 ui/skins/wh_main_brt_bretonnia/icon_food.png	icon_chivalry
@@ -98,8 +103,10 @@ ui/skins/default/icon_corruption_untainted.png	icon_corruption_untainted
 ui/skins/default/icon_corruption_vmp.png	icon_corruption_vmp
 ui/skins/warhammer2/icon_pirate_cove.png	icon_cove
 ui/skins/default/treaty_defensive_alliance.png	icon_defensive_alliance
+UI/Campaign UI/Effect_bundles/dlc12_discover_up.png	icon_discoverability
 ui/skins/default/modifier_icon_flaming.png	icon_dmg_flaming
 ui/skins/default/modifier_icon_magical.png	icon_dmg_magical
+UI/skins/warhammer2/icon_doomrockets.png	icon_doomrocket
 UI/Campaign UI/Effect_bundles/archer.png	icon_effect_archer
 UI/Campaign UI/Effect_bundles/army.png	icon_effect_army
 ui/Campaign UI/Effect_bundles/campaign_movement.png	icon_effect_campaign_movement
@@ -114,6 +121,7 @@ UI/Campaign UI/Effect_bundles/weapon_damage.png	icon_effect_weapon_damage
 UI/Campaign UI/Effect_bundles/wizard.png	icon_effect_wizard
 ui/skins/default/icon_stance_encamp.png	icon_encamp_stance
 ui/skins/default/icon_stance_entombed.png	icon_entombed_stance
+ui/campaign ui/skills/campaign_experience.png	icon_experience
 ui/skins/default/icon_ambition.png	icon_fealty
 ui/skins/default/icon_army_morale.png	icon_fightiness
 ui/skins/default/icon_food.png	icon_food
@@ -134,6 +142,7 @@ ui/skins/wh_main_vmp_vampire_counts/icon_income_plus.png	icon_income_vmp
 ui/skins/warhammer2/icon_infamy.png	icon_infamy
 ui/skins/default/icon_intrigue.png	icon_influence
 ui/skins/warhammer2/icon_TK_canopic_jar.png	icon_jars
+UI/Battle UI/ability_icons/wh2_dlc12_army_abilities_jungle_swarm.png	icon_jungle_swarm
 ui/skins/default/icon_army.png	icon_lord
 ui/skins/default/icon_fealty_high.png	icon_loyalty
 UI/Campaign UI/Effect_bundles/magic.png	icon_magic
@@ -161,6 +170,7 @@ ui/skins/default/icon_politician.png	icon_protagonist
 ui/skins/default/icon_public_order_neutral.png	icon_public_order
 ui/skins/default/icon_stance_raiding.png	icon_raiding_stance
 ui/skins/default/icon_stat_range.png	icon_range
+ui/skins/default/icon_corruption_untainted.png	icon_religion
 ui/skins/default/icon_replenish.png	icon_replenishment
 ui/skins/default/icon_reputation_normal.png	icon_reputation
 ui/Battle UI/ability_icons/resistance_ward_save.png	icon_resistance_all
@@ -176,18 +186,25 @@ ui/skins/warhammer2/icon_sea_shanty.png	icon_shanty
 ui/skins/default/modifier_icon_shield.png	icon_shield
 ui/skins/default/skaven_food_icon.png	icon_skaven_food
 ui/skins/default/icon_slaves.png	icon_slaves
+UI/Battle UI/ability_icons/wh2_dlc12_army_abilities_great_invocation_of_sotek.png	icon_sotek
+UI\skins\warhammer2\sotek_sacrifieces_slaves_icon.png	icon_sotek_captives
+UI/Campaign UI/Effect_bundles/spawning.png	icon_spawning
 ui/skins/default/icon_stat_speed.png	icon_speed
 ui/skins/default/icon_stance_stalking.png	icon_stalking_stance
 UI/Campaign UI/Effect_bundles/technology.png	icon_tech
 ui/skins/default/treaty_trade_agreement.png	icon_trade_agreement
+ui/skins/default/icon_transport_fleet.png	icon_transport_fleet
 UI/Campaign UI/Effect_bundles/treasure_map.png	icon_treasure_map
 ui/skins/default/icon_treasury.png	icon_treasury
 ui/skins/wh_main_chs_chaos/icon_treasury.png	icon_treasury_chs
 ui/skins/wh_main_vmp_vampire_counts/icon_treasury.png	icon_treasury_vmp
 ui/skins/default/icon_stance_use_underway.png	icon_tunnelling_stance
+UI\Campaign UI\Effect_bundles\turns.png	icon_turns
+UI/skins/default/icon_under_empire.png	icon_under_empire
 UI/Campaign UI/Effect_bundles/military_spending.png	icon_upkeep
 ui/skins/default/icon_stance_use_beastpaths.png	icon_use_beastpaths_stance
 ui/skins/default/treaty_vassal.png	icon_vassal
+UI/skins/warhammer2/icon_reactor_cores.png	icon_warp_fuel
 UI/Campaign UI/Effect_bundles/weapon_damage.png	icon_weapon_damage
 ui/skins/default/icon_magic_pool.png	icon_wom_power
 ui/skins/default/icon_magic_replenish_rate.png	icon_wom_recharge
@@ -195,6 +212,7 @@ UI/Campaign UI/Effect_bundles/wound_time.png	icon_wound
 UI/Campaign UI/Effect_bundles/experience.png	icon_xp
 ui/skins/default/text_icon_power_of_nature.png	power_of_nature
 UI/Campaign UI/Effect_bundles/fortification.png	prelude_settlements
+UI/Campaign UI/Effect_bundles/public_order.png	public_order
 ui/campaign ui/effect_bundles/experience_7.png	rank7
 ui/skins/default/icon_ability_stage1.png	stage_one
 ui/skins/default/icon_ability_stage3.png	stage_three

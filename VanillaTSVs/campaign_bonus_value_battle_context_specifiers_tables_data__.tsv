@@ -1,5 +1,6 @@
 campaign_bonus_value_battle_context_specifiers_tables	1
 key	night_battles_only
+fight_culture_beastmen_chaos_norsca_skaven	false
 fighting_battle_type_ambush	false
 fighting_battle_type_blockade	false
 fighting_battle_type_night	true
@@ -66,6 +67,7 @@ fighting_norscan_factions	false
 fighting_territory_enemy_or_neutral	false
 fighting_territory_enemy_or_neutral_army	false
 fighting_territory_enemy_or_neutral_navy	false
+fighting_territory_enemy_or_neutral_or_allied_army	false
 fighting_territory_own_or_allied	false
 fighting_territory_own_or_allied_army	false
 fighting_territory_own_or_allied_navy	false

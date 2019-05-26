@@ -1,0 +1,28 @@
+Loc PackedFile	1
+key	text	tooltip
+ground_types_onscreen_name_deep_water	Deep Water	true
+ground_types_description_wooden_floor	TEST: Wooden Floor Ground Type	true
+ground_types_description_mud	TEST: Mud Ground Type	true
+ground_types_description_deep_water	TEST: Deep Water Ground Type	true
+ground_types_description_sand	TEST: Sand Ground Type	true
+ground_types_description_snow	TEST: Snow Ground Type	true
+ground_types_description_rock	TEST: Rock Ground Type	true
+ground_types_description_road	Roads allow all units to move quicker.	true
+ground_types_description_sharp_stones	TEST: Sharp Stones Ground Type	true
+ground_types_onscreen_name_forest	Forests	true
+ground_types_description_scrub	Scrub provides cover for light infantry units.	true
+ground_types_description_grass		true
+ground_types_onscreen_name_scrub	Scrub	true
+ground_types_onscreen_name_grass	Grass	true
+ground_types_onscreen_name_wooden_floor	Wooden Floor	true
+ground_types_onscreen_name_burnt	placeholder	true
+ground_types_description_burnt	TEST: Burnt Ground Type	true
+ground_types_description_forest	Forests reduce the speed and combat efficiency of large units and allow some troops to hide.	true
+ground_types_description_shallow_water	Shallow water and marshland are difficult for small units to traverse and fight in.	true
+ground_types_onscreen_name_sharp_stones	Sharp Stones	true
+ground_types_onscreen_name_shallow_water	Shallow Water	true
+ground_types_onscreen_name_mud	Mud	true
+ground_types_onscreen_name_road	Road	true
+ground_types_onscreen_name_rock	Rock	true
+ground_types_onscreen_name_sand	Sand	true
+ground_types_onscreen_name_snow	Snow	true

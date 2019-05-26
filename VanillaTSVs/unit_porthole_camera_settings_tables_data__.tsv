@@ -37,7 +37,6 @@ distance	fov	key	phi	theta	target_x	target_y	target_z	environment_file
 6	28	cst_rotting_prometheans	180	190	-0.1	1.6	0	Porthole/advisor/default_porthole.lighting
 1	28	cst_zombie_deckhands	180	200	0	1.5	0	Porthole/advisor/default_porthole.lighting
 1	28	def_black_guard	190	200	-0.050000004	1.65	0	Porthole/advisor/default_porthole.lighting
-1.2	28	def_corsairs	220	210	-0.02	1.8	0	Porthole/advisor/default_porthole.lighting
 1	28	def_harpy	180	190	-0.050000004	1.5499998	0	Porthole/advisor/default_porthole.lighting
 16	28	def_war_hydra	180	190	0	5	0	Porthole/advisor/default_porthole.lighting
 1	28	default	180	180	0	1.5	0	Porthole/advisor/default_porthole.lighting
@@ -92,6 +91,7 @@ distance	fov	key	phi	theta	target_x	target_y	target_z	environment_file
 3.5	28	liz_cold_one_riders	200	200	-0.3	2.2	0	Porthole/advisor/default_porthole.lighting
 4	28	liz_feral_cold_ones	200	210	-0.6	1.8499999	0	Porthole/advisor/default_porthole.lighting
 3.8	28	liz_kroxigor	180	200	-0.7	2.1	0	Porthole/advisor/default_porthole.lighting
+4.6	28	liz_salamander_hunting_pack	190	200	-1.1	1.2	0	Porthole/advisor/default_porthole.lighting
 1.8	28	liz_saurus_0_degrees	180	180	0	1.1	0	Porthole/advisor/default_porthole.lighting
 1.7	28	liz_skink_0_degrees	180	180	0.3	0.95	0	Porthole/advisor/default_porthole.lighting
 8	28	liz_stegadon	200	185	-0.4	2.6	0	Porthole/advisor/default_porthole.lighting
@@ -104,8 +104,10 @@ distance	fov	key	phi	theta	target_x	target_y	target_z	environment_file
 1.6	28	skv_clan_rats_20_degrees	180	200	0.1	1.1	0	Porthole/advisor/default_porthole.lighting
 9	28	skv_doomwheel	190	210	-0.6	2.4	0	Porthole/advisor/default_porthole.lighting
 10	28	skv_hellpit_abomination	190	200	-2	5.6	0	Porthole/advisor/default_porthole.lighting
+16	5	skv_jezzails	185	200	-0.2	1	0	Porthole/advisor/default_porthole.lighting
 1.6	28	skv_plague_monks	180	200	0.050000004	1.0499998	0	Porthole/advisor/default_porthole.lighting
 3	28	skv_rat_ogres	190	190	-0.5	1.9	0	Porthole/advisor/default_porthole.lighting
+3	20	skv_ratling_guns	180	200	0	1	0	Porthole/advisor/default_porthole.lighting
 8	28	skv_warp_lightning_cannon	190	195	-0.6	4.6	0	Porthole/advisor/default_porthole.lighting
 2.5	28	skv_warpfire_thrower	180	200	-0.2	1.2	0	Porthole/advisor/default_porthole.lighting
 4.9	28	tmb_bone_giant	200	200	-0.25	8.85	0	Porthole/advisor/default_porthole.lighting

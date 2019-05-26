@@ -4,5 +4,5 @@ general			wh2_main_skill_node_set_hef_prince_mid		false	false	wh2_main_hef_princ
 general			wh2_main_skill_node_set_hef_princess_mid		false	false	wh2_main_hef_princess_mid
 general			wh2_main_skill_node_set_hef_prince_high		false	false	wh2_main_hef_prince_high
 general			wh2_main_skill_node_set_hef_princess_high		false	false	wh2_main_hef_princess_high
-general			wh2_main_skill_node_set_hef_prince_low		false	false	wh2_main_hef_prince
-general			wh2_main_skill_node_set_hef_princess_low		false	false	wh2_main_hef_princess
+general			wh2_main_skill_node_set_hef_prince_low		false	false	wh2_main_hef_prince_high
+general			wh2_main_skill_node_set_hef_princess_low		false	false	wh2_main_hef_princess_high

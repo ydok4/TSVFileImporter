@@ -315,10 +315,10 @@ wh2_dlc11_cst_resource_salt_1	wh2_dlc11_cst_resource_salt	0	2	800	0		false	0	0	0
 wh2_dlc11_cst_resource_spices_1	wh2_dlc11_cst_resource_spices	0	2	800	0		false	0	0	0	0	false				true	wh2_dlc11_cst_resource_spices	false	0	0	true	2		true	0	0
 wh2_dlc11_cst_resource_wine_1	wh2_dlc11_cst_resource_wine	0	2	800	0		false	0	0	0	0	false				true	wh2_dlc11_cst_resource_wine	false	0	0	true	2		true	0	0
 wh2_dlc11_cst_resource_wood_1	wh2_dlc11_cst_resource_wood	0	2	800	0		false	0	0	0	0	false				true	wh2_dlc11_cst_resource_wood	false	0	0	true	2		true	0	0
-wh2_dlc11_foreign_corruption_1	wh2_dlc11_foreign_corruption	0	1	1000	0		false	0	0	0	0	false				false	wh2_dlc11_foreign_corruption	false	0	0	true	1		true	0	0
-wh2_dlc11_foreign_income_1	wh2_dlc11_foreign_income	0	1	1000	0		false	0	0	0	0	false				false	wh2_dlc11_foreign_income	false	0	0	true	1		true	0	0
-wh2_dlc11_foreign_infamy_1	wh2_dlc11_foreign_infamy	0	1	1000	0		false	0	0	0	0	false				false	wh2_dlc11_foreign_infamy	false	0	0	true	1		true	0	0
-wh2_dlc11_foreign_trade_1	wh2_dlc11_foreign_trade	0	1	1000	0		false	0	0	0	0	false				false	wh2_dlc11_foreign_trade	false	0	0	true	1		true	0	0
+wh2_dlc11_foreign_corruption_1	wh2_dlc11_foreign_corruption	0	1	2500	0		false	0	0	0	0	false				false	wh2_dlc11_foreign_corruption	false	0	0	true	1		true	0	0
+wh2_dlc11_foreign_income_1	wh2_dlc11_foreign_income	0	1	5000	0		false	0	0	0	0	false				false	wh2_dlc11_foreign_income	false	0	0	true	1		true	0	0
+wh2_dlc11_foreign_infamy_1	wh2_dlc11_foreign_infamy	0	1	2500	0		false	0	0	0	0	false				false	wh2_dlc11_foreign_infamy	false	0	0	true	1		true	0	0
+wh2_dlc11_foreign_trade_1	wh2_dlc11_foreign_trade	0	1	2500	0		false	0	0	0	0	false				false	wh2_dlc11_foreign_trade	false	0	0	true	1		true	0	0
 wh2_dlc11_horde_def_aristocracy_1	wh2_dlc11_horde_def_aristocracy	0	1	3000	0		false	0	0	0	0	false				true	wh2_dlc11_horde_def_aristocracy	false	0	0	true	3		true	0	0
 wh2_dlc11_horde_def_aristocracy_2	wh2_dlc11_horde_def_aristocracy	1	1	4500	0		false	0	0	0	0	false				true	wh2_dlc11_horde_def_aristocracy	false	0	0	true	4		true	0	0
 wh2_dlc11_horde_def_exiles_1	wh2_dlc11_horde_def_exiles	0	1	1000	0		false	0	0	0	0	false				true	wh2_dlc11_horde_def_exiles	false	0	0	true	1		true	0	0
@@ -450,6 +450,72 @@ wh2_dlc11_vampirecoast_support_monsters_1	wh2_dlc11_vampirecoast_support_monster
 wh2_dlc11_vampirecoast_support_monsters_2	wh2_dlc11_vampirecoast_support_monsters	1	4	4000	0		false	0	0	0	0	false				true	wh2_dlc11_vampirecoast_support_monsters	true	0	0	true	3		true	0	0
 wh2_dlc11_vampirecoast_support_monsters_3	wh2_dlc11_vampirecoast_support_monsters	2	5	10000	0		false	0	0	0	0	false				true	wh2_dlc11_vampirecoast_support_monsters	true	0	0	true	5		true	0	0
 wh2_dlc11_vampirecoast_support_necrofex_1	wh2_dlc11_vampirecoast_support_necrofex	0	5	10000	0		false	0	0	0	0	false				true	wh2_dlc11_vampirecoast_support_necrofex	true	0	0	true	5		true	0	0
+wh2_dlc12_dummy_nuclear_ruins_0	wh2_dlc12_dummy_nuclear_ruins	0	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_1	wh2_dlc12_dummy_nuclear_ruins	1	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_2	wh2_dlc12_dummy_nuclear_ruins	2	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_3	wh2_dlc12_dummy_nuclear_ruins	3	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_4	wh2_dlc12_dummy_nuclear_ruins	4	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_5	wh2_dlc12_dummy_nuclear_ruins	5	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_lzd_0	wh2_dlc12_dummy_nuclear_ruins_lzd	0	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_lzd_1	wh2_dlc12_dummy_nuclear_ruins_lzd	1	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_lzd_2	wh2_dlc12_dummy_nuclear_ruins_lzd	2	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_lzd_3	wh2_dlc12_dummy_nuclear_ruins_lzd	3	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_lzd_4	wh2_dlc12_dummy_nuclear_ruins_lzd	4	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_lzd_5	wh2_dlc12_dummy_nuclear_ruins_lzd	5	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_tmb_0	wh2_dlc12_dummy_nuclear_ruins_tmb	0	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_tmb_1	wh2_dlc12_dummy_nuclear_ruins_tmb	1	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_tmb_2	wh2_dlc12_dummy_nuclear_ruins_tmb	2	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_tmb_3	wh2_dlc12_dummy_nuclear_ruins_tmb	3	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_tmb_4	wh2_dlc12_dummy_nuclear_ruins_tmb	4	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_tmb_5	wh2_dlc12_dummy_nuclear_ruins_tmb	5	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_tmb_nagash_0	wh2_dlc12_dummy_nuclear_ruins_tmb_nagash	0	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_tmb_nagash_1	wh2_dlc12_dummy_nuclear_ruins_tmb_nagash	1	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_tmb_nagash_2	wh2_dlc12_dummy_nuclear_ruins_tmb_nagash	2	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_tmb_nagash_3	wh2_dlc12_dummy_nuclear_ruins_tmb_nagash	3	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_tmb_nagash_4	wh2_dlc12_dummy_nuclear_ruins_tmb_nagash	4	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_tmb_nagash_5	wh2_dlc12_dummy_nuclear_ruins_tmb_nagash	5	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_tmb_settra_0	wh2_dlc12_dummy_nuclear_ruins_tmb_settra	0	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_tmb_settra_1	wh2_dlc12_dummy_nuclear_ruins_tmb_settra	1	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_tmb_settra_2	wh2_dlc12_dummy_nuclear_ruins_tmb_settra	2	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_tmb_settra_3	wh2_dlc12_dummy_nuclear_ruins_tmb_settra	3	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_tmb_settra_4	wh2_dlc12_dummy_nuclear_ruins_tmb_settra	4	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_dummy_nuclear_ruins_tmb_settra_5	wh2_dlc12_dummy_nuclear_ruins_tmb_settra	5	1	100	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc12_cam_settlement_nuclear_ruin	true	0	0
+wh2_dlc12_lzd_skinks_4	wh2_main_lzd_skinks	3	4	8000	0		false	0	0	0	0	false				true		false	0	0	true	4		true	0	0
+wh2_dlc12_lzd_terradons_2	wh2_main_lzd_terradons	1	4	4500	0		false	0	0	0	0	false				true	wh2_main_lzd_terradons	false	0	0	true	4		true	0	0
+wh2_dlc12_special_bordeleaux_manann_shrine_1	wh2_dlc12_special_bordeleaux_manann_shrine	0	4	6000	0		false	0	0	0	0	false				true	wh2_dlc12_special_bordeleaux_shrine_manann	false	0	0	true	3		true	0	0
+wh2_dlc12_special_sotek_snake_pit_1	wh2_dlc12_special_sotek_snake_pit	0	4	7000	0		false	0	0	0	0	false				true	wh2_dlc12_special_sotek_snake_pit	false	0	0	true	3		true	0	0
+wh2_dlc12_special_warlock_lab_1	wh2_dlc12_special_warlock_lab	0	5	4000	0		false	0	0	0	0	false				true	wh2_dlc12_special_clan_skyre_lab	false	0	0	true	5		true	0	0
+wh2_dlc12_special_warpstone_tractor_beam_1	wh2_dlc12_special_warpstone_tractor_beam	0	2	2000	0		false	0	0	0	0	false				true	wh2_dlc12_special_warpstone_tractor_beam	false	0	0	true	1		true	0	0
+wh2_dlc12_special_warpstone_tractor_beam_2	wh2_dlc12_special_warpstone_tractor_beam	1	5	6000	0		false	0	0	0	0	false				true	wh2_dlc12_special_warpstone_tractor_beam	false	0	0	true	3		true	0	0
+wh2_dlc12_under_empire_annexation_doomsday_1	wh2_dlc12_under_empire_annexation_doomsday	0	1	1000	500		false	0	0	0	0	false				true	wh2_dlc12_foreign_annexation	false	0	0	true	1		true	0	0
+wh2_dlc12_under_empire_annexation_doomsday_2	wh2_dlc12_under_empire_annexation_doomsday	1	15	6000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_annexation	false	0	0	true	5		true	0	0
+wh2_dlc12_under_empire_annexation_war_camp_1	wh2_dlc12_under_empire_annexation_war_camp	0	1	1000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_annexation	false	0	0	true	1		true	0	0
+wh2_dlc12_under_empire_annexation_war_camp_2	wh2_dlc12_under_empire_annexation_war_camp	1	5	4000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_annexation	false	0	0	true	5		true	0	0
+wh2_dlc12_under_empire_discovery_assassins_1	wh2_dlc12_under_empire_discovery_assassins	0	1	1500	100		false	0	0	0	0	false				true	wh2_dlc12_foreign_discovery_assassins	false	0	0	true	1		true	0	0
+wh2_dlc12_under_empire_discovery_assassins_2	wh2_dlc12_under_empire_discovery_assassins	1	3	3500	200		false	0	0	0	0	false				true	wh2_dlc12_foreign_discovery_assassins	false	0	0	true	3		true	0	0
+wh2_dlc12_under_empire_discovery_deeper_tunnels_1	wh2_dlc12_under_empire_discovery_deeper_tunnels	0	3	2000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_discovery_deeper_tunnels	false	0	0	true	2		true	0	0
+wh2_dlc12_under_empire_food_kidnappers_1	wh2_dlc12_under_empire_food_kidnappers	0	1	1000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_food_kidnappers	false	0	0	true	1		true	0	0
+wh2_dlc12_under_empire_food_kidnappers_2	wh2_dlc12_under_empire_food_kidnappers	1	3	3000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_food_kidnappers	false	0	0	true	3		true	0	0
+wh2_dlc12_under_empire_food_raiding_camp_1	wh2_dlc12_under_empire_food_raiding_camp	0	4	4000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_food_raiding_camp	false	0	0	true	4		true	0	0
+wh2_dlc12_under_empire_money_crafting_1	wh2_dlc12_under_empire_money_crafting	0	1	1000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_money_crafting	false	0	0	true	1		true	0	0
+wh2_dlc12_under_empire_money_crafting_2	wh2_dlc12_under_empire_money_crafting	1	3	3000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_money_crafting	false	0	0	true	3		true	0	0
+wh2_dlc12_under_empire_money_thieves_1	wh2_dlc12_under_empire_money_thieves	0	1	1000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_money_thieves	false	0	0	true	1		true	0	0
+wh2_dlc12_under_empire_money_thieves_2	wh2_dlc12_under_empire_money_thieves	1	3	3000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_money_thieves	false	0	0	true	3		true	0	0
+wh2_dlc12_under_empire_money_thieves_3	wh2_dlc12_under_empire_money_thieves	2	4	4000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_money_thieves	false	0	0	true	4		true	0	0
+wh2_dlc12_under_empire_settlement_stronghold_1	wh2_dlc12_under_empire_settlement_stronghold	0	1	1000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_settlement_stronghold	false	0	0	true	1		true	0	0
+wh2_dlc12_under_empire_settlement_stronghold_2	wh2_dlc12_under_empire_settlement_stronghold	1	2	2000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_settlement_stronghold	false	0	0	true	2		true	0	0
+wh2_dlc12_under_empire_settlement_stronghold_3	wh2_dlc12_under_empire_settlement_stronghold	2	3	3000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_settlement_stronghold	false	0	0	true	3		true	0	0
+wh2_dlc12_under_empire_settlement_stronghold_4	wh2_dlc12_under_empire_settlement_stronghold	3	4	4000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_settlement_stronghold	false	0	0	true	4		true	0	0
+wh2_dlc12_under_empire_settlement_stronghold_5	wh2_dlc12_under_empire_settlement_stronghold	4	5	5000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_settlement_stronghold	false	0	0	true	5		true	0	0
+wh2_dlc12_under_empire_settlement_warren_1	wh2_dlc12_under_empire_settlement_warren	0	1	1000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_settlement_warren	false	0	0	true	1		true	0	0
+wh2_dlc12_under_empire_settlement_warren_2	wh2_dlc12_under_empire_settlement_warren	1	2	2000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_settlement_warren	false	0	0	true	2		true	0	0
+wh2_dlc12_under_empire_settlement_warren_3	wh2_dlc12_under_empire_settlement_warren	2	3	3000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_settlement_warren	false	0	0	true	3		true	0	0
+wh2_dlc12_under_empire_settlement_warren_4	wh2_dlc12_under_empire_settlement_warren	3	4	4000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_settlement_warren	false	0	0	true	4		true	0	0
+wh2_dlc12_under_empire_settlement_warren_5	wh2_dlc12_under_empire_settlement_warren	4	5	5000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_settlement_warren	false	0	0	true	5		true	0	0
+wh2_dlc12_under_empire_warpstone_mine_1	wh2_dlc12_under_empire_warpstone_mine	0	4	2000	50		false	0	0	0	0	false				true	wh2_dlc12_foreign_warpstone_mine	false	0	0	true	1		true	0	0
+wh2_dlc12_under_empire_warpstone_mine_2	wh2_dlc12_under_empire_warpstone_mine	1	6	4000	100		false	0	0	0	0	false				true	wh2_dlc12_foreign_warpstone_mine	false	0	0	true	3		true	0	0
+wh2_dlc12_under_empire_warpstone_refinery_1	wh2_dlc12_under_empire_warpstone_refinery	0	3	3000	100		false	0	0	0	0	false				true	wh2_dlc12_foreign_warpstone_refinery	false	0	0	true	3		true	0	0
+wh2_dlc12_under_empire_warpstone_strip_mine_1	wh2_dlc12_under_empire_warpstone_strip_mine	0	4	4000	0		false	0	0	0	0	false				true	wh2_dlc12_foreign_warpstone_strip_mine	false	0	0	true	4		true	0	0
 wh2_main_brt_defence_norsca_1	wh2_main_brt_defence_norsca	0	2	1500	0		false	0	0	0	0	false				true	wh_main_BRETONNIA_garrison	false	0	0	true	2		true	0	0
 wh2_main_brt_resource_animals_1	wh2_main_brt_resource_animals	0	2	750	0		false	0	0	0	0	false				true	wh2_main_emp_resource_animals	true	0	0	true	1	wh_cam_resource_worshop	true	0	0
 wh2_main_brt_resource_animals_2	wh2_main_brt_resource_animals	1	3	1500	0		false	0	0	0	0	false				true	wh2_main_emp_resource_animals	true	0	0	true	2	wh_cam_resource_worshop	true	0	0
@@ -622,7 +688,7 @@ wh2_main_def_settlement_minor_ruin	wh2_main_def_settlement_minor	0	1	0	0		false	
 wh2_main_def_settlement_minor_ruin_coast	wh2_main_def_settlement_minor_coast	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor_coast	false	0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
 wh2_main_def_slaves_1	wh2_main_def_slaves	0	3	1500	0		false	0	0	0	0	false				true	wh2_main_def_slaves	false	0	0	true	2		true	0	0
 wh2_main_def_slaves_2	wh2_main_def_slaves	1	5	4500	0		false	0	0	0	0	false				true	wh2_main_def_slaves	false	0	0	true	4		true	0	0
-wh2_main_def_sorcery_1	wh2_main_def_sorcery	0	4	7500	0		false	0	0	0	0	false				true	wh2_main_def_sorcery	false	0	0	true	4		true	0	0
+wh2_main_def_sorcery_1	wh2_main_def_sorcery	0	4	7500	0		false	0	0	0	0	false				true	wh2_main_def_sorcery	false	0	0	true	3		true	0	0
 wh2_main_def_sorcery_2	wh2_main_def_sorcery	1	5	11250	0		false	0	0	0	0	false				true	wh2_main_def_sorcery	false	0	0	true	5		true	0	0
 wh2_main_def_worship_1	wh2_main_def_worship	0	3	4000	0		false	0	0	0	0	false				true	wh2_main_def_worship	false	0	0	true	3		true	0	0
 wh2_main_def_worship_2	wh2_main_def_worship	1	4	6000	0		false	0	0	0	0	false				true	wh2_main_def_worship	false	0	0	true	4		true	0	0
@@ -671,6 +737,19 @@ wh2_main_emp_resource_spices_2	wh2_main_emp_resource_spices	1	3	1200	0		false	0	
 wh2_main_emp_resource_spices_3	wh2_main_emp_resource_spices	2	4	2200	0		false	0	0	0	0	false				true	wh2_main_emp_resource_spices	false	0	0	true	3	wh_cam_resource_worshop	true	0	0
 wh2_main_emp_roads_1	wh2_main_EMPIRE_roads	0	4	500	0		false	0	0	0	0	false				true	wh2_main_EMPIRE_roads	false	0	0	true	2		true	0	0
 wh2_main_emp_roads_2	wh2_main_EMPIRE_roads	1	4	1000	0		false	0	0	0	0	false				true	wh2_main_EMPIRE_roads	false	0	0	true	3		true	0	0
+wh2_main_foreign_slot_discovery_brt_1	wh2_main_foreign_slot_discovery_brt	0	8	2000	0		false	0	0	0	0	false				true	wh2_main_foreign_slot_discovery	false	0	0	true	3		true	0	0
+wh2_main_foreign_slot_discovery_cst_1	wh2_main_foreign_slot_discovery_cst	0	8	2000	0		false	0	0	0	0	false				true	wh2_main_foreign_slot_discovery	false	0	0	true	3		true	0	0
+wh2_main_foreign_slot_discovery_def_1	wh2_main_foreign_slot_discovery_def	0	8	2000	0		false	0	0	0	0	false				true	wh2_main_foreign_slot_discovery	false	0	0	true	3		true	0	0
+wh2_main_foreign_slot_discovery_dwf_1	wh2_main_foreign_slot_discovery_dwf	0	8	2000	0		false	0	0	0	0	false				true	wh2_main_foreign_slot_discovery	false	0	0	true	3		true	0	0
+wh2_main_foreign_slot_discovery_emp_1	wh2_main_foreign_slot_discovery_emp	0	8	2000	0		false	0	0	0	0	false				true	wh2_main_foreign_slot_discovery	false	0	0	true	3		true	0	0
+wh2_main_foreign_slot_discovery_grn_1	wh2_main_foreign_slot_discovery_grn	0	8	2000	0		false	0	0	0	0	false				true	wh2_main_foreign_slot_discovery	false	0	0	true	3		true	0	0
+wh2_main_foreign_slot_discovery_hef_1	wh2_main_foreign_slot_discovery_hef	0	8	2000	0		false	0	0	0	0	false				true	wh2_main_foreign_slot_discovery	false	0	0	true	3		true	0	0
+wh2_main_foreign_slot_discovery_lzd_1	wh2_main_foreign_slot_discovery_lzd	0	8	2000	0		false	0	0	0	0	false				true	wh2_main_foreign_slot_discovery	false	0	0	true	3		true	0	0
+wh2_main_foreign_slot_discovery_nor_1	wh2_main_foreign_slot_discovery_nor	0	8	2000	0		false	0	0	0	0	false				true	wh2_main_foreign_slot_discovery	false	0	0	true	3		true	0	0
+wh2_main_foreign_slot_discovery_skv_1	wh2_main_foreign_slot_discovery_skv	0	8	2000	0		false	0	0	0	0	false				true	wh2_main_foreign_slot_discovery	false	0	0	true	3		true	0	0
+wh2_main_foreign_slot_discovery_tmb_1	wh2_main_foreign_slot_discovery_tmb	0	8	2000	0		false	0	0	0	0	false				true	wh2_main_foreign_slot_discovery	false	0	0	true	3		true	0	0
+wh2_main_foreign_slot_discovery_vmp_1	wh2_main_foreign_slot_discovery_vmp	0	8	2000	0		false	0	0	0	0	false				true	wh2_main_foreign_slot_discovery	false	0	0	true	3		true	0	0
+wh2_main_foreign_slot_discovery_wef_1	wh2_main_foreign_slot_discovery_wef	0	8	2000	0		false	0	0	0	0	false				true	wh2_main_foreign_slot_discovery	false	0	0	true	1		true	0	0
 wh2_main_grn_defence_norsca_1	wh2_main_grn_defence_norsca	0	2	1500	0		false	0	0	0	0	false				true	wh_main_ORC_GOBLIN_garrison	false	0	0	true	2		true	0	0
 wh2_main_grn_raiders_1	wh2_main_grn_raiders	0	3	2000	0		false	0	0	0	0	false				true	wh2_main_grn_raiders	false	0	0	true	3		true	0	0
 wh2_main_grn_resource_animals	wh2_main_GREENSKINS_resource_animals	0	3	4000	0		false	0	0	0	0	false				true	wh2_main_dwf_resource_animals	false	0	0	true	3	wh_cam_resource_farming	true	0	0
@@ -981,6 +1060,8 @@ wh2_main_lzd_skinks_3	wh2_main_lzd_skinks	2	3	4000	0		false	0	0	0	0	false				tru
 wh2_main_lzd_slann_1	wh2_main_lzd_slann	0	5	6000	0		false	0	0	0	0	false				true	wh2_main_lzd_slann	false	0	0	true	4		true	0	0
 wh2_main_lzd_smith_1	wh2_main_lzd_smith	0	5	6000	0		false	0	0	0	0	false				true	wh2_main_lzd_smith	false	0	0	true	4		true	0	0
 wh2_main_lzd_terradons_1	wh2_main_lzd_terradons	0	3	3000	0		false	0	0	0	0	false				true	wh2_main_lzd_terradons	false	0	0	true	3		true	0	0
+wh2_main_lzd_terradons_1_tiktakto	wh2_main_lzd_terradons_tiktakto	0	3	2500	0		false	0	0	0	0	false				true	wh2_main_lzd_terradons	false	0	0	true	2		true	0	0
+wh2_main_lzd_terradons_2_tiktakto	wh2_main_lzd_terradons_tiktakto	1	4	4000	0		false	0	0	0	0	false				true	wh2_main_lzd_terradons	false	0	0	true	3		true	0	0
 wh2_main_lzd_worship_oldones_1	wh2_main_lzd_worship_oldones	0	3	4000	0		false	0	0	0	0	false				true	wh2_main_lzd_worship_oldones	false	0	0	true	3		true	0	0
 wh2_main_lzd_worship_oldones_2	wh2_main_lzd_worship_oldones	1	4	6000	0		false	0	0	0	0	false				true	wh2_main_lzd_worship_oldones	false	0	0	true	4		true	0	0
 wh2_main_lzd_worship_oldones_3	wh2_main_lzd_worship_oldones	2	5	9000	0		false	0	0	0	0	false				true	wh2_main_lzd_worship_oldones	false	0	0	true	5		true	0	0
@@ -1194,8 +1275,8 @@ wh2_main_skv_settlement_minor_3_coast	wh2_main_skv_settlement_minor_coast	3	4	32
 wh2_main_skv_settlement_minor_coast_ruin	wh2_main_skv_settlement_minor_coast	0	1	0	0		false	0	0	0	0	false				true		false	0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
 wh2_main_skv_settlement_minor_ruin	wh2_main_skv_settlement_minor	0	1	0	0		false	0	0	0	0	false				true		false	0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
 wh2_main_skv_temple_1	wh2_main_skv_order	3	5	9000	0		false	0	0	0	0	false				true	wh2_main_skv_order	false	0	0	true	5		true	0	0
-wh2_main_skv_weaponteams_1	wh2_main_skv_weaponteams	0	4	4000	0		false	0	0	0	0	false				true	wh2_main_skv_stormvermin	false	0	0	true	3		true	0	0
-wh2_main_skv_weaponteams_2	wh2_main_to_be_deleted	4	5	6000	0		false	0	0	0	0	false				true	wh2_main_skv_stormvermin	false	0	0	true	4		true	0	0
+wh2_main_skv_weaponteams_1	wh2_main_skv_weaponteams	0	4	4000	0		false	0	0	0	0	false				true	wh2_main_skv_weaponteams	false	0	0	true	3		true	0	0
+wh2_main_skv_weaponteams_2	wh2_main_skv_weaponteams	1	5	6000	0		false	0	0	0	0	false				true	wh2_main_skv_weaponteams	false	0	0	true	4		true	0	0
 wh2_main_special_altar_of_ultimate_darkness	wh2_main_special_altar_of_ultimate_darkness	0	7	2500	0		false	0	0	0	0	false				true	wh2_main_special_altar_of_ultimate_darkness	false	0	0	true	3		true	0	0
 wh2_main_special_altar_of_ultimate_darkness_vmp	wh2_main_special_altar_of_ultimate_darkness_vmp	0	7	2500	0		false	0	0	0	0	false				true	wh2_main_special_altar_of_ultimate_darkness	false	0	0	true	0		true	0	0
 wh2_main_special_altdorf_castle_reikguard	wh2_main_special_altdorf_castle_reikguard	0	4	6000	0		false	0	0	0	0	false				true	wh2_main_special_altdorf_castle_reikguard	false	0	0	true	4	wh_cam_settlement_capital_empire	true	0	0
@@ -1714,11 +1795,11 @@ wh2_main_special_settlement_colony_major_norscaruin_khorne	wh2_main_special_sett
 wh2_main_special_settlement_colony_major_norscaruin_nurgle	wh2_main_special_settlement_colony_major_norscaruin_nurgle	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	0	false	0	wh_cam_settlement_major_chaos	true	0	0
 wh2_main_special_settlement_colony_major_norscaruin_slaanesh	wh2_main_special_settlement_colony_major_norscaruin_slaanesh	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	0	false	0	wh_cam_settlement_major_chaos	true	0	0
 wh2_main_special_settlement_colony_major_norscaruin_tzeentch	wh2_main_special_settlement_colony_major_norscaruin_tzeentch	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	0	false	0	wh_cam_settlement_major_chaos	true	0	0
-wh2_main_special_settlement_colony_major_other_1	wh2_main_special_settlement_colony_major_other	1	2	800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	0	true	0	wh_cam_settlement_major_empire	true	0	0
-wh2_main_special_settlement_colony_major_other_2	wh2_main_special_settlement_colony_major_other	2	3	1600	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	1	true	0	wh_cam_settlement_major_empire	true	0	0
-wh2_main_special_settlement_colony_major_other_3	wh2_main_special_settlement_colony_major_other	3	4	3200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	2	true	0	wh_cam_settlement_major_empire	true	0	0
-wh2_main_special_settlement_colony_major_other_4	wh2_main_special_settlement_colony_major_other	4	5	4800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	4	true	0	wh_cam_settlement_major_empire	true	0	0
-wh2_main_special_settlement_colony_major_other_5	wh2_main_special_settlement_colony_major_other	5	6	7200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	5	true	0	wh_cam_settlement_major_empire	true	0	0
+wh2_main_special_settlement_colony_major_other_1	wh2_main_special_settlement_colony_major_other	1	2	800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	0	true	0	wh_cam_settlement_major_empire	true	0	2000
+wh2_main_special_settlement_colony_major_other_2	wh2_main_special_settlement_colony_major_other	2	3	1600	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	1	true	0	wh_cam_settlement_major_empire	true	0	2500
+wh2_main_special_settlement_colony_major_other_3	wh2_main_special_settlement_colony_major_other	3	4	3200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	2	true	0	wh_cam_settlement_major_empire	true	0	3500
+wh2_main_special_settlement_colony_major_other_4	wh2_main_special_settlement_colony_major_other	4	5	4800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	4	true	0	wh_cam_settlement_major_empire	true	0	5000
+wh2_main_special_settlement_colony_major_other_5	wh2_main_special_settlement_colony_major_other	5	6	7200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	5	true	0	wh_cam_settlement_major_empire	true	0	7000
 wh2_main_special_settlement_colony_major_other_ruin	wh2_main_special_settlement_colony_major_other	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
 wh2_main_special_settlement_colony_major_wef_1	wh2_main_special_settlement_colony_major_wef	1	2	500	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	0	true	0	wh_dlc_cam_settlement_major_wood_elves	true	0	0
 wh2_main_special_settlement_colony_major_wef_2	wh2_main_special_settlement_colony_major_wef	2	3	1000	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	0	true	0	wh_dlc_cam_settlement_major_wood_elves	true	0	0
@@ -1732,9 +1813,9 @@ wh2_main_special_settlement_colony_minor_norscaruin_khorne	wh2_main_special_sett
 wh2_main_special_settlement_colony_minor_norscaruin_nurgle	wh2_main_special_settlement_colony_minor_norscaruin_nurgle	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	0	false	0	wh_cam_settlement_major_chaos	true	0	0
 wh2_main_special_settlement_colony_minor_norscaruin_slaanesh	wh2_main_special_settlement_colony_minor_norscaruin_slaanesh	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	0	false	0	wh_cam_settlement_major_chaos	true	0	0
 wh2_main_special_settlement_colony_minor_norscaruin_tzeentch	wh2_main_special_settlement_colony_minor_norscaruin_tzeentch	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	0	false	0	wh_cam_settlement_major_chaos	true	0	0
-wh2_main_special_settlement_colony_minor_other_1	wh2_main_special_settlement_colony_minor_other	1	2	800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor_coast	false	0	0	true	0	wh_cam_settlement_minor_empire	true	0	0
-wh2_main_special_settlement_colony_minor_other_2	wh2_main_special_settlement_colony_minor_other	2	3	1600	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor_coast	false	0	1	true	0	wh_cam_settlement_minor_empire	true	0	0
-wh2_main_special_settlement_colony_minor_other_3	wh2_main_special_settlement_colony_minor_other	3	4	3200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor_coast	false	0	2	true	0	wh_cam_settlement_minor_empire	true	0	0
+wh2_main_special_settlement_colony_minor_other_1	wh2_main_special_settlement_colony_minor_other	1	2	800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor_coast	false	0	0	true	0	wh_cam_settlement_minor_empire	true	0	2000
+wh2_main_special_settlement_colony_minor_other_2	wh2_main_special_settlement_colony_minor_other	2	3	1600	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor_coast	false	0	1	true	0	wh_cam_settlement_minor_empire	true	0	2500
+wh2_main_special_settlement_colony_minor_other_3	wh2_main_special_settlement_colony_minor_other	3	4	3200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor_coast	false	0	2	true	0	wh_cam_settlement_minor_empire	true	0	3500
 wh2_main_special_settlement_colony_minor_other_ruin	wh2_main_special_settlement_colony_minor_other	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor_coast	false	0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
 wh2_main_special_settlement_colony_minor_wef_1	wh2_main_special_settlement_colony_minor_wef	1	2	500	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor_coast	false	0	0	true	0	wh_dlc_cam_settlement_minor_wood_elves	true	0	0
 wh2_main_special_settlement_colony_minor_wef_2	wh2_main_special_settlement_colony_minor_wef	2	3	1000	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor_coast	false	0	0	true	0	wh_dlc_cam_settlement_minor_wood_elves	true	0	0
@@ -2322,11 +2403,11 @@ wh2_main_special_settlement_lahmia_cst_3	wh2_main_special_settlement_lahmia_cst	
 wh2_main_special_settlement_lahmia_cst_4	wh2_main_special_settlement_lahmia_cst	4	5	4800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	4	true	0	wh2_dlc11_cam_settlement_capital_vampire_coast	true	0	0
 wh2_main_special_settlement_lahmia_cst_5	wh2_main_special_settlement_lahmia_cst	5	6	7200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	5	true	0	wh2_dlc11_cam_settlement_capital_vampire_coast	true	0	0
 wh2_main_special_settlement_lahmia_cst_ruin	wh2_main_special_settlement_lahmia_cst	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc11_cam_settlement_capital_ruin_vampire_coast	true	0	0
-wh2_main_special_settlement_lahmia_def_1	wh2_main_special_settlement_lahmia_def	1	2	800	0		false	0	0	0	0	false				true		false	0	0	true	0	wh2_cam_settlement_capital_darkelves	true	0	0
-wh2_main_special_settlement_lahmia_def_2	wh2_main_special_settlement_lahmia_def	2	3	1600	0		false	0	0	0	0	false				true		false	0	1	true	0	wh2_cam_settlement_capital_darkelves	true	0	0
-wh2_main_special_settlement_lahmia_def_3	wh2_main_special_settlement_lahmia_def	3	4	3200	0		false	0	0	0	0	false				true		false	0	2	true	0	wh2_cam_settlement_capital_darkelves	true	0	0
-wh2_main_special_settlement_lahmia_def_4	wh2_main_special_settlement_lahmia_def	4	5	4800	0		false	0	0	0	0	false				true		false	0	4	true	0	wh2_cam_settlement_capital_darkelves	true	0	0
-wh2_main_special_settlement_lahmia_def_5	wh2_main_special_settlement_lahmia_def	5	6	7200	0		false	0	0	0	0	false				true		false	0	5	true	0	wh2_cam_settlement_capital_darkelves	true	0	0
+wh2_main_special_settlement_lahmia_def_1	wh2_main_special_settlement_lahmia_def	1	2	800	0		false	0	0	0	0	false				true		false	0	0	true	0	wh2_cam_settlement_capital_darkelves	true	0	2000
+wh2_main_special_settlement_lahmia_def_2	wh2_main_special_settlement_lahmia_def	2	3	1600	0		false	0	0	0	0	false				true		false	0	1	true	0	wh2_cam_settlement_capital_darkelves	true	0	2500
+wh2_main_special_settlement_lahmia_def_3	wh2_main_special_settlement_lahmia_def	3	4	3200	0		false	0	0	0	0	false				true		false	0	2	true	0	wh2_cam_settlement_capital_darkelves	true	0	3500
+wh2_main_special_settlement_lahmia_def_4	wh2_main_special_settlement_lahmia_def	4	5	4800	0		false	0	0	0	0	false				true		false	0	4	true	0	wh2_cam_settlement_capital_darkelves	true	0	5000
+wh2_main_special_settlement_lahmia_def_5	wh2_main_special_settlement_lahmia_def	5	6	7200	0		false	0	0	0	0	false				true		false	0	5	true	0	wh2_cam_settlement_capital_darkelves	true	0	7000
 wh2_main_special_settlement_lahmia_def_ruin	wh2_main_special_settlement_lahmia_def	0	1	0	0		false	0	0	0	0	false				true		false	0	0	true	0	wh_cam_settlement_generic_ruin	true	0	0
 wh2_main_special_settlement_lahmia_dwf_1	wh2_main_special_settlement_lahmia_dwf	1	2	800	0		false	0	0	0	0	false				true		false	0	0	true	0	wh_cam_settlement_capital_dwarf	true	0	0
 wh2_main_special_settlement_lahmia_dwf_2	wh2_main_special_settlement_lahmia_dwf	2	3	1600	0		false	0	0	0	0	false				true		false	0	1	true	0	wh_cam_settlement_capital_dwarf	true	0	0
@@ -2596,12 +2677,14 @@ wh2_main_special_settlement_naggarond_vmp_3	wh2_main_special_settlement_naggaron
 wh2_main_special_settlement_naggarond_vmp_4	wh2_main_special_settlement_naggarond_vmp	4	5	4800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	4	true	0	wh_cam_settlement_capital_vampire	true	0	0
 wh2_main_special_settlement_naggarond_vmp_5	wh2_main_special_settlement_naggarond_vmp	5	6	7200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	5	true	0	wh_cam_settlement_capital_vampire	true	0	0
 wh2_main_special_settlement_naggarond_vmp_ruin	wh2_main_special_settlement_naggarond_vmp	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
+wh2_main_special_settlement_pyramid_of_nagash_1_wef	wh2_main_special_settlement_pyramid_of_nagash_wef	1	1	250	0		false	0	0	0	0	false				true		false	0	0	true	0	wh_dlc_cam_settlement_major_wood_elves	true	0	0
 wh2_main_special_settlement_pyramid_of_nagash_cst_1	wh2_main_special_settlement_pyramid_of_nagash_cst	1	2	800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	true	0	wh2_dlc11_cam_settlement_capital_vampire_coast	true	0	0
 wh2_main_special_settlement_pyramid_of_nagash_cst_2	wh2_main_special_settlement_pyramid_of_nagash_cst	2	3	1600	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	1	true	0	wh2_dlc11_cam_settlement_capital_vampire_coast	true	0	0
 wh2_main_special_settlement_pyramid_of_nagash_cst_3	wh2_main_special_settlement_pyramid_of_nagash_cst	3	4	3200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	2	true	0	wh2_dlc11_cam_settlement_capital_vampire_coast	true	0	0
 wh2_main_special_settlement_pyramid_of_nagash_cst_4	wh2_main_special_settlement_pyramid_of_nagash_cst	4	5	4800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	4	true	0	wh2_dlc11_cam_settlement_capital_vampire_coast	true	0	0
 wh2_main_special_settlement_pyramid_of_nagash_cst_5	wh2_main_special_settlement_pyramid_of_nagash_cst	5	6	7200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	5	true	0	wh2_dlc11_cam_settlement_capital_vampire_coast	true	0	0
 wh2_main_special_settlement_pyramid_of_nagash_cst_ruin	wh2_main_special_settlement_pyramid_of_nagash_cst	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh2_dlc11_cam_settlement_capital_ruin_vampire_coast	true	0	0
+wh2_main_special_settlement_pyramid_of_nagash_ruin_wef	wh2_main_special_settlement_pyramid_of_nagash_wef	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
 wh2_main_special_settlement_sartosa_brt_1	wh2_main_special_settlement_sartosa_brt	1	2	800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	true	0	wh_cam_settlement_capital_bretonnia	true	0	0
 wh2_main_special_settlement_sartosa_brt_2	wh2_main_special_settlement_sartosa_brt	2	3	1600	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	1	true	0	wh_cam_settlement_capital_bretonnia	true	0	0
 wh2_main_special_settlement_sartosa_brt_3	wh2_main_special_settlement_sartosa_brt	3	4	3200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	2	true	0	wh_cam_settlement_capital_bretonnia	true	0	0
@@ -2689,10 +2772,6 @@ wh2_main_special_settlement_sartosa_vmp_4	wh2_main_special_settlement_sartosa_vm
 wh2_main_special_settlement_sartosa_vmp_5	wh2_main_special_settlement_sartosa_vmp	5	6	7200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	5	true	0	wh_cam_settlement_capital_vampire	true	0	0
 wh2_main_special_settlement_sartosa_vmp_ruin	wh2_main_special_settlement_sartosa_vmp	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
 wh2_main_special_settlement_sartosa_wef_1	wh2_main_special_settlement_sartosa_wef	1	1	1000	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	true	0	wh_dlc_cam_settlement_major_wood_elves	true	0	0
-wh2_main_special_settlement_sartosa_wef_2	wh2_main_special_settlement_sartosa_wef	2	2	2000	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	1	true	0	wh_dlc_cam_settlement_major_wood_elves	true	1	0
-wh2_main_special_settlement_sartosa_wef_3	wh2_main_special_settlement_sartosa_wef	3	3	4000	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	2	true	0	wh_dlc_cam_settlement_major_wood_elves	true	2	0
-wh2_main_special_settlement_sartosa_wef_4	wh2_main_special_settlement_sartosa_wef	4	4	6000	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	4	true	0	wh_dlc_cam_settlement_major_wood_elves	true	3	0
-wh2_main_special_settlement_sartosa_wef_5	wh2_main_special_settlement_sartosa_wef	5	5	9000	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	5	true	0	wh_dlc_cam_settlement_major_wood_elves	true	4	0
 wh2_main_special_settlement_sartosa_wef_ruin	wh2_main_special_settlement_sartosa_wef	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
 wh2_main_special_settlement_skavenblight_1	wh2_main_special_settlement_skavenblight	1	2	1000	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	true	0	wh2_cam_settlement_capital_skaven	true	0	0
 wh2_main_special_settlement_skavenblight_2	wh2_main_special_settlement_skavenblight	2	3	2000	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	1	true	0	wh2_cam_settlement_capital_skaven	true	0	0
@@ -2805,10 +2884,6 @@ wh2_main_special_settlement_the_awakening_vmp_4	wh2_main_special_settlement_the_
 wh2_main_special_settlement_the_awakening_vmp_5	wh2_main_special_settlement_the_awakening_vmp	5	6	7200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	5	true	0	wh_cam_settlement_capital_vampire	true	0	0
 wh2_main_special_settlement_the_awakening_vmp_ruin	wh2_main_special_settlement_the_awakening_vmp	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
 wh2_main_special_settlement_the_awakening_wef_1	wh2_main_special_settlement_the_awakening_wef	1	1	1000	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	true	0	wh_dlc_cam_settlement_major_wood_elves	true	0	0
-wh2_main_special_settlement_the_awakening_wef_2	wh2_main_special_settlement_the_awakening_wef	2	2	2000	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	1	true	0	wh_dlc_cam_settlement_major_wood_elves	true	1	0
-wh2_main_special_settlement_the_awakening_wef_3	wh2_main_special_settlement_the_awakening_wef	3	3	4000	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	2	true	0	wh_dlc_cam_settlement_major_wood_elves	true	2	0
-wh2_main_special_settlement_the_awakening_wef_4	wh2_main_special_settlement_the_awakening_wef	4	4	6000	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	4	true	0	wh_dlc_cam_settlement_major_wood_elves	true	3	0
-wh2_main_special_settlement_the_awakening_wef_5	wh2_main_special_settlement_the_awakening_wef	5	5	9000	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	5	true	0	wh_dlc_cam_settlement_major_wood_elves	true	4	0
 wh2_main_special_settlement_the_awakening_wef_ruin	wh2_main_special_settlement_the_awakening_wef	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
 wh2_main_special_shrine_of_asuryan_1_def	wh2_main_special_shrine_of_asuryan_def	0	3	2500	0		false	0	0	0	0	false				true	wh2_main_special_shrine_of_asuryan	false	0	0	true	1		true	0	0
 wh2_main_special_shrine_of_asuryan_1_hef	wh2_main_special_shrine_of_asuryan_hef	0	3	2500	0		false	0	0	0	0	false				true	wh2_main_special_shrine_of_asuryan	false	0	0	true	1		true	0	0
@@ -3192,11 +3267,11 @@ wh_main_brt_barracks_3	wh_main_BRETONNIA_barracks	2	3	4000	0		false	0	0	0	0	fals
 wh_main_brt_barracks_4	wh_main_BRETONNIA_barracks	3	4	5000	0		false	0	0	0	0	false				true	wh_main_EMPIRE_barracks	false	0	0	true	4		true	0	0
 wh_main_brt_carpenter_1	wh_main_BRETONNIA_carpenter	0	2	4000	0		false	0	0	0	0	false				true	wh_main_BRETONNIA_carpenter	true	0	0	true	2		true	0	0
 wh_main_brt_carpenter_2	wh_main_BRETONNIA_carpenter	1	3	6000	0		false	0	0	0	0	false				true	wh_main_BRETONNIA_carpenter	true	0	0	true	5		true	0	0
-wh_main_brt_farm_1	wh_main_BRETONNIA_farm_basic	0	1	1000	0		false	0	0	0	0	false				true	wh_main_EMPIRE_farm_basic	false	0	0	true	1		true	0	0
-wh_main_brt_farm_2	wh_main_BRETONNIA_farm_basic	1	2	2000	0		false	0	0	0	0	false				true	wh_main_EMPIRE_farm_basic	false	0	0	true	2		true	0	0
-wh_main_brt_farm_3	wh_main_BRETONNIA_farm_basic	2	3	3000	0		false	0	0	0	0	false				true	wh_main_EMPIRE_farm_basic	false	0	0	true	3		true	0	0
-wh_main_brt_farm_extra_1	wh_main_BRETONNIA_farm_extra	0	2	1000	0		false	0	0	0	0	false				true	wh_main_EMPIRE_farm_extra	false	0	0	true	2		true	0	0
-wh_main_brt_farm_extra_2	wh_main_BRETONNIA_farm_extra	1	3	2000	0		false	0	0	0	0	false				true	wh_main_EMPIRE_farm_extra	false	0	0	true	3		true	0	0
+wh_main_brt_farm_1	wh_main_BRETONNIA_farm_basic	0	1	500	0		false	0	0	0	0	false				true	wh_main_EMPIRE_farm_basic	false	0	0	true	1		true	0	0
+wh_main_brt_farm_2	wh_main_BRETONNIA_farm_basic	1	2	1500	0		false	0	0	0	0	false				true	wh_main_EMPIRE_farm_basic	false	0	0	true	2		true	0	0
+wh_main_brt_farm_3	wh_main_BRETONNIA_farm_basic	2	3	2500	0		false	0	0	0	0	false				true	wh_main_EMPIRE_farm_basic	false	0	0	true	3		true	0	0
+wh_main_brt_farm_extra_1	wh_main_BRETONNIA_farm_extra	0	2	500	0		false	0	0	0	0	false				true	wh_main_EMPIRE_farm_extra	false	0	0	true	2		true	0	0
+wh_main_brt_farm_extra_2	wh_main_BRETONNIA_farm_extra	1	3	1500	0		false	0	0	0	0	false				true	wh_main_EMPIRE_farm_extra	false	0	0	true	3		true	0	0
 wh_main_brt_garrison_1	wh_main_BRETONNIA_garrison	0	2	1500	0		false	0	0	0	0	false				true	wh_main_BRETONNIA_garrison	false	0	0	true	2		true	0	0
 wh_main_brt_garrison_2	wh_main_BRETONNIA_garrison	1	3	3000	0		false	0	0	0	0	false				true	wh_main_BRETONNIA_garrison	false	0	0	true	3		true	0	0
 wh_main_brt_hospital_1	wh_main_BRETONNIA_hospital	0	2	2000	0		false	0	0	0	0	false				true	wh_main_bretonnia_hospital	false	0	0	true	1		true	0	0
@@ -3485,7 +3560,7 @@ wh_main_emp_tavern_3	wh_main_EMPIRE_tavern	2	4	4500	0		false	0	0	0	0	false				tr
 wh_main_emp_walls_1	wh_main_EMPIRE_walls	0	3	2500	0		false	0	0	0	0	false				true	wh_main_EMPIRE_walls	false	0	0	true	2		true	0	0
 wh_main_emp_walls_2	wh_main_EMPIRE_walls	1	4	5000	0		false	0	0	0	0	false				true	wh_main_EMPIRE_walls	false	0	0	true	3		true	0	0
 wh_main_emp_walls_3	wh_main_EMPIRE_walls	2	5	7500	0		false	0	0	0	0	false				true	wh_main_EMPIRE_walls	false	0	0	true	4		true	0	0
-wh_main_emp_wizards_1	wh_main_EMPIRE_wizards	0	4	7500	0		false	0	0	0	0	false				true	wh_main_EMPIRE_wizards	false	0	0	true	4		true	0	0
+wh_main_emp_wizards_1	wh_main_EMPIRE_wizards	0	4	7500	0		false	0	0	0	0	false				true	wh_main_EMPIRE_wizards	false	0	0	true	3		true	0	0
 wh_main_emp_wizards_2	wh_main_EMPIRE_wizards	1	5	11250	0		false	0	0	0	0	false				true	wh_main_EMPIRE_wizards	false	0	0	true	5		true	0	0
 wh_main_emp_worship_1	wh_main_EMPIRE_worship	0	3	4000	0		false	0	0	0	0	false				true	wh_main_EMPIRE_worship	false	0	0	true	3		true	0	0
 wh_main_emp_worship_2	wh_main_EMPIRE_worship	1	4	6000	0		false	0	0	0	0	false				true	wh_main_EMPIRE_worship	false	0	0	true	4		true	0	0
@@ -3654,8 +3729,8 @@ wh_main_grn_settlement_ruin_minor_coast_skarsnik	wh_dlc06_GREENSKIN_settlement_m
 wh_main_grn_settlement_ruin_minor_coast_wurrzag	wh_dlc06_GREENSKIN_settlement_minor_coast_wurrzag	0	1	0	0		false	0	0	0	0	false				true	wh_main_ORC_settlement_minor_coast	false	0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
 wh_main_grn_settlement_ruin_minor_skarsnik	wh_dlc06_GREENSKIN_settlement_minor_skarsnik	0	1	0	0		false	0	0	0	0	false				true	wh_main_ORC_settlement_minor	false	0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
 wh_main_grn_settlement_ruin_minor_wurrzag	wh_dlc06_GREENSKIN_settlement_minor_wurrzag	0	1	0	0		false	0	0	0	0	false				true	wh_main_ORC_settlement_minor	false	0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
-wh_main_grn_shaman_1	wh_main_GREENSKIN_shaman	0	4	7500	0		false	0	0	0	0	false				true	wh_main_ORC_shaman	false	0	0	true	4		true	0	0
-wh_main_grn_shaman_2	wh_main_GREENSKIN_shaman	1	5	11250	0		false	0	0	0	0	false				true	wh_main_ORC_shaman	false	0	0	true	5		true	0	0
+wh_main_grn_shaman_1	wh_main_GREENSKIN_shaman	0	4	7500	0		false	0	0	0	0	false				true	wh_main_ORC_shaman	false	0	0	true	3		true	0	0
+wh_main_grn_shaman_2	wh_main_GREENSKIN_shaman	1	5	11250	0		false	0	0	0	0	false				true	wh_main_ORC_shaman	false	0	0	true	4		true	0	0
 wh_main_grn_walls_1	wh_main_GREENSKIN_walls	0	3	2500	0		false	0	0	0	0	false				true	wh_main_ORC_GOBLIN_walls	false	0	0	true	2		true	0	0
 wh_main_grn_walls_2	wh_main_GREENSKIN_walls	1	4	5000	0		false	0	0	0	0	false				true	wh_main_ORC_GOBLIN_walls	false	0	0	true	3		true	0	0
 wh_main_grn_walls_3	wh_main_GREENSKIN_walls	2	5	7500	0		false	0	0	0	0	false				true	wh_main_ORC_GOBLIN_walls	false	0	0	true	4		true	0	0

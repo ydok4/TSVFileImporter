@@ -1,0 +1,8 @@
+Loc PackedFile	1
+key	text	tooltip
+capture_point_types_onscreen_name_capture_point_tower_only	Capture Point - Tower	true
+capture_point_types_onscreen_name_victory_point_plaza	Victory Point - Plaza	true
+capture_point_types_onscreen_name_capture_point_gate_and_towers	Capture Point - Gate and Tower(s)	true
+capture_point_types_onscreen_name_capture_point_towers	Capture Point - Towers	true
+capture_point_types_onscreen_name_a_default_capture_point	Victory Point	true
+capture_point_types_onscreen_name_capture_point_gate_only	Capture Point - Gate	true

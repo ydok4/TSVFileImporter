@@ -3,6 +3,7 @@ agent_filter	culture_filter	faction_filter	key	vfx_description	vfx_event
 			103	2xtime_navy	navy_double_time
 			104	attrition_navy	navy_generic_attrition
 			109	level_up	navy_level_up
+			1099735898	nuke_test2	scripted_effect15
 			111	raid_navy	navy_raiding
 			1119882155	settlement_produces_ritual_currency	settlement_produces_ritual_currency
 			113	select_navy	navy_selection
@@ -13,8 +14,10 @@ agent_filter	culture_filter	faction_filter	key	vfx_description	vfx_event
 			128	under_attack	settlement_blockaded
 			13	debuff_army	agent_debuffed
 			1332179700	sword_settlement	scripted_effect9
+			1469137661	nuke_test1	scripted_effect14
 			1470481476	pirate_cove	scripted_effect11
 	wh2_main_sc_lzd_lizardmen		1471021812	settlement_produces_ritual_currency_lzd	settlement_produces_ritual_currency
+			1509561178	nuke_test3	scripted_effect16
 			155	settle_devpoint	settlement_development_point_available
 			1567021314	look_at_tutorial	ping_look_at_vfx
 			160	disease	settlement_disease
@@ -39,6 +42,7 @@ agent_filter	culture_filter	faction_filter	key	vfx_description	vfx_event
 			228	edict_army	settlement_province_edict_military
 			23	attacking	army_besieging
 			231	edict_population	settlement_province_edict_population
+			237453248	under_empire_army	scripted_effect20
 			246	destruction_fire	settlement_abandoned
 			247	destruction_fire_res	settlement_abandoned_residual_fire
 			256	destruction_smoke_res	settlement_abandoned_residual_smoke

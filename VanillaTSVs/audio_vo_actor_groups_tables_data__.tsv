@@ -33,6 +33,13 @@ wh2_dlc11_vo_actor_VampireCoast_Gunnery_Wight	wh2_dlc11_vo_actor_VampireCoast_Gu
 wh2_dlc11_vo_actor_VampireCoast_Luthor_Harkon	wh2_dlc11_vo_actor_VampireCoast_Luthor_Harkon															0
 wh2_dlc11_vo_actor_VampireCoast_Mourngul_Haunter	wh2_dlc11_vo_actor_VampireCoast_Mourngul_Haunter															0
 wh2_dlc11_vo_actor_VampireCoast_Zombie_Mob	wh2_dlc11_vo_actor_VampireCoast_Zombie_Mob1	wh2_dlc11_vo_actor_VampireCoast_Zombie_Mob2	wh2_dlc11_vo_actor_VampireCoast_Zombie_Mob3	wh2_dlc11_vo_actor_VampireCoast_Zombie_Mob4												0
+wh2_dlc12_vo_actor_Lizardmen_Lord_Kroak	wh2_dlc12_vo_actor_Lizardmen_Lord_Kroak															1
+wh2_dlc12_vo_actor_Lizardmen_Red_Crested_Skink_Chief	wh2_dlc12_vo_actor_Lizardmen_Red_Crested_Skink_Chief1	wh2_dlc12_vo_actor_Lizardmen_Red_Crested_Skink_Chief2														0
+wh2_dlc12_vo_actor_Lizardmen_Tehenhauin	wh2_dlc12_vo_actor_Lizardmen_Tehenhauin															0
+wh2_dlc12_vo_actor_Lizardmen_Tiktaqto	wh2_dlc12_vo_actor_Lizardmen_Tiktaqto															0
+wh2_dlc12_vo_actor_Skaven_Ikit_Claw	wh2_dlc12_vo_actor_Skaven_Ikit_Claw															0
+wh2_dlc12_vo_actor_Skaven_Vocalisation_Orders	wh2_dlc12_vo_actor_Skaven_Vocalisations_Only_Unit															0
+wh2_dlc12_vo_actor_Skaven_Warlock_Master	wh2_dlc12_vo_actor_Skaven_Warlock_Master1	wh2_dlc12_vo_actor_Skaven_Warlock_Master2														0.5
 wh2_main_vo_actor_Dark_Elves_Death_Hag	wh2_main_vo_actor_Dark_Elves_Death_Hag1	wh2_main_vo_actor_Dark_Elves_Death_Hag2														0
 wh2_main_vo_actor_Dark_Elves_Dreadlord	wh2_main_vo_actor_Dark_Elves_Dreadlord1	wh2_main_vo_actor_Dark_Elves_Dreadlord2														0
 wh2_main_vo_actor_Dark_Elves_DreadlordFemale	wh2_main_vo_actor_Dark_Elves_DreadlordFemale1	wh2_main_vo_actor_Dark_Elves_DreadlordFemale2														0
@@ -70,6 +77,7 @@ wh2_main_vo_actor_Skaven_Queek_Headtaker	wh2_main_vo_actor_Skaven_Queek_Headtake
 wh2_main_vo_actor_Skaven_Unit	wh2_main_vo_actor_Skaven_Unit1	wh2_main_vo_actor_Skaven_Unit2	wh2_main_vo_actor_Skaven_Unit3	wh2_main_vo_actor_Skaven_Unit4	wh2_main_vo_actor_Skaven_Unit5											0
 wh2_main_vo_actor_Skaven_Warlock_Engineer	wh2_main_vo_actor_Skaven_Warlock_Engineer1	wh2_main_vo_actor_Skaven_Warlock_Engineer2														0
 wh2_main_vo_actor_Skaven_Warlord	wh2_main_vo_actor_Skaven_Warlord1	wh2_main_vo_actor_Skaven_Warlord2														0
+wh2_pro07_emp_amethyst_wizard	wh2_pro07_emp_amethyst_wizard															0
 wh_dlc01_vo_actor_Chaos_ArchaonTheEverchosen	wh_dlc01_vo_actor_Chaos_ArchaonTheEverchosen															0
 wh_dlc01_vo_actor_Chaos_KholekSuneater	wh_dlc01_vo_actor_Chaos_KholekSuneater															0
 wh_dlc01_vo_actor_Chaos_SigvaldTheMagnificent	wh_dlc01_vo_actor_Chaos_SigvaldTheMagnificent															0

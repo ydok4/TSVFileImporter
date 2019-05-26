@@ -63,6 +63,11 @@ wh2_dlc11_emp_empire_qb5	243	243	243	119	50	50	1	1	1
 wh2_dlc11_nor_norsca_dil	136	182	210	102	91	57	1	1	1
 wh2_dlc11_nor_norsca_qb4	136	182	210	102	91	57	1	1	1
 wh2_dlc11_vmp_the_barrow_legion	29	82	117	104	104	104	1	1	1
+wh2_dlc12_grn_leaf_cutterz_tribe	164	62	50	102	94	77	255	255	255
+wh2_dlc12_grn_leaf_cutterz_tribe_waaagh	164	62	50	102	94	77	255	255	255
+wh2_dlc12_lzd_cult_of_sotek	28	28	28	195	53	9	255	192	9
+wh2_dlc12_skv_clan_fester	69	53	39	32	58	31	206	206	206
+wh2_dlc12_skv_clan_mange	152	133	106	105	115	39	111	127	101
 wh2_main_brt_knights_of_origo	178	38	38	227	227	227	255	255	255
 wh2_main_brt_knights_of_the_flame	206	197	163	175	44	44	255	255	255
 wh2_main_brt_thegans_crusaders	94	133	182	206	197	163	255	255	255
@@ -203,6 +208,7 @@ wh2_main_skv_clan_moulder	152	133	106	98	22	22	166	152	138
 wh2_main_skv_clan_pestilens	45	58	21	105	115	39	134	146	113
 wh2_main_skv_clan_pestilens_separatists	137	174	44	168	1	1	134	146	113
 wh2_main_skv_clan_septik	152	133	106	105	115	39	111	127	101
+wh2_main_skv_clan_skryre_separatists	64	113	64	45	80	60	137	130	122
 wh2_main_skv_clan_skyre	71	129	59	30	101	57	137	130	122
 wh2_main_skv_clan_spittel	47	62	98	101	140	33	125	120	90
 wh2_main_skv_grey_seer_clan	135	31	31	213	210	191	176	176	176

@@ -1,5 +1,5 @@
 modifiable_unit_stats_tables	0
-stat_key	localisation
+localisation	stat_key
 scalar_bracing	scalar_bracing
 scalar_charge_speed	scalar_charge_speed
 scalar_entity_acceleration_modifier	scalar_entity_acceleration_modifier

@@ -286,6 +286,7 @@ wh2_main_special_settlement_pyramid_of_nagash_skv	5	4
 wh2_main_special_settlement_pyramid_of_nagash_skv	7	5
 wh2_main_special_settlement_pyramid_of_nagash_vmp	5	4
 wh2_main_special_settlement_pyramid_of_nagash_vmp	7	5
+wh2_main_special_settlement_pyramid_of_nagash_wef	2	-1
 wh2_main_special_settlement_sartosa_brt	2	-1
 wh2_main_special_settlement_sartosa_cst	2	-1
 wh2_main_special_settlement_sartosa_def	2	-1
@@ -301,7 +302,11 @@ wh2_main_special_settlement_sartosa_skv	2	-1
 wh2_main_special_settlement_sartosa_tmb	2	-1
 wh2_main_special_settlement_sartosa_vmp	2	-1
 wh2_main_special_settlement_sartosa_wef	2	-1
-wh2_main_special_settlement_skavenblight	2	-1
+wh2_main_special_settlement_skavenblight	2	1
+wh2_main_special_settlement_skavenblight	4	2
+wh2_main_special_settlement_skavenblight	6	3
+wh2_main_special_settlement_skavenblight	9	4
+wh2_main_special_settlement_skavenblight	12	5
 wh2_main_special_settlement_skavenblight_wef	2	-1
 wh2_main_special_settlement_the_awakening_brt	2	-1
 wh2_main_special_settlement_the_awakening_cst	2	-1

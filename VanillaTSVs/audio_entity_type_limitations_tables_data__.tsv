@@ -1,10 +1,12 @@
-audio_entity_type_limitations_tables	4
-far_inside	far_outside	key	max_distance_animation_driven	near_inside	near_outside	animation_uncapped	max_distance_code_driven	can_play_at_bone	code_uncapped
-15	10	Lord_Hero	500	5	2	true	400	true	true
-50	7	large	200	5	5	false	180	false	false
-50	7	medium	160	5	5	false	90	false	false
-24	6	medium_special	240	1	1	false	90	false	false
-50	7	small	120	5	5	false	90	false	false
-15	10	veryloud	500	5	2	true	400	true	true
-30	15	war_machine	500	10	5	true	250	true	true
-25	7	war_machine_group	140	5	5	false	140	false	false
+audio_entity_type_limitations_tables	5
+far_inside	far_outside	key	max_distance_animation_driven	near_inside	near_outside	animation_uncapped	max_distance_code_driven	can_play_at_bone	code_uncapped	contains_unique_entity_switches
+15	10	Lord_Hero	500	5	2	true	400	true	true	false
+4	4	doomflayer	140	4	4	false	140	false	false	true
+50	7	large	200	5	5	false	180	false	false	false
+50	7	medium	160	5	5	false	90	false	false	false
+24	6	medium_special	240	1	1	false	90	false	false	false
+50	7	ratling_gun	500	5	5	false	90	false	false	false
+50	7	small	120	5	5	false	90	false	false	false
+15	10	veryloud	500	5	2	true	400	true	true	false
+30	15	war_machine	500	10	5	true	250	true	true	false
+25	7	war_machine_group	140	5	5	false	140	false	false	false

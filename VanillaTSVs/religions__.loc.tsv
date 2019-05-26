@@ -1,0 +1,6 @@
+Loc PackedFile	1
+key	text	tooltip
+religions_onscreen_wh_main_religion_untainted	[[img:icon_corruption_untainted]][[/img]]Untainted	true
+religions_onscreen_wh_main_religion_undeath	[[img:icon_corruption_vmp]][[/img]]Vampiric Corruption	true
+religions_onscreen_wh2_main_religion_skaven	[[img:icon_corruption_skv]][[/img]]Skaven Corruption	true
+religions_onscreen_wh_main_religion_chaos	[[img:icon_corruption_chs]][[/img]]Chaos Corruption	true

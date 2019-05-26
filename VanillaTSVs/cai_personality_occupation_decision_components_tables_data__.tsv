@@ -13,3 +13,4 @@ dwarfs_early	default_early	default_early_uncapturable	default_early_uncapturable
 looter	looter	looter	looter_uncapturable	looter_uncapturable
 looter_early	looter_early	looter_early_uncapturable	looter_early_uncapturable	looter_early_uncapturable
 noraze	noraze	noraze	noraze_uncapturable	noraze_uncapturable
+raider	raider	raider	raider_uncapturable	raider_uncapturable

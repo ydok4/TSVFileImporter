@@ -1,5 +1,5 @@
 cai_agent_record_to_cai_agent_type_junctions_tables	1
-agent_type_key	agent_record_key	agent_subtype_key
+agent_record_key	agent_type_key	agent_subtype_key
 champion	cai_agent_type_champion	
 dignitary	cai_agent_type_dignitary	
 engineer	cai_agent_type_engineer	

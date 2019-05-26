@@ -1,0 +1,1038 @@
+Loc PackedFile	1
+key	text	tooltip
+campaign_localised_strings_string_brt_peasant_icon_tooltip	This is a [[img:bullet_brt_peasants]][[/img]]peasant unit whose men are no longer able to work their farms.\nYou currently have [[col:yellow]]%d[[/col]] [[img:bullet_brt_peasants]][[/img]]peasant units in all of your armies with your faction being able to support [[col:yellow]]%d[[/col]] before suffering negative effects.	true
+campaign_localised_strings_string_unit_exchange_commanders_invalid	[[col:red]]Forces cannot exchange [[img:icon_general]][[/img]]Lords.[[/col]]	true
+campaign_localised_strings_string_public_order_rebellion_next_turn	{{tr:public_order_rebellion_next_turn}}	true
+campaign_localised_strings_string_military_force_morale_bonus_value_politics	Events	true
+campaign_localised_strings_string_force_not_in_correct_stance_not_enough_ap	[[col:red]]This force is currently not in the [[img:icon_encamp_stance]][[/img]]Encamp stance and doesn't have enough movement range to adopt it.[[/col]]	true
+campaign_localised_strings_string_hud_button_blessed_spawning_tooltip_not_available	You cannot currently recruit Blessed Spawnings.	true
+campaign_localised_strings_string_end_turn_camera_settings_veryhigh	Strategic	true
+campaign_localised_strings_string_military_force_morale_bonus_value_modifier_faction	Faction Bonus	true
+campaign_localised_strings_string_military_force_growth_tax	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_building_restriction_wh_dlc06_dwf_ranger_hub_2	TEST	true
+campaign_localised_strings_string_politics_character_cannot_become_governor_wounded	This character cannot be assigned governor whilst wounded.	true
+campaign_localised_strings_string_pending_action_warning_building_available	Building upgrade available	true
+campaign_localised_strings_string_events_attrition_summary_location	Province:	true
+campaign_localised_strings_string_regular_expenditure_loan_repayment	 	true
+campaign_localised_strings_string_MPC_cannot_construct_not_your_turn	[[col:red]]You cannot construct buildings during other factions' turns.[[/col]]	true
+campaign_localised_strings_string_death_night_button_inactive	[[col:red]]You cannot trigger [[img:death_night]][[/img]]Death Night until you have the required amount of [[img:icon_slaves]][[/img]]slaves to sacrifice.[[/col]]\n\n[[img:icon_slaves]][[/img]]Slaves required:	true
+campaign_localised_strings_string_war_coordination_tooltip_left_click	Left-click to set target.	true
+campaign_localised_strings_string_region_not_discovered_cannot_zoom	[[col:red]]This settlement is yet to be discovered.[[/col]]	true
+campaign_localised_strings_string_politics_character_regent	Regent	true
+campaign_localised_strings_string_units_of_renown_tooltip_cooldown	[[col:red]]This unit will only become available again after the indicated number of turns.[[/col]]	true
+campaign_localised_strings_string_end_turn_warning_public_order_low	This [[url:script_link_campaign_provinces]][[tooltip:{{tt:tooltip_campaign_provinces}}]]province[[/tooltip]][[/url]] has dangerously low [[img:icon_public_order]][[/img]][[url:script_link_campaign_public_order]][[tooltip:{{tt:tooltip_campaign_public_order}}]]{{tr:public_order}}[[/tooltip]][[/url]]:	true
+campaign_localised_strings_string_public_order_culture_non_vampiric	Lack of corruption	true
+campaign_localised_strings_string_end_turn_display_tooltip_ai_move_limited	Show only AI character moves that interact directly with your characters or settlements.	true
+campaign_localised_strings_string_military_history_battles_victory_decisive	Decisive victory against:	true
+campaign_localised_strings_string_politics_assign_governor	Left-click to assign your character this office.	true
+campaign_localised_strings_string_quest_teleport_dialogue_msg	Are you sure you want to teleport?	true
+campaign_localised_strings_string_details_panel_skills_cannot_select	This character cannot learn this skill:	true
+campaign_localised_strings_string_sword_button_owned	You wield the Sword of Khaine.\n[[col:red]]The sword will be lost if its owner is wounded.[[/col]]\nLeft-click to track the Sword of Khaine.\nSword currently controlled by: 	true
+campaign_localised_strings_string_tooltip_skaven_public_order_from_untainted	From [[img:icon_corruption_untainted]][[/img]]Untainted	true
+campaign_localised_strings_string_rituals_transfer_panel_local_players_total	You have: [[img:icon_ritual_currency]][[/img]]%d	true
+campaign_localised_strings_string_waagh_child_threshold_tooltip_upper	{{tr:waagh_child_threshold_tooltip_upper}}	true
+campaign_localised_strings_string_monster_hunt_10_objective	Hunt down and slay the savage Beast of Raema!	true
+campaign_localised_strings_string_monster_hunt_11_objective	Hunt down and slay the foul Hellbeast of Seep-Gore!	true
+campaign_localised_strings_string_bonus_reward_description	(from bonus objectives)	true
+campaign_localised_strings_string_cannot_activate_beastmen_hidden_encampment_stance	\n\n[[col:red]]You cannot adopt the [[img:icon_hidden_encampment]][[/img]]Hidden Encampment stance when in view of another faction's army.[[/col]]\n	true
+campaign_localised_strings_string_rituals_arrow_tooltip_in_progress_turns_remaining	(%d turns remaining)	true
+campaign_localised_strings_string_raise_navy_capped	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_food_cost	[[col:red]]Food cost: [[img:icon_skaven_food]][[/img]]%d/%d[[/col]]	true
+campaign_localised_strings_string_wh2_dlc11_cst_noctilus_leader	Count Noctilus	true
+campaign_localised_strings_string_commandments_level_tooltip	Geomantic Web strength: %d	true
+campaign_localised_strings_string_cannot_occupy_wh_main_brt_bretonnia	[[col:red]]Your race cannot occupy settlements of this racial type.[[/col]]	true
+campaign_localised_strings_string_rituals_ritual_status_available_intervention_ritual	Left-click to call upon intervention	true
+campaign_localised_strings_string_raise_legacy_capped	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_war_coordination_tooltip_left_click_invalid	[[col:red]]A war co-ordination target must be a mutual enemy settlement or [[img:icon_general]][[/img]]Lord.[[/col]]	true
+campaign_localised_strings_string_ritual_currency_factor_PROVINCES	Provinces	true
+campaign_localised_strings_string_regular_expenditure_loan_repayment_tooltip	 	true
+campaign_localised_strings_string_wh2_dlc11_cst_vampire_coast	Vampire Coast	true
+campaign_localised_strings_string_end_turn_warning_not_researching	You are not currently researching any [[url:script_link_campaign_technology]][[tooltip:{{tt:tooltip_campaign_technology}}]]technologies[[/tooltip]][[/url]].	true
+campaign_localised_strings_string_cannot_recruit_agent_horde_tooltip	[[col:red]]You cannot recruit a new [[img:icon_hero]][[/img]]Hero here.[[/col]]	true
+campaign_localised_strings_string_military_force_morale_foriegn_soil	Foreign Soil	true
+campaign_localised_strings_string_hud_button_units_of_renown_tooltip_at_sea	You cannot recruit regiments of renown while at sea.	true
+campaign_localised_strings_string_military_force_growth_technologies	Technologies	true
+campaign_localised_strings_string_development_points_tooltip_hordes_insufficent_development_points_number_expedition	{{tr:development_points_tooltip_hordes_insufficent_development_points_number_expedition}}	true
+campaign_localised_strings_string_norsca_ror_unlock_reason	[[col:red]]This Regiment of Renown will unlock only if you align yourself with the Hound God.[[/col]]	true
+campaign_localised_strings_string_province_fertility_factor_climate	Climate	true
+campaign_localised_strings_string_wounded_with_turns	[[col:red]]This character is wounded. Turns until available:[[/col]]	true
+campaign_localised_strings_string_recruitment_cannot_local_buildings	[[col:red]]Military chain buildings are required for local recruitment.[[/col]]	true
+campaign_localised_strings_string_development_points_tooltip_hordes_growth	{{tr:development_points_tooltip_hordes_growth}}	true
+campaign_localised_strings_string_imperium_01_description	Your power is of little consequence to the world... yet!	true
+campaign_localised_strings_string_military_force_morale_bonus_value_foreign_territory	Hostile Territory	true
+campaign_localised_strings_string_imperium_02_description	You have established yourself as a worthy power.	true
+campaign_localised_strings_string_character_type_wife	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_imperium_03_description	Word of your achievements has travelled far.	true
+campaign_localised_strings_string_imperium_04_description	Your accomplishments are great.	true
+campaign_localised_strings_string_imperium_05_description	Your power is both feared and coveted.	true
+campaign_localised_strings_string_imperium_06_description	The world trembles before you.	true
+campaign_localised_strings_string_imperium_07_description	Your power is supreme.	true
+campaign_localised_strings_string_public_order_food_tooltip	Food	true
+campaign_localised_strings_string_military_history_battles	Battles fought:	true
+campaign_localised_strings_string_politics_power_support_popular_description	Dominion is a measure of your influence over your faction; your power over the people. It is determined by the total influence of your family members versus that of non-family members.\n\nCombined with control, it defines your family's overall power.	true
+campaign_localised_strings_string_wh2_dlc11_cst_rogue_the_churning_gulf_raiders	The Churning Gulf Raiders	true
+campaign_localised_strings_string_politics_cannot_assign_age	This character has not come of age and cannot become governor yet.	true
+campaign_localised_strings_string_cannot_activate_stance_with_pending_recruitments	\n\n[[col:red]]You cannot adopt this stance while the army is recruiting.[[/col]]\n	true
+campaign_localised_strings_string_military_force_morale_unit_transfer	Unit Transfer	true
+campaign_localised_strings_string_recruitment_hire_from_horde	Recruit from Horde	true
+campaign_localised_strings_string_recruitment_units_of_renown	{{tr:recruitment_units_of_renown}}	true
+campaign_localised_strings_string_ancillary_tooltip_max_items_with_abilities	[[col:red]]You are limited to equipping no more than 3 items that provide an ability.[[/col]]	true
+campaign_localised_strings_string_rituals_arrow_tooltip_key_settlement_player_lost	[[col:red]][[img:ui/skins/default/icon_marker_settlement.png]][[/img]] %s (lost)[[/col]]	true
+campaign_localised_strings_string_recruitment_blessed_spawn	Spawn units||Any units in the queue will instantly be recruited to your army.	true
+campaign_localised_strings_string_public_order_taxes_tooltip	{{tr:taxes}}	true
+campaign_localised_strings_string_public_order_other_tooltip	Other	true
+campaign_localised_strings_string_province_contested	[[col:red]](Contested province)[[/col]]	true
+campaign_localised_strings_string_cannot_colonise_wh_dlc03_bst_beastmen	[[col:red]]Your race operates in mighty hordes and cannot colonise settlements of any type.[[/col]]	true
+campaign_localised_strings_string_politics_ministerial_position_required_rank	Required rank:	true
+campaign_localised_strings_string_details_panel_skills_cannot_no_skill_points	They have no skill points.	true
+campaign_localised_strings_string_unit_upgrade_multiple_units	Left-click to upgrade all currently selected units.	true
+campaign_localised_strings_string_raise_force_reinstate_cannot_no_legacies	[[col:red]]You have no military legacies to reinstate.[[/col]]	true
+campaign_localised_strings_string_sword_button_locked_down_and_razed	The Sword of Khaine is unavailable.\n[[col:red]]Occupy the Shrine of Khaine and construct the  Shrine of the Widowmaker building to unlock it.[[/col]]\nLeft-click to track the Sword of Khaine.\nSword buried in ruins	true
+campaign_localised_strings_string_political_cannot_assign_already_assigned	[[col:red]]This [[img:icon_general]][[/img]]Lord has already been assigned to an office this turn, and may not be assigned again.[[/col]]	true
+campaign_localised_strings_string_politics_power_support_political_current	Current control:	true
+campaign_localised_strings_string_imperium_tooltip	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_upkeep_alert_total_value	Your total army upkeep is estimated to increase by: {{tr:icon_money}} %d	true
+campaign_localised_strings_string_wh2_dlc11_cst_shanty_dragon_spine_privateers_leader	Fhiron Wavemaker	true
+campaign_localised_strings_string_end_turn_button_tooltip_end_turn	End Turn	true
+campaign_localised_strings_string_winds_of_magic_description	The stronger the Winds of Magic blow within in a region, the more magical power at Wizards' disposal in battles that take place there.	true
+campaign_localised_strings_string_public_order_other	Other	true
+campaign_localised_strings_string_public_order_taxes	{{tr:taxes}}	true
+campaign_localised_strings_string_pending_action_warning_character	Unassigned skill points	true
+campaign_localised_strings_string_politics_action_impossible_target_retainer_rank_too_high	[[col:red]]Characters may only engage retainers of lower rank than themselves.[[/col]]	true
+campaign_localised_strings_string_unit_details_rank	Rank:	true
+campaign_localised_strings_string_military_force_morale_effect_waaagh	{{tr:military_force_morale_effect_waaagh}}	true
+campaign_localised_strings_string_cannot_occupy_wh2_main_skv_skaven	Cannot occupy	true
+campaign_localised_strings_string_hud_button_units_of_renown_tooltip_not_available	You cannot currently recruit regiments of renown.	true
+campaign_localised_strings_string_military_history_battles_defeat_decisive	Decisive defeat by:	true
+campaign_localised_strings_string_wh2_dlc11_mission_text_piece_of_eight_8_title	Cursed Bullion of Bogenhafen	true
+campaign_localised_strings_string_raise_force_navy_no_surplus	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_zeal_desc	Security against zeal-based agent actions.	true
+campaign_localised_strings_string_building_required	Building required: 	true
+campaign_localised_strings_string_recruitment_confirmation_blessed	Spawn	true
+campaign_localised_strings_string_military_force_morale_faction_leader_died	Turbulence	true
+campaign_localised_strings_string_raise_army_besieged	[[col:red]]This settlement is under siege.[[/col]]	true
+campaign_localised_strings_string_public_order_food	Food	true
+campaign_localised_strings_string_rituals_arrow_tooltip_key_settlement_known	[[img:ui/skins/default/icon_marker_settlement.png]][[/img]] %s	true
+campaign_localised_strings_string_rituals_ritual_status_unlock_mission_not_completed	Unlock mission not completed	true
+campaign_localised_strings_string_politics_action_impossible_target_underage	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_cannot_recruit_force_horde_tooltip	[[col:red]]You cannot raise a new force here.[[/col]]	true
+campaign_localised_strings_string_end_turn_settings_target_enemies	Enemy factions	true
+campaign_localised_strings_string_cannot_migrate_no_armies	Cannot migrate with no armies.	true
+campaign_localised_strings_string_politics_character_status_scheming	Scheming	true
+campaign_localised_strings_string_politics_character_status_deceased	Deceased	true
+campaign_localised_strings_string_events_attrition_summary_men_lost	Men lost:	true
+campaign_localised_strings_string_military_force_morale_dishonoured	Dishonoured	true
+campaign_localised_strings_string_military_force_growth_core	Core	true
+campaign_localised_strings_string_regular_expenditure_wages	 	true
+campaign_localised_strings_string_public_order_deteriorating	[[img:icon_public_order]][[/img]]{{tr:public_order_effect}} is deteriorating. 	true
+campaign_localised_strings_string_rituals_transfer_panel_description	This will transfer your [[img:icon_ritual_currency]][[/img]]{{tr:ritual_currency_term}} to your co-op partner, %s.	true
+campaign_localised_strings_string_province_panel_geomantic_web_label	Geomantic Web strength: %d	true
+campaign_localised_strings_string_unit_upgrade_single_unit	Left-click to upgrade the currently selected unit with:	true
+campaign_localised_strings_string_monster_hunt_5_description	Somewhere amongst the lush glades of Athel Loren lives Radixashen, Serpent of the Worldroots. Although the Wood Elves are highly adept at protecting their territory, when the forest is in real peril this mighty Forest Dragon will come to their aid. It is a terrific bounty, but in sacrificing it you will be depriving the forest of one of its champions - it will not be given up easily!	true
+campaign_localised_strings_string_character_mentor_of	This character is a mentor of: 	true
+campaign_localised_strings_string_monster_hunt_4_description	Blorgar the Mad Titan is a brutish and highly flatulent Giant wreaking havoc in the Grey Mountains. As his name suggests, he has no real agenda except to mindlessly trample settlements and squish their inhabitants under his colossal wart-ridden feet. The Dark Gods may favour such an unpredictable and destructive being, but they shall surely favour you more for slaying it in their name!	true
+campaign_localised_strings_string_monster_hunt_7_description	The Abyssal Shrieker is a terrible flying beast of legend, shrouded in macabre myth. This nightmare of the sky, whose shrieks of the damned emanate from the Ruinous Realm itself, is of the giant Undead bat species known as Terrorgheists. Little is known about the Abyssal Shrieker, except that many a hunter has fallen trying to fell it!	true
+campaign_localised_strings_string_monster_hunt_6_description	A great prize awaits the hunter who dares brave the most desolate reaches of the northern tundra. One particular herd of mammoths known as the Great Mawherd of Bloodfjord has earned notoriety throughout the tribes for having the most powerful and unpredictably aggressive beasts in its parade. Slaying them will surely bring great favour!	true
+campaign_localised_strings_string_monster_hunt_1_description	Perhaps the scariest of all giant humanoid monster species, Cygors are some of the angriest creatures to roam the Old World. The Salzenmund Soul-Eaters are a pair of Cygors even bigger and stronger than others of their kind, making them among the most difficult monsters to hunt. Their cycloptic eyes not only see the Winds of Magic, but also dampen their use for most spellcasters in their presence.	true
+campaign_localised_strings_string_monster_hunt_0_description	A dangerous, murderous Frost-Wyrm is a great offering to the Gods indeed, and none are more dangerous and murderous than Frigustrex, Scion of the Cold-Void. It appears only where the worst snow storms fall, so to hunt it down you must battle the worst of the elements as well as the monster itself.	true
+campaign_localised_strings_string_monster_hunt_3_description	Arachnarok Queens are the type of despicable poisonous monster that should not be trifled with. One Venom Queen is hard enough to bring down, but to take on this bounty you will have to face multiple Queens – the Brood Queens of Karak Azul. All in a day’s hunt!	true
+campaign_localised_strings_string_monster_hunt_2_description	As creatures of Chaos, Dragon Ogre Shaggoths are a highly-favourable sacrifice to the Dark Gods, but also extremely difficult to bring down. Their strength and power are proportional to their age, making the millennia-old Traygard Mountain-Cleaver in particular a truly-challenging target for the hunt. Beware the lightning!	true
+campaign_localised_strings_string_monster_hunt_9_description	While the most infamous Carnosaur is Grymloq - mount of the mighty Kroq-Gar - there is another known to the Skinks of the Hexoatl isthmus. A Carnosaur like no other; a creature than can never be tamed and blessed with an eternal hunger that has seen it grow to a massive size. The Lizardmen call it 'Gargantulzan' - a behemoth of the Old Ones - and worship it as a minor god. As a deity, Gargantulzan is worthy of many sacrifices. The jungle provides a vast bounty, but the Skinks will also gladly gift their hungry god any warmbloods foolish to stray too close.	true
+campaign_localised_strings_string_monster_hunt_8_description	As a Flamespyre Phoenix ages, its body cools, and even begins to sap heat from its surroundings. Not so the Mother of the Flame - this gigantic Phoenix has never cooled and burns as brightly now as when she was first born, within the heart of a volcano. The Mother is said to spend much of her life within the Realm of Chaos itself, gliding upon the Winds of Magic and hunting Daemonic essence. When she does enter the mortal world she emerges from an erupting volcano, bringing purifying fire into the world, often accompanied by her flaming children.	true
+campaign_localised_strings_string_end_turn_settings_target_current_faction	Current Faction	true
+campaign_localised_strings_string_pending_action_warning_rebellion	Imminent rebellion	true
+campaign_localised_strings_string_wh2_dlc11_def_the_blessed_dread_leader	Kharlil Lothreef	true
+campaign_localised_strings_string_politics_action_impossible_target_candidate	[[col:red]]You cannot carry out machinations against candidates.[[/col]]	true
+campaign_localised_strings_string_wh2_dlc12_sotek_segment_locked_tooltip	{{tr:wh2_dlc12_sotek_segment_locked_tooltip}}	true
+campaign_localised_strings_string_details_panel_ancillary_wife_empty	This character has no wife. Your characters may receive marriage proposals from other parties, or you can arrange marriages for characters from other parties by engaging in faction politics.	true
+campaign_localised_strings_string_politics_character_status_wounded	Wounded	true
+campaign_localised_strings_string_wh2_dlc09_lock_ror_crafting	[[col:red]]This unit will become available after first crafting it in the Mortuary Cult.[[/col]]	true
+campaign_localised_strings_string_regular_income_client_state	 	true
+campaign_localised_strings_string_public_order_breakdown_rebellion	{{tr:public_order_breakdown_rebellion}}	true
+campaign_localised_strings_string_blessed_units_tooltip_empty_pool	[[col:red]]This unit will become available after completing a mission.[[/col]]	true
+campaign_localised_strings_string_military_history_battles_victory_phyrric	Costly victory against:	true
+campaign_localised_strings_string_military_force_morale_lost_battle	Battle Lost	true
+campaign_localised_strings_string_wh2_dlc11_cst_rogue_tyrants_of_the_black_ocean_leader	Dastan Coldeye	true
+campaign_localised_strings_string_politics_event_assassination_wife_success	The wife was successfully assassinated!	true
+campaign_localised_strings_string_wh2_dlc11_cst_rogue_freebooters_of_port_royale	Freebooters of Port Royale	true
+campaign_localised_strings_string_wh2_dlc12_lzd_sacrifices_tier_3_lock_reason	\n[[col:red]]Complete the following mission to unlock this tier of sacrifices: "The Skaven War: Wrath of the Jungle"[[/col]]	true
+campaign_localised_strings_string_wh2_dlc12_lzd_sacrifices_tier_2_lock_reason	\n[[col:red]]Complete the following mission to unlock this tier of sacrifices: "The Skaven War: The Great Serpent's Due"[[/col]]	true
+campaign_localised_strings_string_wh2_dlc12_lzd_sacrifices_tier_4_lock_reason	\n[[col:red]]Complete the following mission to unlock this tier of sacrifices: "The Rise of the Red Crests: Exodus"[[/col]]	true
+campaign_localised_strings_string_wh2_dlc11_ritual_bloodlines_von_carstein_focus_text	Lords Focus: Puppet Master	true
+campaign_localised_strings_string_military_force_morale_bonus_value_modifier_military_force	Military Force Bonus	true
+campaign_localised_strings_string_religion_factor_province	Local populace	true
+campaign_localised_strings_string_craft_tooltip_cannot_afford_cost	[[col:red]]You do not have all the necessary resources.[[/col]]	true
+campaign_localised_strings_string_workshop_weapon_team_name_2	Warplock Jezzails	true
+campaign_localised_strings_string_workshop_weapon_team_name_3	Warpfire Thrower Weapons Team	true
+campaign_localised_strings_string_workshop_weapon_team_name_1	Ratling Gun Weapons Team	true
+campaign_localised_strings_string_regular_income_client_state_tooltip	 	true
+campaign_localised_strings_string_end_turn_warning_siege_no_equipment	You are [[url:script_link_campaign_siege_warfare]][[tooltip:{{tt:tooltip_campaign_siege_warfare}}]]besieging[[/tooltip]][[/url]] a [[url:script_link_campaign_settlements]][[tooltip:{{tt:tooltip_campaign_settlements}}]]settlement[[/tooltip]][[/url]] with no [[url:script_link_campaign_siege_weapons]][[tooltip:{{tt:tooltip_campaign_siege_weapons}}]]assault equipment[[/tooltip]][[/url]]:	true
+campaign_localised_strings_string_other_nobles_candidates_description	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_army_recruitment_pool_empty	[[col:red]]This unit has no availability.[[/col]]	true
+campaign_localised_strings_string_sword_button_active	The Sword of Khaine is ready to be taken.\n[[col:red]]Garrison a [[img:icon_general]][[/img]]Lord at the Shrine of Khaine to claim it.[[/col]]\nLeft-click to claim the Sword of Khaine.\nSword currently controlled by: 	true
+campaign_localised_strings_string_details_panel_skills_select	This character may learn an additional skill.\nLeft-click a skill to learn it.	true
+campaign_localised_strings_string_politics_character_not_politician	[[col:red]]Active Lords may not become [[img:icon_overseer]][[/img]]Overseers.[[/col]]	true
+campaign_localised_strings_string_info_panel_effect_summary_general	Commander's effects	true
+campaign_localised_strings_string_recruitment_unavailable_incorrect_stance	Cannot recruit in this stance.	true
+campaign_localised_strings_string_public_order_breakdown_rebellion_tooltip	{{tr:public_order_breakdown_rebellion_tooltip}}	true
+campaign_localised_strings_string_politics_action_possible	[[col:green]]This machination will be resolved at the start of the next turn.[[/col]]	true
+campaign_localised_strings_string_rituals_arrow_tooltip_key_settlement_lost_others	\n[[col:green]]A ritual site has been lost - if it is not recaptured by the time the ritual completes, the ritual will fail![[/col]]	true
+campaign_localised_strings_string_politics_event_assassination_wife	Assassination attempt on wife!	true
+campaign_localised_strings_string_raise_dead_disabled_tooltip	Raise Dead[[col:red]]\nThere are no units currently available to raise.[[/col]]	true
+campaign_localised_strings_string_number_of_casualties_zero_tooltip	No famous battle site – limited available units||This affects the types of units available via Raise Dead in this region. It also affects the chances of each unit type replenishing, and the region's overall capacity for each unit type. These factors are also affected by the number of recruitment structures you own.\nOnly casualties from battles large enough to be deemed Famous Battles count toward this total.	true
+campaign_localised_strings_string_unit_upgrade_description	Improves a unit's weapons or armour.	true
+campaign_localised_strings_string_end_turn_warning_legacy_skill_to_be_picked	This force has an unassigned tradition:	true
+campaign_localised_strings_string_offices_panel_title_wh2_dlc11_cst_the_drowned	Fleet Offices	true
+campaign_localised_strings_string_cannot_recruit_back_ark_region_under_siege	[[col:red]]This settlement is under siege: you may not recruit a Black Ark here until the siege has been lifted.[[/col]]	true
+campaign_localised_strings_string_growth_characters	Characters	true
+campaign_localised_strings_string_sword_button_locked_down	The Sword of Khaine is unavailable.\n[[col:red]]Occupy the Shrine of Khaine and construct the Shrine of the Widowmaker building to unlock it.[[/col]]\nLeft-click to track the Sword of Khaine.\nSword currently controlled by: 	true
+campaign_localised_strings_string_raise_army_capped	{{tr:raise_army_capped}}	true
+campaign_localised_strings_string_regular_expenditure_wages_tooltip	 	true
+campaign_localised_strings_string_event_header_other	World Events	true
+campaign_localised_strings_string_edicts_cancel_description	The commandment will cease to take effect at the start of the next turn.	true
+campaign_localised_strings_string_recruitment_cannot_global_no_units	[[col:red]]Military chain buildings are required for global recruitment.[[/col]]	true
+campaign_localised_strings_string_cannot_recruit_black_ark_region_not_owned	[[col:red]]You cannot recruit new Black Arks from settlements that you do not own.[[/col]]	true
+campaign_localised_strings_string_politics_character_joined_your_family_from	This character has joined your family from the following faction:	true
+campaign_localised_strings_string_units_of_renown_tooltip_empty_pool	{{tr:units_of_renown_tooltip_empty_pool}}	true
+campaign_localised_strings_string_agent_cap_reached_tooltip	Current/maximum number of active [[img:icon_hero]][[/img]]Heroes of this type||Construct any of the following buildings to increase the maximum number available:\n%s	true
+campaign_localised_strings_string_slaves_public_order	[[img:icon_public_order]][[/img]]{{tr:public_order_effect}}	true
+campaign_localised_strings_string_destroy_foreign_slots_wh2_main_skv_skaven	Destroy Under-City	true
+campaign_localised_strings_string_details_panel_character_age	Age:	true
+campaign_localised_strings_string_construction_slot_locked	[[col:red]]This construction slot will unlock after upgrading this settlement's city building.[[/col]]	true
+campaign_localised_strings_string_agent_building_not_available_no_settlement	[[col:red]]You do not own a settlement in this province capable of constructing this building. It is available in the following settlement(s) within the province:[[/col]]	true
+campaign_localised_strings_string_norsca_god_favour_warning	[[col:red]]You have already fully pledged your allegiance to a God and will no longer receive any allegiance points for razing.[[/col]]	true
+campaign_localised_strings_string_available_actions	Available actions:	true
+campaign_localised_strings_string_politics_action_impossible	This machination cannot be carried out:	true
+campaign_localised_strings_string_recruitment_hire_mercenary	Raise Dead\n\nAny units in the queue will be raised and instantly added to your army.||Units within the pool will replenish each turn. More powerful units may be available in regions containing [[img:icon_battle_site]][[/img]]markers for previously fought battles.	true
+campaign_localised_strings_string_unit_upgrade_retrain_multiple_units	Left-click to re-train all currently selected units.	true
+campaign_localised_strings_string_tooltip_disband_impossible_for_immortals	[[col:red]]Immortal and Legendary Lords may not be disbanded.[[/col]]||To replace this [[img:icon_general]][[/img]]Lord, click the Replace Lord button on the Character Details panel.	true
+campaign_localised_strings_string_unit_upgrade_retrain_description	Replaces a unit with a more advanced type.	true
+campaign_localised_strings_string_cannot_migrate_under_siege	Your people cannot migrate while one of your settlements is under siege or blockaded.	true
+campaign_localised_strings_string_agent_action_queued	[[col:yellow]]This [[img:icon_hero]][[/img]]Hero already has an action assigned to carry out in a future turn. Ordering another action will cancel the previous order.[[/col]]	true
+campaign_localised_strings_string_abandoned_region_rebel_faction_name	Ruins	true
+campaign_localised_strings_string_ritual_currency_factor_DIPLOMACY	Transfer	true
+campaign_localised_strings_string_sea_region_control_status_replenishment_rate_mod_garrisoned	(+%d%% in ports)	true
+campaign_localised_strings_string_military_history_defeats	Defeats:	true
+campaign_localised_strings_string_unit_upgrade_retrain_single_unit	Left-click to re-train the currently selected unit to:	true
+campaign_localised_strings_string_recruit_unit_requires_technology	[[col:red]]Requires technology researched:[[/col]]	true
+campaign_localised_strings_string_sanitation_tooltip_header	Sanitation & Squalor	true
+campaign_localised_strings_string_ancillary_banner_remove_instruction	[[col:yellow]]Left-click to remove[[/col]]	true
+campaign_localised_strings_string_force_not_on_land	[[col:red]]Hordes must be on land in order to carry out construction. Disembark to issue construction orders.[[/col]]	true
+campaign_localised_strings_string_ancillary_banner_add_instruction	{{tr:ancillary_banner_add_instruction}}	true
+campaign_localised_strings_string_factorial_skaven_discoverability	Discoverability:	true
+campaign_localised_strings_string_public_order_units	Units	true
+campaign_localised_strings_string_rituals_arrow_tooltip_key_settlement_lost_player	\n[[col:red]]A ritual site has been lost - if it is not recaptured by the time the ritual completes, the ritual will fail![[/col]]	true
+campaign_localised_strings_string_wh2_dlc11_cst_noctilus	The Dreadfleet	true
+campaign_localised_strings_string_military_force_morale_idle	Raidin' Camp	true
+campaign_localised_strings_string_sea_region_control_status_replenishment_rate_mod	+%d%% naval replenishment	true
+campaign_localised_strings_string_tooltip_click_to_locate_resourece	left-click to zoom to nearest location.	true
+campaign_localised_strings_string_battle_ambush_you_success	The enemy failed to spot your ambush. Attack now and the element of surprise will give you the upper hand!	true
+campaign_localised_strings_string_rituals_ritual_status_under_siege	[[col:dark_r]]Your capital is under siege.[[/col]]	true
+campaign_localised_strings_string_military_force_morale_spoils_of_war	Settlement Destruction	true
+campaign_localised_strings_string_secondary_building_required	Requires building:	true
+campaign_localised_strings_string_death_night_button_active_part_1	Death Night||Sacrifice [[img:icon_slaves]][[/img]]slaves to fill the Death Night bar to maximum.\n\n[[col:yellow]][[img:icon_slaves]][[/img]]Slave Cost:	true
+campaign_localised_strings_string_raise_force_army_no_surplus	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_death_night_button_active_part_2	[[/col]]Hellebron’s youth and beauty are fleeting and it is only upon the ritual of [[img:death_night]][[/img]]Death Night, where murder fills the streets of her capital, can she bathe in the blood of the slain, re-invigorating herself once more. However, she will soon begin to wither and those amongst her court know only too well the negative effects born from her bitterness.	true
+campaign_localised_strings_string_politics_has_not_attained_office	This character has not previously attained sufficiently high office to be assigned this position.	true
+campaign_localised_strings_string_military_force_morale_bonus_value_military_force	Military Force	true
+campaign_localised_strings_string_tooltip_list_available_settlements	This building can be constructed in the following regions:	true
+campaign_localised_strings_string_politics_event_assassination_wife_wounded	The wife was merely wounded.	true
+campaign_localised_strings_string_wh2_dlc10_death_night_lock_alarielle	This stage of Death Night is locked due to the capture of the Gaean Vale.	true
+campaign_localised_strings_string_details_panel_skills_unlocked_rank	Unlocked at rank:	true
+campaign_localised_strings_string_military_force_morale_casualties	Casualties	true
+campaign_localised_strings_string_rituals_arrow_tooltip_in_progress	Currently performing the %s	true
+campaign_localised_strings_string_military_history_commanders	Commanders:	true
+campaign_localised_strings_string_events_attrition_summary_force_navy	Fleet:	true
+campaign_localised_strings_string_military_force_growth_characters	Characters	true
+campaign_localised_strings_string_public_order_celebration_next_turn	At the current rate, there will be a celebration next turn!	true
+campaign_localised_strings_string_religion_factor_buildings	Buildings and commandments	true
+campaign_localised_strings_string_military_history_victories	Victories:	true
+campaign_localised_strings_string_skill_locks_skill	\n\n[[col:yellow]]Unlocking this skill will lock:[[/col]]	true
+campaign_localised_strings_string_vampire_battle_marker_description	\nDue to the presence of this [[img:icon_battle_site]][[/img]]battle site marker, additional more powerful units may be available in this region's Raise Dead pool. (%s)	true
+campaign_localised_strings_string_raise_navy_no_port	[[col:red]]This settlement has no port.[[/col]]	true
+campaign_localised_strings_string_politics_cursus_next_level	Next level	true
+campaign_localised_strings_string_tooltip_loyalty_description	[[img:icon_fealty]][[/img]]Fealty represents a character's dedication to the faction. If [[img:icon_fealty]][[/img]]fealty reaches -10, the character will defect to a rival faction.	true
+campaign_localised_strings_string_craft_tooltip_script_locked	[[col:red]]Not available.[[/col]]	true
+campaign_localised_strings_string_pending_action_warning_army	Lord not moved	true
+campaign_localised_strings_string_politics_event_blackmail_success	His reputation has been tarnished by the rumours that have been spread.	true
+campaign_localised_strings_string_sack_description_with_cost	Sack value: {{tr:icon_income}}%d	true
+campaign_localised_strings_string_cannot_occupy_wh2_dlc09_tmb_tomb_kings	Cannot occupy	true
+campaign_localised_strings_string_regular_expenditure_building_upkeep_toolitp	Some buildings may have an associated upkeep cost in order to sustain them.	true
+campaign_localised_strings_string_pending_action_warning_none	End turn	true
+campaign_localised_strings_string_public_order_technologys	Technologies	true
+campaign_localised_strings_string_recruitment_levy_from_client_state	Levy from tributary 	true
+campaign_localised_strings_string_regular_expenditure_client_state	 	true
+campaign_localised_strings_string_migrate_button_selected_expedition	All settlements in your kingdom are being abandoned. [Left-click to cancel.]	true
+campaign_localised_strings_string_tooltip_disband_ok_loyalty_warning	Disband||{{tr:disband_tooltip_loyalty_explanation}}	true
+campaign_localised_strings_string_raise_army_no_funds	[[col:red]]Cannot recruit [[img:icon_general]][[/img]]Lord[[/col]]	true
+campaign_localised_strings_string_cannot_migrate_already_migrating_expedition	You are already migrating.	true
+campaign_localised_strings_string_wh2_dlc11_cst_rogue_tyrants_of_the_black_ocean	Tyrants of the Black Ocean	true
+campaign_localised_strings_string_raise_navy_no_funds	[[col:red]]Cannot raise [[img:icon_admiral]]Admiral.[[/col]]	true
+campaign_localised_strings_string_hud_button_units_of_renown_tooltip_at_not_your_turn	You cannot recruit regiments of renown while it is not your turn.	true
+campaign_localised_strings_string_politics_event_blackmail	Blackmail attempt!	true
+campaign_localised_strings_string_cannot_occupy_wh_main_vmp_vampire_counts	[[col:red]]Your race cannot occupy settlements of this racial type.\n\nYou can only occupy settlements belonging to Undead factions or other Human factions except Norsca.[[/col]]	true
+campaign_localised_strings_string_tooltip_disband_impossible_for_last_force	[[col:red]]Your last force may not be disbanded when you do not own any settlements.[[/col]]	true
+campaign_localised_strings_string_politics_event_choice_invalid_insufficient_gravitas	This character does not have sufficient influence to take this course of action.	true
+campaign_localised_strings_string_regular_expenditure_client_state_tooltip	 	true
+campaign_localised_strings_string_skaven_discovery_bar_description	Discoverability indicates how close this Under-City is to being discovered by the settlement occupiers above. Most buildings in an Under-City increase Discoverability, and the region owner can also construct buildings or use Heroes to help detect it. Once found, it will likely be demolished.	true
+campaign_localised_strings_string_military_force_morale_turbulence	Turbulence	true
+campaign_localised_strings_string_public_order_technologys_tooltip	Technology	true
+campaign_localised_strings_string_sacrifice_tooltip_cooldown	[[col:green]]This Regiment of Renown has already been unlocked.[[/col]]	true
+campaign_localised_strings_string_development_points_tooltip_hordes	[[img:icon_pop_surplus]][[/img]]Population surplus||The horde needs members if it is to grow bigger and stronger; population surplus enables this, as well as allowing the recruitment of additional Lords. Using the Encamp stance is vital to horde [[img:icon_growth]][[/img]]growth.	true
+campaign_localised_strings_string_military_force_morale_bonus_value_fortify_stance	[[img:icon_encamp_stance]][[/img]]Raidin' Camp	true
+campaign_localised_strings_string_politics_action_impossible_actor_not_male	[[col:red]]Only male family members may perform this action.[[/col]]	true
+campaign_localised_strings_string_pending_action_office_slot	Office slot available	true
+campaign_localised_strings_string_public_order_stabilising	[[img:icon_public_order]][[/img]]{{tr:public_order_effect}} is stabilising.	true
+campaign_localised_strings_string_migrate_button_active_expedition	Migration causes the abandonment of all settlements in your kingdom and turns your armies into hordes.	true
+campaign_localised_strings_string_edicts_incoming_description	[[col:green]]This commandment will take effect at the start of the next turn.[[/col]]	true
+campaign_localised_strings_string_politics_character_not_your_faction	You cannot act against characters not in your family.	true
+campaign_localised_strings_string_force_not_in_correct_stance	{{tr:force_not_in_correct_stance}}	true
+campaign_localised_strings_string_raise_army	Raise army||The selected Lord will become the [[img:icon_general]][[/img]]General of the new army.	true
+campaign_localised_strings_string_politics_action_impossible_actor_married	[[col:red]]This character is already married.[[/col]]	true
+campaign_localised_strings_string_confirm_cancel_migration	Are you sure you wish to cancel the migration?	true
+campaign_localised_strings_string_politics_action_make_heir_heading	[[col:yellow]]Declare Heir[[/col]]	true
+campaign_localised_strings_string_politics_not_available_replaced_recently	[[col:red]]This [[img:icon_general]][[/img]]Lord was recently replaced. They will be available for office in %d turns.[[/col]]	true
+campaign_localised_strings_string_cannot_colonise_wh_main_dwf_dwarfs	[[col:red]]Your race cannot colonise ruins of this racial type.\n\nYou can only colonise ruins belonging to Greenskins factions or other Dwarf factions.[[/col]]	true
+campaign_localised_strings_string_cannot_occupy_wh_main_sc_nor_norsca	[[col:red]]Your race cannot occupy settlements of this type.\n\nYou can only occupy settlements in Norsca and coastal settlements.[[/col]]	true
+campaign_localised_strings_string_public_order_celebration	At the current rate, there will be a celebration in %n turn(s).	true
+campaign_localised_strings_string_cannot_occupy_wh_main_emp_empire	[[col:red]]Your race cannot occupy settlements of this racial type.\n\nYou can only occupy settlements belonging to Undead factions or other Human factions except Norsca.[[/col]]	true
+campaign_localised_strings_string_public_order_devastation_tooltip	Devastation	true
+campaign_localised_strings_string_recruitment_cannot_global_stance	{{tr:recruitment_cannot_global_stance}}	true
+campaign_localised_strings_string_public_order_plague	[[img:icon_food]][[/img]]{{tr:hp_campaign_food_term}}	true
+campaign_localised_strings_string_end_turn_display_tooltip_speed_fast	Characters will move at a faster speed.	true
+campaign_localised_strings_string_unit_upgrade_header	Upgrade	true
+campaign_localised_strings_string_politics_action_impossible_actor_already_a_retainer	[[col:red]]This character already is a retainer.[[/col]]	true
+campaign_localised_strings_string_politics_event_assassination_wife_killed	They failed to assassinate him, but managed to kill his wife instead!	true
+campaign_localised_strings_string_public_order_culture_differences	Corruption	true
+campaign_localised_strings_string_offices_panel_title_wh2_dlc11_cst_pirates_of_sartosa	Fleet Offices	true
+campaign_localised_strings_string_pending_action_warning_office_slot	Office slot available	true
+campaign_localised_strings_string_unit_upgrade_cannot	Upgrade not possible:	true
+campaign_localised_strings_string_imperium_01_title	Insignificant	true
+campaign_localised_strings_string_imperium_02_title	Noteworthy	true
+campaign_localised_strings_string_imperium_03_title	Impressive	true
+campaign_localised_strings_string_imperium_04_title	Inspiring	true
+campaign_localised_strings_string_imperium_05_title	Intimidating	true
+campaign_localised_strings_string_imperium_06_title	Terrifying	true
+campaign_localised_strings_string_imperium_07_title	Supreme	true
+campaign_localised_strings_string_politics_event_promotion_success	Promotion secured.	true
+campaign_localised_strings_string_regular_expenditure_vassal	Master	true
+campaign_localised_strings_string_growth_food	Food	true
+campaign_localised_strings_string_quest_teleport_button_disabled_tooltip_wrong_stance	[[col:red]]The required character is in a stance.[[/col]]	true
+campaign_localised_strings_string_army_morale_tooltip	Integrity||If it gets too low men will desert, forming a separatist faction and starting a civil war!	true
+campaign_localised_strings_string_varying_regular_income_foreign_slot_tooltip	{{tr:varying_regular_income_foreign_slot_tooltip}}	true
+campaign_localised_strings_string_wh2_dlc11_ritual_bloodlines_blood_dragon_focus_text	Lords Focus: Military Commander	true
+campaign_localised_strings_string_military_force_morale_victorious	Victorious	true
+campaign_localised_strings_string_bretonnia_peasants_warning	[[col:red]]Warning: There are more [[img:bullet_brt_peasants]][[/img]]peasants in your armies than your faction can sustain. Recruiting this unit will have a negative effect on your farming income.[[/col]]	true
+campaign_localised_strings_string_wh2_dlc11_cst_shanty_dragon_spine_privateers	Dragon Spine Privateers	true
+campaign_localised_strings_string_end_turn_warning_bankrupt	You are on the verge of [[url:script_link_campaign_bankruptcy]][[tooltip:{{tt:tooltip_campaign_bankruptcy}}]]bankruptcy[[/tooltip]][[/url]].	true
+campaign_localised_strings_string_second_building_required	This unit requires secondary building:	true
+campaign_localised_strings_string_workshop_ror_unlock_reason	[[col:red]]This Regiment of Renown will unlock after researching enough parts in workshop.[[/col]]	true
+campaign_localised_strings_string_gdp_other	Other	true
+campaign_localised_strings_string_recruit_black_ark_tooltip	Recruit Black Ark||Recruit a new Black Ark to lead a force.	true
+campaign_localised_strings_string_deploy_agent_tooltip_header	{{tr:deploy_agent_tooltip_header}}	true
+campaign_localised_strings_string_unit_upgrade_cannot_reason_damaged_multiple	One or more units are not at full strength.	true
+campaign_localised_strings_string_politics_event_promotion	Promotion!	true
+campaign_localised_strings_string_death_night_button_pressed	[[col:red]][[img:death_night]][[/img]]Death Night has already been triggered this turn.[[/col]]	true
+campaign_localised_strings_string_skaven_under_empire_owned_tooltip	Under-City Established	true
+campaign_localised_strings_string_gdp_entertainment	{{tr:taxes}}	true
+campaign_localised_strings_string_hud_button_blessed_spawning_tooltip_at_sea	You cannot recruit Blessed Spawnings while at sea.	true
+campaign_localised_strings_string_regular_expenditure_vassal_tooltip	As a vassal, you are required to pay a tribute each turn to your master.	true
+campaign_localised_strings_string_sanitation_tooltip_description_good	\nLocal sanitation outweighs squalor. This settlement faces no risk of a disease outbreak.\n	true
+campaign_localised_strings_string_wh2_dlc11_ritual_bloodlines_strigoi_focus_text	Lords Focus: Bestial Juggernaut	true
+campaign_localised_strings_string_battle_ambush_you_intercept	Your army was spotted by the enemy before it could spring its ambush. You have an opportunity to intercept and engage them in battle.	true
+campaign_localised_strings_string_varying_regular_income_foreign_slot	{{tr:varying_regular_income_foreign_slot}}	true
+campaign_localised_strings_string_wh2_dlc11_cst_rogue_boyz_of_the_forbidden_coast_leader	Ashuk the Bloody	true
+campaign_localised_strings_string_raise_dead_tooltip	Raise Dead||Raise new units from the dead buried in this region.	true
+campaign_localised_strings_string_tooltip_recruit_units_loyalty_explaination	{{tr:recruit_units_tooltip}}||{{tr:recruit_units_tooltip_loyalty_explanation}}	true
+campaign_localised_strings_string_public_order_culture_chaos	Chaos corruption	true
+campaign_localised_strings_string_public_order_devastation	Devastation	true
+campaign_localised_strings_string_rituals_ritual_status_disabled_intervention_ritual	[[col:red]]Intervention unavailable:[[/col]]	true
+campaign_localised_strings_string_end_turn_warning_military_force_morale_low	{{tr:end_turn_warning_military_force_morale_low}}	true
+campaign_localised_strings_string_recruitment_unavailable_blockading	Cannot recruit while blockading.	true
+campaign_localised_strings_string_slaves_tooltip_description	[[img:icon_slaves]][[/img]]Slaves can be captured in battle and are distributed in accordance to each province's [[img:icon_slaves]][[/img]]slave settings. Larger settlements require more [[img:icon_slaves]][[/img]]slaves than small ones; the more [[img:icon_slaves]][[/img]]slaves a settlement has, the more [[img:icon_income]][[/img]]income it can generate, but with lower [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} as a result. [[img:icon_slaves]][[/img]]Slaves perish naturally over time.	true
+campaign_localised_strings_string_gdp_fertility_agriculture	Agriculture [Fertility]	true
+campaign_localised_strings_string_rituals_ritual_status_prior_chain_stages_incomplete	[[col:red]]Prior rituals must first be completed[[/col]]	true
+campaign_localised_strings_string_public_order_plague_tooltip	Plague	true
+campaign_localised_strings_string_tooltip_skaven_settlement_level_decrease_invalid	[[col:red]]Cannot reduce settlement level[[/col]]	true
+campaign_localised_strings_string_tooltip_skaven_settlement_level_increase_invalid	[[col:red]]Cannot increase settlement level[[/col]]	true
+campaign_localised_strings_string_button_zoom_to_waaagh_army	{{tr:button_zoom_to_waaagh_army}}	true
+campaign_localised_strings_string_public_order_culture_differences_tooltip	Corruption	true
+campaign_localised_strings_string_cannot_colonise_wh_main_chs_chaos	[[col:red]]Your race operates in mighty hordes and cannot colonise settlements of any type.[[/col]]	true
+campaign_localised_strings_string_edicts_description	Issue commandments across the province to help control local [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}}, exploit production, and more.	true
+campaign_localised_strings_string_growth_technologies	Technologies	true
+campaign_localised_strings_string_pending_action_warning_tech	Research available	true
+campaign_localised_strings_string_building_already_built_in_province	[[col:yellow]]This building has already been constructed in this province. Constructing another may not provide any additional benefits.[[/col]]	true
+campaign_localised_strings_string_rituals_arrow_tooltip_key_settlement_lost	[[col:red]][[img:ui/skins/default/icon_marker_settlement.png]][[/img]] %s (lost)[[/col]]	true
+campaign_localised_strings_string_military_force_morale_bonus_value_foreign_waters	Hostile Waters	true
+campaign_localised_strings_string_public_order_region	Region	true
+campaign_localised_strings_string_public_order_family_power_tooltip	Family power	true
+campaign_localised_strings_string_raise_legacy_no_candidate	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_events_tooltip_zoom_to_technology_advances	{{tr:events_tooltip_zoom_to_technology_advances}}	true
+campaign_localised_strings_string_quest_tooltip_right_click	Right-click to trigger quest	true
+campaign_localised_strings_string_sanitation_tooltip_description_bad	\nLocal squalor outweighs sanitation. Left unchecked, this settlement is at risk from disease.\n	true
+campaign_localised_strings_string_edicts_outgoing_description	[[col:red]]This commandment will cease to take effect at the start of the next turn.[[/col]]	true
+campaign_localised_strings_string_military_force_morale_bonus_value_horde_in_fighting	Horde In-fighting	true
+campaign_localised_strings_string_cannot_migrate_already_migrating	You are already migrating.	true
+campaign_localised_strings_string_character_type_son	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_cannot_build_exceeded_num_instances	[[col:red]]You cannot construct this building as this settlement already contains the maximum number of buildings of this type.[[/col]]	true
+campaign_localised_strings_string_diplomacy_tooltip_cant_negotiate_with_faction_master_at_war	[[col:red]]You cannot negotiate with this faction. You are at war with their master: %S[[/col]]	true
+campaign_localised_strings_string_edicts_disabled_province_incomplete	[[col:red]]You cannot issue commandments in provinces where you do not own all of the settlements.[[/col]]	true
+campaign_localised_strings_string_public_order_stable	[[img:icon_public_order]][[/img]]{{tr:public_order_effect}} is stable.	true
+campaign_localised_strings_string_wh2_dlc09_lock_casket_of_souls	[[col:red]]This unit will become available after performing the Rite of the Great Incantation of Tahoth.[[/col]]	true
+campaign_localised_strings_string_autoresolve_not_available_for_quest	[[col:red]]You cannot auto-resolve quest battles![[/col]]	true
+campaign_localised_strings_string_sanitation_tooltip_total_sanitation	Total sanitation:	true
+campaign_localised_strings_string_slaves_decline_rate	Decline per turn	true
+campaign_localised_strings_string_growth_buildings	Buildings	true
+campaign_localised_strings_string_events_attrition_summary_location_region	Region:	true
+campaign_localised_strings_string_cannot_colonise_wh_main_emp_empire	[[col:red]]Your race cannot colonise ruins of this racial type.\n\nYou can only colonise ruins belonging to Undead factions or other Human factions except Norsca.[[/col]]	true
+campaign_localised_strings_string_public_order_revolt	At the current rate, the slaves will revolt in %n turns.	true
+campaign_localised_strings_string_regular_expenditure_tribute	 	true
+campaign_localised_strings_string_military_force_morale_bonus_value_offices	Offices	true
+campaign_localised_strings_string_toggle_ai_movement	[[col:yellow]] Press %s to cycle AI faction move display mode.	true
+campaign_localised_strings_string_military_force_morale_bankruptcy	Bankruptcy	true
+campaign_localised_strings_string_tooltip_skaven_public_order_header	Public Order Effects	true
+campaign_localised_strings_string_gdp_poor_fertility_bonus	Poor fertility bonus	true
+campaign_localised_strings_string_end_turn_display_tooltip_speed_slow	Characters will move at their normal speed.	true
+campaign_localised_strings_string_unit_upgrade_cannot_reason_incorrect_stance	The army is not in the correct stance.	true
+campaign_localised_strings_string_gdp_farming	Agriculture	true
+campaign_localised_strings_string_politics_ministerial_position_expected_effects_no_selection	Select a [[img:icon_general]][[/img]]Lord to assign to office.\n\nIn office, they would have the following effects:	true
+campaign_localised_strings_string_wh2_dlc11_cst_shanty_shark_straight_seadogs	Shark Strait Seadogs	true
+campaign_localised_strings_string_battle_ambush_they_success	Your army failed to spot an enemy ambush. They have launched a surprise attack, surely giving them the upper hand!	true
+campaign_localised_strings_string_city_info_bar_ritual_currency_icon_tooltip	{{tr:ritual_currency_term}}||{{tr:ritual_currency_description}}	true
+campaign_localised_strings_string_military_force_morale_bonus_value_garrison_stance	Garrisoned	true
+campaign_localised_strings_string_wh2_dlc11_cst_rogue_freebooters_of_port_royale_leader	Gentleman Jenkins	true
+campaign_localised_strings_string_pre_battle_remove_charges_tooltip	Reduce number of uses	true
+campaign_localised_strings_string_regular_expenditure_tribute_tooltip	 	true
+campaign_localised_strings_string_politics_ministerial_position_required_age	Required age:	true
+campaign_localised_strings_string_character_retainer_of_full	This character is a retainer of:	true
+campaign_localised_strings_string_sanitation_tooltip_current_squalor	Current squalor:	true
+campaign_localised_strings_string_monster_hunt_0_objective	Hunt down and slay the deadly Frost-Wyrm known as Frigustrex, Scion of the Cold-Void	true
+campaign_localised_strings_string_monster_hunt_1_objective	Hunt down and slay the gargantuan Cygors known as the Salzenmund Soul-Eaters	true
+campaign_localised_strings_string_monster_hunt_2_objective	Hunt down and slay the colossal Shaggoth known as Traygard Mountain-Cleaver	true
+campaign_localised_strings_string_monster_hunt_3_objective	Hunt down and slay the venomous Brood Queens of Karak Azul	true
+campaign_localised_strings_string_monster_hunt_4_objective	Hunt down and slay the belligerent Giant known as Blorgar the Mad Titan	true
+campaign_localised_strings_string_monster_hunt_5_objective	Hunt down and slay the elusive Forest Dragon known as Radixashen, Serpent of the World Roots	true
+campaign_localised_strings_string_monster_hunt_6_objective	Hunt down and slay the mighty mammoths of the Great Mawherd of Bloodfjord	true
+campaign_localised_strings_string_monster_hunt_7_objective	Hunt down and slay the ghastly Terrorgheist known as the Abyssal Shrieker	true
+campaign_localised_strings_string_monster_hunt_8_objective	Hunt down and slay the deadly Mother of the Flame!	true
+campaign_localised_strings_string_monster_hunt_9_objective	Hunt down and slay the behemoth Gargantulzan!	true
+campaign_localised_strings_string_book_grudges_grudge_tooltip	Grudge severity: %d\nAge modifier: %d\nTotal severity: %d\n\nEach grudge that you accumulate has a base severity value. If you ignore a grudge, its severity will increase over time, filling the bar at the top of the screen.	true
+campaign_localised_strings_string_next_office	Next office:	true
+campaign_localised_strings_string_politics_ministerial_position_term	Term in office:	true
+campaign_localised_strings_string_winds_of_magic_modifier_character	Character	true
+campaign_localised_strings_string_unit_upgrade_retrain_cannot_reason_none_multiple	There is no further training available for these units in this province.	true
+campaign_localised_strings_string_rituals_ritual_status_reaction_constraints_not_met	[[col:red]]You have already called upon an intervention[[/col]]	true
+campaign_localised_strings_string_province_fertility_factor_events	Events	true
+campaign_localised_strings_string_public_order_family_power	Commandment	true
+campaign_localised_strings_string_tooltip_disband_ok	Disband	true
+campaign_localised_strings_string_pre_battle_add_charges_tooltip_disabled_max	[[col:red]]Maximum uses reached[[/col]]	true
+campaign_localised_strings_string_military_history_foundation_founder	Founded by:	true
+campaign_localised_strings_string_raise_black_ark_no_funds	[[col:red]]Cannot recruit Black Ark[[/col]]	true
+campaign_localised_strings_string_wh2_dlc11_cst_rogue_the_churning_gulf_raiders_leader	Mad Mulletsson	true
+campaign_localised_strings_string_rituals_ritual_status_on_cooldown_standard_ritual	[[col:dark_r]]This rite will become available after %d turn(s)[[/col]]	true
+campaign_localised_strings_string_tooltip_skaven_menace_below_uses	Number of uses for the Menace Below army ability granted by the amount of [[img:icon_corruption_skv]][[/img]]Skaven corruption in this province	true
+campaign_localised_strings_string_pre_battle_remove_charges_tooltip_disabled	[[col:red]]Cannot reduce number of uses[[/col]]	true
+campaign_localised_strings_string_public_order_uncertainty_tooltip	Uncertainty	true
+campaign_localised_strings_string_pending_action_warning_settlement_upgrade	Settlement upgrade available	true
+campaign_localised_strings_string_politics_action_impossible_cannot_secure_loyalty	You cannot secure the loyalty of this character.	true
+campaign_localised_strings_string_rituals_transfer_panel_target_players_total	Your co-op partner, %s, has: [[img:icon_ritual_currency]][[/img]]%d	true
+campaign_localised_strings_string_politics_event_type	Intrigue:	true
+campaign_localised_strings_string_no_mount	None	true
+campaign_localised_strings_string_military_force_morale_bonus_value_faction	Faction	true
+campaign_localised_strings_string_gdp_mining	!NOT USED!	true
+campaign_localised_strings_string_unit_upgrade_cannot_reason_damaged_single	The unit is not at full strength.	true
+campaign_localised_strings_string_quest_teleport_button_disabled_tooltip_gold	[[col:red]]You have insufficient funds. Requires: {{tr:icon_treasury}} %d[[/col]]	true
+campaign_localised_strings_string_military_force_morale_bonus_value_buildings	Buildings	true
+campaign_localised_strings_string_regular_expenditure_building_upkeep	Building upkeep	true
+campaign_localised_strings_string_wh2_dlc12_lzd_sacrifices_tier_0_1_lock_reason	\n[[col:red]]Complete the following mission to unlock this tier of sacrifices: "Sotek Manifests"[[/col]]	true
+campaign_localised_strings_string_province_fertility_factor_season	Season	true
+campaign_localised_strings_string_rituals_ritual_status_in_progress	This ritual is currently in progress	true
+campaign_localised_strings_string_province_fertility_factor_razing	Razing	true
+campaign_localised_strings_string_rituals_ritual_status_insufficient_ritual_currency	[[col:red]]You have insufficient [[img:icon_ritual_currency]][[/img]]{{tr:ritual_currency_term}}[[/col]]	true
+campaign_localised_strings_string_public_order_events_tooltip	Events	true
+campaign_localised_strings_string_military_force_morale_bonus_value_civil_war	Civil War	true
+campaign_localised_strings_string_unit_upgrade_retrain_cannot	Re-training not possible:	true
+campaign_localised_strings_string_tooltip_cant_colonise_due_to_treasure_hunt	[[col:red]]Having searched the ruins, this settlement cannot be colonised this turn.[[/col]]	true
+campaign_localised_strings_string_tooltip_forces_dropdown_zoom_to_character	Left-click to zoom to this character.	true
+campaign_localised_strings_string_unit_upgrade_cannot_reason_none_multiple	There is no improved equipment available for these units in this province.	true
+campaign_localised_strings_string_regular_income_background_income	Background income	true
+campaign_localised_strings_string_attack_tooltip_loyalty_explanation	\n[[col:yellow]]Victory in battle against this target may cause your [[img:icon_general]][[/img]]Lord to gain [[img:icon_loyalty]][[/img]]loyalty. Defeat may have the opposite effect.[[/col]]	true
+campaign_localised_strings_string_brt_knight_vow_tooltip_positive_fay	[[col:green]]Your Lord has the [[col:yellow]]In Her Lady's Name[[/col]] faction trait and can maintain this unit in their army without penalty.[[/col]]	true
+campaign_localised_strings_string_public_order_slaves	Slaves	true
+campaign_localised_strings_string_politics_character_already_governor	[[col:red]]This character is already an [[img:icon_overseer]][[/img]]Overseer.[[/col]]	true
+campaign_localised_strings_string_unit_upgrade_retrain_header	Re-train	true
+campaign_localised_strings_string_events_attrition_summary_force_army	Army:	true
+campaign_localised_strings_string_raise_navy	Raise fleet||The selected Lord will become the [[img:icon_admiral]][[/img]]Admiral of the new army.	true
+campaign_localised_strings_string_cannot_occupy_wh_main_dwf_dwarfs	[[col:red]]Your race cannot occupy settlements of this racial type.\n\nYou can only occupy settlements belonging to Greenskins factions or other Dwarf factions.[[/col]]	true
+campaign_localised_strings_string_public_order_events	Events	true
+campaign_localised_strings_string_politics_action_impossible_actor_not_female	[[col:red]]Only female family members may marry non-family characters.[[/col]]	true
+campaign_localised_strings_string_religion_factor_character	Characters present	true
+campaign_localised_strings_string_quest_tooltip_left_click	Left-click to see quest details	true
+campaign_localised_strings_string_regular_income_background_income_tooltip	You will receive a base amount of {{tr:icon_income}}income regardless of any external factors.	true
+campaign_localised_strings_string_politics_action_impossible_retainer	Machinations cannot be carried out against those characters engaged as retainers.	true
+campaign_localised_strings_string_wh2_dlc11_ritual_bloodlines_lahmian_focus_text	Lords Focus: Master Infiltrator	true
+campaign_localised_strings_string_military_history_foundation	Foundation:	true
+campaign_localised_strings_string_military_force_morale_won_battle	Battle Won	true
+campaign_localised_strings_string_military_force_morale_effect_post_waaagh	{{tr:military_force_morale_effect_post_waaagh}}	true
+campaign_localised_strings_string_public_order_uncertainty	Uncertainty (-1 per turn)	true
+campaign_localised_strings_string_quest_teleport_button_disabled_tooltip_in_garrison	[[col:red]]The required character is currently garrisoning a settlement.[[/col]]	true
+campaign_localised_strings_string_imperium_1_title	Insignificant	true
+campaign_localised_strings_string_imperium_2_title	Noteworthy	true
+campaign_localised_strings_string_imperium_3_title	Impressive	true
+campaign_localised_strings_string_imperium_4_title	Intimidating	true
+campaign_localised_strings_string_imperium_5_title	Supreme	true
+campaign_localised_strings_string_rituals_ritual_status_on_cooldown	[[col:red]]This ritual will become available after %d turn(s)[[/col]]	true
+campaign_localised_strings_string_resource_tooltip_tradeable	{{tr:resource_tooltip_tradeable}}	true
+campaign_localised_strings_string_tooltip_disband_partial_selection	[[col:red]]In order to disband this [[img:icon_general]][[/img]]Lord, all units within the army must be selected.[[/col]]||To replace this [[img:icon_general]][[/img]]Lord, click the Replace Lord button on the Character Details panel.	true
+campaign_localised_strings_string_end_turn_warning_building_requires_repair	You have damaged [[url:script_link_campaign_buildings]][[tooltip:{{tt:tooltip_campaign_buildings}}]]buildings[[/tooltip]][[/url]] requiring repair in the following [[url:script_link_campaign_provinces]][[tooltip:{{tt:tooltip_campaign_provinces}}]]province[[/tooltip]][[/url]]:	true
+campaign_localised_strings_string_offices_panel_title_wh_dlc05_wef_wood_elves	Elven Council	true
+campaign_localised_strings_string_morale_description	{{tr:fightiness_morale_description}}	true
+campaign_localised_strings_string_end_turn_settings_target_neutrals	Neutral factions	true
+campaign_localised_strings_string_military_force_morale_bonus_value_plague	Plague	true
+campaign_localised_strings_string_cannot_colonise_wh_main_vmp_vampire_counts	[[col:red]]Your race cannot colonise ruins of this racial type.\n\nYou can only colonise ruins belonging to Undead factions or other Human factions except Norsca.[[/col]]	true
+campaign_localised_strings_string_edicts_disabled_cap_reached	[[col:red]]You are currently unable to issue additional edicts.[[/col]]\nRevoke an existing edict or increase your faction's imperium by securing additional territory, thereby allowing you to issue further edicts.	true
+campaign_localised_strings_string_war_coordination_target	War co-ordination target for:	true
+campaign_localised_strings_string_religion_factor_osmosis	Osmosis	true
+campaign_localised_strings_string_lord_lock_reason_2140784159	[[col:red]]This Legendary Lord will unlock after something happens.[[/col]]	true
+campaign_localised_strings_string_lord_lock_reason_2140782858	[[col:red]]This Legendary Lord will unlock following the sacrifice of 10 sets of captives after a battle.[[/col]]	true
+campaign_localised_strings_string_lord_lock_reason_2140783351	[[col:red]]This Legendary Lord will unlock after something happens.[[/col]]	true
+campaign_localised_strings_string_lord_lock_reason_2140783651	[[col:red]]This Legendary Lord will unlock after constructing the Forbidden Library building.[[/col]]	true
+campaign_localised_strings_string_politics_character_heir	Heir	true
+campaign_localised_strings_string_end_turn_warning_unused_edicts	You may still issue a [[url:script_link_campaign_commandments]][[tooltip:{{tt:tooltip_campaign_commandments}}]]commandment[[/tooltip]][[/url]] from one of your [[url:script_link_campaign_provinces]][[tooltip:{{tt:tooltip_campaign_provinces}}]]province[[/tooltip]][[/url]] capitals:	true
+campaign_localised_strings_string_growth_faction	Events	true
+campaign_localised_strings_string_military_force_growth_events	Events	true
+campaign_localised_strings_string_regular_expenditure_foreign_slot_upkeep	{{tr:regular_expenditure_foreign_slot_upkeep}}	true
+campaign_localised_strings_string_end_turn_wealth_tooltip	Economic power: %s	true
+campaign_localised_strings_string_cannot_recruit_back_ark_region_not_port	[[col:red]]You cannot recruit new Black Arks from settlements that do not have a port.[[/col]]	true
+campaign_localised_strings_string_lord_lock_reason_2140783648	[[col:red]]This Legendary Lord will unlock after constructing the Altdorf Conclave of Battle Wizards building.[[/col]]	true
+campaign_localised_strings_string_tooltip_forces_dropdown_character_not_recruited	[[col:yellow]]This [[img:icon_general]][[/img]]Lord is not leading an army, but is ready to be recruited.[[/col]]	true
+campaign_localised_strings_string_lord_lock_reason_2107575863	[[col:red]]This Legendary Lord will unlock only if you align yourself with the Eagle God.[[/col]]	true
+campaign_localised_strings_string_lord_lock_reason_2140782841	[[col:red]]This Legendary Lord will unlock following the slaughter of 10 sets of captives after a battle.[[/col]]	true
+campaign_localised_strings_string_lord_lock_reason_2140782847	[[col:red]]This Legendary Lord will unlock after owning the provinces of Eastern and Western Sylvania.[[/col]]	true
+campaign_localised_strings_string_lord_lock_reason_2140784146	[[col:red]]This Legendary Lord will unlock after dominating 10 sets of captives after a battle.[[/col]]	true
+campaign_localised_strings_string_wh2_dlc11_cst_shanty_shark_straight_seadogs_leader	Barron Von Heastie	true
+campaign_localised_strings_string_regular_income_tribute	 	true
+campaign_localised_strings_string_end_turn_warning_character_loyalty_low	This man has low loyalty:	true
+campaign_localised_strings_string_cannot_colonise_wh_main_grn_greenskins	[[col:red]]Your race cannot colonise ruins of this racial type.\n\nYou can only colonise ruins belonging to Dwarf factions or other Greenskin factions.[[/col]]	true
+campaign_localised_strings_string_growth_raiding	Raiding armies	true
+campaign_localised_strings_string_pending_action_warning_hero_ap	Hero not moved	true
+campaign_localised_strings_string_cannot_activate_stance_invalid_region	\n\n[[col:red]]You cannot adopt this stance in this region.[[/col]]\n	true
+campaign_localised_strings_string_raise_army_no_valid_location	[[col:red]]There is no valid location.[[/col]]	true
+campaign_localised_strings_string_military_force_growth_stance	Stance	true
+campaign_localised_strings_string_cannot_recruit_unit_source_settlement_besieged	Can't recruit this unit||Source settlement is under siege	true
+campaign_localised_strings_string_wh2_dlc11_cst_rogue_grey_point_scuttlers_leader	Sloppy Cruickshank	true
+campaign_localised_strings_string_regular_expenditure_navy_upkeep_tooltip	All Black Arks and their units have an associated upkeep cost.	true
+campaign_localised_strings_string_military_force_morale_effect_type_debug	DEBUG EFFECT	true
+campaign_localised_strings_string_lord_lock_reason_2140783672	[[col:red]]This Legendary Lord will unlock after constructing the Dragon Ogre Gathering building.[[/col]]	true
+campaign_localised_strings_string_pending_action_warning_building_repair	Damaged building	true
+campaign_localised_strings_string_tooltip_raiding_income	Income generated from raiding	true
+campaign_localised_strings_string_tooltip_skaven_public_order_from_corruption_breakdown	This is the total change in [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} caused by [[img:icon_corruption_skv]][[/img]]Skaven corruption in this province.	true
+campaign_localised_strings_string_ror_unlocks_after_book_found	[[col:red]]This unit will unlock once you've located the fourth Book of Nagash.[[/col]]	true
+campaign_localised_strings_string_politics_ministerial_position_expected_effects	[[/col:green]]The selected character may attempt to secure this office. Their success - or failure - will be determined at the start of the next turn.[[/col]]\n\nIn office, they will have the following effects:	true
+campaign_localised_strings_string_military_force_morale_bonus_value_modifier_technologies	Tech Bonus	true
+campaign_localised_strings_string_pending_action_warning_politics	Politics	true
+campaign_localised_strings_string_lord_lock_reason_1007509378	[[col:red]]This Legendary Lord will unlock only if you align yourself with the Eagle God.[[/col]]	true
+campaign_localised_strings_string_settlement_captured_tooltip_army_faction_effect	{{tr:settlement_captured_tooltip_army_faction_effect}}	true
+campaign_localised_strings_string_lord_lock_reason_2140784160	[[col:red]]This Legendary Lord will unlock after constructing the Monument of Grimnir building.[[/col]]	true
+campaign_localised_strings_string_lord_lock_reason_2140783662	[[col:red]]This Legendary Lord will unlock after awakening 4 Norscan tribes.[[/col]]	true
+campaign_localised_strings_string_lord_lock_reason_2140784064	[[col:red]]This Legendary Lord will unlock following the sacrifice of 10 sets of captives after a battle.[[/col]]	true
+campaign_localised_strings_string_cannot_activate_stance	\n\n[[col:red]]This character does not have enough movement range to adopt this stance.[[/col]]\n	true
+campaign_localised_strings_string_regular_income_vassal	Vassal tribute	true
+campaign_localised_strings_string_military_history_battles_victory_close	Close victory against:	true
+campaign_localised_strings_string_winds_of_magic_modifier_agent_actions	[[img:icon_hero]][[/img]]Hero actions	true
+campaign_localised_strings_string_pending_action_warning_horde_building_upgrade	{{tr:pending_action_warning_horde_building_upgrade}}	true
+campaign_localised_strings_string_wh2_dlc11_cst_pirates_of_sartosa	Pirates of Sartosa	true
+campaign_localised_strings_string_politics_event_target_family	Target party:	true
+campaign_localised_strings_string_unit_details_xp	Experience:	true
+campaign_localised_strings_string_skill_tooltip_quest_for	Quest for: 	true
+campaign_localised_strings_string_regular_expenditure_navy_upkeep	Black Ark upkeep	true
+campaign_localised_strings_string_lord_lock_reason_2140784116	[[col:red]]This Legendary Lord will unlock after constructing the Ritual Mound building.[[/col]]	true
+campaign_localised_strings_string_wh2_dlc11_cst_shanty_middle_sea_brigands_leader	Reik-Admiral Houghhoff	true
+campaign_localised_strings_string_military_history_years_service	Years of service:	true
+campaign_localised_strings_string_politics_event_assassination_wounded	The assassination failed, but the target was wounded whilst trying to escape their attackers!	true
+campaign_localised_strings_string_politics_character_left_your_family_for	This character has left your family for the following faction:	true
+campaign_localised_strings_string_lord_lock_reason_2140783608	[[col:red]]This Legendary Lord will unlock after occupying the Karak Kadrin settlement.[[/col]]	true
+campaign_localised_strings_string_lord_lock_reason_2140784202	[[col:red]]This Legendary Lord will unlock after 1 turn.[[/col]]	true
+campaign_localised_strings_string_edicts_incoming	Pending edict: 	true
+campaign_localised_strings_string_lord_lock_reason_2140783606	[[col:red]]This Legendary Lord will unlock after constructing the Shaman's Hut building.[[/col]]	true
+campaign_localised_strings_string_info_panel_effect_summary_force	Force's effects	true
+campaign_localised_strings_string_tooltip_disband_not_available	[[col:red]]The selected units may not be disbanded.[[/col]]	true
+campaign_localised_strings_string_regular_income_vassal_tooltip	You are the master over a faction. As your vassal, they will supply you with a tribute each turn.	true
+campaign_localised_strings_string_edicts_allowed	You may issue an edict here.	true
+campaign_localised_strings_string_winds_of_magic_modifier_other	Other	true
+campaign_localised_strings_string_skill_locked_by_skill	\n\n[[col:red]]Locked by skill: %S.[[/col]]	true
+campaign_localised_strings_string_raise_legacy_no_funds	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_military_history_battles_victory_heroic	Heroic victory against:	true
+campaign_localised_strings_string_tooltip_over_landbridge	Land bridge	true
+campaign_localised_strings_string_end_turn_camera_settings_medium	Medium	true
+campaign_localised_strings_string_lord_lock_reason_2140784138	[[col:red]]This Legendary Lord will unlock after 1 turn.[[/col]]	true
+campaign_localised_strings_string_lord_lock_reason_2140784136	[[col:red]]This Legendary Lord will unlock after constructing the Temple of Sigmar building.[[/col]]	true
+campaign_localised_strings_string_rituals_arrow_tooltip_key_left_click	\n\nLeft-click to view interventions	true
+campaign_localised_strings_string_military_history_battles_defeat_close	Close defeat by:	true
+campaign_localised_strings_string_military_force_morale_bonus_value_raid_stance	Raiding	true
+campaign_localised_strings_string_end_turn_warning_spare_governor_slot	You have an unallocated [[img:icon_overseer]][[/img]]Overseer slot.	true
+campaign_localised_strings_string_general_type_politician	Statesman	true
+campaign_localised_strings_string_regular_expenditure_foreign_slot_upkeep_tooltip	Maintenance costs for Under-City buildings.	true
+campaign_localised_strings_string_rituals_ritual_status_no_available_ritual_sites	[[col:red]]You do not own any settlements[[/col]]	true
+campaign_localised_strings_string_lord_lock_reason_2140782828	[[col:red]]This Legendary Lord will unlock after clearing 8 grudges from the Great Book of Grudges.[[/col]]	true
+campaign_localised_strings_string_lord_lock_reason_2140784127	[[col:red]]This Legendary Lord will unlock after constructing the Ritual Mound building.[[/col]]	true
+campaign_localised_strings_string_ritual_currency_factor_BATTLE	Post-battle loot	true
+campaign_localised_strings_string_edicts_heading	Commandments	true
+campaign_localised_strings_string_events_tooltip_zoom_to_character_rank_gained	Open Character Details panel	true
+campaign_localised_strings_string_regular_income_tribute_tooltip	 	true
+campaign_localised_strings_string_war_coordination_tooltip_right_click	\nRight-click to cancel targeting.	true
+campaign_localised_strings_string_cannot_recruit_unit_army_full	Cannot recruit unit||The army is full.	true
+campaign_localised_strings_string_politics_event_adoption	Offer of adoption.	true
+campaign_localised_strings_string_info_panel_effect_summary_agent	Agent's effects	true
+campaign_localised_strings_string_upkeep_alert_percentage	Each additional [[img:icon_general]][[/img]]Lord recruited will increase your total army upkeep by %d%%	true
+campaign_localised_strings_string_politics_action_impossible_actor_not_married	[[col:red]]One must be married before being able to divorce.[[/col]]	true
+campaign_localised_strings_string_politics_action_impossible_actor_not_general	[[col:red]]This character is not a general.[[/col]]	true
+campaign_localised_strings_string_campaign_morale_title_tooltip	{{tr:campaign_morale_title_tooltip}}	true
+campaign_localised_strings_string_politics_event_assassination_success	The target has been successfully assassinated.	true
+campaign_localised_strings_string_gdp_manufacture	Industry	true
+campaign_localised_strings_string_sacrifice_tooltip_cannot_afford	\n[[col:red]]You do not have the necessary number of Sacrificial Offerings.[[/col]]	true
+campaign_localised_strings_string_growth_province	Commandment	true
+campaign_localised_strings_string_monster_hunt_0_title	Frigustrex, Scion of the Cold-Void	true
+campaign_localised_strings_string_monster_hunt_1_title	The Salzenmund Soul-Eaters	true
+campaign_localised_strings_string_monster_hunt_2_title	Traygard Mountain-Cleaver	true
+campaign_localised_strings_string_monster_hunt_3_title	Brood Queens of Karak Azul	true
+campaign_localised_strings_string_monster_hunt_4_title	Blorgar the Mad Titan	true
+campaign_localised_strings_string_monster_hunt_5_title	Radixashen, Serpent of the Worldroots	true
+campaign_localised_strings_string_monster_hunt_6_title	The Great Mawherd of Bloodfjord	true
+campaign_localised_strings_string_monster_hunt_7_title	The Abyssal Shrieker	true
+campaign_localised_strings_string_monster_hunt_8_title	Mother of the Flame	true
+campaign_localised_strings_string_monster_hunt_9_title	Gargantulzan	true
+campaign_localised_strings_string_tooltip_labour_points	Growth points:	true
+campaign_localised_strings_string_wh2_dlc11_def_the_blessed_dread	Unknown Faction	true
+campaign_localised_strings_string_public_order_desolation	Desolation (next turn only)	true
+campaign_localised_strings_string_details_panel_tradition_cannot_no_skill_points	It has no tradition points.	true
+campaign_localised_strings_string_politics_action_impossible_different_faction	[[col:red]]You cannot use characters that do not belong to your faction to perform actions.[[/col]]	true
+campaign_localised_strings_string_quest_teleport_button_disabled_tooltip_sieging	[[col:red]]The required character is besieging a settlement.[[/col]]	true
+campaign_localised_strings_string_military_force_morale_bonus_value_characters	Characters	true
+campaign_localised_strings_string_politics_event_bribe_success	Having accepted their offer and pledged allegiance to a new party, this one now serves their interests.	true
+campaign_localised_strings_string_rituals_ritual_status_disabled_standard_ritual	[[col:dark_r]]This rite cannot be performed:[[/col]]	true
+campaign_localised_strings_string_details_panel_ancillary_remove	Remove the currently assigned household member or object.	true
+campaign_localised_strings_string_politics_ministerial_position_required_loyalty	Required [[img:icon_loyalty]][[/img]]loyalty:	true
+campaign_localised_strings_string_rituals_chain_ritual_duration	Turns required for this ritual to complete||If any ritual sites are lost at the point the ritual is completed, the ritual will fail.	true
+campaign_localised_strings_string_offices_panel_title_wh_dlc05_wef_argwylon	Gathering of the Ancients	true
+campaign_localised_strings_string_sea_region_control_status_recruitment_cost_mod	%d%% naval recruitment cost	true
+campaign_localised_strings_string_norsca_monster_hunt_ror_unlock	[[col:red]]This Regiment of Renown will unlock only if you complete the corresponding Monster Hunt.[[/col]]	true
+campaign_localised_strings_string_recruitment_allows_recruitment	Allows recruitment of:	true
+campaign_localised_strings_string_wh2_dlc11_cst_rogue_terrors_of_the_dark_straights	Terrors of the Dark Straits	true
+campaign_localised_strings_string_cannot_migrate_not_migratory	You cannot migrate because your faction is non-migratory.	true
+campaign_localised_strings_string_recruitment_confirmation_renown	{{tr:recruitment_confirmation_renown}}	true
+campaign_localised_strings_string_settlement_captured_tooltip_army_effect	Your army will gain the following effect:	true
+campaign_localised_strings_string_tooltip_disband_impossible_zero_loyalty	[[col:red]]Lords with 0 loyalty may not be disbanded.[[/col]]	true
+campaign_localised_strings_string_public_order_desolation_tooltip	Desolation	true
+campaign_localised_strings_string_military_force_morale_change_of_soil	Foreign Soil	true
+campaign_localised_strings_string_pre_battle_add_charges_tooltip	Increase number of uses\nFood cost: [[img:icon_skaven_food]][[/img]]%d	true
+campaign_localised_strings_string_politics_character_cannot_become_governor_travelling	This character cannot be assigned positions when in transit.	true
+campaign_localised_strings_string_politics_event_bribe	Bribery attempt!	true
+campaign_localised_strings_string_rituals_ritual_status_disabled	[[col:red]]Ritual unavailable:[[/col]]	true
+campaign_localised_strings_string_lord_lock_reason_2140784189	[[col:red]]This Legendary Lord will unlock after recruiting a Chaos Spawn unit.[[/col]]	true
+campaign_localised_strings_string_lord_lock_reason_2140783388	[[col:red]]This Legendary Lord will unlock after confederating with another faction.[[/col]]	true
+campaign_localised_strings_string_ritual_currency_factor_MISSION_REWARD	Missions	true
+campaign_localised_strings_string_quest_teleport_button_disabled_tooltip	[[col:red]]You cannot currently teleport.[[/col]]	true
+campaign_localised_strings_string_craft_tooltip_oathgold	Will consume stated Oathgold to forge item.	true
+campaign_localised_strings_string_craft_tooltip_cooldown	[[col:red]]This has already been crafted/awakened.[[/col]]	true
+campaign_localised_strings_string_politics_event_blackmail_discredited	Their demands were refused and his reputation has been tarnished by the rumours that they have spread.	true
+campaign_localised_strings_string_politics_event_acting_family	Instigating party:	true
+campaign_localised_strings_string_ancillary_gained_event_title	%s Gained	true
+campaign_localised_strings_string_winds_of_magic_modifier_items	Items & Followers	true
+campaign_localised_strings_string_wh2_dlc11_cst_the_drowned_leader	Cylostra Direfin	true
+campaign_localised_strings_string_politics_event_marriage_failure	He has refused the marriage offer. The balance of power remains as it was.	true
+campaign_localised_strings_string_politics_event_adoption_success	Having accepted their offer and pledged allegiance to a new party, this one now serves their interests.	true
+campaign_localised_strings_string_brt_knight_vow_tooltip_negative	[[col:red]]The Lord leading this force does not have the [[col:yellow]]%s[[/col]] skill, making this unit extremely expensive to maintain.[[/col]]	true
+campaign_localised_strings_string_raise_navy_no_valid_location	[[col:red]]There is no valid location.[[/col]]	true
+campaign_localised_strings_string_garrison_no_units_no_building	No garrison ||You don't have any buildings that provide garrison units.	true
+campaign_localised_strings_string_politics_action_impossible_target_own_family	[[col:red]]This action may not be targeted against other family members.[[/col]]	true
+campaign_localised_strings_string_gdp_fertility	Fertility	true
+campaign_localised_strings_string_pending_action_warning_ritual	Vortex ritual available	true
+campaign_localised_strings_string_rituals_pending_intervantion_ritual_declare_war_title	Declare War?	true
+campaign_localised_strings_string_politics_event_assassination	Assassination attempt!	true
+campaign_localised_strings_string_public_order_revolt_next_turn	At the current rate, the slaves will revolt next turn!	true
+campaign_localised_strings_string_rituals_ritual_status_payload_invalid	{{tr:rituals_ritual_status_payload_invalid}}	true
+campaign_localised_strings_string_ritual_currency_factor_CONFEDERATION	Confederation	true
+campaign_localised_strings_string_politics_action_make_heir_description	The heir will take charge of the faction once the current Faction Leader has passed on. Choose the candidate who you feel is best suited to the task, but remember that disinheriting an heir will have a drastic effect on their loyalty.\n\nDeclaration of heirship takes immediate effect.	true
+campaign_localised_strings_string_pre_battle_interception_cannot_retreat	[[col:red]]You cannot retreat when you have been intercepted by the enemy![[/col]]	true
+campaign_localised_strings_string_military_force_morale_bonus_value_patrol_stance	Patrolling	true
+campaign_localised_strings_string_public_order_technology	Technologies	true
+campaign_localised_strings_string_quest_teleport_dialogue_title	Teleport	true
+campaign_localised_strings_string_duplicate_building_in_province	[[col:yellow]]Multiple buildings of this type exist in this province, with no additional benefits.[[/col]]	true
+campaign_localised_strings_string_military_force_morale_bonus_value_own_waters	Friendly Waters	true
+campaign_localised_strings_string_tooltip_loyalty_header	Fealty	true
+campaign_localised_strings_string_wh2_dlc12_lock_ror_sotek	[[col:red]]This unit will become available after first unlocking it with a Sacrifice to Sotek.[[/col]]	true
+campaign_localised_strings_string_slaves_income_increase	[[img:icon_income]][[/img]]Income increase	true
+campaign_localised_strings_string_varying_regular_income_trade	Trade	true
+campaign_localised_strings_string_regular_expenditure_army_upkeep_tooltip	All units have an associated upkeep cost.	true
+campaign_localised_strings_string_fight_battle_tooltip_type_siege	{{tr:fight_battle_tooltip_type_siege}}	true
+campaign_localised_strings_string_end_turn_camera_settings_normal	Fast	true
+campaign_localised_strings_string_cannot_occupy_wh_dlc05_wef_wood_elves	Cannot occupy	true
+campaign_localised_strings_string_tooltip_disband_impossible_agent_exists	[[col:red]]The selected units may not be disbanded until the embedded [[img:icon_hero]][[/img]]Hero has been removed from the army.[[/col]]	true
+campaign_localised_strings_string_regular_income_commerce_raiding	Raiding	true
+campaign_localised_strings_string_ritual_currency_factor_OTHER	Other	true
+campaign_localised_strings_string_cannot_occupy_wh_dlc03_bst_beastmen	[[col:red]]Your race operates in mighty hordes and cannot occupy settlements of any type.[[/col]]	true
+campaign_localised_strings_string_varying_regular_income_military_force_tooltip	Some horde buildings generate {{tr:icon_income}}income. This is the total amount generated by your horde buildings.	true
+campaign_localised_strings_string_tooltip_levy_unit_recruitment_unit_mouseover	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_brt_knight_vow_tooltip_neutral	This unit requires its commanding Lord to have the [[col:yellow]]%s[[/col]] skill, else it will suffer a large upkeep penalty.	true
+campaign_localised_strings_string_garrison_no_units_momentarily	No garrison ||Units will begin replenishing next turn.	true
+campaign_localised_strings_string_varying_regular_income_taxes	{{tr:taxes}}	true
+campaign_localised_strings_string_cannot_build_requires_previous_chain_buildings	{{tr:cannot_build_requires_previous_chain_buildings}}	true
+campaign_localised_strings_string_public_order_culture_tooltip	Corruption	true
+campaign_localised_strings_string_pending_action_warning_bankrupt	Low funds	true
+campaign_localised_strings_string_cannot_activate_abmush_stance	\n\n[[col:red]]You cannot adopt the [[img:icon_ambush_stance]][[/img]]Ambush stance when in view of another faction's army.[[/col]]\n	true
+campaign_localised_strings_string_ritual_currency_factor_FACTION	Faction	true
+campaign_localised_strings_string_cannot_build_no_slot_available	[[col:red]]You cannot construct this building here as there are no slots available.[[/col]]	true
+campaign_localised_strings_string_enslave_none_captured	[[col:red]]You have taken insufficient captives, so replenishment will be 0%[[/col]]	true
+campaign_localised_strings_string_cannot_occupy_wh2_main_lzd_lizardmen	Cannot occupy	true
+campaign_localised_strings_string_terrain	Terrain: 	true
+campaign_localised_strings_string_cannot_occupy_wh2_main_hef_high_elves	Cannot occupy	true
+campaign_localised_strings_string_cannot_occupy_wh2_main_def_dark_elves	Cannot occupy	true
+campaign_localised_strings_string_pre_battle_march_cannot_retreat	[[col:red]]You cannot retreat while in March stance![[/col]]	true
+campaign_localised_strings_string_politics_action_impossible_actor_not_politician	[[col:red]]Only statesmen may seek to become another character's retainer.[[/col]]	true
+campaign_localised_strings_string_sea_shanty_ui_tooltip	You must acquire the Star-metal Harpoon, along with three verses of the Lost Sea Shanty that will imbue it with power to defeat Amanar.\n\nGain these items by defeating [[img:icon_shanty]][[/img]]infamous pirates in battle.	true
+campaign_localised_strings_string_wh2_dlc11_cst_rogue_terrors_of_the_dark_straights_leader	Capitano Sisicco 	true
+campaign_localised_strings_string_recruit_agent_tooltip	Recruit Hero ||[[img:icon_hero]][[/img]]Heroes can be embedded into armies to join them in battle, or may act independently on the campaign map.	true
+campaign_localised_strings_string_unit_upgrade_retrain_cannot_reason_none_multiple_horde	There is no further training for these units available within this horde.	true
+campaign_localised_strings_string_details_panel_tradition_select	This force may adopt an additional tradition.\nLeft-click a tradition to adopt it.	true
+campaign_localised_strings_string_politics_action_impossible_actor_gravitas_insufficient	[[col:red]]The acting character has insufficient [[img:icon_reputation]][[/img]]reputation for this action.[[/col]]	true
+campaign_localised_strings_string_province_shared	Shared province.	true
+campaign_localised_strings_string_politics_character_status_in_transit	Traveling	true
+campaign_localised_strings_string_pre_battle_add_charges_tooltip_disabled	[[col:red]]Not enough [[img:icon_skaven_food]][[/img]]food to increase number of uses[[/col]]	true
+campaign_localised_strings_string_events_tooltip_zoom_to_standard	Zoom to event location	true
+campaign_localised_strings_string_military_force_morale_bonus_value_settle_stance	Encampment	true
+campaign_localised_strings_string_offices_panel_title_wh2_dlc11_cst_vampire_coast	Fleet Offices	true
+campaign_localised_strings_string_politics_action_gravitas_cost	[[img:icon_reputation]][[/img]]Reputation cost: 	true
+campaign_localised_strings_string_politics_not_available_wounded	[[col:red]]This [[img:icon_general]][[/img]]Lord was recently wounded. They will be available for office in %d turns.[[/col]]	true
+campaign_localised_strings_string_varying_regular_income_trade_tooltip	Exchanging resources with other factions will provide additional {{tr:icon_income}}income.	true
+campaign_localised_strings_string_politics_action_impossible_actor_faction_leader_only	[[col:red]]Only the Faction Leader may carry out this machination.[[/col]]	true
+campaign_localised_strings_string_recruitment_unavailable_cannot_switch_stance	[[col:red]]Cannot recruit. This force is currently not in the [[img:icon_encamp_stance]][[/img]]Encamp stance and doesn't have enough movement range to adopt it.[[/col]]	true
+campaign_localised_strings_string_military_force_morale_bonus_value_tax	Laying Siege	true
+campaign_localised_strings_string_recruitment_levy_from_satrapy	Levy from puppet state	true
+campaign_localised_strings_string_raise_navy_blockaded	[[col:red]]This settlement's port is being blockaded.[[/col]]	true
+campaign_localised_strings_string_end_turn_button_tooltip_turns	Turn %d	true
+campaign_localised_strings_string_fight_battle_tooltip_type_naval	{{tr:fight_battle_tooltip_type_naval}}	true
+campaign_localised_strings_string_end_turn_camera_settings_follow	Cinematic	true
+campaign_localised_strings_string_regular_expenditure_army_upkeep	Army upkeep	true
+campaign_localised_strings_string_regular_income_commerce_raiding_tooltip	Raiding a region provides additional {{tr:icon_income}}income.	true
+campaign_localised_strings_string_raise_navy_no_candidate	[[col:red]]There are no Lords available.[[/col]]	true
+campaign_localised_strings_string_raise_army_no_candidate	[[col:red]]There are no Lords available.[[/col]]	true
+campaign_localised_strings_string_retrain_upgrade_header	Retrain	true
+campaign_localised_strings_string_varying_regular_income_military_force	Horde buildings	true
+campaign_localised_strings_string_ritual_currency_factor_REGIONS	Buildings	true
+campaign_localised_strings_string_edicts_current	Current edict: 	true
+campaign_localised_strings_string_current_office	Currently held highest office:	true
+campaign_localised_strings_string_minor_settlement_maximum_level	[[col:red]]Minor settlements can only construct buildings up to tier %n.[[/col]]	true
+campaign_localised_strings_string_public_order_culture	Corruption	true
+campaign_localised_strings_string_varying_regular_income_taxes_tooltip	{{tr:taxes_explanation}}	true
+campaign_localised_strings_string_force_not_in_correct_stance_expedition	Expeditions must be encamped in order to construct buildings. Issuing this order will place the expedition into encampment stance.	true
+campaign_localised_strings_string_politics_action_impossible_actor_post_requirement_fail	[[col:red]]The minimum requirements for this office have not been met.[[/col]]	true
+campaign_localised_strings_string_cannot_build_requires_other_building	[[col:red]]You cannot construct this building before first constructing all required buildings in this settlement.[[/col]]	true
+campaign_localised_strings_string_public_order_faction_tooltip	Faction	true
+campaign_localised_strings_string_tooltip_list_available_hordes	This building can be constructed in the following hordes:	true
+campaign_localised_strings_string_locked_skill	[[col:red]]Action locked. Available after unlocking the campaign skill:[[/col]]	true
+campaign_localised_strings_string_recruitment_cannot_local_foreign_region	[[col:red]]Local recruitment is not available whilst in foreign territory.[[/col]]	true
+campaign_localised_strings_string_unit_upgrade_cannot_reason_none_single	There is no improved equipment available for this unit in this province.	true
+campaign_localised_strings_string_recruit_force_tooltip	Recruit Lord||Recruit a new [[img:icon_general]][[/img]]Lord to lead a force.	true
+campaign_localised_strings_string_public_order_raiding_tooltip	Raiding	true
+campaign_localised_strings_string_end_turn_speed_settings_slow	Normal	true
+campaign_localised_strings_string_authority_desc	Security against authority-based agent actions.	true
+campaign_localised_strings_string_military_history_battles_defeat_phyrric	Valiant defeat by:	true
+campaign_localised_strings_string_brt_knight_vow_tooltip_positive	[[col:green]]Your Lord has the [[col:yellow]]%s[[/col]] skill and can maintain this unit in their army without penalty.[[/col]]	true
+campaign_localised_strings_string_ritual_currency_factor_RITUAL	Rituals	true
+campaign_localised_strings_string_development_points_tooltip_growth_max	[[col:yellow]]Population surplus is at maximum capacity.[[/col]]	true
+campaign_localised_strings_string_tooltip_mercenary_recruitment_unit_mouseover	Left-click to add this unit to the queue, right-click for further information.	true
+campaign_localised_strings_string_character_type_child	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_slot_unlock_main_building_level_needed	[[col:red]]This slot will unlock when you upgrade your main settlement chain building to level %n.[[/col]]	true
+campaign_localised_strings_string_cannot_occupy_wh_main_grn_greenskins	[[col:red]]Your race cannot occupy settlements of this racial type.\n\nYou can only occupy settlements belonging to Dwarf factions or other Greenskin factions.[[/col]]	true
+campaign_localised_strings_string_events_tooltip_zoom_to_trait_ancillary_gained	Open Character Details panel	true
+campaign_localised_strings_string_politics_event_adoption_failure	Having refused the offer, this one remains loyal to their own party.	true
+campaign_localised_strings_string_public_order_characters_tooltip	Characters	true
+campaign_localised_strings_string_politics_event_marriage_success	The marriage has been arranged and the balance of power has been redressed.	true
+campaign_localised_strings_string_politics_ministerial_position_expected_effects_when_qualified	[[/col:red]]The selected character does not yet meet the minimum requirements for this office.[[/col]]\n\nIn office, they would have the following effects:	true
+campaign_localised_strings_string_faction_leader	Faction leader:	true
+campaign_localised_strings_string_number_of_casualties_tooltip	Famous battle site - Number of casualties: %d||This affects the types of units available via Raise Dead in this region. It also affects the chances of each unit type replenishing, and the region's overall capacity for each unit type. These factors are also affected by the number of recruitment structures you own.\nOnly casualties from battles large enough to be deemed Famous Battles count toward this total.	true
+campaign_localised_strings_string_public_order_resistance_to_occupation_tooltip	Decreases by one each turn.	true
+campaign_localised_strings_string_rituals_arrow_tooltip_in_insufficient_ritual_currency	Currently progressing towards the %s	true
+campaign_localised_strings_string_fight_battle_tooltip_type_land	{{tr:fight_battle_tooltip_type_land}}	true
+campaign_localised_strings_string_region_possibly_plural	Region(s): 	true
+campaign_localised_strings_string_pending_action_warning_morale	{{tr:pending_action_warning_morale}}	true
+campaign_localised_strings_string_colonise_description_with_cost	Right-click to attempt to search the ruins or colonise this settlement\nColonisation cost: {{tr:icon_money}}%d	true
+campaign_localised_strings_string_rituals_ritual_currency_cost	Performing this ritual will require: [[img:icon_ritual_currency]][[/img]]%d\n	true
+campaign_localised_strings_string_politics_event_marriage	Offer of marriage.	true
+campaign_localised_strings_string_politics_power_support_popular_gravitas	%u reputation	true
+campaign_localised_strings_string_public_order_characters	Characters	true
+campaign_localised_strings_string_ritual_currency_factor_LOOTING	Sacking & looting	true
+campaign_localised_strings_string_skaven_under_empire_owned_discovered_tooltip	Your Under-City here has been discovered!	true
+campaign_localised_strings_string_growth_other	Other	true
+campaign_localised_strings_string_politics_event_assassination_failure	The assassination has totally failed!	true
+campaign_localised_strings_string_public_order_resistance_to_occupation	Provincial instability (-1 per turn)	true
+campaign_localised_strings_string_wh2_dlc11_cst_shanty_middle_sea_brigands	Middle Sea Brigands	true
+campaign_localised_strings_string_growth_taxes	{{tr:taxes}}	true
+campaign_localised_strings_string_gdp_subsistence	Subsistence	true
+campaign_localised_strings_string_gdp_animal_husbandry	Livestock	true
+campaign_localised_strings_string_ritual_currency_factor_TREASURE_HUNT	Searching ruins	true
+campaign_localised_strings_string_pending_action_warning_garrisoned_army	Garrisoned Lord not moved	true
+campaign_localised_strings_string_end_turn_button_tooltip_notifications	[[col:yellow]]Resolve or skip this notification to end turn[[/col]]	true
+campaign_localised_strings_string_public_order_faction	Faction	true
+campaign_localised_strings_string_details_panel_ancillary_select	No household member or object currently assigned.\nClick on an available one to assign it to this character. It will take effect as of the next turn.	true
+campaign_localised_strings_string_tooltip_cancel_unit_recruitment	Left-click to remove unit from recruitment queue||Right-click for further information	true
+campaign_localised_strings_string_winds_of_magic_modifier_base	Base power	true
+campaign_localised_strings_string_sword_button_owned_by_others	The Sword of Khaine is in the hands of another.\n[[col:red]]Defeat the current owner to claim it.[[/col]]\nLeft-click to track the Sword of Khaine.\nSword currently controlled by: 	true
+campaign_localised_strings_string_public_order_raiding	Raiding	true
+campaign_localised_strings_string_cannot_build_exceeds_maximum_settlement_level	[[col:red]]This building must be constructed in a province capital, as the settlement building in minor settlements can only reach tier 3.[[/col]]	true
+campaign_localised_strings_string_tooltip_skaven_public_order_from_skaven	From [[img:icon_corruption_skv]][[/img]]Skaven corruption	true
+campaign_localised_strings_string_wh2_dlc11_mission_text_piece_of_eight_8	"One fateful day, a mysterious, hooded stranger arrived in the landlubbers' town o' Bogenhafen. The whispers were sayin' that a powerful conjurer runnin’ from the Witch Hunters, which turned out to be true after the stranger was robbed of his magic bullion by a trickster merchant. Turned out this stranger was not to be trifled with, as ‘e vengefully conjured up the terrifyin’ monster called the 'Gallows Giant', a fire-spittin’ abomination o’ corpses fused to ship-torn timber that burned Bogenhafen to the ground."	true
+campaign_localised_strings_string_military_force_morale_bonus_value_food	Food	true
+campaign_localised_strings_string_recruitment_cannot_local_march	[[col:red]]Local recruitment is not available in this army's current stance.[[/col]]	true
+campaign_localised_strings_string_other_nobles_candidates_header	Candidates	true
+campaign_localised_strings_string_politics_action_impossible_target_self	[[col:red]]Characters may not take action against themselves.[[/col]]	true
+campaign_localised_strings_string_development_points_tooltip_hordes_growth_max_expedition	[[col:yellow]]Population surplus for this expedition is at maximum capacity.[[/col]]	true
+campaign_localised_strings_string_wh2_dlc10_death_night_lock_morathi	This stage of Death Night is locked due to the capture of the Ancient City of Quintex.	true
+campaign_localised_strings_string_military_history_foundation_location	Location:	true
+campaign_localised_strings_string_public_order_faction_province	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_skaven_underempire_discovered_tooltip	The Under-Empire has been discovered in this region!\n\nThe settlement owner is now in a position to remove your Under-City should they be willing to undertake the great expense required to do so.	true
+campaign_localised_strings_string_wh2_dlc11_cst_rogue_boyz_of_the_forbidden_coast	Boyz of the Forbidden Coast	true
+campaign_localised_strings_string_confirm_religious_conversion	Are you sure you want to convert to the following religion:	true
+campaign_localised_strings_string_waagh_parent_threshold_tooltip_lowest	{{tr:fightiness_lowest}}	true
+campaign_localised_strings_string_end_turn_settings_target_allies	Allied factions	true
+campaign_localised_strings_string_rituals_ritual_status_available_standard_ritual	Performing this rite will instantly grant the above reward.	true
+campaign_localised_strings_string_public_order_buildings	Buildings	true
+campaign_localised_strings_string_character_retainer_of	Retainer of:	true
+campaign_localised_strings_string_politics_event_divorce	Seek divorce!	true
+campaign_localised_strings_string_unit_details_mancount	Men:	true
+campaign_localised_strings_string_politics_ministerial_position_effects	This character is currently occupying this office, thereby granting the following effects:	true
+campaign_localised_strings_string_growth_armies	Armies present	true
+campaign_localised_strings_string_quest_teleport_button_disabled_tooltip_not_commanding	[[col:red]]The required character is not currently commanding an army.[[/col]]	true
+campaign_localised_strings_string_events_strings_character_type	Character type:	true
+campaign_localised_strings_string_end_turn_camera_settings_low	Low	true
+campaign_localised_strings_string_wh2_dlc11_cst_rogue_bleak_coast_buccaneers_leader	Black Buckthorn	true
+campaign_localised_strings_string_unit_upgrade_retrain_cannot_reason_none_single_horde	There is no further training for this unit available within this horde.	true
+campaign_localised_strings_string_units_of_renown_tooltip_locked	[[col:red]]This unit will unlock after one of your [[img:icon_general]][[/img]]Lords reaches the required rank.[[/col]]	true
+campaign_localised_strings_string_attrition_tooltip_men_remaining	Predicted number of troops remaining on the next turn: 	true
+campaign_localised_strings_string_military_force_morale_sacked_settlement	Settlement Destruction	true
+campaign_localised_strings_string_public_order_resources	Resources	true
+campaign_localised_strings_string_cannot_activate_stance_in_force_march	\n\n[[col:red]]This character does not have enough movement range outside of March stance to adopt this stance.[[/col]]\n	true
+campaign_localised_strings_string_movement_range_tooltip	Movement Range %d%%||The yellow bar represents this character's movement range. Once the bar is empty, the character will not be able to move until the next turn.	true
+campaign_localised_strings_string_public_order_rebellion	{{tr:public_order_rebellion}} %n turns.	true
+campaign_localised_strings_string_end_turn_display_tooltip_ai_move_full	Show all AI character moves.	true
+campaign_localised_strings_string_campaign_ambush_success_chance	[[img:icon_ambush_stance]][[/img]]Ambush success chance: %d%%	true
+campaign_localised_strings_string_regular_expenditure_policing	 	true
+campaign_localised_strings_string_cannot_recruit_force_region_under_siege	[[col:red]]This settlement is under siege: you may not recruit a [[img:icon_general]][[/img]]Lord here until the siege has been lifted.[[/col]]	true
+campaign_localised_strings_string_rituals_ritual_status_available	Left-click to see ritual details	true
+campaign_localised_strings_string_attack_button_locked_for_advice	[[col:red]]Dismiss all advice and related events before attacking.[[/col]]	true
+campaign_localised_strings_string_military_force_morale_attrition	[[img:icon_attrition]][[/img]]Attrition	true
+campaign_localised_strings_string_quest_teleport_button_disabled_tooltip_at_sea	[[col:red]]The required character is currently at sea.[[/col]]	true
+campaign_localised_strings_string_politics_event_divorce_success	Marriage annulled.	true
+campaign_localised_strings_string_unit_upgrade_cannot_reason_foreign_territory	The army is in foreign territory.	true
+campaign_localised_strings_string_public_order_buildings_tooltip	Buildings	true
+campaign_localised_strings_string_hud_button_blessed_spawning_tooltip_at_not_your_turn	You cannot recruit Blessed Spawnings unless it is your turn.	true
+campaign_localised_strings_string_confirm_begin_migration	Are you sure you wish to begin migration?	true
+campaign_localised_strings_string_military_force_morale_effect_type_bonus_value_animosity	Animosity	true
+campaign_localised_strings_string_resource_building_required_tech_tooltip	[[col:yellow]]This building can only be constructed in a settlement with the appropriate resource.[[/col]]	true
+campaign_localised_strings_string_military_force_morale_bonus_value_modifier_buildings	Building Bonus	true
+campaign_localised_strings_string_military_force_morale_bonus_value_technologies	Technologies	true
+campaign_localised_strings_string_public_order_resources_tooltip	Resources	true
+campaign_localised_strings_string_building_required_unavailable	You cannot construct the required buildings in this province.	true
+campaign_localised_strings_string_politics_action_impossible_target_already_has_retainer	[[col:red]]This character already has a retainer.[[/col]]	true
+campaign_localised_strings_string_regular_expenditure_policing_tooltip	 	true
+campaign_localised_strings_string_rituals_pending_intervantion_ritual_declare_war_cancel	Cancel Intervention	true
+campaign_localised_strings_string_norsca_god_allegiance_tooltip	Current Allegiance: %d/%d	true
+campaign_localised_strings_string_button_start_migration	Begin Migration||Abandon your remaining settlements and begin migration. Your treasury will be reimbursed and your forces will carry their buildings with them for resettlement, be it recolonising an empty settlement or capturing an existing one. Population surplus is redistributed amongst your existing forces.	true
+campaign_localised_strings_string_end_turn_camera_settings_fast	Fastest	true
+campaign_localised_strings_string_autoresolve_available_battle	{{tr:auto_resolve_tooltip}}	true
+campaign_localised_strings_string_recruitment_cannot_local_horde	[[col:red]]Local recruitment is only available whilst in the [[img:icon_encamp_stance]][[/img]]Encamp stance.[[/col]]	true
+campaign_localised_strings_string_military_force_morale_supplies	Supplies	true
+campaign_localised_strings_string_siege_cannot_surrender_without_blockade	This settlement will not surrender as long as it is sustained by a port. Blockade the settlement to starve the populace out.	true
+campaign_localised_strings_string_rituals_ritual_status_not_enough_slave	[[col:dark_r]]You have insufficient [[img:icon_slaves]][[/img]]slaves[[/col]]	true
+campaign_localised_strings_string_end_turn_settings_target_all	All	true
+campaign_localised_strings_string_character_neutral_effect_level	Neutral effect level. No negative or positive effects applied.	true
+campaign_localised_strings_string_quest_teleport_button_enabled_tooltip	Teleport {{tr:icon_money}} %d||This will instantly move %s to the quest battle location, at a cost. Following the battle, your character will be returned to their original location, with any casualties taken persisting after the battle is over.	true
+campaign_localised_strings_string_wh2_dlc11_ritual_bloodlines_necrarch_focus_text	Lords Focus: Supreme Wizard	true
+campaign_localised_strings_string_raise_legacy_besieged	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_battle_ambush_they_intercept	Your army spotted an enemy force waiting to ambush. Undeterred by their discovery, the enemy is moving to intercept.	true
+campaign_localised_strings_string_rituals_ritual_status_insufficient_gold_standard_ritual	[[col:dark_r]]You have insufficient funds[[/col]]	true
+campaign_localised_strings_string_military_force_morale_kings_own	King's Own	true
+campaign_localised_strings_string_cannot_occupy_default	[[col:red]]Your race cannot occupy settlements of this racial type.[[/col]]	true
+campaign_localised_strings_string_politics_action_cancel	Cancel this machination.	true
+campaign_localised_strings_string_rituals_pending_intervantion_ritual_declare_war_body	Calling upon an intervention is an act of war. Do you wish to proceed?	true
+campaign_localised_strings_string_recruitment_confirmation_merceneries	Raise	true
+campaign_localised_strings_string_double_click_diplomacy	\nDouble left-click to initiate diplomacy	true
+campaign_localised_strings_string_military_force_morale_concurrent_wars	Concurrent Wars	true
+campaign_localised_strings_string_development_points_tooltip_hordes_growth_max	[[col:yellow]]Population surplus for this horde is at maximum capacity.[[/col]]	true
+campaign_localised_strings_string_slaves_tooltip_title	Slaves	true
+campaign_localised_strings_string_end_turn_display_tooltip_ai_move_off	Do not show any AI character moves.	true
+campaign_localised_strings_string_imperium_tooltip_10	Supreme||The power wielded by your people is undisputable. None shall resist their might, nor the temptation to control it: civil strife is certain.	true
+campaign_localised_strings_string_slaves_header	[[url:script_link_campaign_slaves]]Slaves %d%%[[/url]]	true
+campaign_localised_strings_string_rituals_arrow_tooltip_key_settlements_header	\nRitual sites:	true
+campaign_localised_strings_string_required_technologies	[[col:red]]Requires technology researched:[[/col]]	true
+campaign_localised_strings_string_wh2_dlc11_cst_vampire_coast_leader	Luthor Harkon	true
+campaign_localised_strings_string_gdp_fertility_livestock	Husbandry [Fertility]	true
+campaign_localised_strings_string_imperium_tooltip_03	Noteworthy||Your people have established themselves as a power deserving of respect.	true
+campaign_localised_strings_string_imperium_tooltip_02	Insignificant||Your people have achieved little and are of no consequence to the world...yet!	true
+campaign_localised_strings_string_imperium_tooltip_01	Insignificant||Your people have achieved little and are of no consequence to the world...yet!	true
+campaign_localised_strings_string_imperium_tooltip_07	Intimidating||Your people have accomplished many great things. Their power is feared by their enemies and coveted by their own: civil strife is imminent!	true
+campaign_localised_strings_string_imperium_tooltip_06	Impressive||People in distant lands speak of your people's achievements with fear and awe in equal measure! Domestic intrigue grows: civil strife is brewing.	true
+campaign_localised_strings_string_imperium_tooltip_05	Impressive||People in distant lands speak of your people's achievements with fear and awe in equal measure! Domestic intrigue grows: civil strife is brewing.	true
+campaign_localised_strings_string_imperium_tooltip_04	Noteworthy||Your people have established themselves as a power deserving of respect.	true
+campaign_localised_strings_string_imperium_tooltip_09	Supreme||The power wielded by your people is undisputable. None shall resist their might, nor the temptation to control it: civil strife is certain.	true
+campaign_localised_strings_string_imperium_tooltip_08	Intimidating||Your people have accomplished many great things. Their power is feared by their enemies and coveted by their own: civil strife is imminent!	true
+campaign_localised_strings_string_end_turn_camera_settings_off	Off	true
+campaign_localised_strings_string_agent_action_embed_once	[[col:yellow]]This [[img:icon_hero]][[/img]]Hero has already performed an action this turn. The order may be queued and the action will be carried out on the next turn.[[/col]]	true
+campaign_localised_strings_string_religion_factor_faction_traits	Faction trait	true
+campaign_localised_strings_string_map_tooltip_storm_description	[[col:yellow]]%S![[/col]] This region is experiencing a storm. Any army that moves here will suffer [[img:icon_attrition]][[/img]]attrition.	true
+campaign_localised_strings_string_public_order_province	Province	true
+campaign_localised_strings_string_military_force_morale_released_captives	No Captives	true
+campaign_localised_strings_string_military_force_morale_bonus_value_own_territory	Friendly Territory	true
+campaign_localised_strings_string_details_panel_tradition_cannot_select	This force cannot adopt this tradition:	true
+campaign_localised_strings_string_settlement_captured_tooltip_settlement_effect	This settlement will gain the following effect:	true
+campaign_localised_strings_string_public_order_culture_vampiric	Vampiric corruption	true
+campaign_localised_strings_string_gdp_land_trade	!NOT USED!	true
+campaign_localised_strings_string_military_force_morale_bonus_value_march_stance	Mass Migration	true
+campaign_localised_strings_string_units_of_renown_tooltip_capped	[[col:red]]This unit has already been recruited.[[/col]]	true
+campaign_localised_strings_string_politics_action_impossible_target_dead	[[col:red]]This character is dead! They cannot be acted against.[[/col]]	true
+campaign_localised_strings_string_development_points_tooltip_hordes_insufficent_development_points_number	[[col:red]]You need %n [[img:icon_pop_surplus]][[/img]]population surplus.[[/col]]||{{tr:development_points_tooltip_hordes_insufficent_development_points_number}}	true
+campaign_localised_strings_string_raise_legacy_no_surplus	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_button_zoom_to_waaagh_parent	Zoom to host army	true
+campaign_localised_strings_string_raise_legacy	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_unit_upgrade_cannot_reason_none_single_horde	There is no improved equipment available for this unit in this horde.	true
+campaign_localised_strings_string_politics_cursus_current_level	Current level	true
+campaign_localised_strings_string_details_panel_tradition_cannot_low_rank	Its rank is too low.	true
+campaign_localised_strings_string_gdp_local_trade	Local Commerce	true
+campaign_localised_strings_string_rituals_ritual_status_insufficient_gold	[[col:red]]You have insufficient funds[[/col]]	true
+campaign_localised_strings_string_raise_force_navy_cannot	Cannot raise fleet	true
+campaign_localised_strings_string_can_change_mount_once_per_turn	\n\n[[col:red]]Mounts may only be changed once per turn.[[/col]]	true
+campaign_localised_strings_string_cannot_recruit_agent_region_not_owned	[[col:red]]You cannot recruit new [[img:icon_hero]][[/img]]Heroes from settlements that you do not own.[[/col]]	true
+campaign_localised_strings_string_fight_battle_tooltip_type_settlement	{{tr:fight_battle_tooltip_type_settlement}}	true
+campaign_localised_strings_string_demolish_building_refund_amount	This will provide: {{tr:icon_treasury}} %n	true
+campaign_localised_strings_string_military_force_morale_bonus_value_faction_trait	Faction Trait	true
+campaign_localised_strings_string_politics_event_outcome	Consequence	true
+campaign_localised_strings_string_wh2_dlc11_cst_pirates_of_sartosa_leader	Aranessa Saltspite	true
+campaign_localised_strings_string_total	Total	true
+campaign_localised_strings_string_building_required_tech_tooltip	This will show you where the building is located in the building browser for your capital, though it can be built in any settlement to unlock the technology.	true
+campaign_localised_strings_string_workshop_level_tooltip_title	Level %d	true
+campaign_localised_strings_string_book_of_monster_hunts_technology_locked	YOU NEED %s TO UNLOCK THIS ENTRY	true
+campaign_localised_strings_string_politics_power_support_popular_current	Current dominion:	true
+campaign_localised_strings_string_varying_regular_income_mining	 	true
+campaign_localised_strings_string_slaves_maximum_slaves	Maximum [[img:icon_slaves]][[/img]]slaves	true
+campaign_localised_strings_string_cannot_issue_edict_to_unowned_region	[[col:red]]You cannot issue commandments in provinces in which you do not own all of the settlements.[[/col]]	true
+campaign_localised_strings_string_politics_event_target_character	Target:	true
+campaign_localised_strings_string_monster_hunt_11_description	Clan Gritus have become so successful in preying on weakling clans that in recent years they have amassed a surplus of wealth. The clan's chieftains have traded chests filled with Warpstone and commissioned the Master Moulders of Hell Pit to create a hideous creature of unparalleled size and ferocity: the Hellbeast of Seep-Gore. This monster is said to be in constant pain, for within its abdomen exists a whole other colony...	true
+campaign_localised_strings_string_monster_hunt_10_description	While all War Hydras can live to be incredibly ancient, legend has it that the Beast of Raema is all but immortal and will never die of old age. The older it gets, the larger it grows; its scales denser, its teeth get sharper and claws longer. The legends that recount this creature's attacks say that its mere presence has a mesmeric effect on those caught in its gaze; they are driven mad by the motion of the creature as it sways and intertwines its long necks. Until now, the beast has remained in the far north of Naggarond, feeding off lone Dark Elf settlements and other wandering creatures that stray into its path, but what would happen if it ventured beyond its usual hunting grounds?	true
+campaign_localised_strings_string_end_turn_camera_settings_high	High	true
+campaign_localised_strings_string_campaign_map_tooltip_orders_disabled	[[col:red]]Movement unavailable - dismiss events and advice before issuing orders[[/col]]	true
+campaign_localised_strings_string_tooltip_slave_income	Slaves captured from raiding	true
+campaign_localised_strings_string_details_panel_skills_cannot_low_rank	Their rank is too low.	true
+campaign_localised_strings_string_cunning_desc	Security against cunning-based agent actions.	true
+campaign_localised_strings_string_public_order_culture_non_chaos	Lack of corruption	true
+campaign_localised_strings_string_cannot_recruit_agent_region_under_siege	[[col:red]]This settlement is under siege: you may not recruit an [[img:icon_hero]][[/img]]Hero here until the siege has been lifted.[[/col]]	true
+campaign_localised_strings_string_rituals_vortex_ritual_completed	(completed)	true
+campaign_localised_strings_string_ancillary_equipment_in_cooldown	[[col:red]]This item is in transit. Turns until available: %d[[/col]]	true
+campaign_localised_strings_string_gdp_leeching	Pirate Coves	true
+campaign_localised_strings_string_tooltip_mercenary_pool_info_recruitment_unit_mouseover	Pool provides %d units , rate %d	true
+campaign_localised_strings_string_tooltip_skaven_settlement_level_increase_valid	Increase settlement level\nFood cost: [[img:icon_skaven_food]][[/img]]%d	true
+campaign_localised_strings_string_politics_governor_cap_reached	You already have the maximum number of governors.	true
+campaign_localised_strings_string_politics_power_support_political_description	Control is a measure of your mastery of politics; your power over the elite. It fluctuates as your family members engage in political intrigues and as other campaign events unfold.\n\nCombined with dominion, it defines your family's overall power.	true
+campaign_localised_strings_string_wh2_dlc11_cst_the_drowned	The Drowned	true
+campaign_localised_strings_string_dlc11_ror_unlock_reason_2	This unit will only unlock once you have attained the "Lucky Levi’s Keepsake" Piece of Eight	true
+campaign_localised_strings_string_dlc11_ror_unlock_reason_3	This unit will only unlock once you have attained the "The Doubloon of Castelo Novo" Piece of Eight	true
+campaign_localised_strings_string_dlc11_ror_unlock_reason_1	This unit will only unlock once you have attained the "Pearl of the Kraken Sea" Piece of Eight	true
+campaign_localised_strings_string_dlc11_ror_unlock_reason_6	This unit will only unlock once you have attained the "Von Zeich’s Last Ingot" Piece of Eight	true
+campaign_localised_strings_string_dlc11_ror_unlock_reason_7	This unit will only unlock once you have attained the "The Stone of Schwartzhafen" Piece of Eight	true
+campaign_localised_strings_string_dlc11_ror_unlock_reason_4	This unit will only unlock once you have attained the "The Vorgo Nugget" Piece of Eight	true
+campaign_localised_strings_string_dlc11_ror_unlock_reason_5	This unit will only unlock once you have attained the "Panteleon’s Pendant" Piece of Eight	true
+campaign_localised_strings_string_dlc11_ror_unlock_reason_8	This unit will only unlock once you have attained the "Cursed Bullion of Bogenhafen" Piece of Eight	true
+campaign_localised_strings_string_rituals_ritual_status_completed	This ritual has been completed	true
+campaign_localised_strings_string_cannot_occupy_wh_main_chs_chaos	[[col:red]]Your race operates in mighty hordes and cannot occupy settlements of any type.[[/col]]	true
+campaign_localised_strings_string_unit_upgrade_retrain_cannot_reason_none_single	There is no further training available for this unit in this province.	true
+campaign_localised_strings_string_unlocks_tech	[[col:green]]Unlocks technologies[[/col]]	true
+campaign_localised_strings_string_attrition_tooltip_hp_remaining	Predicted [[img:icon_hp]][[/img]]hit points remaining on the next turn: 	true
+campaign_localised_strings_string_edicts_cancel	Cancel Commandment	true
+campaign_localised_strings_string_skill_locked_by_item	\n\n[[col:red]]Requires item: %S.[[/col]]	true
+campaign_localised_strings_string_quest_teleport_button_enabled_no_cost_tooltip	Teleport||This will instantly move %s to the quest battle location, at a cost. Following the battle, your character will be returned to their original location, with any casualties taken persisting after the battle is over.	true
+campaign_localised_strings_string_raise_legacy_blockaded	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_winds_of_magic_modifier_region	Region	true
+campaign_localised_strings_string_garrison_no_units_siege	No garrison ||Garrison cannot replenish while the city is under siege.	true
+campaign_localised_strings_string_wh2_dlc11_cst_rogue_bleak_coast_buccaneers	Bleak Coast Buccaneers	true
+campaign_localised_strings_string_military_force_morale_decimated	Quelled Animosity	true
+campaign_localised_strings_string_gdp_sea_trade	Maritime Commerce	true
+campaign_localised_strings_string_public_order_improving	[[img:icon_public_order]][[/img]]{{tr:public_order_effect}} is improving.	true
+campaign_localised_strings_string_end_turn_warning_character_skill_to_be_picked	This character has an unassigned [[url:script_link_campaign_character_skills]][[tooltip:{{tt:tooltip_campaign_character_skills}}]]skill point[[/tooltip]][[/url]]:	true
+campaign_localised_strings_string_demolish_buildings_cancel_recruitment	[[col:red]]Demolishing this building will cancel the active recruitment of the units that it provides.[[/col]]	true
+campaign_localised_strings_string_sea_region_control_status_port_gdp_modifier_reduction	-%d%% wealth from maritime commerce (Piracy)	true
+campaign_localised_strings_string_units_of_renown_tooltip_crafted_unit	[[col:red]]This unit will become available after being awakened through the Mortuary Cult.[[/col]]	true
+campaign_localised_strings_string_military_force_morale_ambitious_leader	Ambitious Leader	true
+campaign_localised_strings_string_details_panel_tradition_unlocked_rank	Unlocked at rank:	true
+campaign_localised_strings_string_winds_of_magic_modifier_stances	Stance	true
+campaign_localised_strings_string_gdp_learning	!NOT USED!	true
+campaign_localised_strings_string_growth_tooltip_description_expedition	As the expedition grows, its population can be used to strengthen or spawn new expeditions.	true
+campaign_localised_strings_string_varying_regular_income_mining_tooltip	 	true
+campaign_localised_strings_string_quest_teleport_button_disabled_tooltip_wrong_character	[[col:red]]Select a [[img:icon_general]][[/img]]Lord in order to teleport them to this location.[[/col]]	true
+campaign_localised_strings_string_slaves_current_slaves	Current [[img:icon_slaves]][[/img]]slaves	true
+campaign_localised_strings_string_additional_buildings_required	[[col:red]]Additional building required: %s[[/col]]	true
+campaign_localised_strings_string_tooltip_disband_impossible_for_agent	[[col:red]]The selected [[img:icon_hero]][[/img]]Hero may not be disbanded.[[/col]]	true
+campaign_localised_strings_string_unit_upgrade_cannot_reason_insufficient_funds	You have insufficient funds.	true
+campaign_localised_strings_string_pending_action_warning_edict	Commandment available	true
+campaign_localised_strings_string_resource_tooltip_untradeable	This may provide a unique building chain.	true
+campaign_localised_strings_string_winds_of_magic_modifier_events	Events	true
+campaign_localised_strings_string_offices_panel_title_wh2_dlc11_cst_noctilus	Fleet Offices	true
+campaign_localised_strings_string_public_order_military_crackdown_tooltip	Military crackdown	true
+campaign_localised_strings_string_unit_upgrade_cannot_reason_none_multiple_horde	There is no improved equipment available for these units in this horde.	true
+campaign_localised_strings_string_public_order_military_activity	Military presence	true
+campaign_localised_strings_string_politics_character_is_faction	This character is a part of the following faction's family:	true
+campaign_localised_strings_string_cannot_recruit_force_region_not_owned	[[col:red]]You cannot recruit new [[img:icon_general]][[/img]]Lords from settlements that you do not own.[[/col]]	true
+campaign_localised_strings_string_imperium_4_description	Your people have accomplished many great things. Their power is feared by their enemies and coveted by their own: civil strife is imminent!	true
+campaign_localised_strings_string_imperium_5_description	The power wielded by your people is undisputable. None shall resist their might, nor the temptation to control it: civil strife is certain.	true
+campaign_localised_strings_string_imperium_2_description	Your people have established themselves as a power deserving of respect.	true
+campaign_localised_strings_string_imperium_3_description	People in distant lands speak of your people's achievements with fear and awe in equal measure! Domestic intrigue grows: civil strife is brewing.	true
+campaign_localised_strings_string_imperium_1_description	Your people have achieved little and are of no consequence to the world...yet!	true
+campaign_localised_strings_string_raise_force_navy_cannot_port_required	[[col:red]]You can only raise fleets in port settlements.[[/col]]	true
+campaign_localised_strings_string_public_order_buildings_squalor_tooltip	Squalor	true
+campaign_localised_strings_string_cannot_activate_stance_in_settlement	\n\n[[col:red]]You cannot adopt this stance while garrisoned.[[/col]]\n	true
+campaign_localised_strings_string_turn	Turn	true
+campaign_localised_strings_string_public_order_banditry_tooltip	Bandits	true
+campaign_localised_strings_string_monster_hunt_10_title	The Beast of Raema	true
+campaign_localised_strings_string_monster_hunt_11_title	The Hellbeast of Seep-Gore	true
+campaign_localised_strings_string_unit_card_tooltip_recruitment_blocked	[[col:red]]Recruitment blocked. This settlement is under siege, so no recruitment can take place.[[/col]]	true
+campaign_localised_strings_string_tooltip_recruit_units	{{tr:recruit_units_tooltip}}	true
+campaign_localised_strings_string_skaven_under_empire_discovered_tooltip	{{tr:skaven_under_empire_discovered_tooltip}}	true
+campaign_localised_strings_string_details_panel_ancillary_none	There are currently no household members or objects available for assignment.	true
+campaign_localised_strings_string_public_order_conquest_tooltip	Conquest	true
+campaign_localised_strings_string_public_order_baseline_tooltip	Difficulty level	true
+campaign_localised_strings_string_province_fertility_factor_base	Base fertility	true
+campaign_localised_strings_string_politics_character_cannot_act_wounded	This character cannot perform machinations, or have skulduggeries performed on them, whilst wounded.	true
+campaign_localised_strings_string_public_order_buildings_squalor	Buildings (Squalor)	true
+campaign_localised_strings_string_cannot_colonise_wh_main_sc_nor_norsca	[[col:red]]Your race cannot colonise ruins of this type.\n\nYou can only colonise ruins in Norsca and coastal settlements.[[/col]]	true
+campaign_localised_strings_string_pending_action_warning_siege	Siege construction available	true
+campaign_localised_strings_string_wh2_dlc11_lock_queen_bess	[[col:red]]This unit will become available after performing the Rite of the Curse of the Queen’s Cannon.[[/col]]	true
+campaign_localised_strings_string_public_order_banditry	Banditry	true
+campaign_localised_strings_string_diplomacy_tooltip_cant_negotiate_with_faction	[[col:red]]You cannot negotiate with this faction.[[/col]]	true
+campaign_localised_strings_string_military_force_morale_bonus_value_guarded_navy	Escorting Transports	true
+campaign_localised_strings_string_unit_transfer_fightness_warning	[[col:red]]{{tr:unit_transfer_fightness_warning}} %d[[/col]]	true
+campaign_localised_strings_string_military_force_morale_bonus_value_modifier_chracters	Character Bonus	true
+campaign_localised_strings_string_military_force_morale_raiding	Raiding	true
+campaign_localised_strings_string_raise_legacy_no_legacy	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_public_order_garrison	Garrison	true
+campaign_localised_strings_string_politics_character_cannot_be_acted_or_act_travelling	[[col:red]]This Lord may not be involved in machinations while returning from duty.[[/col]]	true
+campaign_localised_strings_string_public_order_baseline	Difficulty level	true
+campaign_localised_strings_string_public_order_conquest	Conquest (next turn only)	true
+campaign_localised_strings_string_cannot_recruit_unit_source_settlement_blockaded	Can't recruit this unit||Source settlement is blockaded	true
+campaign_localised_strings_string_character_type_daughter	%PLACEHOLDER% (UNUSED)	true
+campaign_localised_strings_string_wh2_dlc11_cst_rogue_grey_point_scuttlers	Grey Point Scuttlers	true
+campaign_localised_strings_string_edicts_issued	Edicts issued:	true
+campaign_localised_strings_string_grudges_bar_current_severity_tooltip	Current total severity: %d	true
+campaign_localised_strings_string_province_owned	Owned province.	true
+campaign_localised_strings_string_prophecy_saurus_unlock	[[col:red]]This unit will unlock only if you complete Stage I of the Prophecy of Sotek.[[/col]]	true
+campaign_localised_strings_string_general_type_general	Lord	true
+campaign_localised_strings_string_rituals_arrow_tooltip_key_settlement_unknown	[[img:ui/skins/default/icon_marker_settlement.png]][[/img]] Unknown settlement	true
+campaign_localised_strings_string_waagh_parent_threshold_tooltip_upper	{{tr:fightiness_upper}}	true
+campaign_localised_strings_string_tooltip_skaven_settlement_level_decrease_valid	Reduce settlement level	true
+campaign_localised_strings_string_waagh_parent_threshold_tooltip_lower	{{tr:fightiness_lower}}	true
+campaign_localised_strings_string_public_order_military_crackdown	Military crackdown	true
+campaign_localised_strings_string_turns	Turns	true
+campaign_localised_strings_string_military_history_battles_defeat_heroic	Crushing defeat by:	true
+campaign_localised_strings_string_details_panel_ancillary_cannot_assign	[[col:yellow]]There are currently no household members or objects available for assignment.[[/col]]	true
+campaign_localised_strings_string_destroy_foreign_slots_cannot_afford_wh2_main_skv_skaven	[[col:red]]You cannot afford to carry out this action.[[/col]]	true
+campaign_localised_strings_string_general_type_admiral	Admiral	true
+campaign_localised_strings_string_sanitation_tooltip_current_sanitation	Current sanitation:	true
+campaign_localised_strings_string_public_order_military_activity_tooltip	Military activity	true

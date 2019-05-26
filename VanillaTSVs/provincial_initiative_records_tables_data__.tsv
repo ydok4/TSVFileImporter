@@ -1,5 +1,5 @@
 provincial_initiative_records_tables	3
-key	effect_bundle	order	icon_path	campaign_vfx_id	religion_restriction
+effect_bundle	key	order	icon_path	campaign_vfx_id	religion_restriction
 wh2_dlc09_edict_tmb_worship_of_asaph	wh2_dlc09_edict_tmb_worship_of_asaph	2	UI/Campaign UI/edicts/wh2_dlc09_worship_of_asaph.png		
 wh2_dlc09_edict_tmb_worship_of_djaf	wh2_dlc09_edict_tmb_worship_of_djaf	5	UI/Campaign UI/edicts/wh2_dlc09_worship_of_djaf.png		
 wh2_dlc09_edict_tmb_worship_of_khsar	wh2_dlc09_edict_tmb_worship_of_khsar	4	UI/Campaign UI/edicts/wh2_dlc09_worship_of_khsar.png		

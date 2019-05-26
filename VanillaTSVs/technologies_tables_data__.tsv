@@ -271,8 +271,8 @@ tech_dlc08_nor_nw_08	wh_main_chs_port	1	tech_dlc08_nor_annihilation_of_the_skave
 tech_dlc08_nor_nw_09	wh_main_chs_port	1	tech_dlc08_nor_secrets_of_the_under_empire	0	0	0	0	false	false	"placeholder.tga"	1952239828	false	false	true
 tech_dlc08_nor_nw_10	wh_main_chs_port	1	tech_dlc08_nor_plundering_of_the_tomb_kings	0	0	0	0	false	false	"placeholder.tga"	16829642	false	false	true
 tech_dlc08_nor_nw_11	wh_main_chs_port	1	tech_dlc08_nor_secrets_of_past_dynasties	0	0	0	0	false	false	"placeholder.tga"	497378445	false	false	true
-tech_dlc08_nor_nw_20	wh_main_chs_port	1	tech_dlc08_nor_slaughtering_of_the_greenskins	0	0	0	0	false	false	"placeholder.tga"	1421513744	false	false	true
-tech_dlc08_nor_nw_21	wh_main_chs_port	1	tech_dlc08_nor_secrets_of_gork_n_mork	0	0	0	0	false	false	"placeholder.tga"	37895255	false	false	true
+tech_dlc08_nor_nw_20	wh_main_chs_port	1	tech_cst_blockading_the_vampire_coast	0	0	0	0	false	false	"placeholder.tga"	1421513744	false	false	true
+tech_dlc08_nor_nw_21	wh_main_chs_port	1	tech_cst_secrets_of_the_deep	0	0	0	0	false	false	"placeholder.tga"	37895255	false	false	true
 tech_dlc08_nor_other_01	wh_main_chs_port	1	tech_dlc08_nor_sea_marauders_tools	0	0	0	0	false	false	"placeholder.tga"	480027246	false	false	true
 tech_dlc08_nor_other_02	wh_main_chs_port	1	tech_dlc08_nor_longer_hulls_2	0	0	0	0	false	false	"placeholder.tga"	366502775	false	false	true
 tech_dlc08_nor_other_03	wh_main_chs_port	1	tech_dlc08_nor_corpulent_sails_1	0	0	0	0	false	false	"placeholder.tga"	1898369687	false	false	true
@@ -354,7 +354,12 @@ tech_dlc09_tmb_tomb_prince_3	wh_main_chs_port	1	tech_dlc09_hero_cap_tomb_prince	
 tech_dlc09_tmb_tomb_prince_4	wh_main_chs_port	1	tech_dlc09_hero_cap_tomb_prince	0	0	0	0	false	false	"placeholder.tga"	1274588810	false	false	true
 tech_dlc09_tmb_tomb_prince_5	wh_main_chs_port	1	tech_dlc09_hero_cap_tomb_prince	0	0	0	0	false	false	"placeholder.tga"	157010660	false	false	true
 tech_dlc09_tmb_tomb_prince_6	wh_main_chs_port	1	tech_dlc09_hero_cap_tomb_prince	0	0	0	0	false	false	"placeholder.tga"	893186092	false	false	true
-tech_dlc11_brt_chivalry_vampire_coast_1	wh_main_chs_port	1	tech_dlc07_brt_chivalry_vampires_1	0	0	0	0	false	false	"placeholder.tga"	1480354318	false	false	true
+tech_dlc11_brt_chivalry_vampire_coast_1	wh_main_chs_port	1	tech_dlc07_brt_chivalry_vampire_coast_1	0	0	0	0	false	false	"placeholder.tga"	1480354318	false	false	true
+tech_dlc12_brt_chivalry_start	wh_main_chs_port	1	tech_dlc12_brt_decrees	0	0	0	0	false	false	"placeholder.tga"	2071083238	false	false	true
+tech_dlc12_brt_heraldry_oversea_dwf	wh_main_chs_port	1	tech_dlc12_brt_diplomacy_dwarfs	0	0	0	0	false	false	"placeholder.tga"	929733539	false	false	true
+tech_dlc12_brt_heraldry_oversea_men	wh_main_chs_port	1	tech_dlc12_brt_diplomacy_empire	0	0	0	0	false	false	"placeholder.tga"	782197098	false	false	true
+tech_dlc12_brt_heraldry_oversea_tmb	wh_main_chs_port	1	tech_dlc12_brt_diplomacy_tomb_kings	0	0	0	0	false	false	"placeholder.tga"	870529560	false	false	true
+tech_dlc12_brt_heraldry_oversea_wef	wh_main_chs_port	1	tech_dlc12_brt_diplomacy_wood_elves	0	0	0	0	false	false	"placeholder.tga"	1878233726	false	false	true
 tech_dwf_civ_0_2	wh_main_chs_port	1	wh_main_dwf_civic_development	0	0	0	0	false	false	"placeholder.tga"	6741	true	false	false
 tech_dwf_civ_1_0	wh_main_chs_port	1	wh_main_dwf_dwarf_treasuries	0	0	0	0	false	false	"placeholder.tga"	6751	true	false	false
 tech_dwf_civ_1_1	wh_main_chs_port	1	wh_main_dwf_settlement_subsidies	0	0	0	0	false	false	"placeholder.tga"	6752	true	false	false

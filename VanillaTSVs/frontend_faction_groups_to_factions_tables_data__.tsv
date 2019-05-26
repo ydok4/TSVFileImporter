@@ -11,6 +11,7 @@ destruction	wh2_dlc11_cst_the_drowned	false	43
 destruction	wh2_dlc11_cst_vampire_coast	true	40
 destruction	wh2_dlc11_def_the_blessed_dread	false	23
 destruction	wh2_dlc11_vmp_the_barrow_legion	false	132
+order	wh2_dlc12_lzd_cult_of_sotek	false	12
 destruction	wh2_main_def_cult_of_pleasure	false	21
 destruction	wh2_main_def_har_ganeth	false	22
 destruction	wh2_main_def_naggarond	true	20
@@ -20,8 +21,10 @@ order	wh2_main_hef_nagarythe	false	3
 order	wh2_main_hef_order_of_loremasters	false	1
 order	wh2_main_lzd_hexoatl	true	10
 order	wh2_main_lzd_last_defenders	false	11
+order	wh2_main_lzd_tlaqua	false	13
 destruction	wh2_main_skv_clan_mors	true	30
 destruction	wh2_main_skv_clan_pestilens	false	31
+destruction	wh2_main_skv_clan_skyre	false	33
 destruction	wh_dlc03_bst_beastmen	true	170
 order	wh_dlc05_wef_argwylon	false	161
 order	wh_dlc05_wef_wood_elves	true	160

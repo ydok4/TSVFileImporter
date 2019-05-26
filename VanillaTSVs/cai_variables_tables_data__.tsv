@@ -93,6 +93,9 @@ CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_CONVERSION_THRESHOLD_REGION_ADJUSTMENT	0	
 CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_DEMOLITION_THRESHOLD_BASIC	310	(In-game) Score at or above which the ongoing food detection system will start allowing building demolition to solve the problem.
 CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_DEMOLITION_THRESHOLD_REGION_ADJUSTMENT	0	(In-game) Per region based adjustment to CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_DEMOLITION_THRESHOLD_BASIC.
 CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_SCORE_PER_TURN_ACCUMULATION_CAP	50	(In-game) When accruing score for the ongoing food problem detection system the cap applied to the amount being added to the score.
+CAI_VARIABLE_FOREIGN_SLOT_REMOVAL_BASE_CHANCE	10	(In-game) Base probability for demoliting discovered foreign slots.
+CAI_VARIABLE_FOREIGN_SLOT_REMOVAL_DISCOVERABILITY_CAP	100	(In-game) Discoverability cap level for helping determine if the AI should demolished discovered foreign slots.
+CAI_VARIABLE_FOREIGN_SLOT_REMOVAL_DISCOVERABILITY_MULTIPLIER	1	(In-game) Cap adjusted discoverability multiplier for converting that value in to a demolition chance percentage for knocking down discovered foreign slots.
 CAI_VARIABLE_FORTIFIED_SETTLEMENT_FORTIFICATION_BONUS	300000	(In-game) AI strength bonus for fortified settlements.
 CAI_VARIABLE_FORTIFIED_SETTLEMENT_FORTIFICATION_MULTIPLIER	5	(In-game) AI strength multiplier for fortified settlements, modified by Siege engines.
 CAI_VARIABLE_FORTIFIED_SETTLEMENT_FORTIFICATION_MULTIPLIER_PRE_ASSAULT	1.1	(In-game) AI strength multiplier for fortified settlements, pre-assault.
@@ -128,14 +131,14 @@ CAI_VARIABLE_PLAYER_AP_ADJUSTMENT_DEADZONE_MAX	1	(In-game) Upper bound for playe
 CAI_VARIABLE_PLAYER_AP_ADJUSTMENT_DEADZONE_MIN	1	(In-game) Lower bound for player AP deadzone adjustment for threat detection purposes.
 CAI_VARIABLE_PLAYER_AP_ADJUSTMENT_MAX	1.1	(In-game) Upper bound for player AP adjustment for threat detection purposes.
 CAI_VARIABLE_PLAYER_AP_ADJUSTMENT_MIN	0.90000004	(In-game) Lower bound for player AP adjustment for threat detection purposes.
-CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_APPLY_BONUS_AT_OR_BELOW	4	(In-game) The point at or below which bonus will be provided to public order improvement buildings.
-CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_APPLY_PENALTY_BELOW	4	(In-game) The point below which a public order penalty will be applied to a building option.
-CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_BONUS	2	(In-game) Bonus applied (per public order point) for buildings that increae public order up to the specified level.
+CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_APPLY_BONUS_AT_OR_BELOW	2	(In-game) The point at or below which bonus will be provided to public order improvement buildings.
+CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_APPLY_PENALTY_BELOW	0	(In-game) The point below which a public order penalty will be applied to a building option.
+CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_BONUS	50	(In-game) Bonus applied (per public order point) for buildings that increae public order up to the specified level.
 CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_NEW_BUILDING_BONUS_SCALING	0.5	(In-game) When calculating public order based building score adjustements, the discount applied for being a new building.
-CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_PENALTY	4	(In-game) Penalty applied (per public order point) for buildings that use public order beyond the specified level.
-CAI_VARIABLE_PUBLIC_ORDER_CTRL_ONGOING_PROBLEM_CONVERSION_THRESHOLD_BASIC	16	(In-game) The public order problem score for a province beyond which conversion is considered as a solution.
-CAI_VARIABLE_PUBLIC_ORDER_CTRL_ONGOING_PROBLEM_DEMOLITION_THRESHOLD_BASIC	31	(In-game) The public order problem score for a province beyond which demolition is considered as a solution.
-CAI_VARIABLE_PUBLIC_ORDER_CTRL_ONGOING_PROBLEM_SCORE_PER_TURN_ACCUMULATION_CAP	5	(In-game) The maximum public order problem score that can be accumulated in one round for a given province.
+CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_PENALTY	50	(In-game) Penalty applied (per public order point) for buildings that use public order beyond the specified level.
+CAI_VARIABLE_PUBLIC_ORDER_CTRL_ONGOING_PROBLEM_CONVERSION_THRESHOLD_BASIC	50	(In-game) The public order problem score for a province beyond which conversion is considered as a solution.
+CAI_VARIABLE_PUBLIC_ORDER_CTRL_ONGOING_PROBLEM_DEMOLITION_THRESHOLD_BASIC	200	(In-game) The public order problem score for a province beyond which demolition is considered as a solution.
+CAI_VARIABLE_PUBLIC_ORDER_CTRL_ONGOING_PROBLEM_SCORE_PER_TURN_ACCUMULATION_CAP	10	(In-game) The maximum public order problem score that can be accumulated in one round for a given province.
 CAI_VARIABLE_REBEL_QUALITY_MULTIPLIER	0.15	(In-game) Limits the rebel unit quality to (([sum of building levels in region] * multiplier) + offset) * [quality of best recruitable unit in faction province].
 CAI_VARIABLE_REBEL_QUALITY_OFFSET	0.75	(In-game) Limits the rebel unit quality to (([sum of building levels in region] * multiplier) + offset) * [quality of best recruitable unit in faction province].
 CAI_VARIABLE_REBEL_WAIT_TIMEOUT_ADJUSTMENT_ON_FURTHER_REBELLION_MAX	-1	(In-game) In the case that an additional rebellion would trigger in a region with an existing rebellion, by how much should that existing rebellions attack time out be adjusted. Maximum adjustment.

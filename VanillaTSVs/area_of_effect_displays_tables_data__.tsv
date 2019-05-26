@@ -15,6 +15,9 @@ spline	key	decal	vfx_central	vfx_ring	spline_width	spline_col_r	spline_col_g	spl
 	wh2_dlc11_spell_deep_fog_of_the_damned_upgraded			wh_main_generic_ui_segment_buff	2	255	255	255	255	255	255	false	50	64		false	5	false
 	wh2_dlc11_spell_denizens_of_the_deep				2	255	255	255	255	255	255	false	0	1		false	-1	false
 	wh2_dlc11_spell_denizens_of_the_deep_start				2	255	255	255	255	255	255	false	0	1		false	-1	false
+	wh2_dlc12_abilities_supreme_shield_of_the_old_ones		wh2_dlc12_abilities_supreme_shield		2	255	255	255	255	255	255	false	50	64		false	5	true
+	wh2_dlc12_deliverance_of_itza_area				2	255	255	255	255	255	255	false	0	64		false	-1	false
+	wh2_dlc12_jungle_swarm_aoe		wh2_dlc12_abilities_jungle_swarm_aoe	wh2_dlc12_abilities_jungle_swarm_segment	2	255	255	255	255	255	255	false	0	64		false	-1	false
 	wh2_main_army_abilities_channeling_spire			wh2_main_abilities_channeling_spire_segment	2	255	255	255	255	255	255	false	0	64	composite_scene\spells_and_abilities\wh2_main_abilities_channeling_spire.csc	false	-1	false
 	wh2_main_army_abilities_eshin_clanstone			wh2_main_army_abilities_eshin_clanstone_segment	2	255	255	255	255	255	255	false	0	64	composite_scene\spells_and_abilities\wh2_main_army_abilities_eshin_clanstone.csc	false	-1	false
 	wh2_main_army_abilities_feral_cold_ones				2	255	255	255	255	255	255	false	0	1	composite_scene\spells_and_abilities\wh2_main_abilities_feral_cold_ones.csc	false	-1	false

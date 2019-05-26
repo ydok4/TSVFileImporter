@@ -1,7 +1,7 @@
 unit_armour_types_tables	6
 armour_value	key	audio_type
 100	wh2_dlc09_bone_100	bone
-95	wh2_dlc10_bone_90	bone
+90	wh2_dlc10_bone_90	bone
 95	wh2_dlc10_bone_95	bone
 10	wh2_main_body_10	body
 100	wh2_main_body_100	body

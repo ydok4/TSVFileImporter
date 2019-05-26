@@ -27,4 +27,7 @@ trait_bad	ui/campaign ui/effect_bundles/trait_battle_negative.png
 trait_good	ui/campaign ui/effect_bundles/trait_campaign_positive.png
 vampire_coast	ui/campaign ui/skills/trait_vampire_coast.png
 vampire_counts	ui/campaign ui/skills/trait_vampire_counts.png
+vow_grail	ui/campaign ui/effect_bundles/vow_grail_positive.png
+vow_knights	ui/campaign ui/effect_bundles/vow_knights_positive.png
+vow_questing	ui/campaign ui/effect_bundles/vow_questing_positive.png
 wood_elf	ui/campaign ui/skills/trait_wood_elves.png

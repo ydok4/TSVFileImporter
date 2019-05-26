@@ -1,0 +1,10 @@
+Loc PackedFile	1
+key	text	tooltip
+ui_colour_profiles_localised_description_protanopia	This is for players who have a reduced sensitivity to red light.	true
+ui_colour_profiles_localised_description_tritanopia	This is for players who have a reduced sensitivity to blue light.	true
+ui_colour_profiles_localised_description_deuteranopia	This is for players who have a reduced sensitivity to green light.	true
+ui_colour_profiles_localised_name_protanopia	Protanopia (Red - Green)	true
+ui_colour_profiles_localised_name_tritanopia	Tritanopia (Blue - Yellow)	true
+ui_colour_profiles_localised_description_default	This is the default colour profile, for players who are not affected by colour blindness.	true
+ui_colour_profiles_localised_name_default	Default	true
+ui_colour_profiles_localised_name_deuteranopia	Deuteranopia (Red - Green)	true

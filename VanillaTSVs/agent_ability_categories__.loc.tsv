@@ -1,0 +1,5 @@
+Loc PackedFile	1
+key	text	tooltip
+agent_ability_categories_on_screen_name_actions	Target	true
+agent_ability_categories_on_screen_name_ambient	Constant Local Effect	true
+agent_ability_categories_on_screen_name_embedded	Embed Hero	true

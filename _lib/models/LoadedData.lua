@@ -35,29 +35,49 @@ end
 
 function LoadedData:LoadFile(key, filter)
     local file = {};
-    if filter.Directory ~= nil then
-        file = assert(io.open(filter.Directory.."/"..filter.FileName, "r"));
+    local numberOfFiles = 0;
+    local fileExtension = "";
+    if type(filter.FileName) == "table"  then
+        numberOfFiles = #filter.FileName;
+        fileExtension = GetFileExtension(filter.FileName[1]);
     else
-        file = assert(io.open("VanillaTSVs/"..filter.FileName, "r"));
+        if filter.Directory ~= nil then
+            file = assert(io.open(filter.Directory.."/"..filter.FileName, "r"));
+        else
+            file = assert(io.open("VanillaTSVs/"..filter.FileName, "r"));
+        end
+        fileExtension = GetFileExtension(filter.FileName);
+        numberOfFiles = 1;
     end
-    local fileExtension = GetFileExtension(filter.FileName);
+
     self.Files[key] = {};
     self.CurrentActiveFile = key;
 
     if fileExtension == "tsv" then
         local lineNumber = 1;
-        for line in file:lines() do
-            local fields = Split(line, "\t");
-            local matchesFilter = self:RowMatchesFilters(fields, filter.Filter);
-            if lineNumber <= 2 or matchesFilter == true then
-                table.insert(self.Files[key], fields);
+        for index = 1, numberOfFiles do
+            -- If the file names weren't in a table then that means there is only one file
+            -- which we have already loaded
+            if type(filter.FileName) == "table" then
+                if filter.Directory ~= nil then
+                    file = assert(io.open(filter.Directory.."/"..filter.FileName[index], "r"));
+                else
+                    file = assert(io.open("VanillaTSVs/"..filter.FileName[index], "r"));
+                end
             end
+            for line in file:lines() do
+                local fields = Split(line, "\t");
+                local matchesFilter = self:RowMatchesFilters(fields, filter.Filter);
+                if lineNumber <= 2 or matchesFilter == true then
+                    table.insert(self.Files[key], fields);
+                end
 
-            if filter.OnlyLoadHeader == true then
-                break;
+                if lineNumber == 2 and filter.OnlyLoadHeader == true then
+                    break;
+                end
+
+                lineNumber = lineNumber + 1;
             end
-
-            lineNumber = lineNumber + 1;
         end
     elseif fileExtension == "xml" then
         local container = {};
@@ -395,6 +415,9 @@ function LoadedData:ApplyFilterToField(filter, fieldValue)
     elseif filter.Type == "CONTAINSVALUE" then
         local match = string.match(fieldValue, filter.Value);
         return match ~= nil;
+    elseif filter.Type == "DOESNOTCONTAINVALUE" then
+        local match = string.match(fieldValue, filter.Value);
+        return match == nil;
     elseif filter.Type == "UNIQUE" then
         for index, row in pairs(self.Files[self.CurrentActiveFile]) do
             if row[filter.ColumnNumber] == fieldValue then
@@ -459,9 +482,9 @@ function LoadedData:TransformFile(file, filter, transformStep)
         if transformStep == 1 then
             --local test = "";
         end
-        if rowIndex <= 2 and filter.Directory ~= "PortraitGenerator" then
+        if rowIndex == 1 and filter.Directory ~= "PortraitGenerator" then
             firstRow = true;
-        elseif rowIndex ~= 1 then
+        elseif rowIndex > 2 or (rowIndex == 2 and filter.OnlyLoadHeader == true) then
             if transformStep == 1 then
                 print("\n");
             end
@@ -480,9 +503,17 @@ function LoadedData:TransformFile(file, filter, transformStep)
 
             if transformStepData.IgnoreFilter == true or self:RowMatchesFilters(row, transformStepData.Filters) then
                 -- One row could be transformed into several rows so we need to concat
-                local newRow = self:TransformRow(row, transformStepData);
-                if transformStepData.PostTransformFilters == nil
-                or self:RowMatchesFilters(newRow, transformStepData.PostTransformFilters) then
+                local newRows = self:TransformRow(row, transformStepData);
+                local rowMatchesFilter = true;
+                if transformStepData.PostTransformFilters ~= nil then
+                    for rowIndex, newRow in pairs(newRows) do
+                        rowMatchesFilter = self:RowMatchesFilters(newRow, transformStepData.PostTransformFilters);
+                        if rowMatchesFilter == false then
+                            break;
+                        end
+                    end
+                end
+                if rowMatchesFilter == true then
                     --[[if transformStep == 1 then
                         print("ROW: "..tostring(rowIndex).." STEP"..tostring(transformStep).." "..newRow[3]);
                     elseif transformStep == 2 then
@@ -492,14 +523,20 @@ function LoadedData:TransformFile(file, filter, transformStep)
                     elseif transformStep == 4 then
                         print("ROW: "..tostring(rowIndex).." STEP"..tostring(transformStep).." "..newRow[1]);
                     end--]]
-                    if newRow ~= nil then
-                        ConcatTable(transformedFile, {newRow});
+                    -- We check if the first element in the row is a table because if that is the case
+                    -- we actually have several rows because the transform operation was repeated
+                    if newRows ~= nil then
+                        if type(newRows[1]) == "table" then
+                            ConcatTable(transformedFile, newRows);
+                        else
+                            ConcatTable(transformedFile, {newRows});
+                        end
                     end
 
                     -- Check if there are further transformations that need to be performed after this row
                     if transformStepData.NextTransformOperation ~= nil then
                         self.PreviousRowsInOperation[stepKey] = row;
-                        self.PreviousTransformedRowsInOperation[stepKey] = newRow;
+                        self.PreviousTransformedRowsInOperation[stepKey] = newRows;
                         local currentStep = transformStep;
                         local currentTransformingFile = self.CurrentTransformingFile;
                         self:PrepareForNextTransformStep(fileTransformData[transformStepData.NextTransformOperation], transformStep);
@@ -538,8 +575,9 @@ function LoadedData:PrepareForNextTransformStep(nextTransformOperation, transfor
 end
 
 function LoadedData:TransformRow(row, transformOperation)
-    local newRow = {};
+    local newRows = {};
     for transformIndex, transform in pairs(transformOperation.Transforms) do
+        local newRow = {};
         if string.match(transform.Type, "COPYTABLE") then
             local stepNumber = string.match(transform.Type, "COPYTABLE(.*)");
             local transformedStepRow = self.PreviousTransformedRowsInOperation[stepNumber];
@@ -549,6 +587,12 @@ function LoadedData:TransformRow(row, transformOperation)
             newRow = self:CreateTable(transform, transformOperation);
         elseif transform.Type == "NEWROW" then
             newRow = self:TransformColumns(row, transform, transformOperation);
+        elseif string.match(transform.Type, "REPEAT") then
+            local repeatAmount = tonumber(string.match(transform.Type, "REPEAT(.*)"));
+            for repeatIndex = 1, repeatAmount do
+                transform.RepeatIndex = repeatIndex;
+                newRows[#newRows + 1] = self:TransformColumns(row, transform, transformOperation);
+            end
         elseif transform.Type == "XMLDUPLICATE" then
             local transformedString = row[1];
             for i=1, transform.NumberOfOperations do
@@ -561,8 +605,9 @@ function LoadedData:TransformRow(row, transformOperation)
             end
             newRow = transformedString;
         end
+        newRows[#newRows + 1] = newRow;
     end
-    return newRow;
+    return newRows;
 end
 
 function LoadedData:CreateTable(transform, transformOperation)
@@ -585,14 +630,14 @@ function LoadedData:TransformColumns(row, transform, transformOperation)
                     for i = 1, columnTransform.NumberOfOperations do
                         local subOperation = columnTransform.Operations["OPERATION"..i];
                         if operationValue == "" then
-                            operationValue = self:ApplyTransformToColumn(column, subOperation);
+                            operationValue = self:ApplyTransformToColumn(column, subOperation, transform.RepeatIndex);
                         else
-                            operationValue = self:ApplyTransformToColumn(operationValue, subOperation);
+                            operationValue = self:ApplyTransformToColumn(operationValue, subOperation, transform.RepeatIndex);
                         end
                     end
-                    columnValue = self:ApplyTransformToColumn(operationValue, columnTransform);
+                    columnValue = self:ApplyTransformToColumn(operationValue, columnTransform, transform.RepeatIndex);
                 else
-                    columnValue = self:ApplyTransformToColumn(column, columnTransform);
+                    columnValue = self:ApplyTransformToColumn(column, columnTransform, transform.RepeatIndex);
                 end
                 appliedTransform = true;
             end
@@ -619,26 +664,38 @@ function LoadedData:CreateColumns(transform, transformOperation)
     return newRow;
 end
 
-function LoadedData:ApplyTransformToColumn(column, columnTransform)
+function LoadedData:ApplyTransformToColumn(column, columnTransform, repeatIndex)
+    local columnValue = columnTransform.Value;
     if type(columnTransform) == 'table' then
-       if columnTransform.Type == "SELECTEXISTING" then
+        -- For transforms which are meant to be repeated we need to sub in the index
+        -- if the column transform requires it.
+        if columnValue ~= nil and string.match(columnValue, "REPEATINDEX") then
+            columnValue = columnValue:gsub("REPEATINDEX", repeatIndex);
+        end
+        if columnTransform.Type == "SELECTEXISTING" then
             return column;
+        elseif columnTransform.Type == "SELECTBLANK" then
+            return "";
         elseif columnTransform.Type == "REPLACEIFVALUE" then
-            return columnTransform.Value;
+            return columnValue;
         elseif columnTransform.Type == "REPLACE" then
-            return columnTransform.Value;
+            return columnValue;
         elseif string.match(columnTransform.Type, "REPLACEWITHTRANSFORMEDSTEP")  then
             local stepNumber = string.match(columnTransform.Type, "REPLACEWITHTRANSFORMED(.*)");
             local existingData = self.PreviousTransformedRowsInOperation[stepNumber];
-            if existingData ~= nil then
-                return existingData[tonumber(columnTransform.Value)];
+            if repeatIndex == nil or existingData[repeatIndex] == nil then
+                return existingData[1][tonumber(columnValue)];
+            else
+                return existingData[repeatIndex][tonumber(columnValue)];
             end
         elseif string.match(columnTransform.Type, "REPLACEWITHSTEP") then
             local stepNumber = string.match(columnTransform.Type, "REPLACEWITH(.*)");
             local existingData = self.PreviousRowsInOperation[stepNumber];
             if existingData ~= nil then
-                return existingData[tonumber(columnTransform.Value)];
+                return existingData[tonumber(columnValue)];
             end
+        elseif string.match(columnTransform.Type, "MULTIPLY") then
+            return tonumber(column) * tonumber(columnTransform.Value);
         elseif columnTransform.Type == "REPLACEWITHSUBOPERATION" then
             local transformedValue = "";
             for xmlSubOperationIndex, xmlSubOperation in pairs(columnTransform.SubOperations) do
@@ -647,27 +704,31 @@ function LoadedData:ApplyTransformToColumn(column, columnTransform)
             return transformedValue;
         elseif string.match(columnTransform.Type, "REPLACEWITH") then
             local replaceValue = string.match(columnTransform.Type, "REPLACEWITH(.*)");
-            column = column:gsub(replaceValue, columnTransform.Value);
+            column = column:gsub(replaceValue, columnValue);
             return column;
         elseif columnTransform.Type == "APPEND" then
-            if string.match(columnTransform.Value, "REPLACEWITHOPERATION") then
-                local operationNumber = string.match(columnTransform.Value, "REPLACEWITH(.*)");
+            if string.match(columnValue, "REPLACEWITHOPERATION") then
+                local operationNumber = string.match(columnValue, "REPLACEWITH(.*)");
                 return column..self.PreviousTransformedXMLOperations[operationNumber];
             end
-            return column..columnTransform.Value;
+            return column..columnValue;
         elseif columnTransform.Type == "PREPEND" then
-            return columnTransform.Value..column;
+            return columnValue..column;
         elseif string.match(columnTransform.Type, "MATCHINGSTEP") then
             local stepNumber = string.match(columnTransform.Type, "MATCHING(.*)");
-            local existingData = self.PreviousRowsInOperation[stepNumber][tonumber(columnTransform.Value)];
-            return existingData;
+            local existingData = self.PreviousRowsInOperation[stepNumber];
+            if type(existingData[1]) ~= "table" then
+                return existingData[tonumber(columnValue)];
+            else
+                return existingData[repeatIndex][tonumber(columnValue)];
+            end
         elseif columnTransform.Type == "APPENDWITHSTEP" then
             local stepNumber = string.match(columnTransform.Type, "APPENDWITH(.*)");
-            local existingData = FindMatchingData(self.PreviousRowsInOperation[stepNumber], tonumber(columnTransform.Value), column);
-            local appendValue = "_"..existingData[tonumber(columnTransform.Value)];
+            local existingData = FindMatchingData(self.PreviousRowsInOperation[stepNumber], tonumber(columnValue), column);
+            local appendValue = "_"..existingData[tonumber(columnValue)];
             return column..appendValue;
         elseif columnTransform.Type == "NUMERICID" then
-            local newID = columnTransform.Value..tostring(self.IDCounter);
+            local newID = columnValue..tostring(self.IDCounter);
             self.IDCounter = self.IDCounter + 1;
             return newID;
         elseif columnTransform.Type == "JOIN" then
@@ -688,8 +749,8 @@ function LoadedData:ApplyTransformToColumn(column, columnTransform)
         elseif string.match(columnTransform.Type, "DATAMAP") then
             local mapKey = string.match(columnTransform.Type, "DATAMAP(.*)");
             local map = _G[mapKey];
-            local checkValue = self:ApplyTransformToColumn(column, columnTransform.Value);
-            if string.match(columnTransform.Value, "KEYISINOPERATION") then
+            local checkValue = self:ApplyTransformToColumn(column, columnValue);
+            if string.match(columnValue, "KEYISINOPERATION") then
                 for key, value in pairs(map) do
                     -- statements
                     if string.match(checkValue, key) then
@@ -709,6 +770,8 @@ function LoadedData:ApplyTransformToColumn(column, columnTransform)
     else
         if columnTransform == "SELECTEXISTING" then
             return column;
+        elseif columnTransform == "SELECTBLANK" then
+            return "";
         elseif string.match(columnTransform, "REPLACEWITHOPERATION") then
             local operationNumber = string.match(columnTransform, "REPLACEWITH(.*)");
             return self.PreviousTransformedXMLOperations[operationNumber];

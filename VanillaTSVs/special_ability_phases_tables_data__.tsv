@@ -52,21 +52,21 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 24	negative	wh2_dlc09_spell_nehekhara_usirians_incantation_of_vengeance_upgraded		false	false	false	0	0	0	1	0	0.18	6	18	0	false	0	0	false	0		wh2_dlc09_spell_nehekhara_usirians_incantation_of_vengeance	wh2_tmb_spell_nehekhara_usirians_incantation_of_vengeance	-1	false	false	true	0	
 10	negative	wh2_dlc09_unit_contact_shieldbreaker		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0				-1	false	true	true	0	
 -1	positive	wh2_dlc09_unit_passive_covenant_of_power		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	10	false	0				-1	false	true	true	0	
--1	positive	wh2_dlc09_unit_passive_guardian		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_ward_save_all	wh_ability_positive	-1	false	true	true	0	
+-1	positive	wh2_dlc09_unit_passive_guardian		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_ward_save_all		-1	false	true	true	0	
 -1	positive	wh2_dlc09_unit_passive_spirit_conduit		false	false	false	0	0	0	0	0	0	0	-1	0	false	0.030000001	5	false	0				-1	false	true	true	0	
--1	negative	wh2_dlc09_unit_passive_unbinding_skeleton_warriors		true	false	false	0	0	0	3.5	0	1	1	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
--1	negative	wh2_dlc09_unit_passive_unbinding_ushabti		true	false	false	0	0	0	1	0	1	4	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+77	negative	wh2_dlc09_unit_passive_unbinding_skeleton_warriors		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+87	negative	wh2_dlc09_unit_passive_unbinding_ushabti		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
 -1	negative	wh2_dlc09_unit_passive_unstable_mark_ii_sand		false	false	false	0	0	0	0.2	0	1	72	5	0	false	0	0	false	0		wh2_dlc09_sand_crumble_II		-1	false	true	true	0	
 -1	negative	wh2_dlc09_unit_passive_unstable_sand		false	false	false	0	0	0	1	0	1	12	1	0	false	0	0	false	0		wh2_dlc09_sand_crumble		-1	false	true	true	0	
 44	negative	wh2_dlc09_weapon_abilities_blade_of_setep		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh2_dlc09_abilities_blade_of_setep	wh2_dlc09_ability_tmb_negative	-1	false	true	true	0	
 43	positive	wh2_dlc09_weapon_abilities_blessed_blade_of_ptra		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	10	wh_dlc06_unit_contact_blinded	wh_main_generic_buff_attack	wh_ability_positive	-1	false	true	true	0	
 15	negative	wh2_dlc09_weapon_passive_the_liche_staff		false	false	false	0	0	15	0	0	0	0	-1	0	false	0	0	false	0		wh2_main_generic_debuff_wom_banner		-1	false	true	true	0	
 15	negative	wh2_dlc10_character_abilities_entangle		false	true	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh2_dlc10_entangle_phase	wh_ability_negative	-1	false	true	true	0	
--1	positive	wh2_dlc10_hef_unit_passive_ability_guardian		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_ward_save_all	wh_ability_positive	-1	false	true	false	0	
+-1	positive	wh2_dlc10_hef_unit_passive_ability_guardian		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_ward_save_all		-1	false	true	false	0	
 -1	positive	wh2_dlc10_hero_passive_quicksilver_shot		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0				-1	false	true	true	0	
 47	negative	wh2_dlc10_item_abilities_fear_of_aramar		false	false	false	0.18	0	0	0	0	0	0	0	0	false	0	0	false	0		wh_main_generic_debuff_morale	wh2_dlc10_ability_fear_of_aramar	-1	false	true	true	0	
 44	positive	wh2_dlc10_item_abilities_speed_of_lykos		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0		wh2_dlc09_army_abilities_sand_veil	wh2_dlc09_ability_sand_veil_one_shot	-1	false	true	true	0	
-27	positive	wh2_dlc10_item_abilities_star_of_avelorn		false	false	false	0	0	0	0.5	24	0	0	0	24	false	0	0	false	0		wh2_dlc10_item_abilities_star_of_avelorn		-1	false	true	true	0	
+27	positive	wh2_dlc10_item_abilities_star_of_avelorn		false	false	false	0	0	0	0.5	20	0	0	0	20	false	0	0	false	0		wh2_dlc10_item_abilities_star_of_avelorn		-1	false	true	true	0	
 40	positive	wh2_dlc10_item_abilities_stave_of_avelorn		false	false	false	0	0	0	0	0	0	0	-1	0	false	0.3	0	false	0		wh2_main_generic_buff_wom_banner	wh_ability_positive_banner	-1	false	true	true	0	
 50	negative	wh2_dlc10_item_abilities_the_amber_trance		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_debuff_morale	wh_ability_negative	-1	false	false	true	0	
 50	positive	wh2_dlc10_item_abilities_the_amber_trance_miscast		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0		wh_main_generic_buff_morale	wh_ability_positive	-1	false	true	true	0	
@@ -88,7 +88,7 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 28	positive	wh2_dlc10_lord_abilities_gaze_of_khaine		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0				-1	false	true	true	0	
 47	positive	wh2_dlc10_lord_abilities_mislead		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh2_dlc10_mislead_phase	wh2_dlc10_ability_mislead_caster	-1	false	true	true	0	
 44	negative	wh2_dlc10_lord_abilities_oath_of_vengeance		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_debuff_defence	wh_ability_negative	-1	false	true	true	0	
-50	positive	wh2_dlc10_lord_abilities_red_ruin		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1	false	true	true	0	
+35	positive	wh2_dlc10_lord_abilities_red_ruin		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1	false	true	true	0	
 30	positive	wh2_dlc10_lord_passive_blood_frenzy_1		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh2_dlc10_lord_phase_blood_frenzy_1	wh2_dlc10_lord_passive_blood_frenzy_1	-1	false	true	true	0	
 30	positive	wh2_dlc10_lord_passive_blood_frenzy_2		false	false	false	-0.09	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh2_dlc10_lord_phase_blood_frenzy_2	wh2_dlc10_lord_passive_blood_frenzy_2	-1	false	true	true	0	
 30	positive	wh2_dlc10_lord_passive_blood_frenzy_3		false	false	false	-0.18	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh2_dlc10_lord_phase_blood_frenzy_3	wh2_dlc10_lord_passive_blood_frenzy_3	-1	false	true	true	0	
@@ -168,12 +168,42 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 0.1	negative	wh2_dlc11_unit_passive_noxious_unstable_buffer		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0		wh_main_generic_crumble_II	wh2_dlc11_gaseous_demise	-1	false	true	true	0	
 -1	negative	wh2_dlc11_unit_passive_noxious_unstable_mark_ii		false	false	false	0	0	0	0.1	0	1	1000	1	0	false	0	0	false	0		wh_main_generic_crumble_II		-1	false	true	true	0	
 -1	positive	wh2_dlc11_unit_passive_the_ravenous_dead		false	false	false	0	0	0	0.5	8	0	0	0	8	false	0	0	false	0				-1	false	true	true	0	
--1	negative	wh2_dlc11_unit_passive_unbinding_deckhands_mob		true	false	false	0	0	0	3.5	0	1	1	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
--1	negative	wh2_dlc11_unit_passive_unbinding_gunnery_mob		true	false	false	0	0	0	3.5	0	1	1	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
--1	negative	wh2_dlc11_unit_passive_unbinding_knights_of_the_realm		true	false	false	0	0	0	2	0	1	1	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
--1	negative	wh2_dlc11_unit_passive_unbinding_rotting_prometheans		true	false	false	0	0	0	1.1	0	1	5	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_large		-1	false	true	true	0	
--1	negative	wh2_dlc11_unit_passive_unbinding_varghulf		true	false	false	0	0	0	1	0	1	41	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_large		-1	false	true	true	0	
+83	negative	wh2_dlc11_unit_passive_unbinding_deckhands_mob		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+116	negative	wh2_dlc11_unit_passive_unbinding_gunnery_mob		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+88	negative	wh2_dlc11_unit_passive_unbinding_knights_of_the_realm		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+66	negative	wh2_dlc11_unit_passive_unbinding_rotting_prometheans		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_large		-1	false	true	true	0	
+72	negative	wh2_dlc11_unit_passive_unbinding_varghulf		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_large		-1	false	true	true	0	
 -1	positive	wh2_dlc11_weapon_passive_krakens_bane		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack_passive		-1	false	true	true	0	
+16	negative	wh2_dlc12_army_abilities_warpstorm_doomrocket		false	false	false	0	0	0	1	0	0.6	12	4	0	false	0	0	false	0				-1	false	true	true	0	
+13	negative	wh2_dlc12_character_abilities_brass_orb		false	false	false	0	0	0	1	0	0.6	12	8	0	false	0	0	false	0				-1	false	true	true	0	
+18	positive	wh2_dlc12_character_abilities_supreme_shield_of_the_old_ones		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_defence	wh2_dlc12_ability_supreme_shield_of_the_old_ones	-1	false	true	true	0	
+-1	positive	wh2_dlc12_item_passive_braid_of_bordeleaux		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack_passive		-1	false	true	true	0	
+-1	negative	wh2_dlc12_item_passive_golden_death_mask		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_debuff_attack_passive		-1	false	true	true	0	
+-1	positive	wh2_dlc12_item_passive_mask_of_heavens		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_defence_passive		-1	false	true	true	0	
+21	positive	wh2_dlc12_item_passive_plaque_of_sotek		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_ward_save_all_passive		-1	false	true	true	0	
+30	negative	wh2_dlc12_lord_abilities_drop_sphere_of_tepok		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0		wh2_dlc12_drop_sphere_contact		-1	false	true	true	0	
+40	positive	wh2_dlc12_lord_abilities_focus_instincts		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0		wh_main_generic_buff_morale_passive		-1	false	true	false	0	
+31	positive	wh2_dlc12_lord_abilities_master_of_the_skies		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_defence	wh_ability_positive_banner	-1	false	true	true	0	
+29	positive	wh2_dlc12_lord_abilities_unlimited_power		false	false	false	0	0	0	0	0	0	0	-1	0	false	0.3	20	false	0		wh2_dlc12_ability_unlimited_power	wh2_dlc12_ability_unlimited_power	-1	false	true	true	0	
+30	positive	wh2_dlc12_lord_abilities_warriors_crest		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1	false	true	true	0	
+15	positive	wh2_dlc12_lord_passive_adrenaline_rush		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack		-1	false	true	true	0	
+40	positive	wh2_dlc12_lord_passive_overload		false	false	false	0	0	0	0	0	0	0	-1	0	false	0.15	10	false	0		wh2_main_generic_buff_wom_banner	wh_ability_negative_one_shot	-1	false	true	true	0	
+15	positive	wh2_dlc12_lord_passive_secondwind_serum		false	false	false	0	0	0	0.5	24	0	0	-1	24	false	0	0	false	0		wh_main_generic_hp_regen_passive		-1	false	true	true	0	
+20	positive	wh2_dlc12_unit_abilities_refuse_to_die		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_morale	wh_ability_positive	-1	false	true	true	0	
+25	positive	wh2_dlc12_unit_abilities_shield_of_chaqua		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_defence		-1	false	true	true	0	
+18	positive	wh2_dlc12_unit_abilities_toad_rage		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1	false	true	true	0	
+20	negative	wh2_dlc12_unit_contact_flammable		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0				-1	false	true	true	0	
+30	negative	wh2_dlc12_unit_contact_sundered_armour		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0				-1	false	true	true	0	
+10	negative	wh2_dlc12_unit_contact_suppressive_fire		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0				-1	false	true	true	0	
+-1	positive	wh2_dlc12_unit_passive_arcane_configuration		false	false	false	0	0	0	0	0	0	0	-1	0	false	0.030000001	0	false	0				-1	false	true	true	0	
+-1	positive	wh2_dlc12_unit_passive_blade_swirl		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0	wh_dlc06_unit_contact_sundered_armour			-1	false	true	true	0	
+-1	positive	wh2_dlc12_unit_passive_demagoguery		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_defence_morale_passive		-1	false	true	true	0	
+5	positive	wh2_dlc12_unit_passive_endless_drum		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack		-1	false	true	true	0.030000001	
+-1	positive	wh2_dlc12_unit_passive_portent_of_warding		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_ward_save_all_passive		-1	false	true	true	0	
+-1	positive	wh2_dlc12_unit_passive_the_best_defence		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_defence_passive		-1	false	true	true	0	
+10	negative	wh2_dlc12_unit_passive_zzzap		false	false	false	0	0	10	0	0	0	0	0	0	false	0	0	false	0				-1	false	true	true	0	
+-1	positive	wh2_dlc12_weapon_passive_blade_of_the_ancient_skies		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack_passive		-1	false	true	true	0	
+-1	positive	wh2_dlc12_weapon_passive_blade_of_the_serpents_tongue		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0	wh_main_unit_contact_poison	wh_main_generic_buff_attack_passive		-1	false	true	true	0	
 -1	positive	wh2_main_army_abilities_channeling_spire		false	false	false	0	0	0	0	0	0	0	-1	0	false	0.15	10	false	0		wh2_main_generic_buff_wom_banner	wh2_main_ability_channeling_spire	-1	false	true	true	0	
 27	negative	wh2_main_army_abilities_dark_conduit		false	false	false	1	0	90	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack_banner	wh_ability_positive_one_shot	-1	false	true	true	0	
 22	negative	wh2_main_army_abilities_eshin_clanstone		false	false	false	0	0	0	1	0	0.15	9	9	0	false	0	0	false	0			wh2_main_ability_eshin_clanstone	-1	false	true	true	0	
@@ -265,7 +295,7 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 10	negative	wh2_main_lore_passive_plague_rash		false	false	false	0.09	0	0	0	0	0	0	-1	0	false	0	0	false	0				-1	false	true	true	0	
 9	positive	wh2_main_lore_passive_shield_of_saphery		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0				-1	false	true	true	0	
 18	negative	wh2_main_lore_passive_spiteful_conjuration		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0				-1	false	true	true	0	
-18	positive	wh2_main_mount_abilities_unholy_clamour		false	false	false	-0.18	0	0	0	0	0	0	-1	0	false	0	0	false	0			wh_ability_positive_one_shot	-1	false	true	true	0	
+18	positive	wh2_main_mount_abilities_unholy_clamour		false	false	false	-0.18	0	0	0	0	0	0	-1	0	false	0	0	false	0			wh2_ability_unholy_clamour	-1	false	true	true	0	
 -1	negative	wh2_main_mount_passive_billowing_death		false	false	false	0	0	0	1	0	1	3	5	0	false	0	0	false	0		wh2_main_mount_passive_billowing_death		-1	false	true	true	0	
 -1	positive	wh2_main_mount_passive_wall_of_unholy_sound		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack_passive		-1	false	true	true	0	
 30	positive	wh2_main_spell_bound_black_staff		false	false	false	0	0	0	3	0	0.75	50	1	0	false	0.3	20	false	0		wh2_main_generic_buff_wom_banner	wh_ability_positive_banner	-1	false	true	true	0	
@@ -323,13 +353,13 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 15	negative	wh2_main_unit_passive_snare_net		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_dlc05_ability_pray_of_anath_raema	wh2_main_unit_abilities_snare_net	90	false	true	true	0	
 -1	positive	wh2_main_unit_passive_strength_in_numbers		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0				-1	false	true	true	0	
 2	positive	wh2_main_unit_passive_too_horrible_to_die		false	false	false	0	0	0	1	1248	0	0	-1	1248	false	0	0	false	0		wh2_main_unit_passive_rebirth		-1	false	true	true	0	
--1	negative	wh2_main_unit_passive_unbinding_clanrats		false	false	false	0	0	0	1.7	0	1	1	-1	0	false	0	0	false	0		wh2_main_bound_entity_energy_rat		-1	false	true	true	0	
--1	negative	wh2_main_unit_passive_unbinding_clanrats_small		false	false	false	0	0	0	2.4	0	1	1	-1	0	false	0	0	false	0		wh2_main_bound_entity_energy_rat		-1	false	true	true	0	
--1	negative	wh2_main_unit_passive_unbinding_great_eagle		true	false	false	0	0	0	1.01	0	1	35	-1	0	false	0	0	false	0		wh2_main_bound_entity_energy_eagle		-1	false	true	true	0	
--1	negative	wh2_main_unit_passive_unbinding_plague_monks		false	false	false	0	0	0	2.8	0	1	1	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
--1	negative	wh2_main_unit_passive_unbinding_skaven_slaves		false	false	false	0	0	0	6.7	0	1	1	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
--1	negative	wh2_main_unit_passive_unbinding_skink_priest		true	false	false	0	0	0	1.03	0	1	18	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
-50	positive	wh2_main_weapon_abilities_dwarf_gouger		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1	false	true	true	0	
+62	negative	wh2_main_unit_passive_unbinding_clanrats		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh2_main_bound_entity_energy_rat		-1	false	true	true	0	
+62	negative	wh2_main_unit_passive_unbinding_clanrats_small		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh2_main_bound_entity_energy_rat		-1	false	true	true	0	
+73	negative	wh2_main_unit_passive_unbinding_great_eagle		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh2_main_bound_entity_energy_eagle		-1	false	true	true	0	
+68	negative	wh2_main_unit_passive_unbinding_plague_monks		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+94	negative	wh2_main_unit_passive_unbinding_skaven_slaves		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+115	negative	wh2_main_unit_passive_unbinding_skink_priest		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+36	positive	wh2_main_weapon_abilities_dwarf_gouger		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1	false	true	true	0	
 38	positive	wh2_main_weapon_abilities_hydra_blade		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1	false	true	true	0	
 46	positive	wh2_main_weapon_abilities_sword_of_teclis		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack	wh_ability_negative	-1	false	true	true	0	
 17	negative	wh2_main_weapon_abilities_web_of_shadows		false	false	false	0	0	0	2	0	0.6	144	1	0	false	0	0	false	0		wh_main_hero_abilities_accusation	wh_ability_negative	-1	false	true	true	0	
@@ -340,7 +370,7 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 -1	positive	wh_dlc01_banner_passive_blasted_standard		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0		wh_main_generic_buff_defence_passive		-1	false	true	true	0	
 -1	positive	wh_dlc01_item_passive_helm_of_many_eyes		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0		wh_main_generic_buff_defence_attack_passive		-1	false	true	true	0	
 -1	positive	wh_dlc01_item_passive_the_crown_of_domination		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_morale_passive		-1	false	true	true	0	
--1	negative	wh_dlc01_unit_passive_unbinding_chaos_spawn		true	false	false	0	0	0	1.11	0	1	4	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+86	negative	wh_dlc01_unit_passive_unbinding_chaos_spawn		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
 43	positive	wh_dlc01_weapon_abilities_starcrusher		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack_banner	wh_ability_positive_one_shot	-1	false	true	true	0	
 11	positive	wh_dlc01_weapon_abilities_sword_of_change		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0		wh_main_generic_buff_attack_banner	wh_ability_positive_one_shot	-1	false	true	true	0	
 39	positive	wh_dlc01_weapon_abilities_the_slayer_of_kings		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack_banner	wh_ability_positive_one_shot	-1	false	true	true	0	
@@ -392,10 +422,10 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 -1	positive	wh_dlc03_unit_passive_drunken		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0				-1	false	true	true	0	
 -1	positive	wh_dlc03_unit_passive_primal_fury		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0				-1	false	true	true	0	
 -1	negative	wh_dlc03_unit_passive_soul_eater		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0				-1	false	true	true	0	
--1	negative	wh_dlc03_unit_passive_unbinding_chaos_spawn		true	false	false	0	0	0	1.11	0	1	4	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_large		-1	false	true	true	0	
--1	negative	wh_dlc03_unit_passive_unbinding_cygor		true	false	false	0	0	0	1	0	1	41	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_large		-1	false	true	true	0	
--1	negative	wh_dlc03_unit_passive_unbinding_giant		true	false	false	0	0	0	1.26	0	1	46	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_large		-1	false	true	true	0	
--1	negative	wh_dlc03_unit_passive_unbinding_manticore		true	false	false	0	0	0	1.1	0	1	14	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_manticore		-1	false	true	true	0	
+86	negative	wh_dlc03_unit_passive_unbinding_chaos_spawn		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_large		-1	false	true	true	0	
+96	negative	wh_dlc03_unit_passive_unbinding_cygor		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_large		-1	false	true	true	0	
+86	negative	wh_dlc03_unit_passive_unbinding_giant		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_large		-1	false	true	true	0	
+91	negative	wh_dlc03_unit_passive_unbinding_manticore		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_manticore		-1	false	true	true	0	
 46	positive	wh_dlc03_weapon_abilities_axe_of_men		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_defence_morale_banner	wh_ability_positive_one_shot	-1	false	true	true	0	
 41	positive	wh_dlc03_weapon_abilities_scourge		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0	wh_main_unit_contact_poison	wh_main_generic_buff_attack_banner	wh_ability_positive_one_shot	-1	false	true	true	0	
 -1	positive	wh_dlc03_weapon_passive_everbleed		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0	wh_main_unit_contact_poison			-1	false	true	true	0	
@@ -418,10 +448,10 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 15	positive	wh_dlc04_unit_passive_strength_of_the_penitent		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack_passive		-1	false	true	true	0	
 -1	positive	wh_dlc04_unit_passive_the_reliquary_binding		false	false	false	0	0	0	1	2	0	0	-1	2	false	0	0	false	0		wh_main_generic_hp_regen_passive		-1	false	true	true	0	
 -1	negative	wh_dlc04_unit_passive_the_reliquary_corruption		false	false	false	0	0	0	1	0	1	4	4	0	false	0	0	false	0		wh_main_generic_hp_damage_passive		-1	false	true	true	0	
--1	negative	wh_dlc04_unit_passive_unbinding_crypt_ghouls		true	false	false	0	0	0	5.27	0	1	1	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
--1	negative	wh_dlc04_unit_passive_unbinding_crypt_horrors		true	false	false	0	0	0	1.1800001	0	1	3	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
--1	negative	wh_dlc04_unit_passive_unbinding_grave_guard		true	false	false	0	0	0	2.8	0	1	1	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
--1	negative	wh_dlc04_unit_passive_unbinding_wight_king		true	false	false	0	0	0	1.04	0	1	14	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+80	negative	wh_dlc04_unit_passive_unbinding_crypt_ghouls		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+72	negative	wh_dlc04_unit_passive_unbinding_crypt_horrors		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+81	negative	wh_dlc04_unit_passive_unbinding_grave_guard		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+112	negative	wh_dlc04_unit_passive_unbinding_wight_king		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
 -1	positive	wh_dlc04_unit_passive_unholy_lodestone		false	false	false	0	0	0	1	2	0	0	-1	2	false	0	0	false	0		wh_main_generic_hp_regen_passive		-1	false	true	true	0	
 -1	positive	wh_dlc04_unit_passive_vigour_mortis		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack_passive		-1	false	true	true	0	
 -1	positive	wh_dlc04_weapon_passive_blood_drinker		false	false	false	0	0	0	0.5	4	0	0	0	4	false	0	0	false	0				-1	false	true	true	0	
@@ -431,7 +461,7 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 -1	positive	wh_dlc05_hero_passive_blessing_of_the_ancients		false	false	false	0	0	0	0	0	0	0	-1	0	false	0.09	15	false	0				-1	false	true	true	0	
 -1	positive	wh_dlc05_hero_passive_hawkish_finesse		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack_passive		-1	false	true	true	0	
 -1	positive	wh_dlc05_hero_passive_hawkish_precision		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack_passive		-1	false	true	true	0	
-21	positive	wh_dlc05_item_abilities_horn_of_the_wild_hunt		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1	false	true	true	0	
+24	positive	wh_dlc05_item_abilities_horn_of_the_wild_hunt		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1	false	true	true	0	
 -1	positive	wh_dlc05_item_passive_cloak_of_isha		false	false	false	0	0	0	0.5	4	0	0	0	4	false	0	0	false	0		wh_main_generic_ward_save_all_passive		-1	false	true	true	0	
 10	negative	wh_dlc05_lord_abilities_spirit_essence_of_chaos		false	false	false	0	0	0	1	0	1	500	100	0	false	0	0	false	0		wh_dlc03_spell_beast_flock_of_doom		-1	false	true	true	0	
 -1	positive	wh_dlc05_lord_passive_call_of_the_woods		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack_passive		-1	false	true	true	0	
@@ -476,7 +506,7 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 13	negative	wh_dlc06_character_abilities_effagee_of_da_git		false	true	false	0	0	0	2	0	0.6	144	1	0	false	0	0	false	0		wh_dlc06_character_abilities_effagee_of_da_git	wh_dlc06_character_abilities_effagee_of_da_git	-1	false	true	true	0	
 -1	positive	wh_dlc06_item_passive_squiggly_beast		false	false	false	0	0	0	0	0	0	0	-1	0	false	0.09	15	false	0				-1	false	true	true	0	
 25	positive	wh_dlc06_lord_abilities_mighty_oath_stone		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_defence_morale	wh_ability_positive_one_shot	-1	false	true	true	0	
-57	positive	wh_dlc06_lord_abilities_revenge_incarnate		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1	false	true	true	0	
+33	positive	wh_dlc06_lord_abilities_revenge_incarnate		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1	false	true	true	0	
 21	positive	wh_dlc06_lord_abilities_spite_of_da_bad_moon		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_defence	wh_ability_positive	-1	false	true	true	0	
 29	positive	wh_dlc06_lord_abilities_tricksy_traps		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0		wh_main_spell_lil_waaagh_night_shroud	wh_main_spell_lil_waaagh_night_shroud	-1	false	true	true	0	
 -1	positive	wh_dlc06_lord_passive_locus_of_power		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0				-1	false	true	true	0	
@@ -502,7 +532,7 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 -1	positive	wh_dlc06_unit_passive_power_of_the_dragonback		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0	wh_dlc06_unit_contact_flammable			-1	false	true	true	0	
 -1	positive	wh_dlc06_unit_passive_squigs_go_wild		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack_passive		-1	false	true	true	0	
 5	positive	wh_dlc06_unit_passive_the_old_grumblers		false	false	false	-0.09	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_hp_regen_passive		-1	false	true	true	0	
--1	negative	wh_dlc06_unit_passive_unbinding_spider_hatchling		true	false	false	0	0	0	2.1	0	1	1	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+175	negative	wh_dlc06_unit_passive_unbinding_spider_hatchling		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
 17	positive	wh_dlc06_weapon_passive_bonewoof_staff		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0				-1	false	true	true	0	
 -1	positive	wh_dlc06_weapon_passive_hammer_of_angrund		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack_passive		-1	false	true	true	0	
 48	positive	wh_dlc07_hero_abilities_dolorous_blade		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1	false	true	true	0	
@@ -577,7 +607,7 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 -1	positive	wh_main_character_passive_dark_benediction		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_morale_passive		-1	false	true	true	0	
 -1	positive	wh_main_character_passive_evasion		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0				-1	false	true	true	0	
 -1	positive	wh_main_character_passive_master_of_the_dead		false	false	false	0	0	0	0.5	2	0	0	0	2	false	0	0	false	0		wh_main_generic_hp_regen_passive		-1	false	true	true	0	
-20	negative	wh_main_hero_abilities_accusation		false	false	false	0	0	0	2	0	0.6	144	1	0	false	0	0	false	0		wh_main_generic_debuff_attack	wh_ability_negative	-1	false	true	true	0	
+35	negative	wh_main_hero_abilities_accusation		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_debuff_defence	wh_ability_negative	-1	false	true	true	0	
 32	positive	wh_main_hero_abilities_ballistics_calibration		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack	wh_ability_positive	-1	false	true	true	0	
 22	positive	wh_main_hero_abilities_faiths_bastion		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_ward_save_all	wh_ability_positive	-1	false	true	true	0	
 13	positive	wh_main_hero_abilities_immortal_will		false	false	false	0	0	0	0.5	24	0	0	0	24	false	0	0	false	0		wh_main_generic_hp_regen	wh_main_item_abilities_potion_of_healing	-1	false	true	true	0	
@@ -699,8 +729,8 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 38	negative	wh_main_spell_metal_transmutation_of_lead		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0		wh_main_spell_metal_transmutation_of_lead	wh_main_spell_metal_transmutation_of_lead	-1	false	true	true	0	
 38	negative	wh_main_spell_metal_transmutation_of_lead_upgraded		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0		wh_main_spell_metal_transmutation_of_lead	wh_main_spell_metal_transmutation_of_lead	-1	false	true	true	0	
 32	negative	wh_main_spell_vampires_curse_of_years		false	false	false	0	0	15	0	0	0	0	0	0	false	0	0	false	0		wh_main_spell_vampires_curse_of_years	wh_main_spell_vampires_curse_of_years	-1	false	true	true	0	
-21	positive	wh_main_spell_vampires_invocation_of_nehek		false	false	false	0	0	0	0.5	24	0	0	0	24	true	0	0	false	0		wh_main_spell_vampires_invocation_of_nehek	wh_main_spell_invocation_of_nehek	-1	false	true	true	0	
-21	positive	wh_main_spell_vampires_invocation_of_nehek_upgraded		false	false	false	0	0	0	0.5	24	0	0	0	24	true	0	0	false	0		wh_main_spell_vampires_invocation_of_nehek	wh_main_spell_invocation_of_nehek	-1	false	true	true	0	
+18	positive	wh_main_spell_vampires_invocation_of_nehek		false	false	false	0	0	0	0.5	24	0	0	0	24	true	0	0	false	0		wh_main_spell_vampires_invocation_of_nehek	wh_main_spell_invocation_of_nehek	-1	false	true	true	0	
+18	positive	wh_main_spell_vampires_invocation_of_nehek_upgraded		false	false	false	0	0	0	0.5	24	0	0	0	24	true	0	0	false	0		wh_main_spell_vampires_invocation_of_nehek	wh_main_spell_invocation_of_nehek	-1	false	true	true	0	
 29	positive	wh_main_spell_vampires_vanhels_danse_macabre		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0		wh_main_spell_vampires_vanhels_danse_macabre	wh_main_spell_vampires_vanhels_danse_macabre	-1	false	true	true	0	
 29	positive	wh_main_spell_vampires_vanhels_danse_macabre_upgraded		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0		wh_main_spell_vampires_vanhels_danse_macabre	wh_main_spell_vampires_vanhels_danse_macabre	-1	false	true	true	0	
 -1	positive	wh_main_unit_abilities_black_nimbus		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_ward_save_all		-1	false	true	true	0	
@@ -715,18 +745,18 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 10	negative	wh_main_unit_contact_poison		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0				-1	false	true	true	0	
 -1	positive	wh_main_unit_passive_frenzy		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0				-1	false	true	true	0	
 -1	positive	wh_main_unit_passive_regeneration		false	false	false	0	0	0	0.5	2	0	0	0	2	false	0	0	false	0				-1	false	true	true	0	
--1	negative	wh_main_unit_passive_unbinding_critical		false	false	false	0	0	0	0.25	0	1	4	10	0	false	0	0	false	0		wh_main_bound_entity_energy_large		-1	false	true	true	0	
--1	negative	wh_main_unit_passive_unbinding_feral_cold_ones		true	false	false	0	0	0	2.1299999	0	1	1	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
--1	negative	wh_main_unit_passive_unbinding_skeleton_warriors		true	false	false	0	0	0	1.76	0	1	1	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
--1	negative	wh_main_unit_passive_unbinding_zombie		true	false	false	0	0	0	3.45	0	1	1	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+5	negative	wh_main_unit_passive_unbinding_critical		false	false	false	0	0	0	0.2	0	1	1000	10	0	false	0	0	false	0		wh_main_bound_entity_energy_large		-1	false	true	true	0	
+75	negative	wh_main_unit_passive_unbinding_feral_cold_ones		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+75	negative	wh_main_unit_passive_unbinding_skeleton_warriors		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+129	negative	wh_main_unit_passive_unbinding_zombie		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
 -1	negative	wh_main_unit_passive_unstable		false	false	false	0	0	0	1	0	1	12	1	0	false	0	0	false	0		wh_main_generic_crumble		-1	false	true	true	0	
 -1	negative	wh_main_unit_passive_unstable_mark_ii		false	false	false	0	0	0	0.2	0	1	72	5	0	false	0	0	false	0		wh_main_generic_crumble_II		-1	false	true	true	0	
 -1	positive	wh_main_unit_passive_war_paint		false	false	false	0	0	0	0	0	0	0	0	0	false	0	0	false	0		wh_main_generic_ward_save_magic_passive		-1	false	true	true	0	
-32	positive	wh_main_weapon_abilities_axe_of_dargo		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_debuff_attack_banner	wh_ability_negative_one_shot	-1	false	true	true	0	
+16	positive	wh_main_weapon_abilities_axe_of_dargo		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_debuff_attack_banner	wh_ability_negative_one_shot	-1	false	true	true	0	
 17	positive	wh_main_weapon_abilities_charmed_shield		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_ward_save_all	wh_ability_positive	-1	false	true	true	0	
 36	positive	wh_main_weapon_abilities_filth_mace		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0	wh_main_unit_contact_poison	wh_main_generic_buff_attack_banner	wh_ability_positive_one_shot	-1	false	true	true	0	
 39	positive	wh_main_weapon_abilities_ghal_maraz		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack_banner	wh_ability_positive_one_shot	-1	false	true	true	0	
-36	positive	wh_main_weapon_abilities_gitsnik		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack_banner	wh_ability_positive_one_shot	-1	false	true	true	0	
+18	positive	wh_main_weapon_abilities_gitsnik		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack_banner	wh_ability_positive_one_shot	-1	false	true	true	0	
 50	positive	wh_main_weapon_abilities_hellfire_sword		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	10		wh_main_generic_buff_attack_banner	wh_ability_positive_one_shot	-1	false	true	true	0	
 25	negative	wh_main_weapon_abilities_helm_of_discord		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_debuff_defence_attack	wh_ability_negative	-1	false	true	true	0	
 33	positive	wh_main_weapon_abilities_runefang		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_attack_banner	wh_ability_positive_one_shot	-1	false	true	true	0	
@@ -741,16 +771,16 @@ duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 -1	positive	wh_main_weapon_passive_sword_of_unholy_power		false	false	false	0	0	0	0	0	0	0	-1	0	false	0.120000005	20	false	0				-1	false	true	true	0	
 -1	negative	wh_main_weapon_passive_warrior_bane		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_debuff_attack_passive		-1	false	true	true	0	
 -1	positive	wh_pro01_item_passive_rune_helm_of_zhufbar		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_buff_defence_morale_passive	wh_ability_positive	-1	false	true	true	0	
-25	negative	wh_pro01_lord_abilities_flash_bomb		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_debuff_attack		-1	false	true	true	0	
+16	negative	wh_pro01_lord_abilities_flash_bomb		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_debuff_attack		-1	false	true	true	0	
 32	positive	wh_pro01_lord_passive_grombrindal_has_no_fear		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0				-1	false	true	true	0	
 26	positive	wh_pro01_weapon_abilities_rune_axe_of_grombrindal		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0	wh_dlc06_unit_contact_discouraged	wh_main_generic_buff_attack	wh_ability_positive	-1	false	true	true	0	
 26	positive	wh_pro02_item_abilities_blood_chalice_of_bathori		false	false	false	-0.36	0	0	0.5	48	0	0	0	48	false	0	0	false	0		wh_main_generic_hp_regen	wh_main_item_abilities_potion_of_healing	-1	false	true	true	0	
--1	negative	wh_pro03_unit_passive_unbinding_krell		true	false	false	0	0	0	1.04	0	1	16	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
--1	negative	wh_pro03_unit_passive_unbinding_krell_upgraded		true	false	false	0	0	0	2.08	0	1	16	-1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+134	negative	wh_pro03_unit_passive_unbinding_krell		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
+268	negative	wh_pro03_unit_passive_unbinding_krell_upgraded		false	false	false	0	0	0	1	0	1	4	1	0	false	0	0	false	0		wh_main_bound_entity_energy_small		-1	false	true	true	0	
 22	positive	wh_pro04_unit_abilities_enrage		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_dlc05_mammoth_phase	wh_ability_positive	-1	false	true	true	0	
 38	positive	wh_pro04_unit_abilities_loecs_shroud		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0				-1	false	true	true	0	
 12	positive	wh_pro04_unit_abilities_warp_gaze		false	true	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_dlc08_ability_warp_gaze	wh_ability_negative	-1	false	true	true	0	
 41	positive	wh_pro04_unit_passive_apocalyptic_charge		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_dlc08_apocaliptic_charge_banner_buff	wh_main_character_abilities_foe_seeker	-1	false	true	true	0	
--1	positive	wh_pro04_unit_passive_guardian		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_ward_save_all	wh_ability_positive	-1	false	true	true	0	
+-1	positive	wh_pro04_unit_passive_guardian		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_ward_save_all		-1	false	true	true	0	
 44	positive	wh_pro04_unit_passive_soul_devourer		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_dlc08_ability_soul_devourer		-1	false	true	true	0	
 -1	positive	wh_pro04_unit_passive_wildfire_aura		false	false	false	0	0	0	0	0	0	0	-1	0	false	0	0	false	0		wh_main_generic_ward_save_all	wh_ability_positive	-1	false	true	true	0	

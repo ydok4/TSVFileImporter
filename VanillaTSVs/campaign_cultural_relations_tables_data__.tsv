@@ -2,6 +2,7 @@ campaign_cultural_relations_tables	0
 attitude_base	campaign	positive_attitude_multiplier	negative_attitude_multiplier	source	target
 -10		1	1	wh2_dlc09_sc_tmb_tomb_kings	wh2_dlc09_sc_tmb_tomb_kings
 -40		1	1	wh2_dlc09_sc_tmb_tomb_kings	wh2_dlc11_sc_cst_vampire_coast
+-10		1	1	wh2_dlc09_sc_tmb_tomb_kings	wh2_main_sc_lzd_lizardmen
 -20		1	1	wh2_dlc11_sc_cst_vampire_coast	wh2_dlc09_sc_tmb_tomb_kings
 -20		1	1	wh2_dlc11_sc_cst_vampire_coast	wh2_dlc11_sc_cst_vampire_coast
 -20		1	1	wh2_dlc11_sc_cst_vampire_coast	wh2_main_sc_def_dark_elves
@@ -53,10 +54,11 @@ attitude_base	campaign	positive_attitude_multiplier	negative_attitude_multiplier
 -40		1	1	wh2_main_sc_hef_high_elves	wh_main_sc_nor_norsca
 0		1	1	wh2_main_sc_hef_high_elves	wh_main_sc_teb_teb
 -30		1	1	wh2_main_sc_hef_high_elves	wh_main_sc_vmp_vampire_counts
+-10		1	1	wh2_main_sc_lzd_lizardmen	wh2_dlc09_sc_tmb_tomb_kings
 -40		1	1	wh2_main_sc_lzd_lizardmen	wh2_dlc11_sc_cst_vampire_coast
 -40		1	1	wh2_main_sc_lzd_lizardmen	wh2_main_sc_def_dark_elves
 0		1	1	wh2_main_sc_lzd_lizardmen	wh2_main_sc_hef_high_elves
-0		1	1	wh2_main_sc_lzd_lizardmen	wh2_main_sc_lzd_lizardmen
+20		1	1	wh2_main_sc_lzd_lizardmen	wh2_main_sc_lzd_lizardmen
 -60		1	1	wh2_main_sc_lzd_lizardmen	wh2_main_sc_skv_skaven
 -40		1	1	wh2_main_sc_lzd_lizardmen	wh_dlc03_sc_bst_beastmen
 0		1	1	wh2_main_sc_lzd_lizardmen	wh_dlc05_sc_wef_wood_elves

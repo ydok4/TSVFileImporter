@@ -1,0 +1,50 @@
+Loc PackedFile	1
+key	text	tooltip
+unit_ability_types_localised_description_wh_type_augment_of_the_winds	Enhances the flow of Winds of Magic in favour of yours or allies' spellcasters.	true
+unit_ability_types_onscreen_name_wh_type_bombardment	[[img:ui/battle ui/ability_icons/icon_spell_bombardment.png]][[/img]]Bombardment	true
+unit_ability_types_localised_description_wh_type_bombardment	A Bombardment rains down missiles from the sky directly above the target.	true
+unit_ability_types_localised_description_wh_type_ward_save	A type of arcane resilience, Ward Saves prevent certain types of damage from affecting their bearers.	true
+unit_ability_types_localised_description_wh_type_regeneration	Rejuvenating essence flows back into friends and allies, healing and sometimes resurrecting.	true
+unit_ability_types_localised_description_wh_type_area_of_regeneration	Rejuvenating essence flows back into friends and allies over an area, healing and sometimes resurrecting.	true
+unit_ability_types_onscreen_name_wh_type_area_of_ward_save	[[img:ui/battle ui/ability_icons/icon_spell_area_of_ward_saves.png]][[/img]]Ward Save (Area)	true
+unit_ability_types_localised_description_wh_type_hex	Hexes weaken the enemy, making them easier to slay.	true
+unit_ability_types_localised_description_wh_type_explosion	Explosions cause damage that radiates outwards from their source in all directions.	true
+unit_ability_types_localised_description_wh_type_formation	Unit formations focuses them on a singular goal.	true
+unit_ability_types_onscreen_name_wh_type_hex	[[img:ui/battle ui/ability_icons/icon_spell_hex.png]][[/img]]Hex	true
+unit_ability_types_localised_description_wh_type_wind	An irresistible gust drives through all that lies in its path.	true
+unit_ability_types_onscreen_name_wh_type_area_of_regeneration	[[img:ui/battle ui/ability_icons/icon_spell_area_of_regeneration.png]][[/img]]Regeneration (Area)	true
+unit_ability_types_onscreen_name_wh_type_regeneration	[[img:ui/battle ui/ability_icons/icon_spell_regeneration.png]][[/img]]Regeneration	true
+unit_ability_types_onscreen_name_wh_type_ward_save	[[img:ui/battle ui/ability_icons/icon_spell_ward_save.png]][[/img]]Ward Save	true
+unit_ability_types_onscreen_name_wh_type_augment_of_the_winds	[[img:ui/battle ui/ability_icons/icon_spell_augment_of_the_winds.png]][[/img]]Augment of the Winds	true
+unit_ability_types_onscreen_name_wh_type_wind	[[img:ui/battle ui/ability_icons/icon_spell_wind.png]][[/img]]Wind	true
+unit_ability_types_localised_description_wh_type_area_of_ward_save	An area of Ward Saves prevent certain types of damage from affecting their bearers.	true
+unit_ability_types_onscreen_name_wh_type_formation	[[img:ui/battle ui/ability_icons/icon_formation.png]][[/img]]Formation	true
+unit_ability_types_onscreen_name_wh_type_explosion	[[img:ui/battle ui/ability_icons/icon_spell_explosion.png]][[/img]]Explosion	true
+unit_ability_types_localised_description_wh_type_vortex	A roiling, deadly Vortex steadily damages foes and wrenches them from their ranks.	true
+unit_ability_types_onscreen_name_wh_type_hex_of_the_winds	[[img:ui/battle ui/ability_icons/icon_spell_hex_of_the_winds.png]][[/img]]Hex of the Winds	true
+unit_ability_types_localised_description_wh_type_breath	When directed at the enemy, Breath chokes them with noxious fumes or incinerates their flesh.	true
+unit_ability_types_onscreen_name_wh_type_area_of_augments	[[img:ui/battle ui/ability_icons/icon_spell_area_of_augments.png]][[/img]]Augment (Area)	true
+unit_ability_types_localised_description_wh_type_magic_missiles	Magic Missiles are sorcerous projectiles that spellcasters hurl directly at their foes.	true
+unit_ability_types_onscreen_name_wh_type_ward_save_hex	[[img:ui/battle ui/ability_icons/icon_spell_ward_save_hex.png]][[/img]]Ward Save Hex	true
+unit_ability_types_localised_description_wh_type_area_of_hexes	An area of Hexes weaken the enemy, making them easier to slay.	true
+unit_ability_types_onscreen_name_wh_type_hiding	[[img:ui/battle ui/ability_icons/icon_spell_hiding.png]][[/img]]Hiding	true
+unit_ability_types_localised_description_wh_type_area_of_direct_damage	A devastating area of Direct Damage attacks.	true
+unit_ability_types_onscreen_name_wh_type_magic_missile	[[img:ui/battle ui/ability_icons/icon_spell_magic_missile.png]][[/img]]Magic Missile	true
+unit_ability_types_onscreen_name_wh_type_magic_missiles	[[img:ui/battle ui/ability_icons/icon_spell_magic_missiles.png]][[/img]]Magic Missiles	true
+unit_ability_types_localised_description_wh_type_area_of_augments_of_the_winds	Enhances the flow of Winds of Magic in favour of yours or allies' spellcasters.	true
+unit_ability_types_localised_description_wh_type_hiding	Units can hide away from the sight and mind of their foes.	true
+unit_ability_types_onscreen_name_wh_type_direct_damage	[[img:ui/battle ui/ability_icons/icon_spell_direct_damage.png]][[/img]]Direct Damage	true
+unit_ability_types_onscreen_name_wh_type_vortex	[[img:ui/battle ui/ability_icons/icon_spell_vortex.png]][[/img]]Vortex	true
+unit_ability_types_localised_description_wh_type_area_of_ward_save_hex	Weakens or removes Ward Saves applied to their bearers over an area.	true
+unit_ability_types_onscreen_name_wh_type_breath	[[img:ui/battle ui/ability_icons/icon_spell_breath.png]][[/img]]Breath	true
+unit_ability_types_localised_description_wh_type_ward_save_hex	Weakens or removes Ward Saves applied to their bearers.	true
+unit_ability_types_onscreen_name_wh_type_area_of_direct_damage	[[img:ui/battle ui/ability_icons/icon_spell_area_of_direct_damage.png]][[/img]]Direct Damage (Area)	true
+unit_ability_types_localised_description_wh_type_area_of_augments	Augments strengthen the caster’s friends and allies over an area, enhancing their battlefield prowess.	true
+unit_ability_types_onscreen_name_wh_type_area_of_hexes	[[img:ui/battle ui/ability_icons/icon_spell_area_of_hexes.png]][[/img]]Hex (Area)	true
+unit_ability_types_localised_description_wh_type_hex_of_the_winds	Obstructs the Winds of Magic's flow for enemy spellcasters.	true
+unit_ability_types_onscreen_name_wh_type_augment	[[img:ui/battle ui/ability_icons/icon_spell_augment.png]][[/img]]Augment	true
+unit_ability_types_localised_description_wh_type_augment	Augments strengthen the caster’s friends and allies, enhancing their battlefield prowess.	true
+unit_ability_types_localised_description_wh_type_direct_damage	Direct Damage spells are deadly attacks that devastate their targets.	true
+unit_ability_types_onscreen_name_wh_type_area_of_ward_save_hex	[[img:ui/battle ui/ability_icons/icon_spell_area_of_ward_saves_hex.png]][[/img]]Ward Save Hex (Area)	true
+unit_ability_types_onscreen_name_wh_type_area_of_augments_of_the_winds	[[img:ui/battle ui/ability_icons/icon_spell_augment_of_the_winds.png]][[/img]]Augment of the Winds (Area)	true
+unit_ability_types_localised_description_wh_type_magic_missile	A singular Magic Missile hurled directly at the foe.	true

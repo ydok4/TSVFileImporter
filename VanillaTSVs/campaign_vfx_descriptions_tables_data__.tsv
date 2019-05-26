@@ -40,6 +40,9 @@ move_to_tutorial	tutorial_move_to_campaign	0	0	0	false
 movement_extents	wh_main_campaign_placeholder	0	0	0	false
 nagash_book	wh2_dlc09_campaign_book_of_nagash	0	0	0	false
 navy_war_coordination_target	wh_main_generic_fire_smoke_loop	0	0	0	false
+nuke_test1	wh2_dlc12_warpstorm_doomrocket_explosion	0	0	0	false
+nuke_test2	wh2_dlc12_warpstorm_doomrocket_impact	0	0	0	false
+nuke_test3	wh2_dlc12_warpstorm_doomrocket_spawn	0	0	0	false
 patrol_navy	wh_main_campaign_placeholder	0	0	0	false
 pirate_cove	wh2_dlc11_campaign_pirate_cove	0	0	0	false
 placeholder_selection	wh_main_campaign_placeholder	0	5	0	false
@@ -70,4 +73,5 @@ skv_faction	wh2_main_settlement_skv_faction	0	0	0	false
 sword_character	wh2_dlc10_campaign_kaine_unit	0	0	0	false
 sword_settlement	wh2_dlc10_campaign_kaine_settlement	0	0	0	false
 under_attack	wh_main_campaign_placeholder	0	0	0	false
+under_empire_army	wh2_dlc12_campaign_under_empire_army	0	0	0	false
 zone_of_control	wh_main_campaign_zone_of_control	0	0	0	false

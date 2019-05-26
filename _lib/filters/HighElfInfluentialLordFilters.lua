@@ -5,28 +5,42 @@ HighElfInfluentialLordFilters = {
         OutputFile = true,
         Filter = {
             {
-                -- Auto generate column
+                -- Key column
+                ColumnNumber = 1,
+                Type = "CONTAINSVALUE",
+                Value = "wh2_main_hef_prince_low",
+                Operator = "OR",
+            },
+            {
+                -- Key column
+                ColumnNumber = 1,
+                Type = "CONTAINSVALUE",
+                Value = "wh2_main_hef_princess_low",
+                Operator = "OR",
+            },
+            {
+                -- Key column
                 ColumnNumber = 1,
                 Type = "CONTAINSVALUE",
                 Value = "wh2_main_hef_prince_mid",
                 Operator = "OR",
             },
             {
-                -- Auto generate column
+                -- Key column
                 ColumnNumber = 1,
                 Type = "CONTAINSVALUE",
                 Value = "wh2_main_hef_princess_mid",
                 Operator = "OR",
             },
             {
-                -- Auto generate column
+                -- Key column
                 ColumnNumber = 1,
                 Type = "CONTAINSVALUE",
                 Value = "wh2_main_hef_prince_high",
                 Operator = "OR",
             },
             {
-                -- Auto generate column
+                -- Key column
                 ColumnNumber = 1,
                 Type = "CONTAINSVALUE",
                 Value = "wh2_main_hef_princess_high",

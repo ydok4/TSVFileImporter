@@ -30,12 +30,15 @@ Front_end_selection_movies/kholek_front_end	FULLSCREEN_INTRO	1	0
 Front_end_selection_movies/louen_front_end	FULLSCREEN_INTRO	1	0
 Front_end_selection_movies/lzd_kroqgar	FULLSCREEN_INTRO	1	0
 Front_end_selection_movies/lzd_mazdamundi	FULLSCREEN_INTRO	1	0
+Front_end_selection_movies/lzd_tehenhauin	FULLSCREEN_INTRO	1	0
+Front_end_selection_movies/lzd_tiktaqto	FULLSCREEN_INTRO	1	0
 Front_end_selection_movies/malagor_front_end	FULLSCREEN_INTRO	1	0
 Front_end_selection_movies/mannfred_front_end	FULLSCREEN_INTRO	1	0
 Front_end_selection_movies/morghur_front_end	FULLSCREEN_INTRO	1	0
 Front_end_selection_movies/orion_front_end	FULLSCREEN_INTRO	1	0
 Front_end_selection_movies/sigvald_front_end	FULLSCREEN_INTRO	1	0
 Front_end_selection_movies/skarsnik_front_end	FULLSCREEN_INTRO	1	0
+Front_end_selection_movies/skv_ikit	FULLSCREEN_INTRO	1	0
 Front_end_selection_movies/skv_queek	FULLSCREEN_INTRO	1	0
 Front_end_selection_movies/skv_skrolk	FULLSCREEN_INTRO	1	0
 Front_end_selection_movies/skv_tretch	FULLSCREEN_INTRO	1	0
@@ -54,6 +57,7 @@ MainMenu	FULLSCREEN_INTRO	1	0
 SEGA_logo_sting_HD	FULLSCREEN_INTRO	1	0
 TW_WH2_DLC10_QUEEN_CRONE_THEME	FULLSCREEN_INTRO	1	0
 TW_WH2_DLC11_VAMPIRE_COAST_THEME	FULLSCREEN_INTRO	1	0
+TW_WH2_DLC12_PROPHET_THEME	FULLSCREEN_INTRO	1	0
 TW_WH2_TOMB_KINGS_THEME	FULLSCREEN_INTRO	1	0
 Warhammer/chs_invasion	FULLSCREEN_INTRO	1	19
 Warhammer/chs_rises	FULLSCREEN_INTRO	1	18
@@ -153,6 +157,7 @@ hellebron_death_night_start	CAMPAIGN_ESTABLISH	1	0
 land_defeat	CAMPAIGN_ESTABLISH	1	0
 land_victory	CAMPAIGN_ESTABLISH	1	0
 lord_defects	CAMPAIGN_ESTABLISH	1	0
+lord_kroak	CAMPAIGN_ESTABLISH	1	0
 lord_loyalty_low	CAMPAIGN_ESTABLISH	1	0
 lunar_eclipse	CAMPAIGN_ESTABLISH	1	0
 lunar_eclipse_loop	CAMPAIGN_ESTABLISH	1	0
@@ -216,6 +221,9 @@ spell_previews/high/wh2_main_spell_high_magic_fiery_convocation	VIDEO_TUTORIAL	1
 spell_previews/high/wh2_main_spell_high_magic_hand_of_glory	VIDEO_TUTORIAL	1	0
 spell_previews/high/wh2_main_spell_high_magic_soul_quench	VIDEO_TUTORIAL	1	0
 spell_previews/high/wh2_main_spell_high_magic_tempest	VIDEO_TUTORIAL	1	0
+spell_previews/kroak/wh_dlc12_spell_kroak_deliveance_of_itza_1	VIDEO_TUTORIAL	1	0
+spell_previews/kroak/wh_dlc12_spell_kroak_deliveance_of_itza_2	VIDEO_TUTORIAL	1	0
+spell_previews/kroak/wh_dlc12_spell_kroak_deliveance_of_itza_3	VIDEO_TUTORIAL	1	0
 spell_previews/life/wh_dlc05_spell_life_awakening_of_the_wood	VIDEO_TUTORIAL	1	0
 spell_previews/life/wh_dlc05_spell_life_earth_blood	VIDEO_TUTORIAL	1	0
 spell_previews/life/wh_dlc05_spell_life_flesh_to_stone	VIDEO_TUTORIAL	1	0
@@ -286,6 +294,7 @@ sword_of_khaine	CAMPAIGN_ESTABLISH	1	0
 test_movie_warhammer	FULLSCREEN_INTRO	1	0
 todbringer_defeated	CAMPAIGN_ESTABLISH	1	0
 treachery_of_tzeenth	CAMPAIGN_ESTABLISH	1	0
+under_empire_army	CAMPAIGN_ESTABLISH	1	0
 warhammer2/cst/cst_battle_aranessa	FULLSCREEN_INTRO	1	87
 warhammer2/cst/cst_battle_cylostra	FULLSCREEN_INTRO	1	86
 warhammer2/cst/cst_battle_harkon	FULLSCREEN_INTRO	1	84

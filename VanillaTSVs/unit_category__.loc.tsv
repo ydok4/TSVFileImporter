@@ -1,0 +1,11 @@
+Loc PackedFile	1
+key	text	tooltip
+unit_category_localised_name_cavalry	Cavalry	true
+unit_category_localised_name_war_machine	War Machine	true
+unit_category_localised_name_artillery	Siege Engine	true
+unit_category_localised_name_medium_ship	Medium Ship	true
+unit_category_localised_name_war_beast	War Beast	true
+unit_category_localised_name_light_ship	Light Ship	true
+unit_category_localised_name_heavy_ship	Heavy Ship	true
+unit_category_localised_name_inf_melee	Melee Infantry	true
+unit_category_localised_name_inf_ranged	Missile Infantry	true

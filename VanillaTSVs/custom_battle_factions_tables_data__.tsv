@@ -12,6 +12,7 @@ wh2_dlc11_cst_the_drowned	43	4
 wh2_dlc11_cst_vampire_coast	40	4
 wh2_dlc11_def_the_blessed_dread	23	2
 wh2_dlc11_vmp_the_barrow_legion	133	13
+wh2_dlc12_lzd_cult_of_sotek	12	1
 wh2_main_def_cult_of_pleasure	21	2
 wh2_main_def_dark_elves	20	2
 wh2_main_def_har_ganeth	22	2
@@ -24,8 +25,10 @@ wh2_main_hef_order_of_loremasters	1	0
 wh2_main_lzd_hexoatl	10	1
 wh2_main_lzd_last_defenders	11	1
 wh2_main_lzd_lizardmen	10	1
+wh2_main_lzd_tlaqua	13	1
 wh2_main_skv_clan_mors	30	3
 wh2_main_skv_clan_pestilens	31	3
+wh2_main_skv_clan_skyre	33	3
 wh2_main_skv_skaven	30	3
 wh_dlc03_bst_beastmen	170	17
 wh_dlc05_bst_morghur_herd	171	17

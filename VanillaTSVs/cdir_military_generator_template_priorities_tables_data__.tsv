@@ -71,10 +71,14 @@ WH_Dwarfs_Ungrim	1	WH_default_naval	false
 WH_Empire	5	WH_Empire_land	false
 WH_Empire	1	WH_Empire_land_2	false
 WH_Empire	1	WH_default_naval	false
+WH_Empire	1	WH_dlc03_Empire_land_cavalry	false
+WH_Empire	1	WH_dlc03_Empire_land_infantry	false
 WH_Empire_Main	5	WH_Empire_land	false
 WH_Empire_Main	1	WH_Empire_land_2	false
 WH_Empire_Main	100	WH_Empire_land_leader_karlfranz	true
 WH_Empire_Main	1	WH_default_naval	false
+WH_Empire_Main	1	WH_dlc03_Empire_land_cavalry	false
+WH_Empire_Main	1	WH_dlc03_Empire_land_infantry	false
 WH_Greenskin_Rebels	1	WH_Greenskin_Rebels_land	false
 WH_Greenskins	1	WH_Greenskins_land	false
 WH_Greenskins	1	WH_Greenskins_land_2	false
@@ -230,8 +234,8 @@ WH_mp_Chaos_land	1	WH_Chaos_land	false
 WH_mp_Chaos_land	1	WH_Chaos_land_2	false
 WH_mp_Chaos_siege_attack	1	WH_mp_Chaos_siege_attack	false
 WH_mp_Chaos_siege_defence	1	WH_mp_Chaos_siege_defence	false
-WH_mp_Dark_Elves_land	1	WH_Dark_Elves_land	false
-WH_mp_Dark_Elves_land	1	WH_Dark_Elves_land_2	false
+WH_mp_Dark_Elves_land	5	WH_Dark_Elves_land	false
+WH_mp_Dark_Elves_land	5	WH_Dark_Elves_land_2	false
 WH_mp_Dark_Elves_land	1	WH_Dark_Elves_land_rare	false
 WH_mp_Dark_Elves_siege_attack	1	WH_mp_Dark_Elves_siege_attack	false
 WH_mp_Dark_Elves_siege_defence	1	WH_mp_Dark_Elves_siege_defence	false
@@ -241,6 +245,8 @@ WH_mp_Dwarfs_siege_attack	1	WH_mp_Dwarfs_siege_attack	false
 WH_mp_Dwarfs_siege_defence	1	WH_mp_Dwarfs_siege_defence	false
 WH_mp_Empire_land	1	WH_Empire_land	false
 WH_mp_Empire_land	1	WH_Empire_land_2	false
+WH_mp_Empire_land	1	WH_dlc03_Empire_land_cavalry	false
+WH_mp_Empire_land	1	WH_dlc03_Empire_land_infantry	false
 WH_mp_Empire_siege_attack	1	WH_mp_Empire_siege_attack	false
 WH_mp_Empire_siege_defence	1	WH_mp_Empire_siege_defence	false
 WH_mp_Greenskins_land	1	WH_Greenskins_land	false
@@ -265,9 +271,9 @@ WH_mp_Norsca_land	1	WH_Norsca_land_2	false
 WH_mp_Norsca_land	1	WH_Norsca_land_rare	false
 WH_mp_Norsca_siege_attack	1	WH_mp_Norsca_siege_attack	false
 WH_mp_Norsca_siege_defence	1	WH_mp_Norsca_siege_defence	false
-WH_mp_Skaven_land	1	WH_Skaven_land	false
-WH_mp_Skaven_land	1	WH_Skaven_land_2	false
-WH_mp_Skaven_land	1	WH_Skaven_land_3	false
+WH_mp_Skaven_land	5	WH_Skaven_land	false
+WH_mp_Skaven_land	5	WH_Skaven_land_2	false
+WH_mp_Skaven_land	5	WH_Skaven_land_3	false
 WH_mp_Skaven_land	1	WH_Skaven_land_rare	false
 WH_mp_Skaven_siege_attack	1	WH_mp_Skaven_siege_attack	false
 WH_mp_Skaven_siege_defence	1	WH_mp_Skaven_siege_defence	false

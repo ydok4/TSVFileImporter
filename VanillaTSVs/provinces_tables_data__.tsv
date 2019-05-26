@@ -70,6 +70,7 @@ wh2_main_vor_central_spine_of_sotek
 wh2_main_vor_chrace
 wh2_main_vor_coast_of_araby
 wh2_main_vor_coast_of_squalls
+wh2_main_vor_coasts_of_the_lustrian_gulf
 wh2_main_vor_cobra_pass
 wh2_main_vor_copper_desert
 wh2_main_vor_cothique
@@ -79,6 +80,7 @@ wh2_main_vor_eagle_gate
 wh2_main_vor_eataine
 wh2_main_vor_ellyrion
 wh2_main_vor_forest_of_the_viper
+wh2_main_vor_fortress_of_dawn
 wh2_main_vor_galleons_graveyard
 wh2_main_vor_great_mortis_delta
 wh2_main_vor_grey_guardians
@@ -99,6 +101,7 @@ wh2_main_vor_mosquito_swamps
 wh2_main_vor_nagarythe
 wh2_main_vor_naggarond
 wh2_main_vor_northern_great_jungle
+wh2_main_vor_northern_red_rivers
 wh2_main_vor_northern_spine_of_sotek
 wh2_main_vor_northern_yvresse
 wh2_main_vor_obsidian_peaks
@@ -117,6 +120,7 @@ wh2_main_vor_shifting_sands
 wh2_main_vor_southern_badlands
 wh2_main_vor_southern_great_jungle
 wh2_main_vor_southern_jungles
+wh2_main_vor_southern_red_rivers
 wh2_main_vor_southern_spine_of_sotek
 wh2_main_vor_southern_yvresse
 wh2_main_vor_southlands_world_edge_mountains
@@ -139,7 +143,9 @@ wh2_main_vor_the_turtle_isles
 wh2_main_vor_the_vampire_coast
 wh2_main_vor_tiranoc
 wh2_main_vor_unicorn_gate
+wh2_main_vor_volcanic_islands
 wh2_main_vor_western_jungles
+wh2_main_western_jungles
 wh2_main_yvresse
 wh_main_argwylon
 wh_main_averland
@@ -164,6 +170,7 @@ wh_main_helspire_mountains
 wh_main_hochland
 wh_main_ice_tooth_mountains
 wh_main_lyonesse
+wh_main_massif_orcal
 wh_main_middenland
 wh_main_mountains_of_hel
 wh_main_mountains_of_naglfari

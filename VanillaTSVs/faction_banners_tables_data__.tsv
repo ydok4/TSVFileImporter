@@ -51,6 +51,7 @@ wh2_dlc11_cst_vampire_coast_encounters	71	51	21	129	161	57		71	51	21
 wh2_dlc11_cst_vampire_coast_qb1	225	225	225	10	10	50		208	214	175
 wh2_dlc11_cst_vampire_coast_qb2	225	225	225	10	10	50		208	214	175
 wh2_dlc11_cst_vampire_coast_qb3	225	225	225	10	10	50		208	214	175
+wh2_dlc11_cst_vampire_coast_qb4	225	225	225	10	10	50		0	214	175
 wh2_dlc11_cst_vampire_coast_rebellion_rebels	10	39	186	251	251	251		10	39	186
 wh2_dlc11_cst_vampire_coast_rebels	20	20	20	200	200	200		71	51	21
 wh2_dlc11_cst_vampire_coast_separatists	71	51	21	129	161	57		71	51	21
@@ -62,6 +63,11 @@ wh2_dlc11_emp_empire_qb5	243	243	243	50	214	243		50	50	172
 wh2_dlc11_nor_norsca_dil	185	90	165	243	243	243		95	105	160
 wh2_dlc11_nor_norsca_qb4	185	90	165	243	243	243		95	105	160
 wh2_dlc11_vmp_the_barrow_legion	156	133	95	213	150	38		0	0	0
+wh2_dlc12_grn_leaf_cutterz_tribe	0	101	103	192	240	254		255	255	255
+wh2_dlc12_grn_leaf_cutterz_tribe_waaagh	0	101	103	192	240	254		255	255	255
+wh2_dlc12_lzd_cult_of_sotek	28	28	28	9	53	195		0	0	0
+wh2_dlc12_skv_clan_fester	58	106	121	245	245	245		0	0	0
+wh2_dlc12_skv_clan_mange	51	110	80	245	245	245		0	0	0
 wh2_main_brt_knights_of_origo	0	0	214	251	255	255		0	0	214
 wh2_main_brt_knights_of_the_flame	231	253	255	0	0	188		231	253	255
 wh2_main_brt_thegans_crusaders	189	129	79	231	253	255		189	129	79
@@ -202,6 +208,7 @@ wh2_main_skv_clan_moulder	104	156	169	7	148	134		15	20	156
 wh2_main_skv_clan_pestilens	50	102	63	0	0	168		0	0	0
 wh2_main_skv_clan_pestilens_separatists	72	72	72	100	100	100		0	0	0
 wh2_main_skv_clan_septik	78	146	80	78	202	166		0	0	0
+wh2_main_skv_clan_skryre_separatists	64	64	64	98	98	98		0	0	0
 wh2_main_skv_clan_skyre	115	163	176	39	71	38		0	0	0
 wh2_main_skv_clan_spittel	110	127	58	9	209	221		0	0	0
 wh2_main_skv_grey_seer_clan	134	165	171	42	151	149		0	0	0

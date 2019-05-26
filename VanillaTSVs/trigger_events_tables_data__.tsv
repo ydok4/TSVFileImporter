@@ -116,6 +116,9 @@ ComponentMouseOn
 ComponentMoved
 ComponentRClickUp
 ConvertAttemptFailure
+DebugCharacterEvent
+DebugFactionEvent
+DebugRegionEvent
 DemoraliseAttemptFailure
 DilemmaChoiceMadeEvent
 DilemmaIssuedEvent
@@ -154,6 +157,7 @@ ForceAdoptsStance
 ForcePlagueStateChanged
 ForeignSlotBuildingCompleteEvent
 ForeignSlotBuildingDamagedEvent
+ForeignSlotManagerDiscoveredEvent
 FortSelected
 FrontendScreenTransition
 GarrisonAttackedEvent
@@ -210,6 +214,7 @@ PositiveDiplomaticEvent
 PreBattle
 RecruitmentItemIssuedByPlayer
 RegionAbandonedWithBuildingEvent
+RegionFactionChangeEvent
 RegionGainedDevlopmentPoint
 RegionIssuesDemands
 RegionPlagueStateChanged

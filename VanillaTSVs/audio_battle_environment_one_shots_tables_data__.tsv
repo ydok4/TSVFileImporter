@@ -129,7 +129,7 @@ false	Battle_Environment_Vampire_Coast_Tropical_Island_Sea_Wildlife_Oneshots	40	
 true	Battle_Environment_Vampire_Town_One_Shot	100	20	6	20	2	3	vampire_urban	0.2	1
 true	Battle_Environment_Vampire_Wildlife_One_Shot	60	40	6	20	10	3	vampire_wildlife	0.2	1
 false	Battle_Environment_Element_Thunder_Lightning_Rumble	400	150	6	200	60	3	weather_thunder_high	0	0.7
-false	Battle_Environment_Element_Thunder_Lightning_Rumble	400	150	6	200	60	3	weather_thunder_low	0	0.2
+false	Battle_Environment_Element_Thunder_Lightning_Rumble	500	200	30	200	20	10	weather_thunder_low	0	0.8
 true	Battle_Environment_Woodelves_Autumn_Wildlife_One_Shot	60	40	9	20	10	6	wood_elves_wildlife_autumn	0.2	1
 true	Battle_Environment_Woodelves_Generic_Wildlife_One_Shot	60	40	9	20	10	6	wood_elves_wildlife_generic	0.2	1
 true	Battle_Environment_Woodelves_Night_Wildlife_One_Shot	60	40	9	20	10	6	wood_elves_wildlife_night	0.2	1

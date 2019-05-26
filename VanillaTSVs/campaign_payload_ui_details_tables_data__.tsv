@@ -14,8 +14,17 @@ damage_character
 demolish_building_chain	ui/campaign ui/effect_bundles/settlement.png
 diplomatic_attitude_change	ui/campaign ui/effect_bundles/diplomacy.png
 divorce	
+dummy_chivalry_confederation_cost	ui/campaign ui/effect_bundles/chivalry_negative.png
+dummy_chivalry_confederation_cost_low	ui/campaign ui/effect_bundles/chivalry_negative.png
 dummy_chivalry_decrease	ui/campaign ui/effect_bundles/chivalry_negative.png
 dummy_chivalry_increase	ui/campaign ui/effect_bundles/chivalry_positive.png
+dummy_confederate_artois	ui/campaign ui/effect_bundles/confederation.png
+dummy_confederate_bastonne	ui/campaign ui/effect_bundles/confederation.png
+dummy_confederate_bordeleaux	ui/campaign ui/effect_bundles/confederation.png
+dummy_confederate_bretonnia	ui/campaign ui/effect_bundles/confederation.png
+dummy_confederate_carcassonne	ui/campaign ui/effect_bundles/confederation.png
+dummy_confederate_lyonesse	ui/campaign ui/effect_bundles/confederation.png
+dummy_confederate_parravon	ui/campaign ui/effect_bundles/confederation.png
 dummy_confederate_wh2_main_nor_aghol	ui/campaign ui/effect_bundles/confederation.png
 dummy_confederate_wh2_main_nor_mung	ui/campaign ui/effect_bundles/confederation.png
 dummy_confederate_wh2_main_nor_skeggi	ui/campaign ui/effect_bundles/confederation.png
