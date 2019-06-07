@@ -202,8 +202,6 @@ RebelLeadersFilters = {
         LuaData = {
             RootName = "RebelLeadersDataResource",
             KeyColumn = 8,
-            -- Excludes key column because that is always required
-            RequiredColumns = {"2"},
             ColumnNames = {
                 {
                     TableColumn = 2,

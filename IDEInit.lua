@@ -8,8 +8,12 @@ require '_lib/DataMaps/SUBTYPESTOARTSETS'
 require '_lib/DataMaps/INDEXTOGENDER'
 
 -- URP Unit Effect Content
-local filterData = GetFilters("UnitCapEffectFilters");
-local transformData = GetTransforms("UnitCapEffectTransforms");
+--local filterData = GetFilters("UnitCapEffectFilters");
+--local transformData = GetTransforms("UnitCapEffectTransforms");
+
+-- URP Unit Cap Building Content
+local filterData = GetFilters("UnitCapBuildingFilters");
+local transformData = GetTransforms("UnitCapBuildingTransforms");
 
 -- Name Resource Content
 --local filterData = GetFilters("NameResourcesFilters");
@@ -38,4 +42,4 @@ loadedData:AddFiles();
 
 loadedData:TransformFiles();
 
-loadedData:WriteFiles();
+loadedData:PrepareOutputFiles();

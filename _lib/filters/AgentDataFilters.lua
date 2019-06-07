@@ -60,8 +60,6 @@ AgentDataFilters = {
         ExportAsLua = true,
         LuaData = {
             KeyColumn = 8,
-            -- Excludes key column because that is always required
-            RequiredColumns = {"2",},
             ColumnNames = {
                 {
                     TableColumn = 2,

@@ -104,112 +104,145 @@ function LoadedData:LoadFile(key, filter)
     file:close();
 end
 
-function LoadedData:WriteFiles()
+function LoadedData:PrepareOutputFiles()
     for key, file in pairs(self.TransformedFiles) do
         local filterData = self.FilterData[key];
         if filterData.OutputFile == true then
-            local fileType = GetFileExtension(filterData.FileName);
-            local outputFileName = RemoveFileExtension(filterData.FileName);
-
-            local directoryPath = "";
-            outputFileName = "out/"..directoryPath..outputFileName.."_new."..fileType;
-
-            local iostream = assert(io.open(outputFileName, "w+"));
-            if fileType == "tsv" then
-                local headerRow = self.Files[key][1];
-                for headerIndex, headerColumn in pairs(headerRow) do
-                    if headerIndex == #headerRow then
-                        iostream:write(headerColumn.."\n");
-                    else
-                        iostream:write(headerColumn.."\t");
-                    end
+            self:WriteFiles(filterData, key, file);
+        elseif filterData.ChildFiles ~= nil then
+            for childFileKey, childFileData in pairs(filterData.ChildFiles) do
+                local childFileOutput = {
+                    FileName = childFileData.FileName,
+                    Filter = childFileData.Filter,
+                }
+                if childFileData.LuaData ~= nil then
+                    childFileOutput.LuaData = childFileData.LuaData;
+                elseif filterData.LuaData ~= nil then
+                    childFileOutput.LuaData = filterData.LuaData;
                 end
-                local columnKeyRow = self.Files[key][2];
-                for columnIndex, columnKeyColumn in pairs(columnKeyRow) do
-                    if columnIndex == #columnKeyRow then
-                        iostream:write(columnKeyColumn.."\n");
-                    else
-                        iostream:write(columnKeyColumn.."\t");
-                    end
-                end
-                for rowKey, row in pairs(file) do
-                    for columnKey, column in pairs(row) do
-                        if columnKey == #row then
-                            iostream:write(column.."\n");
-                        else
-                            iostream:write(column.."\t");
-                        end
-                    end
-                end
-            elseif fileType == "xml" then
-
-                -- Print out the non-duplicated container
-                for index, row in pairs(self.Files[key][1]) do
-                    iostream:write(row.."\n");
-                end
-
-                -- Print out the transformed variables
-                for index, row in pairs(file) do
-                    iostream:write(row.."\n");
-                end
-
-                -- Add the closing tags
-                local reversedTable = ReversePairs(self.Files[key][1]);
-                for index, row in pairs(reversedTable) do
-                    if string.match(row, "<?xml") then
-
-                    else
-                        local extractedTag = string.match(row, "<(.*)");
-                        extractedTag = string.match(extractedTag, "(.*) ");
-                        iostream:write("</"..extractedTag..">\n");
-                    end
-                end
-
-            elseif fileType == "lua" then
-                local luaData = filterData.LuaData;
-                -- We use this to keep track of the
-                -- keys we've outputted
-                local addedKeys = {};
-                -- Print out the parent variable
-                if luaData.RootName ~= nil then
-                    iostream:write(luaData.RootName.." = {\n");
-                else
-                    iostream:write(key.." = {\n");
-                end
-
-                -- print out all the values as lua
-                for rowIndex, row in pairs(file) do
-                    if addedKeys[row[luaData.KeyColumn]] == nil then
-                        OutputTabsForDepth(iostream, 1);
-                        local keyValue = row[luaData.KeyColumn];
-                        OutputKey(iostream, keyValue);
-                        iostream:write(" = {\n");
-                        -- Find all values which match the key in case there are duplicates
-                        local firstKey = row[luaData.KeyColumn];
-                        local foundFirstInstance = false;
-                        local duplicateKeys = {};
-                        for rowIndex2, row2 in pairs(file) do
-                            if row2[luaData.KeyColumn] == firstKey then
-                                duplicateKeys[#duplicateKeys + 1] = row2;
-                            end
-                        end
-
-                        self.PreviousLuaParents[0]  = {
-                            ColumnIndex = luaData.KeyColumn,
-                            ColumnValue = keyValue,
-                        };
-                        self:PrintOutNestedColumns(iostream, luaData, luaData.ColumnNames, duplicateKeys, 2);
-                        self.PreviousLuaParents[0] = nil;
-                        addedKeys[row[luaData.KeyColumn]] = true;
-                    end
-                end
-
-                -- Close the parent variable
-                iostream:write("}");
+                self:WriteFiles(childFileOutput, childFileKey, file);
             end
-            iostream:close();
         end
     end
+end
+
+function LoadedData:WriteFiles(filterData, key, file)
+    local fileType = GetFileExtension(filterData.FileName);
+    local outputFileName = RemoveFileExtension(filterData.FileName);
+
+    local directoryPath = "";
+    if fileType == "tsv" then
+        outputFileName = "out/"..directoryPath..outputFileName.."_new."..fileType;
+    else
+        outputFileName = "out/"..directoryPath..outputFileName.."."..fileType;
+    end
+    local iostream = assert(io.open(outputFileName, "w+"));
+    if fileType == "tsv" then
+        self:WriteFilesForTSV(key, file, iostream, filterData);
+    elseif fileType == "xml" then
+        self:WriteFilesForXML(key, file, iostream, filterData);
+    elseif fileType == "lua" then
+        self:WriteFilesForLua(key, file, iostream, filterData);
+    end
+    iostream:close();
+end
+
+function LoadedData:WriteFilesForTSV(key, file, iostream, filterData)
+    local headerRow = self.Files[key][1];
+    for headerIndex, headerColumn in pairs(headerRow) do
+        if headerIndex == #headerRow then
+            iostream:write(headerColumn.."\n");
+        else
+            iostream:write(headerColumn.."\t");
+        end
+    end
+    local columnKeyRow = self.Files[key][2];
+    for columnIndex, columnKeyColumn in pairs(columnKeyRow) do
+        if columnIndex == #columnKeyRow then
+            iostream:write(columnKeyColumn.."\n");
+        else
+            iostream:write(columnKeyColumn.."\t");
+        end
+    end
+    for rowKey, row in pairs(file) do
+        if self:RowMatchesFilters(row, filterData.Filters) then
+            for columnKey, column in pairs(row) do
+                if columnKey == #row then
+                    iostream:write(column.."\n");
+                else
+                    iostream:write(column.."\t");
+                end
+            end
+        end
+    end
+end
+
+function LoadedData:WriteFilesForXML(key, file, iostream, filterData)
+    -- Print out the non-duplicated container
+    for index, row in pairs(self.Files[key][1]) do
+        iostream:write(row.."\n");
+    end
+
+    -- Print out the transformed variables
+    for index, row in pairs(file) do
+        iostream:write(row.."\n");
+    end
+
+    -- Add the closing tags
+    local reversedTable = ReversePairs(self.Files[key][1]);
+    for index, row in pairs(reversedTable) do
+        if string.match(row, "<?xml") then
+
+        else
+            local extractedTag = string.match(row, "<(.*)");
+            extractedTag = string.match(extractedTag, "(.*) ");
+            iostream:write("</"..extractedTag..">\n");
+        end
+    end
+end
+
+function LoadedData:WriteFilesForLua(key, file, iostream, filterData)
+    local luaData = filterData.LuaData;
+    -- We use this to keep track of the
+    -- keys we've outputted
+    local addedKeys = {};
+    -- Print out the parent variable
+    if luaData.RootName ~= nil then
+        iostream:write(luaData.RootName.." = {\n");
+    else
+        iostream:write(key.." = {\n");
+    end
+
+    -- print out all the values as lua
+    for rowIndex, row in pairs(file) do
+        if addedKeys[row[luaData.KeyColumn]] == nil
+        and self:RowMatchesFilters(row, filterData.Filter) then
+            OutputTabsForDepth(iostream, 1);
+            local keyValue = row[luaData.KeyColumn];
+            OutputKey(iostream, keyValue);
+            iostream:write(" = {\n");
+            -- Find all values which match the key in case there are duplicates
+            local firstKey = row[luaData.KeyColumn];
+            local foundFirstInstance = false;
+            local duplicateKeys = {};
+            for rowIndex2, row2 in pairs(file) do
+                if row2[luaData.KeyColumn] == firstKey then
+                    duplicateKeys[#duplicateKeys + 1] = row2;
+                end
+            end
+
+            self.PreviousLuaParents[0]  = {
+                ColumnIndex = luaData.KeyColumn,
+                ColumnValue = keyValue,
+            };
+            self:PrintOutNestedColumns(iostream, luaData, luaData.ColumnNames, duplicateKeys, 2);
+            self.PreviousLuaParents[0] = nil;
+            addedKeys[row[luaData.KeyColumn]] = true;
+        end
+    end
+
+    -- Close the parent variable
+    iostream:write("}");
 end
 
 function LoadedData:PrintOutNestedColumns(iostream, luaData, columnParent,  duplicateKeys, depth)
@@ -473,9 +506,14 @@ function LoadedData:TransformFile(file, filter, transformStep)
 
     if filter.ExportAsLua then
         file = {};
-        file[#file + 1] = {"dummy", "data"};
-        file[#file + 1] = {"dummy", "data"};
-        file[#file + 1] = {"dummy", "data"};
+        for i = 1, 3 do
+            local index = 1;
+            file[i] = {};
+            for columnTransform, columnTransformData in pairs(transformStepData.Transforms[1].Columns) do
+                file[i][index] = {};
+                index = index + 1;
+            end
+        end
     end
 
     for rowIndex, row in pairs(file) do

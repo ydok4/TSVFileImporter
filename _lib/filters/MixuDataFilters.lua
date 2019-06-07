@@ -34,14 +34,12 @@ MixuDataFilters = {
     },
     -- Output Lua files
     AgentDataResources = {
-        FileName = "AgentDataResources.lua",
+        FileName = "MixuDataResources.lua",
         OutputFile = true,
         ExportAsLua = true,
         LuaData = {
-            RootName = "AgentDataResources",
+            RootName = "MixuDataResources",
             KeyColumn = 8,
-            -- Excludes key column because that is always required
-            RequiredColumns = {"2"},
             ColumnNames = {
                 {
                     TableColumn = 2,

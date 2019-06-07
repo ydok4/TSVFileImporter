@@ -56,7 +56,6 @@ MixuEffectLocFilters = {
         ExportAsLua = true,
         LuaData = {
             KeyColumn = 1,
-            RequiredColumns = {"2",},
             ColumnNames = {
                 {
                     TableColumn = 2,
@@ -86,8 +85,6 @@ MixuEffectLocFilters = {
         ExportAsLua = true,
         LuaData = {
             KeyColumn = 1,
-            -- Excludes key column because that is always required
-            RequiredColumns = {"2",},
             ColumnNames = {
                 {
                     TableColumn = 2,

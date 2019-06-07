@@ -36,8 +36,6 @@ CulturesToNameGroupsFilters = {
         ExportAsLua = true,
         LuaData = {
             KeyColumn = 1,
-            -- Excludes key column because that is always required
-            --RequiredColumns = {"6",},
             ColumnNames = {
                 {
                     TableColumn = 2,

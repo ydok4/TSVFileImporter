@@ -34,14 +34,12 @@ CataphDataFilters = {
     },
     -- Output Lua files
     AgentDataResources = {
-        FileName = "AgentDataResources.lua",
+        FileName = "CataphDataResources.lua",
         OutputFile = true,
         ExportAsLua = true,
         LuaData = {
-            RootName = "AgentDataResources",
+            RootName = "CataphDataResources",
             KeyColumn = 8,
-            -- Excludes key column because that is always required
-            RequiredColumns = {"2"},
             ColumnNames = {
                 {
                     TableColumn = 2,

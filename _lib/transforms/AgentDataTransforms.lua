@@ -132,7 +132,7 @@ AgentDataTransforms = {
 
             },
             -- This should be done once, assuming the filter criteria is met
-            PerformOnce = true,
+            PerformOnce = false,
             Transforms = {
                 {
                     Type = "COPYTABLESTEP2",
