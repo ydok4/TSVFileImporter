@@ -1,7 +1,0 @@
-Loc PackedFile
-Key	Text	Tooltip
-campaign_payload_ui_details_description_dummy_wizard_lord_fire_unlocked	A Battle Wizard Lord with access to Lore of Fire will become available to be recruited from any settlement.	true
-campaign_payload_ui_details_description_dummy_wizard_lord_light_unlocked	A Battle Wizard Lord with access to Lore of Light will become available to be recruited from any settlement.	true
-campaign_payload_ui_details_description_dummy_wizard_lord_beast_unlocked	A Battle Wizard Lord with access to Lore of Beasts will become available to be recruited from any settlement.	true
-ui_unit_groupings_onscreen_dwf_slayer_hero	Drakendrengi	true
-ui_unit_groupings_tooltip_dwf_slayer_hero	What two-handed axes lack in elegance, they make up for in brutal, armour-shattering force.	true

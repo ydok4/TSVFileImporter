@@ -9,11 +9,19 @@ function Split(s, delimiter)
 end
 
 function RemoveFileExtension(fileName)
-  return fileName:match("(.+)%..+");
+  if type(fileName) == "table" then
+    return fileName[1]:match("(.+)%..+");
+  else
+    return fileName:match("(.+)%..+");
+  end
 end
 
 function GetFileExtension(fileName)
-  return fileName:match("[^.]+$");
+  if type(fileName) == "table" then
+    return fileName[1]:match("[^.]+$");
+  else
+    return fileName:match("[^.]+$");
+  end
 end
 
 function OutputTabsForDepth(iostream, depth)

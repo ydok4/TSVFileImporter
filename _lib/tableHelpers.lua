@@ -1,8 +1,8 @@
 function FindDataItemsInTable(table, field, values)
     local items = {};
-    for key1,tableItem in pairs(table) do 
+    for key1,tableItem in pairs(table) do
       for key2,value in pairs(values) do
-        if tableItem[field] then 
+        if tableItem[field] then
           if type(tableItem[field]) == 'table' then
             if AreValuesInList(tableItem[field], values) then
               items[#items + 1] = tableItem;
@@ -38,8 +38,17 @@ function ClearTable(sourceTable)
 end
 
 function Contains(sourceTable, checkValue)
-  for key, value in pairs(sourceTable) do
+  for index, value in pairs(sourceTable) do
     if value == checkValue then
+      return true;
+    end
+  end
+  return false;
+end
+
+function TableHasKey(sourceTable, checkKey)
+  for key, value in pairs(sourceTable) do
+    if key == checkKey then
       return true;
     end
   end

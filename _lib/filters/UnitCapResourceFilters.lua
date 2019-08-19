@@ -1,53 +1,25 @@
-UnitCapBuildingFilters = {
-    building_units_allowed_tables_data__ = {
-        FileName = "building_units_allowed_tables_data__.tsv",
+UnitCapResourceFilters = {
+    factions_tables_data__ = {
+        FileName = "factions_tables_data__.tsv",
         OutputFile = false,
         -- Filters work on a per column basis
         -- Each index in the filter object correlates to
         -- a column in a tsv loaded table
         -- Keywords are used to denote what type of filtering should be applied
+        -- In this case we only want the factions with the sub cultures I support
         Filter = {
             {
-                -- Building Key
+                -- Faction Key
                 ColumnNumber = 1,
                 Type = "DOESNOTCONTAINVALUE",
-                Value = "wh2_main_special_settlement_colony",
-                Operator = "AND",
-            },
-            {
-                -- Building Key
-                ColumnNumber = 1,
-                Type = "DOESNOTCONTAINVALUE",
-                Value = "wh2_dlc12_special_bordeleaux_manann_shrine",
+                Value = "att_fact",
                 Operator = "AND",
             },
         },
     },
-    building_levels_tables_data__ = {
-        FileName = "building_levels_tables_data__.tsv",
-        OutputFile = false,
-        -- Filters work on a per column basis
-        -- Each index in the filter object correlates to
-        -- a column in a tsv loaded table
-        -- Keywords are used to denote what type of filtering should be applied
-        Filter = {
-        },
-    },
 
-    building_chain_availability_sets_tables_data__ = {
-        FileName = "building_chain_availability_sets_tables_data__.tsv",
-        OutputFile = false,
-        -- Filters work on a per column basis
-        -- Each index in the filter object correlates to
-        -- a column in a tsv loaded table
-        -- Keywords are used to denote what type of filtering should be applied
-        Filter = {
-
-        },
-    },
-
-    main_units_tables_data__ = {
-        FileName = "main_units_tables_data__.tsv",
+    units_to_groupings_military_permissions_tables_data__ = {
+        FileName = "units_to_groupings_military_permissions_tables_data__.tsv",
         OutputFile = false,
         -- Filters work on a per column basis
         -- Each index in the filter object correlates to
@@ -56,49 +28,49 @@ UnitCapBuildingFilters = {
         Filter = {
             {
                 -- Unit Key
-                ColumnNumber = 18,
+                ColumnNumber = 1,
                 Type = "DOESNOTCONTAINVALUE",
                 Value = "_cha_",
                 Operator = "AND",
             },
             {
                 -- Unit Key
-                ColumnNumber = 18,
+                ColumnNumber = 1,
                 Type = "DOESNOTCONTAINVALUE",
                 Value = "_ror",
                 Operator = "AND",
             },
             {
                 -- Unit Key
-                ColumnNumber = 18,
+                ColumnNumber = 1,
                 Type = "DOESNOTCONTAINVALUE",
                 Value = "_blessed",
                 Operator = "AND",
             },
             {
                 -- Unit Key
-                ColumnNumber = 18,
+                ColumnNumber = 1,
                 Type = "DOESNOTCONTAINVALUE",
                 Value = "_summoned",
                 Operator = "AND",
             },
             {
                 -- Unit Key
-                ColumnNumber = 18,
+                ColumnNumber = 1,
                 Type = "DOESNOTCONTAINVALUE",
                 Value = "_shp_",
                 Operator = "AND",
             },
             {
                 -- Unit Key
-                ColumnNumber = 18,
+                ColumnNumber = 1,
                 Type = "DOESNOTCONTAINVALUE",
                 Value = "_qb",
                 Operator = "AND",
             },
             {
                 -- Unit Key
-                ColumnNumber = 18,
+                ColumnNumber = 1,
                 Type = "DOESNOTCONTAINVALUE",
                 Value = "_boss",
                 Operator = "AND",
@@ -111,7 +83,7 @@ UnitCapBuildingFilters = {
     -- Base 'lua file' which has everything
     -- We need these split by subculture so we don't actually output
     -- this file
-    BuildCapPoolData = {
+    UnitPoolData = {
         OutputFile = false,
         ExportAsLua = true,
         LuaData = {
@@ -124,283 +96,276 @@ UnitCapBuildingFilters = {
                     NestedColumns = {
                         {
                             TableColumn = 3,
-                            KeyName = "UnitReserveCapChange",
+                            KeyName = "StartingReserveCap",
                             SingleValue = true,
+                            AsNumber = true,
                         },
                         {
                             TableColumn = 4,
-                            KeyName = "ImmediateUnitReservesChange",
+                            KeyName = "StartingReserves",
                             SingleValue = true,
+                            AsNumber = true,
                         },
                         {
                             TableColumn = 5,
-                            KeyName = "UnitGrowthChange",
+                            KeyName = "UnitGrowth",
                             SingleValue = true,
+                            AsNumber = true,
+                        },
+                        {
+                            TableColumn = 6,
+                            KeyName = "RequiredGrowthForReplenishment",
+                            SingleValue = true,
+                            AsNumber = true,
                         },
                     },
                 },
             },
         },
         ChildFiles = {
-            BeastmenBuildingPoolData = {
-                FileName = "BeastmenBuildingPoolData.lua",
+            BeastmenUnitPoolData = {
+                FileName = "BeastmenUnitPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh_dlc03_bas_bst",
+                        Value = "wh_dlc03_group_beastmen",
                         Operator = "AND",
                     },
                 },
             },
-            BretonniaBuildingPoolData = {
-                FileName = "BretonniaBuildingPoolData.lua",
+            BretonniaUnitPoolData = {
+                FileName = "BretonniaUnitPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh_main_bas_brt",
+                        Value = "wh_main_group_bretonnia",
                         Operator = "AND",
                     },
                 },
             },
-            ChaosBuildingPoolData = {
-                FileName = "ChaosBuildingPoolData.lua",
+            ChaosUnitPoolData = {
+                FileName = "ChaosUnitPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh_main_bas_chs",
+                        Value = "wh_main_group_chaos",
                         Operator = "AND",
                     },
                 },
             },
-            DarkElfBuildingPoolData = {
-                FileName = "DarkElfBuildingPoolData.lua",
+            DarkElfUnitPoolData = {
+                FileName = "DarkElfUnitPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh2_main_bas_def",
+                        Value = "wh2_main_def",
                         Operator = "AND",
                     },
                 },
             },
-            DwarfBuildingPoolData = {
-                FileName = "DwarfBuildingPoolData.lua",
+            DwarfUnitPoolData = {
+                FileName = "DwarfUnitPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh_main_bas_dwf",
+                        Value = "wh_main_group_dwarfs",
                         Operator = "AND",
                     },
                 },
             },
-            HighElfBuildingPoolData = {
-                FileName = "HighElfBuildingPoolData.lua",
+            HighElfUnitPoolData = {
+                FileName = "HighElfUnitPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh2_main_bas_hef",
+                        Value = "wh2_main_hef",
                         Operator = "AND",
                     },
                 },
             },
-            EmpireBuildingPoolData = {
-                FileName = "EmpireBuildingPoolData.lua",
+            EmpireUnitPoolData = {
+                FileName = "EmpireUnitPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh_main_bas_emp",
+                        Value = "wh_main_group_empire",
                         Operator = "AND",
                     },
                 },
             },
-            GreenskinBuildingPoolData = {
-                FileName = "GreenskinBuildingPoolData.lua",
+            GreenskinUnitPoolData = {
+                FileName = "GreenskinUnitPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh_main_bas_gob",
-                        Operator = "OR",
-                    },
-                    {
-                        -- Building Chain Key
-                        -- Ideally we would use the key but for specials this should be the same
-                        ColumnNumber = 7,
-                        Type = "CONTAINSVALUE",
-                        Value = "wh_main_bas_grn",
-                        Operator = "OR",
-                    },
-                    {
-                        -- Building Chain Key
-                        -- Ideally we would use the key but for specials this should be the same
-                        ColumnNumber = 7,
-                        Type = "CONTAINSVALUE",
-                        Value = "wh_main_bas_orc",
+                        Value = "wh_main_group_greenskins",
                         Operator = "OR",
                     },
                 },
             },
-            KislevBuildingPoolData = {
-                FileName = "KislevBuildingPoolData.lua",
+            KislevUnitPoolData = {
+                FileName = "KislevUnitPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh_main_bas_ksl",
+                        Value = "wh_main_group_kislev",
                         Operator = "AND",
                     },
                 },
             },
-            LizardmenBuildingPoolData = {
-                FileName = "LizardmenBuildingPoolData.lua",
+            LizardmenUnitPoolData = {
+                FileName = "LizardmenUnitPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh2_main_bas_lzd",
+                        Value = "wh2_main_lzd",
                         Operator = "AND",
                     },
                 },
             },
-            NorscaBuildingPoolData = {
-                FileName = "NorscaBuildingPoolData.lua",
+            NorscaUnitPoolData = {
+                FileName = "NorscaUnitPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh_main_bas_nor",
+                        Value = "wh_main_group_norsca",
                         Operator = "AND",
                     },
                 },
             },
-            RogueArmyBuildingPoolData = {
-                FileName = "RogueArmyBuildingPoolData.lua",
+            RogueArmyUnitPoolData = {
+                FileName = "RogueArmyUnitPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh2_main_bas_rogue",
+                        Value = "_rogue_",
                         Operator = "AND",
                     },
                 },
             },
-            SavageOrcBuildingPoolData = {
-                FileName = "SavageOrcBuildingPoolData.lua",
+            SavageOrcUnitPoolData = {
+                FileName = "SavageOrcUnitPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh_main_bas_savorc",
+                        Value = "wh_main_group_savage_orcs",
                         Operator = "AND",
                     },
                 },
             },
-            SkavenBuildingPoolData = {
-                FileName = "SkavenBuildingPoolData.lua",
+            SkavenUnitPoolData = {
+                FileName = "SkavenUnitgPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh2_main_bas_skv",
+                        Value = "wh2_main_skv",
                         Operator = "AND",
                     },
                 },
             },
-            TEBBuildingPoolData = {
-                FileName = "TEBBuildingPoolData.lua",
+            TEBUnitPoolData = {
+                FileName = "TEBUnitPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh_main_bas_teb",
+                        Value = "wh_main_group_teb",
                         Operator = "AND",
                     },
                 },
             },
-            TombKingsBuildingPoolData = {
-                FileName = "TombKingsBuildingPoolData.lua",
+            TombKingsUnitPoolData = {
+                FileName = "TombKingsUnitPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh2_dlc09_bas_tmb",
+                        Value = "wh2_dlc09_tomb_kings",
                         Operator = "AND",
                     },
                 },
             },
-            VampireCoastBuildingPoolData = {
-                FileName = "VampireCoastBuildingPoolData.lua",
+            VampireCoastUnitPoolData = {
+                FileName = "VampireCoastUnitPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh_dlc11_bas_cst",
+                        Value = "wh2_dlc11_group_vampire_coast",
                         Operator = "AND",
                     },
                 },
             },
-            VampireCountsBuildingPoolData = {
-                FileName = "VampireCountsBuildingPoolData.lua",
+            VampireCountsUnitPoolData = {
+                FileName = "VampireCountsUnitPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh_main_bas_vmp",
+                        Value = "wh_main_group_vampire_counts",
                         Operator = "AND",
                     },
                 },
             },
-            WoodElfBuildingPoolData = {
-                FileName = "WoodElfBuildingPoolData.lua",
+            WoodElfUnitPoolData = {
+                FileName = "WoodElfUnitPoolData.lua",
                 Filter = {
                     {
-                        -- Building Chain Key
+                        -- Military Grouping Key
                         -- Ideally we would use the key but for specials this should be the same
                         ColumnNumber = 7,
                         Type = "CONTAINSVALUE",
-                        Value = "wh_dlc05_bas_wef",
+                        Value = "wh_dlc05_group_wood_elves",
                         Operator = "AND",
                     },
                 },

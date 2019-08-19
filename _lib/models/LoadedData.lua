@@ -4,6 +4,7 @@ LoadedData = {
     CurrentActiveFile = "",
     CurrentTransformStep = "",
     CurrentTransformingFile = "",
+    CurrentTransformingRow = {},
 
     TransformedFiles = {},
 
@@ -16,6 +17,8 @@ LoadedData = {
     -- Data
     TransformData = {};
     FilterData = {},
+    ListData = {},
+    FunctionData = {},
 }
 
 function LoadedData:new (o)
@@ -54,21 +57,25 @@ function LoadedData:LoadFile(key, filter)
     self.CurrentActiveFile = key;
 
     if fileExtension == "tsv" then
-        local lineNumber = 1;
-        for index = 1, numberOfFiles do
+        for fileNumber = 1, numberOfFiles do
+            local lineNumber = 1;
             -- If the file names weren't in a table then that means there is only one file
             -- which we have already loaded
             if type(filter.FileName) == "table" then
                 if filter.Directory ~= nil then
-                    file = assert(io.open(filter.Directory.."/"..filter.FileName[index], "r"));
+                    file = assert(io.open(filter.Directory.."/"..filter.FileName[fileNumber], "r"));
                 else
-                    file = assert(io.open("VanillaTSVs/"..filter.FileName[index], "r"));
+                    file = assert(io.open("VanillaTSVs/"..filter.FileName[fileNumber], "r"));
                 end
             end
             for line in file:lines() do
                 local fields = Split(line, "\t");
                 local matchesFilter = self:RowMatchesFilters(fields, filter.Filter);
-                if lineNumber <= 2 or matchesFilter == true then
+                if lineNumber <= 2 then
+                    if fileNumber == 1 then
+                        table.insert(self.Files[key], fields);
+                    end
+                elseif matchesFilter == true then
                     table.insert(self.Files[key], fields);
                 end
 
@@ -165,7 +172,8 @@ function LoadedData:WriteFilesForTSV(key, file, iostream, filterData)
         end
     end
     for rowKey, row in pairs(file) do
-        if self:RowMatchesFilters(row, filterData.Filters) then
+        if filterData.Filters ==nil
+        or self:RowMatchesFilters(row, filterData.Filters) then
             for columnKey, column in pairs(row) do
                 if columnKey == #row then
                     iostream:write(column.."\n");
@@ -282,11 +290,23 @@ function LoadedData:PrintOutNestedColumns(iostream, luaData, columnParent,  dupl
                     if outputColumnData.SingleValue == true and outputColumnData.AsTableItem == true then
                         OutputTabsForDepth(iostream, depth);
                         OutputKey(iostream, keyName);
-                        iostream:write(" = \""..duplicateRow[outputColumnData.TableColumn].."\",\n");
+                        if outputColumnData.AsNumber == true
+                        or duplicateRow[outputColumnData.TableColumn] == "true"
+                        or duplicateRow[outputColumnData.TableColumn] == "false" then
+                            iostream:write(" = \""..duplicateRow[outputColumnData.TableColumn].."\",\n");
+                        else
+                            iostream:write(" = "..duplicateRow[outputColumnData.TableColumn]..",\n");
+                        end
                     elseif outputColumnData.SingleValue == true then
                         OutputTabsForDepth(iostream, depth);
                         OutputKey(iostream, keyName);
-                        iostream:write(" = \""..duplicateRow[outputColumnData.TableColumn].."\",\n");
+                        if outputColumnData.AsNumber == true
+                        or duplicateRow[outputColumnData.TableColumn] == "true"
+                        or duplicateRow[outputColumnData.TableColumn] == "false" then
+                            iostream:write(" = "..duplicateRow[outputColumnData.TableColumn]..",\n");
+                        else
+                            iostream:write(" = \""..duplicateRow[outputColumnData.TableColumn].."\",\n");
+                        end
                     elseif outputColumnData.AsTableItem then
                         if outputColumnData.NestedColumns == nil then
                             if firstRecord == true then
@@ -340,8 +360,10 @@ function LoadedData:MatchesLuaParents(row)
     end
     return true;
 end
-
-function LoadedData:RowMatchesFilters(fields, filters)
+function LoadedData:RowMatchesFilters(fields, filters, isException)
+    if filters == nil then
+        return false;
+    end
     if #filters == 0 then
         return true;
     end
@@ -371,7 +393,9 @@ function LoadedData:RowMatchesFilters(fields, filters)
     if isOrRowOperator == true then
         return false;
     end
-
+    if isException == true then
+        local test = "";
+    end
     return true;
 end
 
@@ -422,6 +446,14 @@ function LoadedData:ApplyFilterToField(filter, fieldValue)
             return true;
         end
         return false;
+    elseif string.match(filter.Type, "SKIPIFPREVIOUSSTEP") then
+        local stepNumber = string.match(filter.Type, "SKIPIFPREVIOUS(.*)");
+        local previousStepColumn = filter.Value[1];
+        local previousStepValue = filter.Value[2];
+        if string.match(previousStepValue, self.PreviousRowsInOperation[stepNumber][previousStepColumn]) then
+            return true;
+        end
+        return false;
     elseif string.match(filter.Type, "CONTAINSVALUESTEP") then
         local stepNumber = string.match(filter.Type, "CONTAINSVALUE(.*)");
         if string.match(fieldValue, self.PreviousRowsInOperation[stepNumber][tonumber(filter.Value)]) then
@@ -448,6 +480,13 @@ function LoadedData:ApplyFilterToField(filter, fieldValue)
     elseif filter.Type == "CONTAINSVALUE" then
         local match = string.match(fieldValue, filter.Value);
         return match ~= nil;
+    elseif filter.Type == "CONTAINSVALUEFROMLIST" then
+        local listName = filter.Value;
+        local list = self.ListData[listName];
+        if TableHasKey(list, fieldValue) then
+            return true;
+        end
+        return false;
     elseif filter.Type == "DOESNOTCONTAINVALUE" then
         local match = string.match(fieldValue, filter.Value);
         return match == nil;
@@ -467,9 +506,16 @@ function LoadedData:ApplyFilterToField(filter, fieldValue)
                 return false;
             end
         end
+        return true;
     elseif string.match(filter.Type, "MATCHINGSTEP")  then
         local stepNumber = string.match(filter.Type, "MATCHING(.*)");
         if Any(self.PreviousRowsInOperation[stepNumber], tonumber(filter.Value), fieldValue) then
+            return true;
+        end
+        return false;
+    elseif string.match(filter.Type, "NOTMATCHINGSTEP")  then
+        local stepNumber = string.match(filter.Type, "NOTMATCHING(.*)");
+        if not Any(self.PreviousRowsInOperation[stepNumber], tonumber(filter.Value), fieldValue) then
             return true;
         end
         return false;
@@ -479,6 +525,15 @@ function LoadedData:ApplyFilterToField(filter, fieldValue)
             return true;
         end
         return false;
+    elseif string.match(filter.Type, "FUNCTION") then
+        local functionName = string.match(filter.Type, "FUNCTION(.*)");
+        local functionObject = self.FunctionData[functionName];
+        local matchesFilter = functionObject(self.CurrentTransformingRow,
+            self.PreviousRowsInOperation,
+            self.PreviousTransformedRowsInOperation,
+            self.ListData
+        );
+        return matchesFilter;
     end
     return true;
 end
@@ -538,8 +593,10 @@ function LoadedData:TransformFile(file, filter, transformStep)
             if self.PreviousRowsInOperation[stepKey] == nil then
                 self.PreviousRowsInOperation[stepKey] = {};
             end--]]
-
-            if transformStepData.IgnoreFilter == true or self:RowMatchesFilters(row, transformStepData.Filters) then
+            self.CurrentTransformingRow = row;
+            if transformStepData.IgnoreFilter == true
+            or self:RowMatchesFilters(row, transformStepData.Filters, false) then
+            --or self:RowMatchesFilters(row, transformStepData.FilterExceptions, true) then
                 -- One row could be transformed into several rows so we need to concat
                 local newRows = self:TransformRow(row, transformStepData);
                 local rowMatchesFilter = true;
@@ -591,6 +648,7 @@ function LoadedData:TransformFile(file, filter, transformStep)
             end
         end
     end
+    self.CurrentTransformingRow = {};
     return transformedFile;
 end
 
@@ -603,11 +661,25 @@ function LoadedData:PrepareForNextTransformStep(nextTransformOperation, transfor
     end
 
     self.CurrentTransformingFile = nextTransformOperation.FileName;
+    if self.CurrentTransformStep == 3 then
+        local breakTest = "";
+    end
+    if self.CurrentTransformStep == 4 then
+        local breakTest = "";
+    end
+    if self.CurrentTransformStep == 5 then
+        local breakTest = "";
+    end
+    if self.CurrentTransformStep == 6 then
+        local breakTest = "";
+    end
+    if self.CurrentTransformStep == 7 then
+        local breakTest = "";
+    end
     local transformedFile = self:TransformFile(self.Files[nextTransformOperation.FileName], self.FilterData[nextTransformOperation.FileName], self.CurrentTransformStep);
     if self.TransformedFiles[nextTransformOperation.FileName] == nil then
         self.TransformedFiles[nextTransformOperation.FileName] = {};
     end
-
     print("Concatting transformed files for STEP"..tostring(self.CurrentTransformStep));
     ConcatTable(self.TransformedFiles[nextTransformOperation.FileName], transformedFile);
 end
@@ -804,6 +876,19 @@ function LoadedData:ApplyTransformToColumn(column, columnTransform, repeatIndex)
                 end
             end
             return column;
+        elseif columnTransform.Type == "ADDITION" then
+            local addValueInteger = tonumber(columnTransform.Value);
+            column = tostring(tonumber(column) + addValueInteger);
+            return column;
+        elseif string.match(columnTransform.Type, "FUNCTION") then
+            local functionName = string.match(columnTransform.Type, "FUNCTION(.*)");
+            local functionObject = self.FunctionData[functionName];
+            local transformedValue = functionObject(self.CurrentTransformingRow,
+                self.PreviousRowsInOperation,
+                self.PreviousTransformedRowsInOperation,
+                self.ListData
+            );
+            return transformedValue;
         end
     else
         if columnTransform == "SELECTEXISTING" then

@@ -1,0 +1,4 @@
+character_skill_node_sets_tables	2
+agent_key	campaign_key	faction_key	key	subculture	for_army	for_navy	agent_subtype_key
+general			wh2_main_skill_node_set_def_dreadlord_rebel		false	false	wh2_main_def_dreadlord_rebel
+general			wh_main_skill_node_set_grn_orc_warboss_rebel		false	false	grn_orc_warboss_rebel

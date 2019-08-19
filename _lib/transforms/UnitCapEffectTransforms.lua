@@ -332,7 +332,7 @@ UnitCapEffectTransforms = {
                             ColumnKey = "icon",
                             ColumnNumber = 2,
                             Type = "REPLACE",
-                            Value = "replenishment.png",
+                            Value = "",
                         },
                         {
                             ColumnKey = "priority",
@@ -344,7 +344,7 @@ UnitCapEffectTransforms = {
                             ColumnKey = "icon_negative",
                             ColumnNumber = 4,
                             Type = "REPLACE",
-                            Value = "replenishment.png",
+                            Value = "",
                         },
                         {
                             ColumnKey = "category",
@@ -399,7 +399,7 @@ UnitCapEffectTransforms = {
                             ColumnKey = "ui_icon",
                             ColumnNumber = 4,
                             Type = "REPLACE",
-                            Value = "replenishment.png",
+                            Value = "",
                         },
                         {
                             ColumnKey = "bundle_target",

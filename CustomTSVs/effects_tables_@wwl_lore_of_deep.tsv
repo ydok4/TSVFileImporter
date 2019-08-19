@@ -1,0 +1,8 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+wh2_dlc11_ability_enable_denizens_of_the_deep	spell_ability.png	3	spell_ability.png	battle	true
+wh2_dlc11_ability_enable_fog_of_the_damned	spell_ability.png	3	spell_ability.png	battle	true
+wh2_dlc11_ability_enable_ghost_ship	spell_ability.png	3	spell_ability.png	battle	true
+wh2_dlc11_ability_enable_krakens_pull	spell_ability.png	3	spell_ability.png	battle	true
+wh2_dlc11_ability_enable_spiteful_shot	spell_ability.png	3	spell_ability.png	battle	true
+wh2_dlc11_ability_enable_tidecall	spell_ability.png	3	spell_ability.png	battle	true
