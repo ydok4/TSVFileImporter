@@ -121,7 +121,7 @@ WWLFunctionData = {
                 elseif skillKey == "wh_main_skill_all_magic_all_11_diviner"
                 and not wizardData.IsLoreMaster then
                     return 8;
-                elseif skillKey == wizardData.LoremasterKey then
+                elseif skillKey == wizardData.LoremasterCharacterSkillKey then
                     return 8;
                 else
                     return 8 + GetSpellIndex(loreData, skillKey, "other");
@@ -180,7 +180,7 @@ WWLFunctionData = {
                 if not wizardData.IsLoremaster then
                     return "wh_main_skill_all_magic_all_11_diviner";
                 else
-                    return wizardData.LoremasterKey;
+                    return wizardData.LoremasterCharacterSkillKey;
                 end
             end
             return "wwl_skill_wizard_level_0"..(wizardData.DefaultWizardLevel + 1);
@@ -230,10 +230,10 @@ WWLFunctionData = {
                 if not wizardData.IsLoremaster then
                     return "wwl_diviner_"..agentSubTypeKey;
                 else
-                    return wizardData.LoremasterKey;
+                    return wizardData.LoremasterCharacterNodeSkillKey;
                 end
             end
-            return "wwl_skill_wizard_level_0"..(wizardData.DefaultWizardLevel + 1);
+            return "wwl_upgraded_wizard_level_"..agentSubTypeKey;
         end,
         GetSpellParentLinkKey = function(row, previousRows, previousTransformedRows, listData)
             Initialise(listData);
@@ -302,7 +302,7 @@ WWLFunctionData = {
                     or skillKey == "wh2_dlc09_skill_tmb_liche_priest_lore_9")
                     then
                         if wizardData.IsLoremaster then
-                            return wizardData.LoremasterKey;
+                            return wizardData.LoremasterCharacterNodeSkillKey;
                         else
                             return "wwl_diviner_"..agentSubTypeKey;
                         end
@@ -322,7 +322,7 @@ WWLFunctionData = {
                 if not wizardData.IsLoremaster then
                     return "wwl_diviner_"..agentSubTypeKey;
                 else
-                    return wizardData.LoremasterKey;
+                    return wizardData.LoremasterCharacterNodeSkillKey;
                 end
             end
             return "wwl_upgraded_wizard_level_"..agentSubTypeKey;

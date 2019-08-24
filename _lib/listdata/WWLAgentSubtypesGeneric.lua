@@ -208,7 +208,8 @@ WWLAgentSubtypesGeneric = {
     emp_balthasar_gelt = {
         IsLord = true,
         IsLoremaster = true,
-        LoremasterKey = "wh_main_skill_node_emp_balthasar_unique_05",
+        LoremasterCharacterSkillKey = "wh_main_skill_emp_lord_unique_balthasar_loremaster_lore_of_metal",
+        LoremasterCharacterNodeSkillKey = "wh_main_skill_node_emp_balthasar_unique_05",
         DefaultWizardLevel = 4,
         Lore = "Metal",
     },
@@ -362,7 +363,7 @@ WWLAgentSubtypesGeneric = {
         DefaultWizardLevel = 4,
         Lore = "GreySeerRuin",
     },
-    --[[wh2_main_skv_lord_skrolk = {
+    wh2_main_skv_lord_skrolk = {
         IsLord = true,
         DefaultWizardLevel = 3,
         Lore = "Plague",
@@ -543,7 +544,8 @@ WWLAgentSubtypesGeneric = {
     vmp_heinrich_kemmler = {
         IsLord = true,
         IsLoremaster = true,
-        LoremasterKey = "wh_main_skill_node_vmp_heinrich_unique_04",
+        LoremasterCharacterSkillKey = "wh_main_skill_vmp_lord_unique_loremaster_lore_of_vampires",
+        LoremasterCharacterNodeSkillKey = "wh_main_skill_node_vmp_heinrich_unique_04",
         DefaultWizardLevel = 4,
         Lore = "Vampires",
     },
