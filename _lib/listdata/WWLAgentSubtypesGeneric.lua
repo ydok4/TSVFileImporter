@@ -57,12 +57,17 @@ WWLAgentSubtypesGeneric = {
         DefaultWizardLevel = 1,
         Lore = "Wild",
     },
-    --[[dlc03_bst_malagor = {
+    dlc03_bst_malagor = {
         IsLord = true,
         DefaultWizardLevel = 4,
         Lore = "Wild",
-    },--]]
+    },
     -- Chaos
+    --[[chs_archaon = {
+        IsLord = true,
+        DefaultWizardLevel = 2,
+        Lore = "Fire",
+    },--]]
     chs_chaos_sorcerer_death = {
         IsLord = false,
         DefaultWizardLevel = 1,
@@ -81,7 +86,7 @@ WWLAgentSubtypesGeneric = {
     dlc07_chs_chaos_sorcerer_shadow = {
         IsLord = false,
         DefaultWizardLevel = 1,
-        Lore = "Shadow",
+        Lore = "Shadows",
     },
     chs_sorcerer_lord_death = {
         IsLord = true,
@@ -96,12 +101,12 @@ WWLAgentSubtypesGeneric = {
     chs_sorcerer_lord_metal = {
         IsLord = true,
         DefaultWizardLevel = 3,
-        Lore = "Death",
+        Lore = "Metal",
     },
     dlc07_chs_sorcerer_lord_shadow = {
         IsLord = true,
         DefaultWizardLevel = 3,
-        Lore = "Death",
+        Lore = "Shadows",
     },
     -- Dark Elves
     wh2_main_def_sorceress_dark = {
@@ -132,12 +137,12 @@ WWLAgentSubtypesGeneric = {
     wh2_dlc10_def_supreme_sorceress_beasts = {
         IsLord = true,
         DefaultWizardLevel = 3,
-        Lore = "Death",
+        Lore = "Beasts",
     },
     wh2_dlc10_def_supreme_sorceress_dark = {
         IsLord = true,
         DefaultWizardLevel = 3,
-        Lore = "Death",
+        Lore = "Dark",
     },
     wh2_dlc10_def_supreme_sorceress_death = {
         IsLord = true,
@@ -147,23 +152,23 @@ WWLAgentSubtypesGeneric = {
     wh2_dlc10_def_supreme_sorceress_fire = {
         IsLord = true,
         DefaultWizardLevel = 3,
-        Lore = "Death",
+        Lore = "Fire",
     },
     wh2_dlc10_def_supreme_sorceress_shadow = {
         IsLord = true,
         DefaultWizardLevel = 3,
-        Lore = "Death",
+        Lore = "Shadows",
     },
     --[[wh2_main_def_morathi = {
         IsLord = true,
         DefaultWizardLevel = 4,
         Lore = {"Dark", "Shadows"},
     },--]]
-    --[[wh2_main_def_malekith = {
+    wh2_main_def_malekith = {
         IsLord = true,
         DefaultWizardLevel = 4,
         Lore = "Dark",
-    },--]]
+    },
     -- Empire
     dlc05_emp_grey_wizard = {
         IsLord = false,
@@ -200,11 +205,13 @@ WWLAgentSubtypesGeneric = {
         DefaultWizardLevel = 1,
         Lore = "Light",
     },
-    --[[emp_balthasar_gelt = {
+    emp_balthasar_gelt = {
         IsLord = true,
+        IsLoremaster = true,
+        LoremasterKey = "wh_main_skill_node_emp_balthasar_unique_05",
         DefaultWizardLevel = 4,
         Lore = "Metal",
-    },--]]
+    },
     -- Greenskins
     grn_orc_shaman = {
         IsLord = false,
@@ -216,22 +223,21 @@ WWLAgentSubtypesGeneric = {
         DefaultWizardLevel = 1,
         Lore = "LilWaaagh",
     },
-    -- NOTE: Skills need expanding and earthing looks like it is missing
     grn_goblin_great_shaman = {
-        IsLord = false,
+        IsLord = true,
         DefaultWizardLevel = 3,
         Lore = "LilWaaagh",
     },
-    --[[dlc06_grn_wurrzag_da_great_prophet = {
+    dlc06_grn_wurrzag_da_great_prophet = {
         IsLord = true,
         DefaultWizardLevel = 3,
         Lore = "BigWaaagh",
-    },--]]
-    --[[grn_azhag_the_slaughterer = {
+    },
+    grn_azhag_the_slaughterer = {
         IsLord = true,
         DefaultWizardLevel = 3,
         Lore = "Death",
-    },--]]
+    },
     -- High Elves
     --[[wh2_main_hef_loremaster_of_hoeth = {
         IsLord = false,
@@ -294,11 +300,11 @@ WWLAgentSubtypesGeneric = {
         DefaultWizardLevel = 1,
         Lore = "Heavens",
     },
-    --[[wh2_dlc12_lzd_tehenhauin = {
+    wh2_dlc12_lzd_tehenhauin = {
         IsLord = true,
         DefaultWizardLevel = 3,
         Lore = "Beasts",
-    },--]]
+    },
     --[[wh2_main_lzd_slann_mage_priest = {
         IsLord = true,
         DefaultWizardLevel = 5,
@@ -346,21 +352,21 @@ WWLAgentSubtypesGeneric = {
         DefaultWizardLevel = 2,
         Lore = "Ruin",
     },--]]
-    --[[wh2_main_skv_grey_seer_plague = {
+    wh2_main_skv_grey_seer_plague = {
         IsLord = true,
         DefaultWizardLevel = 4,
-        Lore = "Plague",
+        Lore = "GreySeerPlague",
     },
     wh2_main_skv_grey_seer_ruin = {
         IsLord = true,
         DefaultWizardLevel = 4,
-        Lore = "Ruin",
-    },--]]
+        Lore = "GreySeerRuin",
+    },
     --[[wh2_main_skv_lord_skrolk = {
         IsLord = true,
         DefaultWizardLevel = 3,
         Lore = "Plague",
-    },--]]
+    },
     -- Tomb Kings
     wh2_dlc09_tmb_liche_priest_death = {
         IsLord = false,
@@ -382,21 +388,21 @@ WWLAgentSubtypesGeneric = {
         DefaultWizardLevel = 1,
         Lore = "Shadows",
     },
-    --[[wh2_dlc09_tmb_arkhan = {
+    wh2_dlc09_tmb_arkhan = {
         IsLord = true,
         DefaultWizardLevel = 4,
         Lore = "Death",
-    },--]]
-    --[[wh2_dlc09_tmb_khatep = {
+    },
+    wh2_dlc09_tmb_khatep = {
         IsLord = true,
         DefaultWizardLevel = 4,
         Lore = "Nehekhara",
-    },--]]
-    --[[wh2_dlc09_tmb_settra = {
+    },
+    wh2_dlc09_tmb_settra = {
         IsLord = true,
         DefaultWizardLevel = 1,
         Lore = "Nehekhara",
-    },--]]
+    },
     -- Vampire Coast
     --[[wh2_dlc11_cst_fleet_captain = {
         IsLord = false,
@@ -416,7 +422,7 @@ WWLAgentSubtypesGeneric = {
     wh2_dlc11_cst_admiral = {
         IsLord = true,
         DefaultWizardLevel = 1,
-        Lore = "Vampires",
+        Lore = "VampiresDeeps",
     },
     wh2_dlc11_cst_admiral_death = {
         IsLord = true,
@@ -431,7 +437,7 @@ WWLAgentSubtypesGeneric = {
     wh2_dlc11_cst_admiral_fem = {
         IsLord = true,
         DefaultWizardLevel = 1,
-        Lore = "Vampires",
+        Lore = "VampiresDeeps",
     },
     wh2_dlc11_cst_admiral_fem_death = {
         IsLord = true,
@@ -446,7 +452,7 @@ WWLAgentSubtypesGeneric = {
     wh2_dlc11_cst_admiral_tech_01 = {
         IsLord = true,
         DefaultWizardLevel = 1,
-        Lore = "Vampires",
+        Lore = "VampiresDeeps",
     },
     wh2_dlc11_cst_admiral_tech_02 = {
         IsLord = true,
@@ -461,50 +467,45 @@ WWLAgentSubtypesGeneric = {
     wh2_dlc11_cst_admiral_tech_04 = {
         IsLord = true,
         DefaultWizardLevel = 1,
-        Lore = "Vampires",
+        Lore = "Deep",
     },
     --[[wh2_dlc11_cst_noctilus = {
         IsLord = true,
         DefaultWizardLevel = 3,
-        Lore = "Vampires",
+        Lore = "VampiresDeeps",
     },--]]
-    --[[wh2_dlc11_cst_cylostra = {
+    wh2_dlc11_cst_cylostra = {
         IsLord = true,
         DefaultWizardLevel = 4,
         Lore = "Deep",
-    },--]]
+    },
     -- Vampire Counts
     vmp_necromancer = {
         IsLord = false,
         DefaultWizardLevel = 1,
         Lore = "Vampires",
     },
-    --[[vmp_vampire = {
+    vmp_vampire = {
         IsLord = false,
-        DefaultWizardLevel = 0,
-        Lore = "Vampires",
+        DefaultWizardLevel = 1,
+        Lore = "Death",
     },
     wh_dlc05_vmp_vampire_shadow = {
         IsLord = false,
-        DefaultWizardLevel = 0,
+        DefaultWizardLevel = 1,
         Lore = "Shadows",
-    },--]]
+    },
     vmp_master_necromancer = {
         IsLord = true,
         DefaultWizardLevel = 3,
         Lore = "Vampires",
     },
-    --[[vmp_lord = {
-        IsLord = true,
-        DefaultWizardLevel = 0,
-        Lore = "Vampires",
-    },
     dlc04_vmp_strigoi_ghoul_king = {
         IsLord = true,
         DefaultWizardLevel = 1,
-        Lore = "Vampires",
+        Lore = "VampiresGhoulKing",
     },
-    wh2_dlc11_vmp_bloodline_blood_dragon = {
+    --[[wh2_dlc11_vmp_bloodline_blood_dragon = {
         IsLord = true,
         DefaultWizardLevel = 1,
         Lore = "Vampires",
@@ -517,6 +518,11 @@ WWLAgentSubtypesGeneric = {
     wh2_dlc11_vmp_bloodline_necrarch = {
         IsLord = true,
         DefaultWizardLevel = 4,
+        Lore = "Vampires",
+    },--]]
+    --[[vmp_lord = {
+        IsLord = true,
+        DefaultWizardLevel = 0,
         Lore = "Vampires",
     },
     wh2_dlc11_vmp_bloodline_strigoi = {
@@ -534,31 +540,33 @@ WWLAgentSubtypesGeneric = {
         DefaultWizardLevel = 1,
         Lore = {"Vampires", "Death"},
     },--]]
-    --[[vmp_heinrich_kemmler = {
+    vmp_heinrich_kemmler = {
         IsLord = true,
+        IsLoremaster = true,
+        LoremasterKey = "wh_main_skill_node_vmp_heinrich_unique_04",
         DefaultWizardLevel = 4,
         Lore = "Vampires",
-    },--]]
+    },
     --[[dlc04_vmp_helman_ghorst = {
         IsLord = true,
         DefaultWizardLevel = 2,
         Lore = "GhorstLoreVampires",
     },--]]
-    --[[dlc04_vmp_vlad_con_carstein = {
+    dlc04_vmp_vlad_con_carstein = {
         IsLord = true,
         DefaultWizardLevel = 3,
         Lore = "Vampires",
     },
     wh_dlc05_vmp_red_duke = {
         IsLord = true,
-        DefaultWizardLevel = 2,
+        DefaultWizardLevel = 1,
         Lore = "Vampires",
-    },--]]
-    --[[pro02_vmp_isabella_von_carstein = {
+    },
+    pro02_vmp_isabella_von_carstein = {
         IsLord = true,
         DefaultWizardLevel = 1,
         Lore = "Vampires",
-    },--]]
+    },
     -- Wood Elves
     dlc05_wef_spellsinger_beasts = {
         IsLord = false,

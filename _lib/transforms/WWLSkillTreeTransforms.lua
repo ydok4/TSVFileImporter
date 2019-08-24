@@ -69,7 +69,7 @@ WWLSkillTreeTransforms = {
                 -- Character skill node key
                 {
                     ColumnNumber = 2,
-                    Type = "CONTAINSVALUE",
+                    Type = "FUNCTIONisValidSkillNode",
                     -- Index of column from indicated step
                     Value = "_magic_",
                     Operator = "AND",
@@ -125,193 +125,8 @@ WWLSkillTreeTransforms = {
             DefaultColumnTransformBehaviour = "SELECTEXISTING",
             NextTransformOperation = "STEP5",
         },
-        STEP5 = {
-            -- The name of the file this transform operation is to be applied to
-            FileName = "character_skill_level_to_effects_junctions_tables_data__",
-            -- In an operation if the condition is met,
-            -- Then the transforms are applied
-            Filters = {
-                -- Effect key
-                {
-                    ColumnNumber = 2,
-                    Type = "DOESNOTCONTAINVALUE",
-                    -- Index of column from indicated step
-                    Value = "wh_main_effect_agent_action_success_chance_enemy_skill",
-                    Operator = "AND",
-                },
-                -- Character skill key
-                {
-                    ColumnNumber = 1,
-                    Type = "MATCHINGSTEP4",
-                    -- Index of column from indicated step
-                    Value = "2",
-                    Operator = "AND",
-                },
-                -- Effect key
-                {
-                    ColumnNumber = 2,
-                    Type = "DOESNOTCONTAINVALUE",
-                    -- Index of column from indicated step
-                    Value = "wh_main_effect_agent_action_success_chance_skill",
-                    Operator = "AND",
-                },
-                -- Effect key
-                {
-                    ColumnNumber = 2,
-                    Type = "DOESNOTCONTAINVALUE",
-                    -- Index of column from indicated step
-                    Value = "reduce_wom",
-                    Operator = "AND",
-                },
-                -- Effect key
-                --[[{
-                    ColumnNumber = 2,
-                    Type = "DOESNOTCONTAINVALUE",
-                    -- Index of column from indicated step
-                    Value = "_cooldown",
-                    Operator = "AND",
-                },--]]
-                -- Effect key
-                {
-                    ColumnNumber = 2,
-                    Type = "DOESNOTCONTAINVALUE",
-                    -- Index of column from indicated step
-                    Value = "_miscast_reduction",
-                    Operator = "AND",
-                },
-                -- Effect key
-                {
-                    ColumnNumber = 2,
-                    Type = "DOESNOTCONTAINVALUE",
-                    -- Index of column from indicated step
-                    Value = "_dummy",
-                    Operator = "AND",
-                },
-            },
-            -- This should be done once, assuming the filter criteria is met
-            PerformOnce = true,
-            -- Transforms determine how data should be changed
-            -- In this case I just want to load the data so I can transform it
-            -- in other STEPS
-            Transforms = {
-                {
-                    Type = "NEWROW",
-                    Columns = {
-                    },
-                },
-            },
-            -- This value is used if a column has unsepecified transforms
-            DefaultColumnTransformBehaviour = "SELECTNONE",
-            NextTransformOperation = "STEP7",
-        },
-        STEP6 = {
-            -- The name of the file this transform operation is to be applied to
-            FileName = "effects_tables_data__",
-            -- In an operation if the condition is met,
-            -- Then the transforms are applied
-            Filters = {
-                -- Effect key
-                {
-                    ColumnNumber = 1,
-                    Type = "FUNCTIONIsMatchingOrWhitelistedEffect",
-                    Value = "",
-                    Operator = "AND",
-                },
-            },
-            --[[FilterExceptions = {
-                -- Character skill key
-                {
-                    ColumnNumber = 1,
-                    Type = "SKIPIFPREVIOUSSTEP5",
-                    Value = {1, "wh_main_skill_all_magic_all_07_earthing", },
-                    Operator = "OR",
-                },
-                -- Character skill key
-                {
-                    ColumnNumber = 1,
-                    Type = "SKIPIFPREVIOUSSTEP5",
-                    Value = {1, "wh_main_skill_all_magic_all_08_power_drain", },
-                    Operator = "OR",
-                },
-                -- Character skill key
-                {
-                    ColumnNumber = 1,
-                    Type = "SKIPIFPREVIOUSSTEP5",
-                    Value = {1, "wh_main_skill_all_magic_all_11_arcane_conduit", },
-                    Operator = "OR",
-                },
-            },--]]
-            -- This should be done once, assuming the filter criteria is met
-            PerformOnce = true,
-            -- Transforms determine how data should be changed
-            -- In this case I just want to load the data so I can transform it
-            -- in other STEPS
-            Transforms = {
-                {
-                    Type = "NEWROW",
-                    Columns = {
-                    },
-                },
-            },
-            -- This value is used if a column has unsepecified transforms
-            DefaultColumnTransformBehaviour = "SELECTNONE",
-            NextTransformOperation = "STEP7",
-        },
-        STEP7 = {
-            -- The name of the file this transform operation is to be applied to
-            FileName = "effect_bonus_value_unit_ability_junctions_tables_data__",
-            -- In an operation if the condition is met,
-            -- Then the transforms are applied
-            Filters = {
-                -- Effect key
-                {
-                    ColumnNumber = 1,
-                    Type = "MATCHINGSTEP6",
-                    Value = "1",
-                    Operator = "AND",
-                },
-            },
-            FilterExceptions = {
-                -- Character skill key
-                {
-                    ColumnNumber = 1,
-                    Type = "SKIPIFPREVIOUSSTEP5",
-                    Value = {1, "wh_main_skill_all_magic_all_07_earthing", },
-                    Operator = "OR",
-                },
-                -- Character skill key
-                {
-                    ColumnNumber = 1,
-                    Type = "SKIPIFPREVIOUSSTEP5",
-                    Value = {1, "wh_main_skill_all_magic_all_08_power_drain", },
-                    Operator = "OR",
-                },
-                -- Character skill key
-                {
-                    ColumnNumber = 1,
-                    Type = "SKIPIFPREVIOUSSTEP5",
-                    Value = {1, "wh_main_skill_all_magic_all_11_arcane_conduit", },
-                    Operator = "OR",
-                },
-            },
-            -- This should be done once, assuming the filter criteria is met
-            PerformOnce = true,
-            -- Transforms determine how data should be changed
-            -- In this case I just want to load the data so I can transform it 
-            -- in other STEPS
-            Transforms = {
-                {
-                    Type = "NEWROW",
-                    Columns = {
-                    },
-                },
-            },
-            -- This value is used if a column has unsepecified transforms
-            DefaultColumnTransformBehaviour = "SELECTNONE",
-            NextTransformOperation = "STEP8",
-        },
         -- Adjust positioning of existing skill nodes
-        STEP8 = {
+        STEP5 = {
             -- The name of the file this transform operation is to be applied to
             FileName = "character_skill_nodes_tables_data__",
             -- In an operation if the condition is met,
@@ -340,9 +155,17 @@ WWLSkillTreeTransforms = {
             -- In this case I just want to load the data so I can transform it
             -- in other STEPS
             Transforms = {
+                -- Clone the existing character node
                 {
                     Type = "NEWROW",
                     Columns = {
+                        -- Key
+                        {
+                            ColumnNumber = 6,
+                            Type = "FUNCTIONGetClonedCharacterSkillNodeKey",
+                            -- Index of column from indicated step
+                            Value = "",
+                        },
                         -- Tier
                         {
                             ColumnNumber = 7,
@@ -360,36 +183,64 @@ WWLSkillTreeTransforms = {
                         -- Required number of parents
                         {
                             ColumnNumber = 10,
-                            Type = "FUNCTIONGetRequiredNumberofParentsBehaviour",
+                            Type = "REPLACE",
                             -- Index of column from indicated step
-                            Value = "",
+                            Value = "0",
+                        },
+                    },
+                },
+                -- Then move the originals
+                {
+                    Type = "NEWROW",
+                    Columns = {
+                        -- Character skill key
+                        {
+                            ColumnNumber = 2,
+                            Type = "REPLACE",
+                            -- Index of column from indicated step
+                            Value = "wwl_disable_dummy",
+                        },
+                        -- Tier
+                        {
+                            ColumnNumber = 7,
+                            Type = "REPLACE",
+                            -- Index of column from indicated step
+                            Value = "99",
+                        },
+                        -- Visible in UI
+                        {
+                            ColumnNumber = 11,
+                            Type = "REPLACE",
+                            -- Index of column from indicated step
+                            Value = "false",
                         },
                     },
                 },
             },
             -- This value is used if a column has unsepecified transforms
             DefaultColumnTransformBehaviour = "SELECTEXISTING",
-            NextTransformOperation = "STEP9",
+            NextTransformOperation = "STEP6",
         },
-        -- Handle missing vanilla skills
-        STEP9 = {
+        -- Update vanilla skills
+        STEP6 = {
             -- The name of the file this transform operation is to be applied to
             FileName = "character_skill_node_links_tables_data__",
             -- In an operation if the condition is met,
             -- Then the transforms are applied
             Filters = {
-                -- We don't want to do this for Arcane conduit
+                -- Character skill node key
                 {
                     ColumnNumber = 1,
-                    Type = "FUNCTIONIsNotArcaneConduit",
-                    Value = "",
+                    Type = "FUNCTIONIsValidStep5Key",
+                    -- Index of column from indicated step
+                    Value = "6",
                     Operator = "AND",
                 },
             },
             -- This should be done once, assuming the filter criteria is met
-            PerformOnce = true,
+            PerformOnce = "FUNCTIONShouldUpdateVanillaSkillOnce",
             -- Transforms determine how data should be changed
-            -- In this case I just want to load the data so I can transform it 
+            -- In this case I just want to load the data so I can transform it
             -- in other STEPS
             Transforms = {
                 -- Update the current parent
@@ -399,7 +250,7 @@ WWLSkillTreeTransforms = {
                          -- Child key
                          {
                             ColumnNumber = 1,
-                            Type = "MATCHINGSTEP3",
+                            Type = "REPLACEWITHTRANSFORMEDSTEP5",
                             Value = "6",
                         },
                         -- Parent key
@@ -411,25 +262,23 @@ WWLSkillTreeTransforms = {
                         -- Link type
                         {
                             ColumnNumber = 8,
-                            Type = "REPLACE",
-                            Value = "REQUIRED",
+                            Type = "FUNCTIONGetSkillLinkType",
+                            Value = "",
                         },
                     }
                 },
             },
             -- This value is used if a column has unsepecified transforms
             DefaultColumnTransformBehaviour = "SELECTEXISTING",
-            NextTransformOperation = "STEP10",
+            NextTransformOperation = "STEP7",
         },
         -- Create new skill groupings
-        STEP10 = {
+        STEP7 = {
             -- The name of the file this transform operation is to be applied to
             FileName = "character_skill_node_links_tables_data__",
             -- In an operation if the condition is met,
             -- Then the transforms are applied
             Filters = {
-                -- We don't want to do this for level1 default spells
-                -- or Arcane conduit
                 {
                     ColumnNumber = 3,
                     Type = "FUNCTIONIsUpgradedWizardLevelParent",
@@ -440,7 +289,7 @@ WWLSkillTreeTransforms = {
             -- This should be done once, assuming the filter criteria is met
             PerformOnce = true,
             -- Transforms determine how data should be changed
-            -- In this case I just want to load the data so I can transform it 
+            -- In this case I just want to load the data so I can transform it
             -- in other STEPS
             Transforms = {
                 -- Update the current parent
@@ -456,7 +305,7 @@ WWLSkillTreeTransforms = {
                         -- Parent key
                         {
                             ColumnNumber = 3,
-                            Type = "REPLACEWITHTRANSFORMEDSTEP9",
+                            Type = "REPLACEWITHTRANSFORMEDSTEP6",
                             Value = "1",
                         },
                         -- Link type
@@ -470,10 +319,10 @@ WWLSkillTreeTransforms = {
             },
             -- This value is used if a column has unsepecified transforms
             DefaultColumnTransformBehaviour = "SELECTEXISTING",
-            NextTransformOperation = "STEP11",
+            NextTransformOperation = "STEP8",
         },
         -- Create the new skills
-        STEP11 = {
+        STEP8 = {
             -- The name of the file this transform operation is to be applied to
             FileName = "character_skill_nodes_tables_data__",
             -- In an operation if the condition is met,
@@ -533,7 +382,7 @@ WWLSkillTreeTransforms = {
                         -- indent
                         {
                             ColumnNumber = 5,
-                            Type = "MATCHINGSTEP8",
+                            Type = "MATCHINGSTEP5",
                             -- Index of column from indicated step
                             Value = "5",
                         },
@@ -590,7 +439,7 @@ WWLSkillTreeTransforms = {
                         -- Character skill key
                         {
                             ColumnNumber = 2,
-                            Type = "FUNCTIONGetUpgradedWizardLevelKey",
+                            Type = "FUNCTIONGetUpgradedWizardLevelCharacterSkillKey",
                             -- Index of column from indicated step
                             Value = "",
                         },
@@ -604,25 +453,15 @@ WWLSkillTreeTransforms = {
                         -- indent
                         {
                             ColumnNumber = 5,
-                            Type = "MATCHINGSTEP8",
+                            Type = "MATCHINGSTEP5",
                             -- Index of column from indicated step
                             Value = "5",
                         },
                         -- key
                         {
                             ColumnNumber = 6,
-                            Type = "SELECTEXISTING",
-                            NumberOfOperations = 2,
-                            Operations = {
-                                OPERATION1 = {
-                                    Type = "MATCHINGSTEP1",
-                                    Value = "1",
-                                },
-                                OPERATION2 = {
-                                    Type = "PREPEND",
-                                    Value = "wwl_upgraded_wizard_level_",
-                                },
-                            },
+                            Type = "FUNCTIONGetUpgradedWizardLevelKey",
+                            Value = "4",
                         },
                         -- tier
                         {

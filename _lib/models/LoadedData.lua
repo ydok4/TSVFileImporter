@@ -367,7 +367,7 @@ function LoadedData:RowMatchesFilters(fields, filters, isException)
     if #filters == 0 then
         return true;
     end
-
+    self.CurrentTransformingRow = fields;
     local isOrRowOperator = false;
     for fieldIndex, field in pairs(fields) do
         local filtersForColumn = self:GetFiltersForColumn(fieldIndex, filters);
@@ -593,55 +593,67 @@ function LoadedData:TransformFile(file, filter, transformStep)
             if self.PreviousRowsInOperation[stepKey] == nil then
                 self.PreviousRowsInOperation[stepKey] = {};
             end--]]
-            self.CurrentTransformingRow = row;
             if transformStepData.IgnoreFilter == true
             or self:RowMatchesFilters(row, transformStepData.Filters, false) then
             --or self:RowMatchesFilters(row, transformStepData.FilterExceptions, true) then
                 -- One row could be transformed into several rows so we need to concat
                 local newRows = self:TransformRow(row, transformStepData);
-                local rowMatchesFilter = true;
                 if transformStepData.PostTransformFilters ~= nil then
                     for rowIndex, newRow in pairs(newRows) do
-                        rowMatchesFilter = self:RowMatchesFilters(newRow, transformStepData.PostTransformFilters);
+                        local rowMatchesFilter = self:RowMatchesFilters(newRow, transformStepData.PostTransformFilters);
                         if rowMatchesFilter == false then
-                            break;
+                            newRows[rowIndex] = nil;
                         end
                     end
                 end
-                if rowMatchesFilter == true then
-                    --[[if transformStep == 1 then
-                        print("ROW: "..tostring(rowIndex).." STEP"..tostring(transformStep).." "..newRow[3]);
-                    elseif transformStep == 2 then
-                        print("ROW: "..tostring(rowIndex).." STEP"..tostring(transformStep).." "..newRow[1]);
-                    elseif transformStep == 3 then
-                        print("ROW: "..tostring(rowIndex).." STEP"..tostring(transformStep).." "..newRow[2]);
-                    elseif transformStep == 4 then
-                        print("ROW: "..tostring(rowIndex).." STEP"..tostring(transformStep).." "..newRow[1]);
-                    end--]]
-                    -- We check if the first element in the row is a table because if that is the case
-                    -- we actually have several rows because the transform operation was repeated
-                    if newRows ~= nil then
-                        if type(newRows[1]) == "table" then
-                            ConcatTable(transformedFile, newRows);
-                        else
-                            ConcatTable(transformedFile, {newRows});
-                        end
+                --[[if transformStep == 1 then
+                    print("ROW: "..tostring(rowIndex).." STEP"..tostring(transformStep).." "..newRow[3]);
+                elseif transformStep == 2 then
+                    print("ROW: "..tostring(rowIndex).." STEP"..tostring(transformStep).." "..newRow[1]);
+                elseif transformStep == 3 then
+                    print("ROW: "..tostring(rowIndex).." STEP"..tostring(transformStep).." "..newRow[2]);
+                elseif transformStep == 4 then
+                    print("ROW: "..tostring(rowIndex).." STEP"..tostring(transformStep).." "..newRow[1]);
+                end--]]
+                -- We check if the first element in the row is a table because if that is the case
+                -- we actually have several rows because the transform operation was repeated
+                if newRows ~= nil then
+                    if type(newRows[1]) == "table" then
+                        ConcatTable(transformedFile, newRows);
+                    else
+                        ConcatTable(transformedFile, {newRows});
                     end
+                end
 
-                    -- Check if there are further transformations that need to be performed after this row
-                    if transformStepData.NextTransformOperation ~= nil then
-                        self.PreviousRowsInOperation[stepKey] = row;
-                        self.PreviousTransformedRowsInOperation[stepKey] = newRows;
-                        local currentStep = transformStep;
-                        local currentTransformingFile = self.CurrentTransformingFile;
-                        self:PrepareForNextTransformStep(fileTransformData[transformStepData.NextTransformOperation], transformStep);
-                        self.CurrentTransformStep = currentStep;
-                        self.CurrentTransformingFile = currentTransformingFile;
-                        self.PreviousTransformedRowsInOperation[stepKey] = {};
-                        self.PreviousRowsInOperation[stepKey] = {};
+                -- Check if there are further transformations that need to be performed after this row
+                if transformStepData.NextTransformOperation ~= nil then
+                    self.PreviousRowsInOperation[stepKey] = row;
+                    self.PreviousTransformedRowsInOperation[stepKey] = newRows;
+                    local currentStep = transformStep;
+                    local currentTransformingFile = self.CurrentTransformingFile;
+                    self:PrepareForNextTransformStep(fileTransformData[transformStepData.NextTransformOperation], transformStep);
+                    self.CurrentTransformStep = currentStep;
+                    self.CurrentTransformingFile = currentTransformingFile;
+                    self.PreviousTransformedRowsInOperation[stepKey] = {};
+                    self.PreviousRowsInOperation[stepKey] = {};
+                end
+
+                if transformStepData.PerformOnce == true
+                or (transformStepData.PerformOnce ~= false and
+                    transformStepData.PerformOnce ~= nil) then
+                    local shouldPerformOnce = true;
+                    if transformStepData.PerformOnce ~= true
+                    and transformStepData.PerformOnce ~= false
+                    and string.match(transformStepData.PerformOnce, "FUNCTION") then
+                        local functionName = string.match(transformStepData.PerformOnce, "FUNCTION(.*)");
+                        local functionObject = self.FunctionData[functionName];
+                        shouldPerformOnce = functionObject(row,
+                            self.PreviousRowsInOperation,
+                            self.PreviousTransformedRowsInOperation,
+                            self.ListData
+                        );
                     end
-
-                    if transformStepData.PerformOnce == true then
+                    if shouldPerformOnce == true then
                         break;
                     end
                 end
@@ -674,6 +686,9 @@ function LoadedData:PrepareForNextTransformStep(nextTransformOperation, transfor
         local breakTest = "";
     end
     if self.CurrentTransformStep == 7 then
+        local breakTest = "";
+    end
+    if self.CurrentTransformStep == 8 then
         local breakTest = "";
     end
     local transformedFile = self:TransformFile(self.Files[nextTransformOperation.FileName], self.FilterData[nextTransformOperation.FileName], self.CurrentTransformStep);
