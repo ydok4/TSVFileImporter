@@ -4,14 +4,43 @@ WWLTraitTransforms = {
     -- For each record the condition will be checked and then
     -- the transform applied
     -- Empire Rebel Transform
-    effects_tables_data__ = {
+    character_skill_level_to_effects_junctions_tables_data__ = {
         STEP1 = {
+            -- The name of the file this transform operation is to be applied to
+            FileName = "character_skill_level_to_effects_junctions_tables_data__",
+            -- In an operation if the condition is met,
+            -- Then the transforms are applied
+            Filters = {
+
+            },
+            -- Transforms determine how data should be changed
+            -- In this case I just want to load the data so I can transform it
+            -- in other STEPS
+            Transforms = {
+                {
+                    Type = "NEWROW",
+                    Columns = {
+                    },
+                },
+            },
+            -- This value is used if a column has unsepecified transforms
+            DefaultColumnTransformBehaviour = "SELECTEXISTING",
+            NextTransformOperation = "STEP2",
+        },
+        STEP2 = {
             -- The name of the file this transform operation is to be applied to
             FileName = "effects_tables_data__",
             -- In an operation if the condition is met,
             -- Then the transforms are applied
             Filters = {
-
+                -- Effect Key
+                {
+                    ColumnNumber = 1,
+                    Type = "MATCHINGSTEP1",
+                    -- Index of column from indicated step
+                    Value = "2",
+                    Operator = "AND",
+                },
             },
             -- Transforms determine how data should be changed
             -- In this case I just want to load the data so I can transform it 
@@ -32,9 +61,9 @@ WWLTraitTransforms = {
             },
             -- This value is used if a column has unsepecified transforms
             DefaultColumnTransformBehaviour = "SELECTEXISTING",
-            NextTransformOperation = "STEP2",
+            NextTransformOperation = "STEP3",
         },
-        STEP2 = {
+        STEP3 = {
             -- The name of the file this transform operation is to be applied to
             FileName = "effect_bonus_value_unit_ability_junctions_tables_data__",
             -- In an operation if the condition is met,
@@ -43,7 +72,7 @@ WWLTraitTransforms = {
                 -- Effect Key
                 {
                     ColumnNumber = 1,
-                    Type = "MATCHINGSTEP1",
+                    Type = "MATCHINGSTEP2",
                     -- Index of column from indicated step
                     Value = "1",
                     Operator = "AND",
@@ -63,7 +92,7 @@ WWLTraitTransforms = {
                         {
                             -- Effect
                             ColumnNumber = 1,
-                            Type = "REPLACEWITHTRANSFORMEDSTEP1",
+                            Type = "REPLACEWITHTRANSFORMEDSTEP2",
                             -- Index of column from indicated step
                             Value = "1",
                         },
@@ -78,9 +107,9 @@ WWLTraitTransforms = {
                 },
             },
             DefaultColumnTransformBehaviour = "SELECTEXISTING",
-            NextTransformOperation = "STEP3",
+            NextTransformOperation = "STEP4",
         },
-        STEP3 = {
+        STEP4 = {
             -- The name of the file this transform operation is to be applied to
             FileName = "trait_info_tables_data__",
             -- In an operation if the condition is met,
@@ -103,8 +132,8 @@ WWLTraitTransforms = {
                            NumberOfOperations = 2,
                            Operations = {
                                OPERATION1 = {
-                                   Type = "MATCHINGSTEP2",
-                                   Value = "3",
+                                   Type = "MATCHINGSTEP1",
+                                   Value = "1",
                                },
                                OPERATION2 = {
                                    Type = "APPEND",
@@ -117,9 +146,9 @@ WWLTraitTransforms = {
             },
             -- This value is used if a column has unsepecified transforms
             DefaultColumnTransformBehaviour = "SELECTNONE",
-            NextTransformOperation = "STEP4",
+            NextTransformOperation = "STEP5",
         },
-        STEP4 = {
+        STEP5 = {
             -- The name of the file this transform operation is to be applied to
             FileName = "trait_info_tables_data__",
             -- In an operation if the condition is met,
@@ -142,65 +171,14 @@ WWLTraitTransforms = {
                             NumberOfOperations = 2,
                             Operations = {
                                 OPERATION1 = {
-                                    Type = "MATCHINGSTEP2",
-                                    Value = "3",
+                                    Type = "MATCHINGSTEP1",
+                                    Value = "1",
                                 },
                                 OPERATION2 = {
                                     Type = "APPEND",
                                     Value = "_disable",
                                 },
                             },
-                        },
-                    },
-                },
-            },
-            -- This value is used if a column has unsepecified transforms
-            DefaultColumnTransformBehaviour = "SELECTNONE",
-            NextTransformOperation = "STEP5",
-        },
-        STEP5 = {
-            -- The name of the file this transform operation is to be applied to
-            FileName = "character_trait_levels_tables_data__",
-            -- In an operation if the condition is met,
-            -- Then the transforms are applied
-            Filters = {
-            },
-            -- This should be done once, assuming the filter criteria is met
-            PerformOnce = true,
-            -- Transforms determine how data should be changed
-            -- In this case I just want to load the data so I can transform it 
-            -- in other STEPS
-            Transforms = {
-                {
-                    Type = "NEWROW",
-                    Columns = {
-                        {
-                            -- Trait level key
-                            ColumnNumber = 1,
-                            Type = "REPLACEWITHTRANSFORMEDSTEP3",
-                            -- Index of column from indicated step
-                            Value = "1",
-                        },
-                        {
-                            -- Level
-                            ColumnNumber = 2,
-                            Type = "REPLACE",
-                            -- Index of column from indicated step
-                            Value = "1",
-                        },
-                        {
-                            -- Trait Key
-                            ColumnNumber = 3,
-                            Type = "REPLACEWITHTRANSFORMEDSTEP3",
-                            -- Index of column from indicated step
-                            Value = "1",
-                        },
-                        {
-                            -- Threshold points
-                            ColumnNumber = 4,
-                            Type = "REPLACE",
-                            -- Index of column from indicated step
-                            Value = "0",
                         },
                     },
                 },
@@ -226,7 +204,7 @@ WWLTraitTransforms = {
                     Type = "NEWROW",
                     Columns = {
                         {
-                            -- Trait level Key
+                            -- Trait level key
                             ColumnNumber = 1,
                             Type = "REPLACEWITHTRANSFORMEDSTEP4",
                             -- Index of column from indicated step
@@ -262,11 +240,10 @@ WWLTraitTransforms = {
         },
         STEP7 = {
             -- The name of the file this transform operation is to be applied to
-            FileName = "character_traits_tables_data__",
+            FileName = "character_trait_levels_tables_data__",
             -- In an operation if the condition is met,
             -- Then the transforms are applied
             Filters = {
-
             },
             -- This should be done once, assuming the filter criteria is met
             PerformOnce = true,
@@ -277,50 +254,35 @@ WWLTraitTransforms = {
                 {
                     Type = "NEWROW",
                     Columns = {
-                         -- Effect key
                         {
+                            -- Trait level Key
                             ColumnNumber = 1,
-                            Type = "REPLACEWITHTRANSFORMEDSTEP3",
+                            Type = "REPLACEWITHTRANSFORMEDSTEP5",
                             -- Index of column from indicated step
                             Value = "1",
                         },
-                        -- No going back level
                         {
+                            -- Level
                             ColumnNumber = 2,
                             Type = "REPLACE",
+                            -- Index of column from indicated step
                             Value = "1",
                         },
-                        -- Hidden
                         {
+                            -- Trait Key
                             ColumnNumber = 3,
-                            Type = "REPLACE",
-                            Value = "true",
+                            Type = "REPLACEWITHTRANSFORMEDSTEP5",
+                            -- Index of column from indicated step
+                            Value = "1",
                         },
-                        -- Precedence
                         {
+                            -- Threshold points
                             ColumnNumber = 4,
                             Type = "REPLACE",
-                            Value = "1",
+                            -- Index of column from indicated step
+                            Value = "0",
                         },
-                        -- Icon
-                        {
-                            ColumnNumber = 5,
-                            Type = "REPLACE",
-                            Value = "",
-                        },
-                        -- Ui priority
-                        {
-                            ColumnNumber = 6,
-                            Type = "REPLACE",
-                            Value = "1",
-                        },
-                        -- Pre battle speech paremeter
-                        {
-                            ColumnNumber = 7,
-                            Type = "REPLACE",
-                            Value = "",
-                        },
-                    }
+                    },
                 },
             },
             -- This value is used if a column has unsepecified transforms
@@ -344,7 +306,7 @@ WWLTraitTransforms = {
                 {
                     Type = "NEWROW",
                     Columns = {
-                         -- Skill key
+                         -- Effect key
                         {
                             ColumnNumber = 1,
                             Type = "REPLACEWITHTRANSFORMEDSTEP4",
@@ -396,7 +358,7 @@ WWLTraitTransforms = {
         },
         STEP9 = {
             -- The name of the file this transform operation is to be applied to
-            FileName = "trait_level_effects_tables_data__",
+            FileName = "character_traits_tables_data__",
             -- In an operation if the condition is met,
             -- Then the transforms are applied
             Filters = {
@@ -411,35 +373,50 @@ WWLTraitTransforms = {
                 {
                     Type = "NEWROW",
                     Columns = {
+                         -- Skill key
                         {
-                            -- Trait level key
                             ColumnNumber = 1,
                             Type = "REPLACEWITHTRANSFORMEDSTEP5",
                             -- Index of column from indicated step
                             Value = "1",
                         },
+                        -- No going back level
                         {
-                            -- Effect key
                             ColumnNumber = 2,
-                            Type = "REPLACEWITHSTEP1",
-                            -- Index of column from indicated step
+                            Type = "REPLACE",
                             Value = "1",
                         },
+                        -- Hidden
                         {
-                            -- Effect scope
                             ColumnNumber = 3,
                             Type = "REPLACE",
-                            -- Index of column from indicated step
-                            Value = "character_to_character_own",
+                            Value = "true",
                         },
+                        -- Precedence
                         {
-                            -- Value
                             ColumnNumber = 4,
                             Type = "REPLACE",
-                            -- Index of column from indicated step
                             Value = "1",
                         },
-                    },
+                        -- Icon
+                        {
+                            ColumnNumber = 5,
+                            Type = "REPLACE",
+                            Value = "",
+                        },
+                        -- Ui priority
+                        {
+                            ColumnNumber = 6,
+                            Type = "REPLACE",
+                            Value = "1",
+                        },
+                        -- Pre battle speech paremeter
+                        {
+                            ColumnNumber = 7,
+                            Type = "REPLACE",
+                            Value = "",
+                        },
+                    }
                 },
             },
             -- This value is used if a column has unsepecified transforms
@@ -473,7 +450,7 @@ WWLTraitTransforms = {
                         {
                             -- Effect key
                             ColumnNumber = 2,
-                            Type = "REPLACEWITHTRANSFORMEDSTEP2",
+                            Type = "REPLACEWITHSTEP2",
                             -- Index of column from indicated step
                             Value = "1",
                         },
@@ -500,7 +477,7 @@ WWLTraitTransforms = {
         },
         STEP11 = {
             -- The name of the file this transform operation is to be applied to
-            FileName = "effect_bundles_tables_data__",
+            FileName = "trait_level_effects_tables_data__",
             -- In an operation if the condition is met,
             -- Then the transforms are applied
             Filters = {
@@ -516,29 +493,32 @@ WWLTraitTransforms = {
                     Type = "NEWROW",
                     Columns = {
                         {
+                            -- Trait level key
                             ColumnNumber = 1,
-                            Type = "REPLACEWITHTRANSFORMEDSTEP3",
+                            Type = "REPLACEWITHTRANSFORMEDSTEP7",
+                            -- Index of column from indicated step
                             Value = "1",
                         },
                         {
+                            -- Effect key
                             ColumnNumber = 2,
-                            Type = "REPLACE",
-                            Value = "",
+                            Type = "REPLACEWITHTRANSFORMEDSTEP3",
+                            -- Index of column from indicated step
+                            Value = "1",
                         },
                         {
+                            -- Effect scope
                             ColumnNumber = 3,
                             Type = "REPLACE",
-                            Value = "",
+                            -- Index of column from indicated step
+                            Value = "character_to_character_own",
                         },
                         {
+                            -- Value
                             ColumnNumber = 4,
                             Type = "REPLACE",
-                            Value = "",
-                        },
-                        {
-                            ColumnNumber = 5,
-                            Type = "REPLACE",
-                            Value = "force",
+                            -- Index of column from indicated step
+                            Value = "1",
                         },
                     },
                 },
@@ -598,7 +578,7 @@ WWLTraitTransforms = {
         },
         STEP13 = {
             -- The name of the file this transform operation is to be applied to
-            FileName = "effect_bundles_to_effects_junctions_tables_data__",
+            FileName = "effect_bundles_tables_data__",
             -- In an operation if the condition is met,
             -- Then the transforms are applied
             Filters = {
@@ -615,28 +595,28 @@ WWLTraitTransforms = {
                     Columns = {
                         {
                             ColumnNumber = 1,
-                            Type = "REPLACEWITHTRANSFORMEDSTEP11",
+                            Type = "REPLACEWITHTRANSFORMEDSTEP5",
                             Value = "1",
                         },
                         {
                             ColumnNumber = 2,
-                            Type = "REPLACEWITHSTEP1",
-                            Value = "1",
+                            Type = "REPLACE",
+                            Value = "",
                         },
                         {
                             ColumnNumber = 3,
                             Type = "REPLACE",
-                            Value = "force_to_general_own",
+                            Value = "",
                         },
                         {
                             ColumnNumber = 4,
                             Type = "REPLACE",
-                            Value = "1",
+                            Value = "",
                         },
                         {
                             ColumnNumber = 5,
                             Type = "REPLACE",
-                            Value = "start_turn_completed",
+                            Value = "force",
                         },
                     },
                 },
@@ -669,7 +649,56 @@ WWLTraitTransforms = {
                         },
                         {
                             ColumnNumber = 2,
-                            Type = "REPLACEWITHTRANSFORMEDSTEP1",
+                            Type = "REPLACEWITHSTEP2",
+                            Value = "1",
+                        },
+                        {
+                            ColumnNumber = 3,
+                            Type = "REPLACE",
+                            Value = "force_to_general_own",
+                        },
+                        {
+                            ColumnNumber = 4,
+                            Type = "REPLACE",
+                            Value = "1",
+                        },
+                        {
+                            ColumnNumber = 5,
+                            Type = "REPLACE",
+                            Value = "start_turn_completed",
+                        },
+                    },
+                },
+            },
+            -- This value is used if a column has unsepecified transforms
+            DefaultColumnTransformBehaviour = "SELECTNONE",
+            NextTransformOperation = "STEP15",
+        },
+        STEP15 = {
+            -- The name of the file this transform operation is to be applied to
+            FileName = "effect_bundles_to_effects_junctions_tables_data__",
+            -- In an operation if the condition is met,
+            -- Then the transforms are applied
+            Filters = {
+
+            },
+            -- This should be done once, assuming the filter criteria is met
+            PerformOnce = true,
+            -- Transforms determine how data should be changed
+            -- In this case I just want to load the data so I can transform it 
+            -- in other STEPS
+            Transforms = {
+                {
+                    Type = "NEWROW",
+                    Columns = {
+                        {
+                            ColumnNumber = 1,
+                            Type = "REPLACEWITHTRANSFORMEDSTEP13",
+                            Value = "1",
+                        },
+                        {
+                            ColumnNumber = 2,
+                            Type = "REPLACEWITHTRANSFORMEDSTEP2",
                             Value = "1",
                         },
                         {

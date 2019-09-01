@@ -112,11 +112,11 @@ require '_lib/DataMaps/INDEXTOGENDER'
 --local transformData = GetTransforms("UnitCapBuildingTransforms");
 
 -- WWL effect and trait generator
---local filterData = GetFilters("WWLTraitFilters");
---local transformData = GetTransforms("WWLTraitTransforms");
+local filterData = GetFilters("WWLTraitFilters");
+local transformData = GetTransforms("WWLTraitTransforms");
 
 -- WWL skill tree generator
-local filterData = GetFilters("WWLSkillTreeFilters");
+--[[local filterData = GetFilters("WWLSkillTreeFilters");
 local transformData = GetTransforms("WWLSkillTreeTransforms");
 local listData = {};
 local wwlAgentSubtypesGeneric = "WWLAgentSubtypesGeneric";
@@ -126,7 +126,7 @@ listData[wwlWizardLores] = GetListData(wwlWizardLores);
 
 local functionData = {};
 local wwlFunctionData = "WWLFunctionData";
-functionData = GetFunctionData(wwlFunctionData);
+functionData = GetFunctionData(wwlFunctionData);--]]
 
 local loadedData = LoadedData:new({
     IDCounter = 0,

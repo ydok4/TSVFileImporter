@@ -18,6 +18,7 @@ local otherSpellSkills = {
     "wh_main_skill_all_magic_all_07_earthing",
     "wh_main_skill_all_magic_all_08_power_drain",
     "wh_main_skill_all_magic_all_11_arcane_conduit",
+    "wh2_dlc11_skill_vmp_bloodline_necrarch_magic_greater_arcane_conduit",
 };
 local function GetSpellIndex(loreData, skillKey, spellType)
     if spellType == "level1" then
@@ -260,6 +261,7 @@ WWLFunctionData = {
                     then
                         return "wwl_upgraded_wizard_level_"..agentSubTypeKey;
                     elseif skillKey == "wh_main_skill_all_magic_all_11_arcane_conduit"
+                    or skillKey == "wh2_dlc11_skill_vmp_bloodline_necrarch_magic_greater_arcane_conduit"
                     or skillKey == "wh2_dlc09_skill_tmb_liche_priest_lore_10" then
                         return "wwl_character_skill_node_"..row[3];
                     end
@@ -282,6 +284,7 @@ WWLFunctionData = {
                     then
                         return "wwl_upgraded_wizard_level_"..agentSubTypeKey;
                     elseif skillKey == "wh_main_skill_all_magic_all_11_arcane_conduit"
+                    or skillKey == "wh2_dlc11_skill_vmp_bloodline_necrarch_magic_greater_arcane_conduit"
                     or skillKey == "wh2_dlc09_skill_tmb_liche_priest_lore_10" then
                         return "wwl_character_skill_node_"..row[3];
                     end
@@ -307,6 +310,7 @@ WWLFunctionData = {
                             return "wwl_diviner_"..agentSubTypeKey;
                         end
                     elseif skillKey == "wh_main_skill_all_magic_all_11_arcane_conduit"
+                    or skillKey == "wh2_dlc11_skill_vmp_bloodline_necrarch_magic_greater_arcane_conduit"
                     or skillKey == "wh2_dlc09_skill_tmb_liche_priest_lore_10" then
                         return "wwl_character_skill_node_"..row[3];
                     end

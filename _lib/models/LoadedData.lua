@@ -673,6 +673,9 @@ function LoadedData:PrepareForNextTransformStep(nextTransformOperation, transfor
     end
 
     self.CurrentTransformingFile = nextTransformOperation.FileName;
+    if self.CurrentTransformStep == 2 then
+        local breakTest = "";
+    end
     if self.CurrentTransformStep == 3 then
         local breakTest = "";
     end
