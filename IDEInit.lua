@@ -75,13 +75,21 @@ require '_lib/DataMaps/INDEXTOGENDER'
 --local filterData = GetFilters("UnitCapResourceFilters");
 --local transformData = GetTransforms("UnitCapResourceTransforms");
 
+-- Mixu Data Resources
+--local filterData = GetFilters("MixuDataFilters");
+--local transformData = GetTransforms("AgentDataTransforms");
+
 -- Mixu name Resource Content
 --local filterData = GetFilters("MixuNameResourcesFilters");
 --local transformData = GetTransforms("NameResourcesTransforms");
 
--- Name name group Resource Content
+-- Mixu Name name group Resource Content
 --local filterData = GetFilters("MixuCulturesToNameGroupsFilters");
 --local transformData = GetTransforms("CulturesToNameGroupsTransforms");
+
+-- Agent Data Resources
+local filterData = GetFilters("AgentDataFilters");
+local transformData = GetTransforms("AgentDataTransforms");
 
 -- Name Resource Content
 --local filterData = GetFilters("NameResourcesFilters");
@@ -111,9 +119,9 @@ require '_lib/DataMaps/INDEXTOGENDER'
 --local filterData = GetFilters("WezSpeshulBuildingCapFilters");
 --local transformData = GetTransforms("UnitCapBuildingTransforms");
 
--- WWL effect and trait generator
-local filterData = GetFilters("WWLTraitFilters");
-local transformData = GetTransforms("WWLTraitTransforms");
+-- WWL effect bundle generator
+local filterData = GetFilters("WWLEffectBundleFilters");
+local transformData = GetTransforms("WWLEffectBundleTransforms");
 
 -- WWL skill tree generator
 --[[local filterData = GetFilters("WWLSkillTreeFilters");

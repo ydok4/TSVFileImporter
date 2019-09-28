@@ -470,7 +470,7 @@ function LoadedData:ApplyFilterToField(filter, fieldValue)
         else
             stepColumn = tonumber(filter.Value);
         end
-        local stepValue = self.PreviousTransformedRowsInOperation[stepNumber][stepColumn];
+        local stepValue = self.PreviousTransformedRowsInOperation[stepNumber][1][stepColumn];
         if stepValue ~= '' and string.match(fieldValue, stepValue) then
             if concatString == "" or string.match(fieldValue, stepValue..concatString) then
                 return true;

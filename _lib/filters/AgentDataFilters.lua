@@ -75,7 +75,7 @@ AgentDataFilters = {
                 {
                     TableColumn = 4,
                     KeyName = "NameGroup",
-                    AsTableItem = true,
+                    AsTableItem = false,
                     SingleValue = true,
                 },
             },

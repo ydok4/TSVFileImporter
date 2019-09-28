@@ -1,4 +1,4 @@
-WWLTraitFilters = {
+WWLEffectBundleFilters = {
     -- Generic character skill to effects
     character_skill_level_to_effects_junctions_tables_data__ = {
         FileName = "character_skill_level_to_effects_junctions_tables_data__.tsv",
@@ -229,39 +229,6 @@ WWLTraitFilters = {
                 Value = "enable",
                 Operator = "AND",
             },
-        },
-    },
-    -- New Trait files
-    trait_info_tables_data__ = {
-        FileName = "trait_info_tables_data__.tsv",
-        Directory = "VanillaTSVs",
-        OutputFile = true,
-        OnlyLoadHeader = true,
-        Filter = {
-        },
-    },
-    character_trait_levels_tables_data__ = {
-        FileName = "character_trait_levels_tables_data__.tsv",
-        Directory = "VanillaTSVs",
-        OutputFile = true,
-        OnlyLoadHeader = true,
-        Filter = {
-        },
-    },
-    character_traits_tables_data__ = {
-        FileName = "character_traits_tables_data__.tsv",
-        Directory = "VanillaTSVs",
-        OutputFile = true,
-        OnlyLoadHeader = true,
-        Filter = {
-        },
-    },
-    trait_level_effects_tables_data__ = {
-        FileName = "trait_level_effects_tables_data__.tsv",
-        Directory = "VanillaTSVs",
-        OutputFile = true,
-        OnlyLoadHeader = true,
-        Filter = {
         },
     },
     -- Effect bundle files
