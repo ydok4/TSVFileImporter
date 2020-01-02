@@ -52,9 +52,19 @@ WWLEffectBundleTransforms = {
                         {
                             -- Effect
                             ColumnNumber = 1,
-                            Type = "REPLACEWITHenable",
-                            -- Index of column from indicated step
-                            Value = "disable",
+                            Type = "SELECTEXISTING",
+                            NumberOfOperations = 2,
+                            Operations = {
+                                OPERATION1 = {
+                                    Type = "REPLACEWITH_enable",
+                                    -- Index of column from indicated step
+                                    Value = "",
+                                },
+                                OPERATION2 = {
+                                    Type = "APPEND",
+                                    Value = "_disable",
+                                },
+                            },
                         },
                         {
                             -- UI Icon

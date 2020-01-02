@@ -18,7 +18,7 @@ TraitLocTransforms = {
             -- in other STEPS
             Transforms = {
                 {
-                    Type = "NEWROW", 
+                    Type = "NEWROW",
                     Columns = {
                     },
                 },
@@ -53,7 +53,7 @@ TraitLocTransforms = {
             -- in other STEPS
             Transforms = {
                 {
-                    Type = "NEWROW", 
+                    Type = "NEWROW",
                     Columns = {
                     },
                 },

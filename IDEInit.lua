@@ -76,8 +76,8 @@ require '_lib/DataMaps/INDEXTOGENDER'
 --local transformData = GetTransforms("UnitCapResourceTransforms");
 
 -- Mixu Data Resources
---local filterData = GetFilters("MixuDataFilters");
---local transformData = GetTransforms("AgentDataTransforms");
+local filterData = GetFilters("MixuDataFilters");
+local transformData = GetTransforms("AgentDataTransforms");
 
 -- Mixu name Resource Content
 --local filterData = GetFilters("MixuNameResourcesFilters");
@@ -88,8 +88,8 @@ require '_lib/DataMaps/INDEXTOGENDER'
 --local transformData = GetTransforms("CulturesToNameGroupsTransforms");
 
 -- Agent Data Resources
-local filterData = GetFilters("AgentDataFilters");
-local transformData = GetTransforms("AgentDataTransforms");
+--local filterData = GetFilters("AgentDataFilters");
+--local transformData = GetTransforms("AgentDataTransforms");
 
 -- Name Resource Content
 --local filterData = GetFilters("NameResourcesFilters");
@@ -107,6 +107,22 @@ local transformData = GetTransforms("AgentDataTransforms");
 --local filterData = GetFilters("CataphCulturesToNameGroupsFilters");
 --local transformData = GetTransforms("CulturesToNameGroupsTransforms");
 
+-- Gunking Elf Name Resource Content
+--local filterData = GetFilters("GunkingElfNameResourcesFilters");
+--local transformData = GetTransforms("NameResourcesTransforms");
+
+-- Gunking Elf Name group Resource Content
+--local filterData = GetFilters("GunkingElfCulturesToNameGroupsFilters");
+--local transformData = GetTransforms("CulturesToNameGroupsTransforms");
+
+-- Gunking Skaven/Lizardmen Name Resource Content
+--local filterData = GetFilters("GunkingSkavenLizardmenNameResourcesFilters");
+--local transformData = GetTransforms("NameResourcesTransforms");
+
+-- Gunking Skaven/Lizardmen Name group Resource Content
+--local filterData = GetFilters("GunkingSkavenLizardmenCulturesToNameGroupsFilters");
+--local transformData = GetTransforms("CulturesToNameGroupsTransforms");
+
 -- Wez Speshul URP Unit Effect Content
 --local filterData = GetFilters("WezSpeshulUnitCapEffectFilters");
 --local transformData = GetTransforms("UnitCapEffectTransforms");
@@ -120,14 +136,17 @@ local transformData = GetTransforms("AgentDataTransforms");
 --local transformData = GetTransforms("UnitCapBuildingTransforms");
 
 -- WWL effect bundle generator
-local filterData = GetFilters("WWLEffectBundleFilters");
-local transformData = GetTransforms("WWLEffectBundleTransforms");
+--local filterData = GetFilters("WWLEffectBundleFilters");
+--local transformData = GetTransforms("WWLEffectBundleTransforms");
 
 -- WWL skill tree generator
---[[local filterData = GetFilters("WWLSkillTreeFilters");
+-- Vanilla
+--local filterData = GetFilters("WWLSkillTreeFilters");
+-- Mixus
+--[[local filterData = GetFilters("WWLMixuSkillTreeFilters");
 local transformData = GetTransforms("WWLSkillTreeTransforms");
 local listData = {};
-local wwlAgentSubtypesGeneric = "WWLAgentSubtypesGeneric";
+local wwlAgentSubtypesGeneric = "WWLAgentSubtypesMixu";
 listData[wwlAgentSubtypesGeneric] = GetListData(wwlAgentSubtypesGeneric);
 local wwlWizardLores = "WWLWizardLores";
 listData[wwlWizardLores] = GetListData(wwlWizardLores);

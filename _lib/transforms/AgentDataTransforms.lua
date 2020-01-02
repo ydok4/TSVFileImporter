@@ -146,6 +146,182 @@ AgentDataTransforms = {
                 }
             },
             DefaultColumnTransformBehaviour = "SELECTEXISTING",
+            NextTransformOperation = "STEP4",
+        },
+        STEP4 = {
+            -- The name of the file this transform operation is to be applied to
+            FileName = "effects_tables",
+            -- In an operation if the condition is met,
+            -- Then the transforms are applied
+            Filters = {
+            },
+            PerformOnce = true,
+            Transforms = {
+                {
+                    Type = "NEWROW",
+                    Columns = {
+                        {
+                            -- Effect
+                            ColumnNumber = 1,
+                            Type = "SELECTEXISTING",
+                            NumberOfOperations = 2,
+                            Operations = {
+                                OPERATION1 = {
+                                    Type = "REPLACEWITHSTEP1",
+                                    -- Index of column from indicated step
+                                    Value = "1",
+                                },
+                                OPERATION2 = {
+                                    Type = "APPEND",
+                                    Value = "_enable_recruitment",
+                                },
+                            },
+                        },
+                        {
+                            -- Icon
+                            ColumnNumber = 2,
+                            Type = "REPLACE",
+                            -- Index of column from indicated step
+                            Value = "",
+                        },
+                        {
+                            -- Priority
+                            ColumnNumber = 3,
+                            Type = "REPLACE",
+                            -- Index of column from indicated step
+                            Value = "0",
+                        },
+                        {
+                            -- Icon negative
+                            ColumnNumber = 4,
+                            Type = "REPLACE",
+                            -- Index of column from indicated step
+                            Value = "",
+                        },
+                        {
+                            -- Category
+                            ColumnNumber = 5,
+                            Type = "REPLACE",
+                            -- Index of column from indicated step
+                            Value = "campaign",
+                        },
+                        {
+                            -- Is positive value good
+                            ColumnNumber = 6,
+                            Type = "REPLACE",
+                            -- Index of column from indicated step
+                            Value = "true",
+                        },
+                    },
+                },
+            },
+            PostTransformFilters = {
+                {
+                    ColumnNumber = 1,
+                    Type = "TRANSFORMUNIQUE",
+                    -- Index of column from indicated step
+                    Value = "",
+                    Operator = "AND",
+                },
+            },
+            -- This value is used if a column has unsepecified transforms
+            DefaultColumnTransformBehaviour = "SELECTEXISTING",
+            NextTransformOperation = "STEP5",
+        },
+        STEP5 = {
+            -- The name of the file this transform operation is to be applied to
+            FileName = "effect_bonus_value_agent_junction_tables",
+            -- In an operation if the condition is met,
+            -- Then the transforms are applied
+            Filters = {
+            },
+            PerformOnce = true,
+            Transforms = {
+                {
+                    Type = "NEWROW",
+                    Columns = {
+                        {
+                            -- Effect key
+                            ColumnNumber = 1,
+                            Type = "REPLACEWITHTRANSFORMEDSTEP4",
+                            Value = "1",
+                        },
+                        {
+                            -- Bonus value
+                            ColumnNumber = 2,
+                            Type = "REPLACE",
+                            -- Index of column from indicated step
+                            Value = "availability",
+                        },
+                        {
+                            -- Agent type
+                            ColumnNumber = 3,
+                            Type = "REPLACEWITHTRANSFORMEDSTEP2",
+                            -- Index of column from indicated step
+                            Value = "1",
+                        },
+                    },
+                },
+            },
+            PostTransformFilters = {
+                {
+                    ColumnNumber = 1,
+                    Type = "TRANSFORMUNIQUE",
+                    -- Index of column from indicated step
+                    Value = "",
+                    Operator = "AND",
+                },
+            },
+            -- This value is used if a column has unsepecified transforms
+            DefaultColumnTransformBehaviour = "SELECTEXISTING",
+            NextTransformOperation = "STEP6",
+        },
+        STEP6 = {
+            -- The name of the file this transform operation is to be applied to
+            FileName = "effect_bonus_value_agent_subtype_junctions_tables",
+            -- In an operation if the condition is met,
+            -- Then the transforms are applied
+            Filters = {
+            },
+            PerformOnce = true,
+            Transforms = {
+                {
+                    Type = "NEWROW",
+                    Columns = {
+                        {
+                            -- Bonus value id
+                            ColumnNumber = 1,
+                            Type = "REPLACE",
+                            Value = "availability",
+                        },
+                        {
+                            -- effect key
+                            ColumnNumber = 2,
+                            Type = "REPLACEWITHTRANSFORMEDSTEP4",
+                            -- Index of column from indicated step
+                            Value = "1",
+                        },
+                        {
+                            -- Agent subtype
+                            ColumnNumber = 3,
+                            Type = "REPLACEWITHSTEP1",
+                            -- Index of column from indicated step
+                            Value = "1",
+                        },
+                    },
+                },
+            },
+            PostTransformFilters = {
+                {
+                    ColumnNumber = 3,
+                    Type = "TRANSFORMUNIQUE",
+                    -- Index of column from indicated step
+                    Value = "",
+                    Operator = "AND",
+                },
+            },
+            -- This value is used if a column has unsepecified transforms
+            DefaultColumnTransformBehaviour = "SELECTEXISTING",
         },
     },
 }

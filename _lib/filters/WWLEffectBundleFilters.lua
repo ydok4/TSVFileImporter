@@ -117,7 +117,7 @@ WWLEffectBundleFilters = {
                 Type = "CONTAINSVALUE",
                 Value = "wh_dlc05_effect_magic_",
                 Operator = "OR",
-            },--]]
+            },
         },
     },
     -- Original magic effects

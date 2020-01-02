@@ -23,6 +23,8 @@ SUBTYPESTOARTSET = {
     wh2_main_def_sorceress_dark = "def_sorceress",
     wh2_main_def_sorceress_fire = "def_sorceress",
     wh2_main_def_sorceress_shadow = "def_sorceress",
+    wh2_dlc10_def_sorceress_beasts = "def_sorceress",
+    wh2_dlc10_def_sorceress_death = "def_sorceress",
 
     wh2_main_lzd_skink_priest_beasts = "lzd_skink_priest",
     wh2_main_lzd_skink_priest_heavens = "wh2_main_lzd_skink_priest_heavens",

@@ -95,7 +95,7 @@ end
 
 local function Initialise(listData)
     magicLores = listData["WWLWizardLores"];
-    defaultWizardData = listData["WWLAgentSubtypesGeneric"];
+    defaultWizardData = listData["WWLAgentSubtypesMixu"];
 end
 
 WWLFunctionData = {
@@ -417,7 +417,8 @@ WWLFunctionData = {
                 and skillKey ~= "wh_dlc06_skill_grn_wurrzag_grants_magic_attacks"
                 and skillKey ~= "wh_main_skill_grn_wizard_unique_night_goblin_shaman_magic_mushrooms"
                 and string.match(skillKey,  "_magic_")
-            )) then
+            ))
+            and skillKey ~= "wh2_mixu_skill_all_magic_lore_attribute_boon_of_magic" then
                 return true;
             end
             return false;

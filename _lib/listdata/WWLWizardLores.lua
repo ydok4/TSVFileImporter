@@ -2,7 +2,7 @@
 WWLWizardLores = {
     -- Battle Lores
     Beasts = {
-        InnateSkill = {"wh_dlc03_skill_magic_beasts_wild_heart",},
+        InnateSkill = {"wh_dlc03_skill_magic_beasts_wild_heart", "wh_dlc03_skill_magic_beasts_wild_heart_lord", },
         SignatureSpell = {"wh_dlc03_skill_magic_beasts_wyssans_wildform", },
         Level1DefaultSpells = {"wh_dlc03_skill_magic_beasts_flock_of_doom", "wh_dlc03_skill_magic_beasts_panns_impenetrable_pelt", "wh_dlc03_skill_magic_beasts_the_amber_spear", },
         Level1DefaultSpellsLord = {"wh2_main_skill_magic_beasts_flock_of_doom_lord", "wh2_main_skill_magic_beasts_panns_impenetrable_pelt_lord", "wh2_main_skill_magic_beasts_the_amber_spear_lord",},
@@ -18,7 +18,7 @@ WWLWizardLores = {
         Level3DefaultSpellsLord = { "wh2_main_skill_all_magic_death_09_the_fate_of_bjuna_lord", "wh2_main_skill_all_magic_death_10_the_purple_sun_of_xereus_lord",},
     },
     Fire = {
-        InnateSkill = {"wh_main_skill_all_magic_fire_04_kindleflame",},
+        InnateSkill = {"wh_main_skill_all_magic_fire_04_kindleflame", "wh_main_skill_all_magic_fire_04_kindleflame_lord", },
         SignatureSpell = {"wh_main_skill_all_magic_fire_01_fireball",},
         Level1DefaultSpells = {"wh_main_skill_all_magic_fire_02_cascading_fire-cloak", "wh_main_skill_all_magic_fire_03_flaming_sword_of_rhuin", "wh_main_skill_all_magic_fire_05_the_burning_head", },
         Level1DefaultSpellsLord  = {"wh2_main_skill_all_magic_fire_02_cascading_fire-cloak_lord", "wh2_main_skill_all_magic_fire_03_flaming_sword_of_rhuin_lord", "wh2_main_skill_all_magic_fire_05_the_burning_head_lord"},
@@ -42,12 +42,12 @@ WWLWizardLores = {
         Level3DefaultSpellsLord = {"wh2_main_skill_magic_life_wizard_regrowth_lord", "wh2_main_skill_magic_life_wizard_the_dwellers_below_lord",},
     },
     Light = {
-        InnateSkill = {"wh_main_skill_all_magic_light_03_exorcism",},
+        InnateSkill = {"wh_main_skill_all_magic_light_03_exorcism", "wh_main_skill_all_magic_light_03_exorcism_lord", },
         SignatureSpell = {"wh_main_skill_all_magic_light_01_shems_burning_gaze",},
         Level1DefaultSpells = {"wh_main_skill_all_magic_light_02_phas_protection", "wh_main_skill_all_magic_light_04_light_of_battle", "wh_main_skill_all_magic_light_05_net_of_amyntok"},
-        Level1DefaultSpellsLord = {},
+        Level1DefaultSpellsLord = { "wh2_main_skill_all_magic_light_02_phas_protection_lord", "wh_main_skill_light_magic_light_of_battle_lord", "wh_main_skill_all_magic_light_04_light_of_battle_lord", "wh2_main_skill_all_magic_light_05_net_of_amyntok_lord", },
         Level3DefaultSpells = {"wh_main_skill_all_magic_light_09_banishment", "wh_main_skill_all_magic_light_10_bironas_timewarp", },
-        Level3DefaultSpellsLord = {"wh2_main_skill_all_magic_light_10_bironas_timewarp_lord", },
+        Level3DefaultSpellsLord = {"wh_main_skill_light_magic_banishment_lord", "wh_main_skill_all_magic_light_09_banishment_lord", "wh2_main_skill_all_magic_light_10_bironas_timewarp_lord", },
     },
     Metal = {
         InnateSkill = {"wh_main_skill_all_magic_metal_03_metalshifting",},
@@ -83,12 +83,12 @@ WWLWizardLores = {
         Level3DefaultSpellsLord = {"wh2_main_skill_vmp_magic_vampires_09_curse_of_years_lord", "wh2_main_skill_vmp_magic_vampires_10_wind_of_death_lord", },
     },
     High = {
-        InnateSkill = {"wh2_main_skill_all_magic_high_03_lore_attribute",},
+        InnateSkill = {"wh2_main_skill_all_magic_high_03_lore_attribute", },
         SignatureSpell = {"wh2_main_skill_all_magic_high_02_apotheosis", "wh2_main_skill_all_magic_high_02_apotheosis",},
         Level1DefaultSpells = {"wh2_main_skill_all_magic_high_04_hand_of_glory", "wh2_main_skill_all_magic_high_01_soul_quench", "wh2_main_skill_all_magic_high_05_tempest"},
-        Level1DefaultSpellsLord = {},
+        Level1DefaultSpellsLord = {  "wh_main_skill_high_magic_hand_of_glory_lord", "wh2_main_skill_all_magic_high_01_soul_quench_lord", "wh2_main_skill_all_magic_high_05_tempest_lord", },
         Level3DefaultSpells = {"wh2_main_skill_all_magic_high_09_arcane_unforging", "wh2_main_skill_all_magic_high_10_fiery_convocation"},
-        Level3DefaultSpellsLord = {},
+        Level3DefaultSpellsLord = {"wh2_main_skill_all_magic_high_09_arcane_unforging_lord", "wh_main_skill_high_magic_fiery_convocation_lord", },
     },
     Dark = {
         InnateSkill = {"wh2_main_skill_magic_dark_lore_attribute",},
@@ -242,5 +242,14 @@ WWLWizardLores = {
         Level1DefaultSpellsLord = {"wh2_main_skill_vmp_magic_vampires_02_vanhels_danse_macabre_lord", "wh2_main_skill_vmp_magic_vampires_04_gaze_of_nagash_lord", "wh2_main_skill_vmp_magic_vampires_05_raise_dead_lord", },
         Level3DefaultSpells = {},
         Level3DefaultSpellsLord = {"wh2_main_skill_vmp_magic_vampires_09_curse_of_years_lord", "wh2_main_skill_vmp_magic_vampires_10_wind_of_death_lord", },
+    },
+    -- Non Vanilla
+    Ice = {
+        InnateSkill = {"mixu_all_lord_spell_lore_of_ice_passive",},
+        SignatureSpell = {"mixu_all_lord_spell_lore_of_ice_glacial_barrier", },
+        Level1DefaultSpells = { "mixu_all_lord_spell_lore_of_ice_shield_of_cold", "mixu_all_lord_spell_lore_of_ice_midwinters_kiss", "mixu_all_lord_spell_lore_of_ice_wind_of_ice", },
+        Level1DefaultSpellsLord = { "mixu_all_lord_spell_lore_of_ice_shield_of_cold", "mixu_all_lord_spell_lore_of_ice_midwinters_kiss", "mixu_all_lord_spell_lore_of_ice_wind_of_ice", },
+        Level3DefaultSpells = { "mixu_all_lord_spell_lore_of_ice_shardstorm", "mixu_all_lord_spell_lore_of_ice_invocation_of_the_ice_storm", },
+        Level3DefaultSpellsLord = { "mixu_all_lord_spell_lore_of_ice_shardstorm", "mixu_all_lord_spell_lore_of_ice_invocation_of_the_ice_storm", },
     },
 };

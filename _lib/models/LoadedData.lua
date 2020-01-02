@@ -617,7 +617,7 @@ function LoadedData:TransformFile(file, filter, transformStep)
                 end--]]
                 -- We check if the first element in the row is a table because if that is the case
                 -- we actually have several rows because the transform operation was repeated
-                if newRows ~= nil then
+                if newRows ~= nil and #newRows > 0 then
                     if type(newRows[1]) == "table" then
                         ConcatTable(transformedFile, newRows);
                     else
@@ -626,7 +626,7 @@ function LoadedData:TransformFile(file, filter, transformStep)
                 end
 
                 -- Check if there are further transformations that need to be performed after this row
-                if transformStepData.NextTransformOperation ~= nil then
+                if #newRows > 0 and transformStepData.NextTransformOperation ~= nil then
                     self.PreviousRowsInOperation[stepKey] = row;
                     self.PreviousTransformedRowsInOperation[stepKey] = newRows;
                     local currentStep = transformStep;

@@ -175,7 +175,7 @@ UnitCapEffectTransforms = {
                             ColumnKey = "priority",
                             ColumnNumber = 3,
                             Type = "REPLACE",
-                            Value = "1",
+                            Value = "0",
                         },
                         {
                             ColumnKey = "icon_negative",
@@ -239,8 +239,14 @@ UnitCapEffectTransforms = {
                             Value = "",
                         },
                         {
-                            ColumnKey = "bundle_target",
+                            ColumnKey = "priority",
                             ColumnNumber = 5,
+                            Type = "REPLACE",
+                            Value = "0",
+                        },
+                        {
+                            ColumnKey = "bundle_target",
+                            ColumnNumber = 6,
                             Type = "REPLACE",
                             Value = "faction",
                         },
@@ -338,7 +344,7 @@ UnitCapEffectTransforms = {
                             ColumnKey = "priority",
                             ColumnNumber = 3,
                             Type = "REPLACE",
-                            Value = "101",
+                            Value = "0",
                         },
                         {
                             ColumnKey = "icon_negative",
@@ -402,8 +408,14 @@ UnitCapEffectTransforms = {
                             Value = "",
                         },
                         {
-                            ColumnKey = "bundle_target",
+                            ColumnKey = "priority",
                             ColumnNumber = 5,
+                            Type = "REPLACE",
+                            Value = "0",
+                        },
+                        {
+                            ColumnKey = "bundle_target",
+                            ColumnNumber = 6,
                             Type = "REPLACE",
                             Value = "faction",
                         },
